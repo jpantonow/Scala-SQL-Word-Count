@@ -1,0 +1,118 @@
+scala.reflect.internal.FatalError: 
+  unexpected tree: class scala.reflect.internal.Trees$Template
+Unit
+     while compiling: file://<HOME>/Documents/Estudos/UNB/4o%20Semestre/TP2/word_count_db/word-count-db/src/main/scala/sqlite3/Banco.scala
+        during phase: globalPhase=<no phase>, enteringPhase=parser
+     library version: version 2.13.6
+    compiler version: version 2.13.6
+  reconstructed args: -classpath <WORKSPACE>/.bloop/root/bloop-bsp-clients-classes/classes-Metals-ZsjG0zLkTwiUGsAaVirFaw==:<HOME>/.cache/bloop/semanticdb/com.sourcegraph.semanticdb-javac.0.9.6/semanticdb-javac-0.9.6.jar:<HOME>/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.6/scala-library-2.13.6.jar:<HOME>/.cache/coursier/v1/https/repo1.maven.org/maven2/org/xerial/sqlite-jdbc/3.36.0.3/sqlite-jdbc-3.36.0.3.jar -Xplugin-require:semanticdb -Yrangepos -Ymacro-expand:discard -Ycache-plugin-class-loader:last-modified -Ypresentation-any-thread
+
+  last tree to typer: Template
+       tree position: line 13 of file://<HOME>/Documents/Estudos/UNB/4o%20Semestre/TP2/word_count_db/word-count-db/src/main/scala/sqlite3/Banco.scala
+              symbol: <none>
+   symbol definition: <none> (a NoSymbol)
+      symbol package: <none>
+       symbol owners: 
+           call site: <none> in <none>
+
+== Source file context for tree position ==
+
+    10     val path = "src/main/scala/sqlite3/short_test.db"
+    11     val url = s"jdbc:sqLite:$path"
+    12     
+    13     def Connect: Unit {
+    14         conn = DriverManager.getConnection(url)
+    15     }
+    16     def Disconnect: Unit {
+occurred in the presentation compiler.
+
+action parameters:
+offset: 330
+uri: file://<HOME>/Documents/Estudos/UNB/4o%20Semestre/TP2/word_count_db/word-count-db/src/main/scala/sqlite3/Banco.scala
+text:
+package sqlite3
+import java.sql.Connection
+import java.sql.Date
+import java.sql.SQLException
+import java.sql.DriverManager
+import java.sql.Statement
+import scala.io.Source
+
+abstract class Conexao{
+    val path = "src/main/scala/sqlite3/short_test.db"
+    val url = s"jdbc:sqLite:$path"
+    
+    def Connect: Unit {
+        conn = @@DriverManager.getConnection(url)
+    }
+    def Disconnect: Unit {
+        conn.close()
+    }
+}
+
+trait ReadFile{
+    val file = "src/main/scala/texts/short.txt"
+    val book = scala.io.Source.fromFile(file)
+    val lines: List[String] = book.getLines().toList
+}
+
+class CreateTables extends Conexao with ReadFile{
+    val conn = DriverManager.getConnection(url)
+    val statement = conn.createStatement()
+    val criar = Array(
+        "CREATE TABLE IF NOT EXISTS documents (id INTEGER PRIMARY KEY AUTOINCREMENT,name);",
+        "CREATE TABLE IF NOT EXISTS words(name TEXT PRIMARY KEY, frequency INTEGER);",
+        "CREATE TABLE IF NOT EXISTS characters(name TEXT PRIMARY KEY, frequency INTEGER);"
+    )
+
+    for(comando <- criar){
+        statement.addBatch(comando)
+    }
+
+     statement.executeBatch()
+     statement.clearBatch()
+     statement.close()
+     conn.close()
+}
+
+class Insert_Words extends Conexao with ReadFile{
+    val conn = DriverManager.getConnection(url)
+    val insert = conn.createStatement()
+    var text = lines.toString().split(" ")
+    var update:String = ""
+    var command: String = ""
+    
+    text = text.map(_.filter(_.isLetter))
+    text = text.map(_.toLowerCase())
+
+    for(n<-0 until text.length){
+            update = "UPDATE OR IGNORE words "
+            update += "SET frequency = frequency + 1 WHERE name = "
+            update += "'" + text(n).toString() + "';"
+            insert.addBatch(update)
+            command = "INSERT OR IGNORE INTO words(name, frequency) VALUES ("
+            command += "'" + text(n).toString() + "', "
+            command += "'1');" 
+            insert.addBatch(command)
+        }
+
+    insert.executeBatch()
+    insert.clearBatch()
+    insert.close()
+    conn.close()
+}
+
+
+
+error stacktrace:
+scala.reflect.internal.Reporting.abort(Reporting.scala:69)
+	scala.reflect.internal.Reporting.abort$(Reporting.scala:65)
+	scala.reflect.internal.SymbolTable.abort(SymbolTable.scala:28)
+	scala.tools.nsc.typechecker.Typers$Typer.typedOutsidePatternMode$1(Typers.scala:5978)
+	scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5995)
+	scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:6041)
+	scala.tools.nsc.typechecker.Typers$Typer.typedQualifier(Typers.scala:6139)
+	scala.meta.internal.pc.PcDefinitionProvider.definitionTypedTreeAt(PcDefinitionProvider.scala:160)
+	scala.meta.internal.pc.PcDefinitionProvider.definition(PcDefinitionProvider.scala:68)
+	scala.meta.internal.pc.PcDefinitionProvider.definition(PcDefinitionProvider.scala:16)
+	scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$definition$1(ScalaPresentationCompiler.scala:315)

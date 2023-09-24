@@ -1,0 +1,4 @@
+[debug] [word-count-db-build] Classpath dependencies List()
+[debug] [word-count-db-build] Dependencies from configurations List()
+[debug] Bloop wrote the configuration of project 'word-count-db-build' to '/home/jpantonow/Documents/Estudos/UNB/4o Semestre/TP2/word_count_db/word-count-db/project/.bloop/word-count-db-build.json'
+[success] Generated .bloop/word-count-db-build.json
