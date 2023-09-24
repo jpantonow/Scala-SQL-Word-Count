@@ -2,20 +2,20 @@
     "version": "1.4.0",
     "project": {
         "name": "root-test",
-        "directory": "/home/jpantonow/Documents/Estudos/UNB/4o Semestre/TP2/word_count_db/word-count-db",
-        "workspaceDir": "/home/jpantonow/Documents/Estudos/UNB/4o Semestre/TP2/word_count_db/word-count-db",
+        "directory": "/home/jpantonow/Desktop/Unb/word-count-db",
+        "workspaceDir": "/home/jpantonow/Desktop/Unb/word-count-db",
         "sources": [
-            "/home/jpantonow/Documents/Estudos/UNB/4o Semestre/TP2/word_count_db/word-count-db/src/test/scala",
-            "/home/jpantonow/Documents/Estudos/UNB/4o Semestre/TP2/word_count_db/word-count-db/src/test/scala-2.13",
-            "/home/jpantonow/Documents/Estudos/UNB/4o Semestre/TP2/word_count_db/word-count-db/src/test/scala-2",
-            "/home/jpantonow/Documents/Estudos/UNB/4o Semestre/TP2/word_count_db/word-count-db/src/test/java",
-            "/home/jpantonow/Documents/Estudos/UNB/4o Semestre/TP2/word_count_db/word-count-db/target/scala-2.13/src_managed/test"
+            "/home/jpantonow/Desktop/Unb/word-count-db/src/test/scala",
+            "/home/jpantonow/Desktop/Unb/word-count-db/src/test/scala-2.13",
+            "/home/jpantonow/Desktop/Unb/word-count-db/src/test/scala-2",
+            "/home/jpantonow/Desktop/Unb/word-count-db/src/test/java",
+            "/home/jpantonow/Desktop/Unb/word-count-db/target/scala-2.13/src_managed/test"
         ],
         "dependencies": [
             "root"
         ],
         "classpath": [
-            "/home/jpantonow/Documents/Estudos/UNB/4o Semestre/TP2/word_count_db/word-count-db/.bloop/root/scala-2.13/classes",
+            "/home/jpantonow/Desktop/Unb/word-count-db/.bloop/root/scala-2.13/classes",
             "/home/jpantonow/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.6/scala-library-2.13.6.jar",
             "/home/jpantonow/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest_2.13/3.2.9/scalatest_2.13-3.2.9.jar",
             "/home/jpantonow/.cache/coursier/v1/https/repo1.maven.org/maven2/org/xerial/sqlite-jdbc/3.36.0.3/sqlite-jdbc-3.36.0.3.jar",
@@ -37,11 +37,11 @@
             "/home/jpantonow/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalactic/scalactic_2.13/3.2.9/scalactic_2.13-3.2.9.jar",
             "/home/jpantonow/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.13/1.3.0/scala-xml_2.13-1.3.0.jar"
         ],
-        "out": "/home/jpantonow/Documents/Estudos/UNB/4o Semestre/TP2/word_count_db/word-count-db/.bloop/root",
-        "classesDir": "/home/jpantonow/Documents/Estudos/UNB/4o Semestre/TP2/word_count_db/word-count-db/.bloop/root/scala-2.13/test-classes",
+        "out": "/home/jpantonow/Desktop/Unb/word-count-db/.bloop/root",
+        "classesDir": "/home/jpantonow/Desktop/Unb/word-count-db/.bloop/root/scala-2.13/test-classes",
         "resources": [
-            "/home/jpantonow/Documents/Estudos/UNB/4o Semestre/TP2/word_count_db/word-count-db/src/test/resources",
-            "/home/jpantonow/Documents/Estudos/UNB/4o Semestre/TP2/word_count_db/word-count-db/target/scala-2.13/resource_managed/test"
+            "/home/jpantonow/Desktop/Unb/word-count-db/src/test/resources",
+            "/home/jpantonow/Desktop/Unb/word-count-db/target/scala-2.13/resource_managed/test"
         ],
         "scala": {
             "organization": "org.scala-lang",
@@ -135,7 +135,7 @@
             "config": {
                 "home": "/usr/lib/jvm/java-17-openjdk-amd64",
                 "options": [
-                    "-Duser.dir=/home/jpantonow/Documents/Estudos/UNB/4o Semestre/TP2/word_count_db/word-count-db"
+                    "-Duser.dir=/home/jpantonow/Desktop/Unb/word-count-db"
                 ]
             },
             "mainClass": [

@@ -4075,3 +4075,1577 @@ INFO: Unsupported notification method: $/setTrace
 2023.09.24 01:24:31 WARN  no build target for: /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/main/Main.scala
 Sep 24, 2023 1:35:32 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFO: Unsupported notification method: $/setTrace
+2023.09.24 01:42:07 INFO  Shutting down server
+2023.09.24 01:42:07 INFO  shutting down Metals
+2023.09.24 01:42:07 INFO  Shut down connection with build server.
+2023.09.24 01:42:07 INFO  Shut down connection with build server.
+2023.09.24 01:42:07 INFO  Exiting server
+2023.09.24 02:08:39 INFO  Started: Metals version 1.0.1+42-b511ce90-SNAPSHOT in folders '/home/jpantonow/Desktop/Unb/word-count-db' for client Visual Studio Code 1.82.2.
+Sep 24, 2023 2:08:39 AM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.22.1 by Redgate
+Sep 24, 2023 2:08:39 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Sep 24, 2023 2:08:39 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Sep 24, 2023 2:08:39 AM org.flywaydb.core.FlywayExecutor execute
+INFO: Database: jdbc:h2:file:/home/jpantonow/Desktop/Unb/word-count-db/.metals/metals (H2 2.1)
+Sep 24, 2023 2:08:39 AM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.025s)
+Sep 24, 2023 2:08:39 AM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Sep 24, 2023 2:08:39 AM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.09.24 02:08:40 INFO  time: initialize in 0.66s
+2023.09.24 02:08:42 INFO  Attempting to connect to the build server...
+2023.09.24 02:08:42 INFO  Bloop uses /usr/lib/jvm/java-17-openjdk-amd64 defined at /home/jpantonow/.bloop/bloop.json
+2023.09.24 02:08:42 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/jpantonow/Desktop/Unb/word-count-db/.metals/bsp.trace.json or /home/jpantonow/.cache/metals/bsp.trace.json
+2023.09.24 02:08:42 INFO  Attempting to connect to the build server...
+2023.09.24 02:08:42 INFO  Bloop uses /usr/lib/jvm/java-17-openjdk-amd64 defined at /home/jpantonow/.bloop/bloop.json
+2023.09.24 02:08:42 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/jpantonow/Desktop/Unb/word-count-db/project/.metals/bsp.trace.json or /home/jpantonow/.cache/metals/bsp.trace.json
+2023.09.24 02:08:42 INFO  time: Connected to build server in 0.37s
+2023.09.24 02:08:42 INFO  Connected to Build server: Bloop v1.5.11
+2023.09.24 02:08:45 INFO  no build target found for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/main/Main.scala. Using presentation compiler with project's scala-library version: 3.3.1
+2023.09.24 02:08:45 INFO  running '/usr/lib/jvm/java-17-openjdk-amd64/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals7565337298563696200/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2023.09.24 02:08:45 ERROR Picked up _JAVA_OPTIONS: -Dawt.useSystemAAFontSettings=on -Dswing.aatext=true
+2023.09.24 02:08:47 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/lib/src.zip, /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2023.09.24 02:08:47 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/lib/src.zip, /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2023.09.24 02:08:47 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/lib/src.zip, /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2023.09.24 02:08:47 INFO  time: indexed workspace in 2.62s
+2023.09.24 02:08:48 WARN  no build target for: /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/main/Main.scala
+2023.09.24 02:08:48 WARN  no build target for: /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/main/Main.scala
+2023.09.24 02:08:49 INFO  [info] welcome to sbt 1.9.6 (Debian Java 17.0.9-ea)
+2023.09.24 02:08:53 INFO  time: code lens generation in 3.08s
+2023.09.24 02:08:53 INFO  time: code lens generation in 5.47s
+2023.09.24 02:08:53 INFO  time: code lens generation in 5.45s
+2023.09.24 02:08:53 INFO  time: code lens generation in 5.47s
+2023.09.24 02:08:53 INFO  time: code lens generation in 5.48s
+2023.09.24 02:08:53 INFO  [info] loading settings for project word-count-db-build-build from metals.sbt ...
+2023.09.24 02:08:55 INFO  [info] loading project definition from /home/jpantonow/Desktop/Unb/word-count-db/project/project
+2023.09.24 02:09:00 INFO  [info] loading settings for project word-count-db-build from metals.sbt ...
+2023.09.24 02:09:00 INFO  [info] loading project definition from /home/jpantonow/Desktop/Unb/word-count-db/project
+2023.09.24 02:09:02 INFO  [success] Generated .bloop/word-count-db-build.json
+2023.09.24 02:09:02 INFO  [success] Total time: 3 s, completed Sep 24, 2023, 2:09:03 AM
+2023.09.24 02:09:05 INFO  [info] loading settings for project root from build.sbt ...
+2023.09.24 02:09:05 INFO  [info] set current project to scalatest-example (in build file:/home/jpantonow/Desktop/Unb/word-count-db/)
+2023.09.24 02:09:05 INFO  [success] Generated .bloop/root-test.json
+2023.09.24 02:09:05 INFO  [success] Generated .bloop/root.json
+2023.09.24 02:09:05 INFO  [success] Total time: 0 s, completed Sep 24, 2023, 2:09:05 AM
+2023.09.24 02:09:06 INFO  time: ran 'sbt bloopInstall' in 20s
+2023.09.24 02:09:06 INFO  Disconnecting from Bloop session...
+2023.09.24 02:09:06 INFO  Shut down connection with build server.
+2023.09.24 02:09:06 INFO  Shut down connection with build server.
+2023.09.24 02:09:06 INFO  Attempting to connect to the build server...
+2023.09.24 02:09:06 INFO  Bloop uses /usr/lib/jvm/java-17-openjdk-amd64 defined at /home/jpantonow/.bloop/bloop.json
+2023.09.24 02:09:06 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/jpantonow/Desktop/Unb/word-count-db/.metals/bsp.trace.json or /home/jpantonow/.cache/metals/bsp.trace.json
+2023.09.24 02:09:06 INFO  Attempting to connect to the build server...
+2023.09.24 02:09:06 INFO  Bloop uses /usr/lib/jvm/java-17-openjdk-amd64 defined at /home/jpantonow/.bloop/bloop.json
+2023.09.24 02:09:06 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/jpantonow/Desktop/Unb/word-count-db/project/.metals/bsp.trace.json or /home/jpantonow/.cache/metals/bsp.trace.json
+2023.09.24 02:09:06 INFO  time: Connected to build server in 0.13s
+2023.09.24 02:09:06 INFO  Connected to Build server: Bloop v1.5.11
+2023.09.24 02:09:07 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/lib/src.zip, /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2023.09.24 02:09:07 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/lib/src.zip, /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2023.09.24 02:09:07 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/lib/src.zip, /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2023.09.24 02:09:07 INFO  time: indexed workspace in 1.43s
+2023.09.24 02:09:07 INFO  compiling root (2 scala sources)
+2023.09.24 02:09:09 INFO  compiling root-test (1 scala source)
+2023.09.24 02:09:09 INFO  time: compiled root in 1.94s
+2023.09.24 02:09:09 INFO  time: compiled root-test in 0.6s
+2023.09.24 02:11:00 INFO  Shutting down server
+2023.09.24 02:11:00 INFO  shutting down Metals
+2023.09.24 02:11:01 INFO  Shut down connection with build server.
+2023.09.24 02:11:01 INFO  Shut down connection with build server.
+2023.09.24 02:11:00 INFO  Exiting server
+2023.09.24 02:12:11 INFO  Started: Metals version 1.0.1+42-b511ce90-SNAPSHOT in folders '/home/jpantonow/Desktop/Unb/word-count-db' for client Visual Studio Code 1.82.2.
+Sep 24, 2023 2:12:11 AM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.22.1 by Redgate
+Sep 24, 2023 2:12:11 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Sep 24, 2023 2:12:11 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Sep 24, 2023 2:12:11 AM org.flywaydb.core.FlywayExecutor execute
+INFO: Database: jdbc:h2:file:/home/jpantonow/Desktop/Unb/word-count-db/.metals/metals (H2 2.1)
+Sep 24, 2023 2:12:11 AM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.022s)
+Sep 24, 2023 2:12:11 AM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Sep 24, 2023 2:12:11 AM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.09.24 02:12:12 INFO  time: initialize in 0.93s
+2023.09.24 02:12:14 INFO  Attempting to connect to the build server...
+2023.09.24 02:12:14 INFO  Bloop uses /usr/lib/jvm/java-17-openjdk-amd64 defined at /home/jpantonow/.bloop/bloop.json
+2023.09.24 02:12:14 INFO  skipping build import with status 'Installed'
+2023.09.24 02:12:14 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/jpantonow/Desktop/Unb/word-count-db/.metals/bsp.trace.json or /home/jpantonow/.cache/metals/bsp.trace.json
+2023.09.24 02:12:14 INFO  Attempting to connect to the build server...
+2023.09.24 02:12:14 INFO  Bloop uses /usr/lib/jvm/java-17-openjdk-amd64 defined at /home/jpantonow/.bloop/bloop.json
+2023.09.24 02:12:14 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/jpantonow/Desktop/Unb/word-count-db/project/.metals/bsp.trace.json or /home/jpantonow/.cache/metals/bsp.trace.json
+2023.09.24 02:12:14 INFO  time: Connected to build server in 0.35s
+2023.09.24 02:12:14 INFO  Connected to Build server: Bloop v1.5.11
+2023.09.24 02:12:16 INFO  no build target found for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala. Using presentation compiler with project's scala-library version: 3.3.1
+2023.09.24 02:12:18 INFO  no build target found for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala. Using presentation compiler with project's scala-library version: 3.3.1
+2023.09.24 02:12:19 INFO  compiling root (1 scala source)
+2023.09.24 02:12:19 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/lib/src.zip, /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2023.09.24 02:12:19 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/lib/src.zip, /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2023.09.24 02:12:19 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/lib/src.zip, /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2023.09.24 02:12:19 INFO  time: indexed workspace in 3.02s
+2023.09.24 02:12:22 INFO  time: compiled root in 3.42s
+2023.09.24 02:12:22 INFO  compiling root (1 scala source)
+2023.09.24 02:12:22 INFO  time: compiled root in 0.49s
+2023.09.24 02:12:22 INFO  compiling root (1 scala source)
+2023.09.24 02:12:22 INFO  time: compiled root in 53ms
+Sep 24, 2023 2:12:25 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 37
+2023.09.24 02:12:38 INFO  compiling root (1 scala source)
+2023.09.24 02:12:38 INFO  time: compiled root in 0.85s
+2023.09.24 02:13:15 INFO  compiling root (1 scala source)
+2023.09.24 02:13:15 INFO  time: compiled root in 0.73s
+2023.09.24 02:16:58 INFO  compiling root (1 scala source)
+2023.09.24 02:16:58 INFO  time: compiled root in 49ms
+2023.09.24 02:17:04 INFO  compiling root (1 scala source)
+2023.09.24 02:17:04 INFO  time: compiled root in 48ms
+Exception in thread "pool-5-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:229)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2023.09.24 02:17:05 WARN  Using indexes to guess the definition of Conexao
+2023.09.24 02:17:14 INFO  compiling root (1 scala source)
+2023.09.24 02:17:14 INFO  time: compiled root in 0.63s
+2023.09.24 02:17:16 INFO  compiling root (1 scala source)
+2023.09.24 02:17:16 INFO  time: compiled root in 0.56s
+2023.09.24 02:17:27 INFO  compiling root (1 scala source)
+2023.09.24 02:17:28 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.09.24 02:17:28 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.09.24 02:17:28 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.09.24 02:17:27 INFO  time: compiled root in 0.6s
+2023.09.24 02:17:31 INFO  compiling root (1 scala source)
+2023.09.24 02:17:31 INFO  time: compiled root in 0.6s
+2023.09.24 02:18:11 INFO  compiling root (1 scala source)
+2023.09.24 02:18:11 INFO  time: compiled root in 0.76s
+2023.09.24 02:18:36 ERROR Failed to tokenize input for semantic tokens for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+scala.meta.tokenizers.TokenizeException: <input>:99: error: unclosed string literal
+value ORDER BY C DESC)"
+                      ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:591)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:407)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:411)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:246)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1047)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:511)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2023.09.24 02:18:39 ERROR Failed to tokenize input for semantic tokens for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+scala.meta.tokenizers.TokenizeException: <input>:98: error: unclosed string literal
+    val command = "SELECT value, COUNT(*) as C FROM words GROUP BY
+                  ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:591)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:407)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:411)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:246)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1047)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:511)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2023.09.24 02:18:40 INFO  compiling root (1 scala source)
+2023.09.24 02:18:40 INFO  time: compiled root in 52ms
+2023.09.24 02:18:39 ERROR Failed to tokenize input for semantic tokens for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+scala.meta.tokenizers.TokenizeException: <input>:98: error: unclosed string literal
+    val command = "SELECT value, COUNT(*) as C FROM words GROUP BY
+                  ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:591)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:407)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:411)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:246)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1047)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:511)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2023.09.24 02:18:40 INFO  compiling root (1 scala source)
+2023.09.24 02:18:40 INFO  time: compiled root in 20ms
+2023.09.24 02:18:41 ERROR Failed to tokenize input for semantic tokens for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+scala.meta.tokenizers.TokenizeException: <input>:98: error: unclosed string literal
+    val command = "SELECT value, COUNT(*) as C FROM words GROUP BY
+                  ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:591)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:407)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:411)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:246)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1047)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:511)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2023.09.24 02:18:41 INFO  compiling root (1 scala source)
+2023.09.24 02:18:41 INFO  time: compiled root in 17ms
+2023.09.24 02:18:41 ERROR Failed to tokenize input for semantic tokens for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+scala.meta.tokenizers.TokenizeException: <input>:98: error: unclosed string literal
+    val command = "SELECT value, COUNT(*) as C FROM words GROUP BY
+                  ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:591)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:407)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:411)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:246)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1047)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:511)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2023.09.24 02:18:41 INFO  compiling root (1 scala source)
+2023.09.24 02:18:41 INFO  time: compiled root in 30ms
+2023.09.24 02:18:42 ERROR Failed to tokenize input for semantic tokens for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+scala.meta.tokenizers.TokenizeException: <input>:98: error: unclosed string literal
+    val command = "SELECT value, COUNT(*) as C FROM words GROUP BY
+                  ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:591)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:407)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:411)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:246)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1047)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:511)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2023.09.24 02:18:44 ERROR Failed to tokenize input for semantic tokens for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+scala.meta.tokenizers.TokenizeException: <input>:98: error: unclosed string literal
+    val command = "SELECT value, COUNT(*) as C FROM words GROUP BY
+                  ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:591)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:407)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:411)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:246)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1047)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:511)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2023.09.24 02:18:45 ERROR Failed to tokenize input for semantic tokens for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+scala.meta.tokenizers.TokenizeException: <input>:98: error: unclosed string literal
+    val command = "SELECT value, COUNT(*) as C FROM words GROUP BY
+                  ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:591)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:407)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:411)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:246)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1047)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:511)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2023.09.24 02:18:47 ERROR Failed to tokenize input for semantic tokens for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+scala.meta.tokenizers.TokenizeException: <input>:98: error: unclosed string literal
+    val command = "SELECT value, COUNT(*) as C FROM words GROUP BY
+                  ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:591)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:407)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:411)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:246)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1047)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:511)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2023.09.24 02:18:48 ERROR Failed to tokenize input for semantic tokens for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+scala.meta.tokenizers.TokenizeException: <input>:98: error: unclosed string literal
+    val command = "SELECT value, COUNT(*) as C FROM words GROUP BY
+                  ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:591)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:407)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:411)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:246)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1047)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:511)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2023.09.24 02:18:49 INFO  compiling root (1 scala source)
+2023.09.24 02:18:49 INFO  time: compiled root in 47ms
+2023.09.24 02:18:49 ERROR Failed to tokenize input for semantic tokens for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+scala.meta.tokenizers.TokenizeException: <input>:98: error: unclosed string literal
+    val command = "SELECT value, COUNT(*) as C FROM words GROUP BY
+                  ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:591)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:407)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:411)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:246)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1047)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:511)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2023.09.24 02:19:03 INFO  compiling root (1 scala source)
+2023.09.24 02:19:03 INFO  time: compiled root in 0.59s
+2023.09.24 02:19:24 INFO  compiling root (1 scala source)
+2023.09.24 02:19:25 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.09.24 02:19:24 INFO  time: compiled root in 0.56s
+2023.09.24 02:19:41 ERROR Failed to tokenize input for semantic tokens for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+scala.meta.tokenizers.TokenizeException: <input>:100: error: unclosed string literal
+"SELECT value, COUNT(*) as C FROM words GROUP BY
+^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:591)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:407)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:411)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:246)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1047)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:511)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2023.09.24 02:19:43 ERROR Failed to tokenize input for semantic tokens for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+scala.meta.tokenizers.TokenizeException: <input>:100: error: unclosed string literal
+"SELECT value, COUNT(*) as C FROM words GROUP BY
+^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:591)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:407)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:411)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:246)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1047)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:511)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2023.09.24 02:19:46 ERROR Failed to tokenize input for semantic tokens for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+scala.meta.tokenizers.TokenizeException: <input>:100: error: unclosed string literal
+"SELECT value, COUNT(*) as C FROM words GROUP BY
+^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:591)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:407)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:411)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:246)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1047)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:511)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2023.09.24 02:19:47 ERROR Failed to tokenize input for semantic tokens for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+scala.meta.tokenizers.TokenizeException: <input>:100: error: unclosed string literal
+"SELECT value, COUNT(*) as C FROM words GROUP BY
+^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:591)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:407)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:411)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:246)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1047)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:511)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2023.09.24 02:19:47 ERROR Failed to tokenize input for semantic tokens for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+scala.meta.tokenizers.TokenizeException: <input>:100: error: unclosed string literal
+"SELECT value, COUNT(*) as C FROM words GROUP BY
+^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:591)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:407)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:411)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:246)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1047)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:511)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2023.09.24 02:19:48 INFO  compiling root (1 scala source)
+2023.09.24 02:19:48 INFO  time: compiled root in 45ms
+2023.09.24 02:19:48 ERROR Failed to tokenize input for semantic tokens for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+scala.meta.tokenizers.TokenizeException: <input>:100: error: unclosed string literal
+"SELECT value, COUNT(*) as C FROM words GROUP BY
+^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:591)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:407)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:411)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:246)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1047)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:511)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2023.09.24 02:19:48 INFO  compiling root (1 scala source)
+2023.09.24 02:19:48 INFO  time: compiled root in 24ms
+2023.09.24 02:19:48 ERROR Failed to tokenize input for semantic tokens for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+scala.meta.tokenizers.TokenizeException: <input>:100: error: unclosed string literal
+"SELECT value, COUNT(*) as C FROM words GROUP BY
+^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:591)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:407)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:411)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:246)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1047)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:511)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2023.09.24 02:19:48 INFO  compiling root (1 scala source)
+2023.09.24 02:19:48 INFO  time: compiled root in 26ms
+2023.09.24 02:19:49 ERROR Failed to tokenize input for semantic tokens for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+scala.meta.tokenizers.TokenizeException: <input>:100: error: unclosed string literal
+"SELECT value, COUNT(*) as C FROM words GROUP BY
+^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:591)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:407)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:411)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:246)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1047)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:511)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2023.09.24 02:19:48 INFO  compiling root (1 scala source)
+2023.09.24 02:19:49 INFO  time: compiled root in 22ms
+2023.09.24 02:19:49 ERROR Failed to tokenize input for semantic tokens for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+scala.meta.tokenizers.TokenizeException: <input>:100: error: unclosed string literal
+"SELECT value, COUNT(*) as C FROM words GROUP BY
+^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:591)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:407)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:411)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:246)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1047)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:511)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2023.09.24 02:19:49 INFO  compiling root (1 scala source)
+2023.09.24 02:19:49 INFO  time: compiled root in 21ms
+2023.09.24 02:19:49 ERROR Failed to tokenize input for semantic tokens for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+scala.meta.tokenizers.TokenizeException: <input>:100: error: unclosed string literal
+"SELECT value, COUNT(*) as C FROM words GROUP BY
+^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:591)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:407)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:411)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:246)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1047)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:511)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2023.09.24 02:19:49 INFO  compiling root (1 scala source)
+2023.09.24 02:19:49 INFO  time: compiled root in 21ms
+2023.09.24 02:19:50 ERROR Failed to tokenize input for semantic tokens for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+scala.meta.tokenizers.TokenizeException: <input>:100: error: unclosed string literal
+"SELECT value, COUNT(*) as C FROM words GROUP BY
+^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:591)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:407)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:411)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:246)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1047)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:511)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2023.09.24 02:19:49 INFO  compiling root (1 scala source)
+2023.09.24 02:19:49 INFO  time: compiled root in 17ms
+2023.09.24 02:19:50 ERROR Failed to tokenize input for semantic tokens for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+scala.meta.tokenizers.TokenizeException: <input>:100: error: unclosed string literal
+"SELECT value, COUNT(*) as C FROM words GROUP BY
+^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:591)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:407)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:411)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:246)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1047)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:511)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2023.09.24 02:19:50 INFO  compiling root (1 scala source)
+2023.09.24 02:19:50 INFO  time: compiled root in 21ms
+2023.09.24 02:19:50 ERROR Failed to tokenize input for semantic tokens for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+scala.meta.tokenizers.TokenizeException: <input>:100: error: unclosed string literal
+"SELECT value, COUNT(*) as C FROM words GROUP BY
+^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:591)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:407)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:411)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:246)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1047)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:511)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2023.09.24 02:19:50 INFO  compiling root (1 scala source)
+2023.09.24 02:19:50 INFO  time: compiled root in 21ms
+2023.09.24 02:19:50 ERROR Failed to tokenize input for semantic tokens for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+scala.meta.tokenizers.TokenizeException: <input>:100: error: unclosed string literal
+"SELECT value, COUNT(*) as C FROM words GROUP BY
+^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:591)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:407)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:411)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:246)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1047)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:511)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2023.09.24 02:19:56 ERROR Failed to tokenize input for semantic tokens for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+scala.meta.tokenizers.TokenizeException: <input>:100: error: unclosed string literal
+"SELECT value, COUNT(*) as C FROM words GROUP BY
+^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:591)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:407)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:411)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:246)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1047)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:511)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2023.09.24 02:20:07 INFO  compiling root (1 scala source)
+2023.09.24 02:20:07 INFO  time: compiled root in 0.51s
+2023.09.24 02:20:17 ERROR Failed to tokenize input for semantic tokens for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+scala.meta.tokenizers.TokenizeException: <input>:98: error: unclosed string interpolation
+    var command = "SELECT name, frequency COUNT(*) as frequency" FROM words GROUP BY value ORDER BY frequency DESC"
+                                                                                                                   ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringPart(LegacyScanner.scala:697)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:392)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:411)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:246)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1047)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:511)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2023.09.24 02:20:18 ERROR Failed to tokenize input for semantic tokens for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+scala.meta.tokenizers.TokenizeException: <input>:98: error: unclosed string interpolation
+    var command = "SELECT name, frequency COUNT(*) as frequency"  FROM words GROUP BY value ORDER BY frequency DESC"
+                                                                                                                    ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringPart(LegacyScanner.scala:697)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:392)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:411)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:246)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1047)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:511)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2023.09.24 02:20:18 ERROR Failed to tokenize input for semantic tokens for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+scala.meta.tokenizers.TokenizeException: <input>:98: error: unclosed string interpolation
+    var command = "SELECT name, frequency COUNT(*) as frequency" FROM words GROUP BY value ORDER BY frequency DESC"
+                                                                                                                   ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringPart(LegacyScanner.scala:697)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:392)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:411)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:246)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1047)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:511)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2023.09.24 02:20:19 ERROR Failed to tokenize input for semantic tokens for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+scala.meta.tokenizers.TokenizeException: <input>:98: error: unclosed string interpolation
+    var command = "SELECT name, frequency COUNT(*) as frequency " FROM words GROUP BY value ORDER BY frequency DESC"
+                                                                                                                    ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringPart(LegacyScanner.scala:697)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:392)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:411)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:246)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1047)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:511)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2023.09.24 02:20:20 ERROR Failed to tokenize input for semantic tokens for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+scala.meta.tokenizers.TokenizeException: <input>:98: error: unclosed string interpolation
+    var command = "SELECT name, frequency COUNT(*) as frequency "FROM words GROUP BY value ORDER BY frequency DESC"
+                                                                                                                   ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringPart(LegacyScanner.scala:697)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:392)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:411)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:246)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1047)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:511)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2023.09.24 02:20:21 ERROR Failed to tokenize input for semantic tokens for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+scala.meta.tokenizers.TokenizeException: <input>:99: error: unclosed string interpolation
+    FROM words GROUP BY value ORDER BY frequency DESC"
+                                                      ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringPart(LegacyScanner.scala:697)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:392)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:411)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:246)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1047)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:511)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2023.09.24 02:20:22 ERROR Failed to tokenize input for semantic tokens for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+scala.meta.tokenizers.TokenizeException: <input>:99: error: unclosed string interpolation
+    commFROM words GROUP BY value ORDER BY frequency DESC"
+                                                          ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringPart(LegacyScanner.scala:697)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:392)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:411)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:246)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1047)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:511)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2023.09.24 02:20:22 ERROR Failed to tokenize input for semantic tokens for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+scala.meta.tokenizers.TokenizeException: <input>:99: error: unclosed string interpolation
+    command FROM words GROUP BY value ORDER BY frequency DESC"
+                                                              ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringPart(LegacyScanner.scala:697)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:392)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:411)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:246)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1047)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:511)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2023.09.24 02:20:23 ERROR Failed to tokenize input for semantic tokens for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+scala.meta.tokenizers.TokenizeException: <input>:99: error: unclosed string interpolation
+    command +FROM words GROUP BY value ORDER BY frequency DESC"
+                                                               ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringPart(LegacyScanner.scala:697)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:392)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:411)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:246)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1047)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:511)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2023.09.24 02:20:23 ERROR Failed to tokenize input for semantic tokens for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+scala.meta.tokenizers.TokenizeException: <input>:99: error: unclosed string interpolation
+    command +=FROM words GROUP BY value ORDER BY frequency DESC"
+                                                                ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringPart(LegacyScanner.scala:697)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:392)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:411)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:246)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1047)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:511)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2023.09.24 02:20:24 ERROR Failed to tokenize input for semantic tokens for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+scala.meta.tokenizers.TokenizeException: <input>:99: error: unclosed string interpolation
+    command += FROM words GROUP BY value ORDER BY frequency DESC"
+                                                                 ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringPart(LegacyScanner.scala:697)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:392)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:411)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:246)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1047)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:511)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2023.09.24 02:20:26 INFO  compiling root (1 scala source)
+2023.09.24 02:20:26 INFO  time: compiled root in 0.55s
+Sep 24, 2023 2:20:27 AM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2023.09.24 02:21:02 INFO  compiling root (1 scala source)
+2023.09.24 02:21:02 INFO  time: compiled root in 0.51s
+2023.09.24 02:21:13 INFO  compiling root (1 scala source)
+2023.09.24 02:21:13 INFO  time: compiled root in 0.5s
+2023.09.24 02:23:46 INFO  compiling root (1 scala source)
+2023.09.24 02:23:46 INFO  time: compiled root in 0.11s
+2023.09.24 02:24:02 INFO  compiling root (1 scala source)
+2023.09.24 02:24:02 INFO  time: compiled root in 89ms
+2023.09.24 02:24:02 INFO  compiling root (1 scala source)
+2023.09.24 02:24:02 INFO  time: compiled root in 79ms
+2023.09.24 02:24:14 ERROR Failed to tokenize input for semantic tokens for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+scala.meta.tokenizers.TokenizeException: <input>:102: error: unclosed string literal
+    val rs = "SELECT value, COUNT(*) as C FROM words GROUP BY
+             ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:591)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:407)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:411)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:246)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1047)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:511)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2023.09.24 02:24:20 INFO  compiling root (1 scala source)
+2023.09.24 02:24:20 INFO  time: compiled root in 0.1s
+2023.09.24 02:24:28 INFO  compiling root (1 scala source)
+2023.09.24 02:24:28 INFO  time: compiled root in 0.66s
+2023.09.24 02:25:51 INFO  compiling root (1 scala source)
+2023.09.24 02:25:51 INFO  time: compiled root in 93ms
+2023.09.24 02:25:52 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.09.24 02:26:00 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.09.24 02:26:00 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.09.24 02:26:01 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.09.24 02:26:04 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.09.24 02:26:09 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.09.24 02:26:11 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.09.24 02:26:12 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.09.24 02:26:14 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.09.24 02:26:14 INFO  compiling root (1 scala source)
+2023.09.24 02:26:14 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.09.24 02:26:14 INFO  time: compiled root in 0.56s
+2023.09.24 02:26:18 INFO  compiling root (1 scala source)
+2023.09.24 02:26:18 INFO  time: compiled root in 0.55s
+Sep 24, 2023 2:26:20 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1603
+2023.09.24 02:26:30 INFO  compiling root (1 scala source)
+2023.09.24 02:26:30 INFO  time: compiled root in 0.33s
+Sep 24, 2023 2:26:50 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1748
+2023.09.24 02:26:53 INFO  compiling root (1 scala source)
+2023.09.24 02:26:53 INFO  time: compiled root in 0.34s
+2023.09.24 02:28:39 INFO  compiling root (1 scala source)
+2023.09.24 02:28:39 INFO  time: compiled root in 0.53s
+2023.09.24 02:29:23 INFO  compiling root (1 scala source)
+2023.09.24 02:29:23 INFO  time: compiled root in 0.54s
+2023.09.24 02:29:40 INFO  compiling root (1 scala source)
+2023.09.24 02:29:40 INFO  time: compiled root in 82ms
+2023.09.24 02:29:46 INFO  compiling root (1 scala source)
+2023.09.24 02:29:46 INFO  time: compiled root in 0.52s
+2023.09.24 02:31:58 INFO  compiling root (1 scala source)
+2023.09.24 02:31:58 INFO  time: compiled root in 0.7s
+2023.09.24 02:32:23 INFO  compiling root (1 scala source)
+2023.09.24 02:32:23 INFO  time: compiled root in 0.57s
+2023.09.24 02:32:40 ERROR Failed to tokenize input for semantic tokens for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+scala.meta.tokenizers.TokenizeException: <input>:107: error: `$$', `$'ident, `$'this, `$'BlockExpr`$'_
+        println(s"name:$")
+                  ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringPart(LegacyScanner.scala:687)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:392)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:411)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:246)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1047)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:511)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2023.09.24 02:32:51 ERROR Failed to tokenize input for semantic tokens for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+scala.meta.tokenizers.TokenizeException: <input>:107: error: `$$', `$'ident, `$'this, `$'BlockExpr`$'_
+        println(s"name:$name has appeared $")
+                            ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringPart(LegacyScanner.scala:687)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:284)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:246)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1047)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:511)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2023.09.24 02:32:57 INFO  compiling root (1 scala source)
+2023.09.24 02:32:57 INFO  time: compiled root in 0.52s
+2023.09.24 02:33:39 INFO  compiling root (1 scala source)
+2023.09.24 02:33:39 INFO  time: compiled root in 0.57s
+2023.09.24 02:34:00 INFO  compiling root (1 scala source)
+2023.09.24 02:34:00 INFO  time: compiled root in 0.52s
+2023.09.24 02:34:06 INFO  compiling root (1 scala source)
+2023.09.24 02:34:06 INFO  time: compiled root in 0.53s
+2023.09.24 02:35:52 INFO  compiling root (1 scala source)
+2023.09.24 02:35:52 INFO  time: compiled root in 0.5s
+2023.09.24 02:36:10 INFO  compiling root (1 scala source)
+2023.09.24 02:36:10 INFO  time: compiled root in 0.55s
+2023.09.24 02:36:19 INFO  compiling root (1 scala source)
+2023.09.24 02:36:19 INFO  time: compiled root in 0.67s
+2023.09.24 02:36:38 INFO  compiling root (1 scala source)
+2023.09.24 02:36:38 INFO  time: compiled root in 0.55s
+2023.09.24 02:37:01 INFO  compiling root (1 scala source)
+2023.09.24 02:37:01 INFO  time: compiled root in 0.54s
+2023.09.24 02:40:55 INFO  compiling root (1 scala source)
+2023.09.24 02:40:55 INFO  time: compiled root in 0.51s
+2023.09.24 02:42:52 INFO  compiling root (1 scala source)
+2023.09.24 02:42:52 INFO  time: compiled root in 0.52s
+2023.09.24 02:43:21 INFO  compiling root (1 scala source)
+2023.09.24 02:43:21 INFO  time: compiled root in 0.54s
+2023.09.24 02:44:03 INFO  compiling root (1 scala source)
+2023.09.24 02:44:03 INFO  time: compiled root in 0.53s
+2023.09.24 02:44:42 INFO  compiling root (1 scala source)
+2023.09.24 02:44:42 INFO  time: compiled root in 0.72s
+2023.09.24 02:44:54 INFO  compiling root (1 scala source)
+2023.09.24 02:44:54 INFO  time: compiled root in 0.51s
+2023.09.24 02:45:06 INFO  compiling root (1 scala source)
+2023.09.24 02:45:06 INFO  time: compiled root in 0.53s
+Sep 24, 2023 2:45:07 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3295
+2023.09.24 02:45:13 INFO  compiling root (1 scala source)
+2023.09.24 02:45:13 INFO  time: compiled root in 0.48s
+2023.09.24 02:46:20 INFO  compiling root (1 scala source)
+2023.09.24 02:46:20 INFO  time: compiled root in 0.32s
+2023.09.24 02:46:22 INFO  compiling root (1 scala source)
+2023.09.24 02:46:22 INFO  time: compiled root in 0.35s
+2023.09.24 02:46:27 INFO  compiling root (1 scala source)
+2023.09.24 02:46:27 INFO  time: compiled root in 0.33s
+2023.09.24 02:46:42 INFO  compiling root (1 scala source)
+2023.09.24 02:46:42 INFO  time: compiled root in 0.34s
+2023.09.24 02:46:53 INFO  compiling root (1 scala source)
+2023.09.24 02:46:53 INFO  time: compiled root in 0.33s
+2023.09.24 02:46:55 INFO  compiling root (1 scala source)
+2023.09.24 02:46:55 INFO  time: compiled root in 0.49s
+2023.09.24 02:47:03 INFO  compiling root (1 scala source)
+2023.09.24 02:47:03 INFO  time: compiled root in 0.31s
+2023.09.24 02:52:05 INFO  compiling root (1 scala source)
+2023.09.24 02:52:05 INFO  time: compiled root in 0.38s
+2023.09.24 02:53:08 INFO  compiling root (1 scala source)
+2023.09.24 02:53:08 INFO  time: compiled root in 0.53s
+2023.09.24 02:53:08 INFO  compiling root (1 scala source)
+2023.09.24 02:53:08 INFO  time: compiled root in 17ms
+2023.09.24 02:53:08 INFO  compiling root (1 scala source)
+2023.09.24 02:53:08 INFO  time: compiled root in 0.24s
+2023.09.24 02:53:08 INFO  compiling root (1 scala source)
+2023.09.24 02:53:08 INFO  time: compiled root in 21ms
+2023.09.24 02:53:08 INFO  compiling root (1 scala source)
+2023.09.24 02:53:09 INFO  time: compiled root in 0.18s
+2023.09.24 02:53:09 INFO  compiling root (1 scala source)
+2023.09.24 02:53:09 INFO  time: compiled root in 27ms
+2023.09.24 02:53:09 INFO  compiling root (1 scala source)
+2023.09.24 02:53:09 INFO  time: compiled root in 0.2s
+2023.09.24 02:53:09 INFO  compiling root (1 scala source)
+2023.09.24 02:53:09 INFO  time: compiled root in 16ms
+2023.09.24 02:53:09 INFO  compiling root (1 scala source)
+2023.09.24 02:53:09 INFO  time: compiled root in 0.2s
+2023.09.24 02:53:09 INFO  compiling root (1 scala source)
+2023.09.24 02:53:09 INFO  time: compiled root in 23ms
+2023.09.24 02:53:10 INFO  compiling root (1 scala source)
+2023.09.24 02:53:10 INFO  time: compiled root in 0.23s
+2023.09.24 02:53:10 INFO  compiling root (1 scala source)
+2023.09.24 02:53:10 INFO  time: compiled root in 22ms
+2023.09.24 02:53:19 INFO  compiling root (2 scala sources)
+2023.09.24 02:53:19 WARN  Using indexes to guess the definition of Select_Words
+2023.09.24 02:53:19 INFO  time: compiled root in 0.58s
+Sep 24, 2023 2:53:28 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3833
+2023.09.24 02:53:32 INFO  compiling root (1 scala source)
+2023.09.24 02:53:32 INFO  time: compiled root in 0.4s
+2023.09.24 03:09:07 INFO  compiling root (1 scala source)
+2023.09.24 03:09:07 INFO  time: compiled root in 0.57s
+2023.09.24 03:09:11 INFO  compiling root (1 scala source)
+2023.09.24 03:09:11 INFO  time: compiled root in 0.63s
+2023.09.24 03:09:21 INFO  compiling root (1 scala source)
+2023.09.24 03:09:21 INFO  time: compiled root in 0.58s
+2023.09.24 03:09:38 INFO  compiling root (1 scala source)
+2023.09.24 03:09:39 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.09.24 03:09:38 INFO  time: compiled root in 0.86s
+Sep 24, 2023 3:09:47 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4380
+2023.09.24 03:11:55 INFO  compiling root (1 scala source)
+2023.09.24 03:11:55 INFO  time: compiled root in 0.64s
+2023.09.24 03:12:17 INFO  compiling root (1 scala source)
+2023.09.24 03:12:17 INFO  time: compiled root in 0.53s
+2023.09.24 03:12:30 INFO  compiling root (1 scala source)
+2023.09.24 03:12:30 INFO  time: compiled root in 0.55s
+Sep 24, 2023 3:12:36 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4574
+2023.09.24 03:12:42 INFO  compiling root (1 scala source)
+2023.09.24 03:12:42 INFO  time: compiled root in 0.57s
+2023.09.24 03:13:13 INFO  compiling root (1 scala source)
+2023.09.24 03:13:13 INFO  time: compiled root in 0.52s
+2023.09.24 03:13:20 INFO  compiling root (1 scala source)
+2023.09.24 03:13:20 INFO  time: compiled root in 0.54s
+2023.09.24 03:13:28 INFO  compiling root (1 scala source)
+2023.09.24 03:13:28 INFO  time: compiled root in 0.53s
+2023.09.24 03:16:50 INFO  compiling root (1 scala source)
+2023.09.24 03:16:50 INFO  time: compiled root in 0.79s
+Sep 24, 2023 3:16:54 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4917
+2023.09.24 03:17:03 INFO  compiling root (1 scala source)
+2023.09.24 03:17:03 INFO  time: compiled root in 0.54s
+Sep 24, 2023 3:17:04 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4944
+2023.09.24 03:17:13 INFO  compiling root (1 scala source)
+2023.09.24 03:17:13 INFO  time: compiled root in 0.55s
+2023.09.24 03:17:31 INFO  compiling root (1 scala source)
+2023.09.24 03:17:31 INFO  time: compiled root in 0.52s
+2023.09.24 03:17:42 INFO  compiling root (1 scala source)
+2023.09.24 03:17:42 INFO  time: compiled root in 0.52s
+2023.09.24 03:17:46 INFO  compiling root (1 scala source)
+2023.09.24 03:17:46 INFO  time: compiled root in 0.54s
+2023.09.24 03:21:05 INFO  compiling root (1 scala source)
+2023.09.24 03:21:05 INFO  time: compiled root in 0.33s
+2023.09.24 03:21:32 INFO  compiling root (1 scala source)
+2023.09.24 03:21:32 INFO  time: compiled root in 0.68s
+2023.09.24 03:23:48 INFO  compiling root (1 scala source)
+2023.09.24 03:23:48 INFO  time: compiled root in 0.83s
+2023.09.24 03:23:55 INFO  compiling root (1 scala source)
+2023.09.24 03:23:55 INFO  time: compiled root in 0.59s
+2023.09.24 03:26:14 INFO  compiling root (1 scala source)
+2023.09.24 03:26:14 INFO  time: compiled root in 0.59s
+2023.09.24 03:26:17 INFO  compiling root (1 scala source)
+2023.09.24 03:26:17 INFO  time: compiled root in 0.6s
