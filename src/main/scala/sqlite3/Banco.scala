@@ -6,18 +6,19 @@ import java.sql.DriverManager
 import java.sql.Statement
 import scala.io.Source
 import java.sql.ResultSet
+import java.sql.PreparedStatement
 
 //Trait para obter o caminho do banco de dados
 //e conectar com o driver jdbc
 trait Conexao{
-    val path = "src/main/scala/sqlite3/test.db"
+    val path = "src/main/scala/sqlite3/marx.db"
     val url = s"jdbc:sqLite:$path"
 }
 
 //Trait para obter o caminho do livro em formato txt
 //Lines retorna todas as linhas do livro em uma lista de Strings
 trait ReadFile{
-    val file = "src/main/scala/texts/short.txt"
+    val file = "src/main/scala/texts/marx.txt"
     val book = scala.io.Source.fromFile(file)
     val lines: List[String] = book.getLines().toList
 }
@@ -29,8 +30,8 @@ class CreateTables extends Conexao with ReadFile{
     val conn = DriverManager.getConnection(url)
 
     //Criando um statement SQL
-    val statement = conn.createStatement()
-
+    //val statement = conn.createStatement()
+    var rt: PreparedStatement = null
     //Array que contém os comandos SQL de criação das tabelas
     val criar = Array(
         "CREATE TABLE IF NOT EXISTS documents (id INTEGER PRIMARY KEY AUTOINCREMENT,name);",
@@ -40,13 +41,16 @@ class CreateTables extends Conexao with ReadFile{
 
     //Percorre a array e adiciona cada comando ao statement SQL na "Pilha"
     for(comando <- criar){
-        statement.addBatch(comando)
+        //statement.addBatch(comando)
+        rt = conn.prepareStatement(comando)
+        rt.execute()
     }
 
     //Executa o statement e fecha a conexão com o banco de dados
-    statement.executeBatch()
-    statement.clearBatch()
-    statement.close()
+    // statement.executeBatch()
+    // statement.clearBatch()
+    // statement.close()
+    rt.close()
     conn.close()
 }
 
@@ -54,10 +58,6 @@ class Insert_Words extends Conexao with ReadFile{
 
     //Estabelendo a conexão com o JDBC
     val conn = DriverManager.getConnection(url)
-
-    //Criando um statement SQL
-    val insert = conn.createStatement()
-    val char = conn.createStatement()
 
     //Convertendo a lista de linhas do livro em strings
     //separadas por espaço
@@ -69,39 +69,47 @@ class Insert_Words extends Conexao with ReadFile{
     text = text.map(_.filter(_.isLetter))
     text = text.map(_.toLowerCase())
     text = text.sorted
-    //Iteração para adicionar palavra por palavra
-    //Caso haja palavras repetidas, incrementar a frequência
+
+    //Iteração para adicionar palavra por palavra, caractere por caractere
+    //Caso haja repeticao, incrementar a frequência
+
+    //Criando um PreparedStatement
+    var rt: PreparedStatement = null
+
+    //Desativando o autocommit
+    conn.setAutoCommit(false)
 
     for(n<-0 until text.length){
             for(i<-0 until text(n).length){
                 update = "UPDATE OR IGNORE characters "
                 update += "SET frequency = frequency + 1 WHERE char = "
                 update += "'" + text(n)(i).toString() + "';"
-                char.addBatch(update)
+                rt = conn.prepareStatement(update)
+                rt.execute()
                 command = "INSERT OR IGNORE INTO characters(char, frequency) VALUES ("
                 command += "'" + text(n)(i).toString() + "', "
                 command += "'1');" 
-                char.addBatch(command)
+                rt = conn.prepareStatement(command)
+                rt.execute()
             }
-            char.executeBatch()
-            char.clearBatch()
 
+    
             update = "UPDATE OR IGNORE words "
             update += "SET frequency = frequency + 1 WHERE name = "
             update += "'" + text(n).toString() + "';"
-            insert.addBatch(update)
+            rt = conn.prepareStatement(update)
+            rt.execute()
+            
             command = "INSERT OR IGNORE INTO words(name, frequency) VALUES ("
             command += "'" + text(n).toString() + "', "
             command += "'1');" 
-            insert.addBatch(command)
+            rt = conn.prepareStatement(command)
+            rt.execute()
         }
 
     //Executa o statement e fecha a conexão com o banco de dados     
-    insert.executeBatch()
-    char.clearBatch()
-    insert.clearBatch()
-    insert.close()
-    char.close()
+    //insert.executeBatch()
+    conn.commit()
     conn.close()
 }
 
@@ -124,6 +132,32 @@ class Select_Words extends Conexao with ReadFile{
         var name = rs.getString("name")
         var frequency = rs.getInt("frequency")
         println(s"$name has appeared $frequency times.")
+    }
+
+    //Fecha a conexão com o banco de dados     
+    select.close()
+    conn.close()
+}
+
+class Select_Characters extends Conexao with ReadFile{
+     //Estabelendo a conexão com o JDBC
+    val conn = DriverManager.getConnection(url)
+
+    //Criando um statement SQL
+    val select = conn.createStatement()
+
+    //Comando para ordenar as palavras por ordem de frequência
+    var command = "SELECT name,frequency, COUNT(*) as frequency "
+    command += "FROM characters GROUP BY char ORDER BY CAST(frequency AS int) DESC"
+
+    //Coloca para executar a query
+    val rs = select.executeQuery(command)
+    
+    //Pega todos os resultados da Query
+    while(rs.next()){
+        var char = rs.getString("char")
+        var frequency = rs.getInt("frequency")
+        println(s"$char has appeared $frequency times.")
     }
 
     //Fecha a conexão com o banco de dados     
