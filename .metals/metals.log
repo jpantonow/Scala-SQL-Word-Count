@@ -6312,3 +6312,11 @@ WARNING: Unmatched cancel notification for request id 9367
 2023.09.27 00:30:13 INFO  time: compiled root in 0.52s
 2023.09.27 00:31:50 INFO  compiling root (1 scala source)
 2023.09.27 00:31:50 INFO  time: compiled root in 0.56s
+2023.09.27 00:38:51 INFO  compiling root (1 scala source)
+2023.09.27 00:38:51 INFO  time: compiled root in 0.53s
+2023.09.27 00:39:02 INFO  compiling root (1 scala source)
+2023.09.27 00:39:02 INFO  time: compiled root in 0.56s
+2023.09.27 00:39:35 INFO  compiling root (1 scala source)
+2023.09.27 00:39:35 INFO  time: compiled root in 0.36s
+Sep 27, 2023 12:39:46 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9885

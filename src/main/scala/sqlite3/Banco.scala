@@ -29,9 +29,13 @@ class CreateTables extends Conexao with ReadFile{
     //Estabelendo a conexão com o JDBC
     val conn = DriverManager.getConnection(url)
 
-    //Criando um statement SQL
-    //val statement = conn.createStatement()
+    //Desativando o autocommit
+    conn.setAutoCommit(false)
+
+    //Criando um PreparedStatement SQL
+
     var rt: PreparedStatement = null
+
     //Array que contém os comandos SQL de criação das tabelas
     val criar = Array(
         "CREATE TABLE IF NOT EXISTS documents (id INTEGER PRIMARY KEY AUTOINCREMENT,name);",
@@ -41,16 +45,13 @@ class CreateTables extends Conexao with ReadFile{
 
     //Percorre a array e adiciona cada comando ao statement SQL na "Pilha"
     for(comando <- criar){
-        //statement.addBatch(comando)
         rt = conn.prepareStatement(comando)
         rt.execute()
     }
 
-    //Executa o statement e fecha a conexão com o banco de dados
-    // statement.executeBatch()
-    // statement.clearBatch()
-    // statement.close()
+    //Fecha a conexão com o banco de dados
     rt.close()
+    conn.commit()
     conn.close()
 }
 
@@ -109,6 +110,7 @@ class Insert_Words extends Conexao with ReadFile{
 
     //Executa o statement e fecha a conexão com o banco de dados     
     //insert.executeBatch()
+    rt.close()
     conn.commit()
     conn.close()
 }
