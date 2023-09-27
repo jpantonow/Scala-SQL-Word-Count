@@ -65,11 +65,11 @@ class Insert_Words extends Conexao with ReadFile{
     var text = lines.toString().split(" ")
     var update:String = ""
     var command: String = ""
-    
     //Separando apenas as letras da string e convertendo em letra minúscula
     text = text.map(_.filter(_.isLetter))
     text = text.map(_.toLowerCase())
     text = text.sorted
+    text = text.filter(s => s.size >= 2)
 
     //Iteração para adicionar palavra por palavra, caractere por caractere
     //Caso haja repeticao, incrementar a frequência
@@ -128,12 +128,13 @@ class Select_Words extends Conexao with ReadFile{
 
     //Coloca para executar a query
     val rs = select.executeQuery(command)
-    
+    var break: Int = 0
     //Pega todos os resultados da Query
-    while(rs.next()){
+    while(rs.next() && (break!=100)){
         var name = rs.getString("name")
         var frequency = rs.getInt("frequency")
         println(s"$name has appeared $frequency times.")
+        break += 1
     }
 
     //Fecha a conexão com o banco de dados     
@@ -154,12 +155,13 @@ class Select_Characters extends Conexao with ReadFile{
 
     //Coloca para executar a query
     val rs = select.executeQuery(command)
-    
+    var break: Int = 0
     //Pega todos os resultados da Query
-    while(rs.next()){
+    while(rs.next() && (break!=100)){
         var char = rs.getString("char")
         var frequency = rs.getInt("frequency")
         println(s"$char has appeared $frequency times.")
+        break += 1
     }
 
     //Fecha a conexão com o banco de dados     
