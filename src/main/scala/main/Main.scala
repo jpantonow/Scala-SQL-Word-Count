@@ -5,7 +5,7 @@ object Main extends App {
     val db_create_tables = new CreateTables()
     val db_insert_words = new Insert_Words()
     val db_select_words = new Select_Words()
-    val db_select_char = new Select_Characters()
+    //val db_select_char = new Select_Characters()
     //Caso de sucesso
     val greenColor = "\u001B[32m"
     val resetColor = "\u001B[0m"
