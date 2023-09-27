@@ -5649,3 +5649,666 @@ WARNING: Unmatched cancel notification for request id 4944
 2023.09.24 03:26:14 INFO  time: compiled root in 0.59s
 2023.09.24 03:26:17 INFO  compiling root (1 scala source)
 2023.09.24 03:26:17 INFO  time: compiled root in 0.6s
+2023.09.24 03:37:14 INFO  compiling root (1 scala source)
+2023.09.24 03:37:14 INFO  time: compiled root in 0.56s
+2023.09.24 03:37:29 INFO  compiling root (1 scala source)
+2023.09.24 03:37:29 INFO  time: compiled root in 0.56s
+2023.09.24 03:38:01 INFO  compiling root (1 scala source)
+2023.09.24 03:38:01 INFO  time: compiled root in 0.33s
+2023.09.24 03:39:06 INFO  time: code lens generation in 3.46s
+2023.09.24 11:46:39 INFO  Shutting down server
+2023.09.24 11:46:39 INFO  shutting down Metals
+2023.09.24 11:46:39 INFO  Shut down connection with build server.
+2023.09.24 11:46:39 INFO  Shut down connection with build server.
+2023.09.24 11:46:40 INFO  Exiting server
+2023.09.25 08:46:07 INFO  Started: Metals version 1.0.1+42-b511ce90-SNAPSHOT in folders '/home/jpantonow/Desktop/Unb/word-count-db' for client Visual Studio Code 1.82.2.
+Sep 25, 2023 8:46:07 AM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.22.1 by Redgate
+Sep 25, 2023 8:46:07 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Sep 25, 2023 8:46:07 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Sep 25, 2023 8:46:07 AM org.flywaydb.core.FlywayExecutor execute
+INFO: Database: jdbc:h2:file:/home/jpantonow/Desktop/Unb/word-count-db/.metals/metals (H2 2.1)
+Sep 25, 2023 8:46:07 AM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.023s)
+Sep 25, 2023 8:46:07 AM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Sep 25, 2023 8:46:07 AM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.09.25 08:46:08 INFO  time: initialize in 1.21s
+2023.09.25 08:46:10 INFO  Attempting to connect to the build server...
+2023.09.25 08:46:10 INFO  Bloop uses /usr/lib/jvm/java-17-openjdk-amd64 defined at /home/jpantonow/.bloop/bloop.json
+2023.09.25 08:46:10 INFO  skipping build import with status 'Installed'
+2023.09.25 08:46:10 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/jpantonow/Desktop/Unb/word-count-db/.metals/bsp.trace.json or /home/jpantonow/.cache/metals/bsp.trace.json
+2023.09.25 08:46:10 INFO  Attempting to connect to the build server...
+2023.09.25 08:46:10 INFO  Bloop uses /usr/lib/jvm/java-17-openjdk-amd64 defined at /home/jpantonow/.bloop/bloop.json
+2023.09.25 08:46:10 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/jpantonow/Desktop/Unb/word-count-db/project/.metals/bsp.trace.json or /home/jpantonow/.cache/metals/bsp.trace.json
+2023.09.25 08:46:10 INFO  time: Connected to build server in 0.5s
+2023.09.25 08:46:10 INFO  Connected to Build server: Bloop v1.5.11
+2023.09.25 08:46:13 INFO  no build target found for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/main/Main.scala. Using presentation compiler with project's scala-library version: 3.3.1
+2023.09.25 08:46:14 INFO  time: Imported build in 0.37s
+2023.09.25 08:46:17 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/lib/src.zip, /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2023.09.25 08:46:17 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/lib/src.zip, /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2023.09.25 08:46:17 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/lib/src.zip, /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2023.09.25 08:46:17 INFO  time: indexed workspace in 4.54s
+2023.09.25 08:47:43 INFO  compiling root (1 scala source)
+2023.09.25 08:47:46 INFO  time: compiled root in 3.02s
+2023.09.25 08:48:24 INFO  compiling root (1 scala source)
+2023.09.25 08:48:26 INFO  time: compiled root in 2.43s
+2023.09.25 08:48:30 INFO  Deduplicating compilation of root from bsp client 'Metals 1.0.1+42-b511ce90-SNAPSHOT' (since 2m 19.429s)
+2023.09.25 08:49:16 INFO  compiling root (1 scala source)
+2023.09.25 08:49:17 INFO  time: compiled root in 1.28s
+2023.09.25 09:15:54 INFO  compiling root (1 scala source)
+2023.09.25 09:15:54 INFO  time: compiled root in 0.19s
+2023.09.25 09:15:54 INFO  compiling root (1 scala source)
+2023.09.25 09:15:54 INFO  time: compiled root in 71ms
+2023.09.25 09:16:03 INFO  compiling root (1 scala source)
+2023.09.25 09:16:04 INFO  time: compiled root in 1.18s
+2023.09.26 22:27:14 INFO  Started: Metals version 1.0.1+42-b511ce90-SNAPSHOT in folders '/home/jpantonow/Desktop/Unb/word-count-db' for client Visual Studio Code 1.82.2.
+Sep 26, 2023 10:27:15 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.22.1 by Redgate
+Sep 26, 2023 10:27:15 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Sep 26, 2023 10:27:15 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Sep 26, 2023 10:27:19 PM org.flywaydb.core.FlywayExecutor execute
+INFO: Database: jdbc:h2:file:/home/jpantonow/Desktop/Unb/word-count-db/.metals/metals (H2 2.1)
+Sep 26, 2023 10:27:19 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.041s)
+Sep 26, 2023 10:27:19 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Sep 26, 2023 10:27:19 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.09.26 22:27:19 INFO  time: initialize in 5.01s
+2023.09.26 22:27:25 INFO  Attempting to connect to the build server...
+2023.09.26 22:27:25 INFO  skipping build import with status 'Installed'
+2023.09.26 22:27:25 INFO  Bloop uses /usr/lib/jvm/java-17-openjdk-amd64 defined at /home/jpantonow/.bloop/bloop.json
+2023.09.26 22:27:36 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/jpantonow/Desktop/Unb/word-count-db/.metals/bsp.trace.json or /home/jpantonow/.cache/metals/bsp.trace.json
+2023.09.26 22:27:36 INFO  Attempting to connect to the build server...
+2023.09.26 22:27:36 INFO  Bloop uses /usr/lib/jvm/java-17-openjdk-amd64 defined at /home/jpantonow/.bloop/bloop.json
+2023.09.26 22:27:36 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/jpantonow/Desktop/Unb/word-count-db/project/.metals/bsp.trace.json or /home/jpantonow/.cache/metals/bsp.trace.json
+2023.09.26 22:27:37 INFO  time: Connected to build server in 12s
+2023.09.26 22:27:37 INFO  Connected to Build server: Bloop v1.5.11
+2023.09.26 22:27:37 INFO  no build target found for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala. Using presentation compiler with project's scala-library version: 3.3.1
+Sep 26, 2023 10:27:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+2023.09.26 22:27:38 INFO  time: Imported build in 0.26s
+Sep 26, 2023 10:27:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 14
+2023.09.26 22:27:44 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/lib/src.zip, /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2023.09.26 22:27:46 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/lib/src.zip, /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2023.09.26 22:27:46 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/lib/src.zip, /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2023.09.26 22:27:46 INFO  time: indexed workspace in 7.62s
+2023.09.26 22:27:59 ERROR Failed to tokenize input for semantic tokens for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+scala.meta.tokenizers.TokenizeException: <input>:153: error: `$$', `$'ident, `$'this, `$'BlockExpr`$'_
+        println(s"$ has appeared $frequency times.")
+                  ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringPart(LegacyScanner.scala:687)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:392)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:411)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:246)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1047)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:511)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2023.09.26 22:28:02 INFO  compiling root (1 scala source)
+2023.09.26 22:28:08 INFO  time: compiled root in 5.4s
+Sep 26, 2023 10:30:21 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2023.09.26 22:30:50 INFO  compiling root (1 scala source)
+2023.09.26 22:30:50 INFO  time: compiled root in 0.82s
+Exception in thread "pool-4-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:229)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2023.09.26 22:36:48 INFO  compiling root (1 scala source)
+2023.09.26 22:36:49 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.09.26 22:36:50 INFO  time: compiled root in 1.24s
+2023.09.26 22:37:24 INFO  compiling root (1 scala source)
+2023.09.26 22:37:26 INFO  time: compiled root in 1.17s
+Sep 26, 2023 10:37:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 339
+2023.09.26 22:37:38 INFO  compiling root (1 scala source)
+2023.09.26 22:37:39 INFO  time: compiled root in 1.08s
+2023.09.26 22:37:47 INFO  compiling root (1 scala source)
+2023.09.26 22:37:48 INFO  time: compiled root in 1.38s
+2023.09.26 22:37:57 INFO  compiling root (1 scala source)
+2023.09.26 22:37:57 INFO  time: compiled root in 0.49s
+2023.09.26 22:38:02 INFO  compiling root (1 scala source)
+2023.09.26 22:38:02 INFO  time: compiled root in 0.52s
+2023.09.26 22:39:11 INFO  compiling root (1 scala source)
+2023.09.26 22:39:11 INFO  time: compiled root in 0.88s
+2023.09.26 22:39:25 INFO  compiling root (1 scala source)
+2023.09.26 22:39:25 INFO  time: compiled root in 0.74s
+2023.09.26 22:43:39 INFO  compiling root (1 scala source)
+2023.09.26 22:43:39 INFO  time: compiled root in 0.78s
+2023.09.26 22:43:47 INFO  compiling root (1 scala source)
+2023.09.26 22:43:47 INFO  time: compiled root in 0.79s
+2023.09.26 22:43:59 INFO  compiling root (1 scala source)
+2023.09.26 22:43:59 INFO  time: compiled root in 0.96s
+2023.09.26 22:43:59 INFO  compiling root (1 scala source)
+2023.09.26 22:44:00 INFO  time: compiled root in 0.42s
+Sep 26, 2023 10:45:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1010
+2023.09.26 22:45:25 INFO  compiling root (1 scala source)
+2023.09.26 22:45:25 INFO  time: compiled root in 0.7s
+2023.09.26 22:46:01 INFO  compiling root (1 scala source)
+2023.09.26 22:46:02 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.09.26 22:46:01 INFO  time: compiled root in 0.71s
+2023.09.26 22:48:41 INFO  compiling root (1 scala source)
+2023.09.26 22:48:41 INFO  time: compiled root in 0.2s
+2023.09.26 22:48:41 INFO  compiling root (1 scala source)
+2023.09.26 22:48:41 INFO  time: compiled root in 99ms
+2023.09.26 22:49:23 INFO  compiling root (1 scala source)
+2023.09.26 22:49:23 INFO  time: compiled root in 0.78s
+Sep 26, 2023 10:49:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1330
+2023.09.26 22:49:43 INFO  compiling root (1 scala source)
+2023.09.26 22:49:43 INFO  time: compiled root in 0.73s
+2023.09.26 22:49:54 INFO  compiling root (1 scala source)
+2023.09.26 22:49:54 INFO  time: compiled root in 0.12s
+2023.09.26 22:49:54 INFO  compiling root (1 scala source)
+2023.09.26 22:49:54 INFO  time: compiled root in 0.13s
+2023.09.26 22:49:54 INFO  compiling root (1 scala source)
+2023.09.26 22:49:54 INFO  time: compiled root in 88ms
+2023.09.26 22:50:13 INFO  compiling root (1 scala source)
+2023.09.26 22:50:13 INFO  time: compiled root in 0.67s
+Sep 26, 2023 10:50:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1612
+2023.09.26 22:51:27 INFO  compiling root (1 scala source)
+2023.09.26 22:51:27 INFO  time: compiled root in 0.79s
+2023.09.26 22:52:04 INFO  compiling root (1 scala source)
+2023.09.26 22:52:04 INFO  time: compiled root in 0.63s
+Sep 26, 2023 10:52:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1881
+2023.09.26 22:52:14 INFO  compiling root (1 scala source)
+2023.09.26 22:52:14 INFO  time: compiled root in 0.39s
+2023.09.26 22:52:25 INFO  compiling root (1 scala source)
+2023.09.26 22:52:25 INFO  time: compiled root in 0.76s
+2023.09.26 22:52:41 INFO  compiling root (1 scala source)
+2023.09.26 22:52:41 INFO  time: compiled root in 0.69s
+2023.09.26 22:57:27 INFO  compiling root (1 scala source)
+2023.09.26 22:57:27 INFO  time: compiled root in 0.13s
+2023.09.26 22:57:27 INFO  compiling root (1 scala source)
+2023.09.26 22:57:27 INFO  time: compiled root in 88ms
+2023.09.26 22:57:27 INFO  compiling root (1 scala source)
+2023.09.26 22:57:27 INFO  time: compiled root in 0.15s
+2023.09.26 22:57:33 INFO  compiling root (1 scala source)
+2023.09.26 22:57:33 INFO  time: compiled root in 67ms
+2023.09.26 22:57:33 INFO  compiling root (1 scala source)
+2023.09.26 22:57:33 INFO  time: compiled root in 32ms
+2023.09.26 22:57:34 WARN  Using indexes to guess the definition of rs
+2023.09.26 22:57:42 INFO  compiling root (1 scala source)
+2023.09.26 22:57:42 INFO  time: compiled root in 0.11s
+2023.09.26 22:57:42 INFO  compiling root (1 scala source)
+2023.09.26 22:57:42 INFO  time: compiled root in 90ms
+2023.09.26 22:58:15 INFO  compiling root (1 scala source)
+2023.09.26 22:58:15 INFO  time: compiled root in 0.14s
+Exception in thread "pool-4-thread-2" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:229)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Exception in thread "pool-4-thread-3" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:229)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2023.09.26 22:58:22 INFO  compiling root (1 scala source)
+2023.09.26 22:58:22 INFO  time: compiled root in 0.8s
+Sep 26, 2023 10:58:23 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2023.09.26 22:58:42 INFO  compiling root (1 scala source)
+2023.09.26 22:58:42 INFO  time: compiled root in 0.78s
+2023.09.26 23:03:23 INFO  compiling root (1 scala source)
+2023.09.26 23:03:23 INFO  time: compiled root in 0.71s
+Sep 26, 2023 11:03:24 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2023.09.26 23:03:52 INFO  compiling root (1 scala source)
+2023.09.26 23:03:52 INFO  time: compiled root in 0.56s
+2023.09.26 23:04:15 INFO  compiling root (1 scala source)
+2023.09.26 23:04:15 INFO  time: compiled root in 0.76s
+2023.09.26 23:06:18 INFO  compiling root (1 scala source)
+2023.09.26 23:06:18 INFO  time: compiled root in 0.73s
+Sep 26, 2023 11:06:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2609
+2023.09.26 23:06:25 INFO  compiling root (1 scala source)
+2023.09.26 23:06:25 INFO  time: compiled root in 0.63s
+2023.09.26 23:06:31 INFO  compiling root (1 scala source)
+2023.09.26 23:06:31 INFO  time: compiled root in 0.36s
+2023.09.26 23:07:30 INFO  compiling root (1 scala source)
+2023.09.26 23:07:30 INFO  time: compiled root in 0.63s
+2023.09.26 23:08:01 INFO  compiling root (1 scala source)
+2023.09.26 23:08:01 INFO  time: compiled root in 0.67s
+2023.09.26 23:08:07 INFO  compiling root (1 scala source)
+2023.09.26 23:08:07 INFO  time: compiled root in 0.65s
+2023.09.26 23:08:19 INFO  compiling root (1 scala source)
+2023.09.26 23:08:19 INFO  time: compiled root in 0.11s
+2023.09.26 23:08:19 INFO  compiling root (1 scala source)
+2023.09.26 23:08:19 INFO  time: compiled root in 92ms
+2023.09.26 23:08:23 INFO  compiling root (1 scala source)
+2023.09.26 23:08:23 INFO  time: compiled root in 0.66s
+2023.09.26 23:08:42 INFO  compiling root (1 scala source)
+2023.09.26 23:08:42 INFO  time: compiled root in 0.62s
+2023.09.26 23:08:45 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.09.26 23:08:45 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.09.26 23:08:45 INFO  compiling root (1 scala source)
+2023.09.26 23:08:46 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.09.26 23:08:45 INFO  time: compiled root in 0.94s
+2023.09.26 23:09:01 INFO  compiling root (1 scala source)
+2023.09.26 23:09:01 INFO  time: compiled root in 0.63s
+2023.09.26 23:09:56 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/main/Main.scala
+2023.09.26 23:09:56 INFO  compiling root (1 scala source)
+2023.09.26 23:09:56 INFO  time: compiled root in 0.37s
+2023.09.26 23:11:02 INFO  compiling root (1 scala source)
+2023.09.26 23:11:02 INFO  time: compiled root in 0.7s
+2023.09.26 23:11:12 INFO  compiling root (1 scala source)
+2023.09.26 23:11:12 INFO  time: compiled root in 0.39s
+Sep 26, 2023 11:11:13 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2023.09.26 23:11:39 INFO  compiling root (1 scala source)
+2023.09.26 23:11:39 INFO  time: compiled root in 0.38s
+Sep 26, 2023 11:11:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3241
+2023.09.26 23:11:53 INFO  compiling root (1 scala source)
+2023.09.26 23:11:53 INFO  time: compiled root in 0.42s
+2023.09.26 23:13:43 INFO  compiling root (1 scala source)
+2023.09.26 23:13:43 INFO  time: compiled root in 0.74s
+2023.09.26 23:13:51 INFO  compiling root (1 scala source)
+2023.09.26 23:13:51 INFO  time: compiled root in 0.66s
+2023.09.26 23:14:25 INFO  compiling root (1 scala source)
+2023.09.26 23:14:25 INFO  time: compiled root in 0.63s
+2023.09.26 23:14:56 INFO  compiling root (1 scala source)
+2023.09.26 23:14:56 INFO  time: compiled root in 0.81s
+2023.09.26 23:15:33 INFO  compiling root (1 scala source)
+2023.09.26 23:15:33 INFO  time: compiled root in 0.69s
+2023.09.26 23:15:35 INFO  compiling root (1 scala source)
+2023.09.26 23:15:36 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.09.26 23:15:36 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.09.26 23:15:35 INFO  time: compiled root in 0.98s
+2023.09.26 23:17:08 INFO  compiling root (1 scala source)
+2023.09.26 23:17:08 INFO  time: compiled root in 0.61s
+2023.09.26 23:31:11 ERROR Failed to tokenize input for semantic tokens for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+scala.meta.tokenizers.TokenizeException: <input>:40: error: unclosed character literal
+''
+^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchSingleQuote$1(LegacyScanner.scala:440)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:445)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:246)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1047)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:511)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2023.09.26 23:31:38 INFO  compiling root (1 scala source)
+2023.09.26 23:31:38 INFO  time: compiled root in 0.71s
+2023.09.26 23:33:38 INFO  compiling root (1 scala source)
+2023.09.26 23:33:38 INFO  time: compiled root in 0.64s
+2023.09.26 23:33:41 INFO  compiling root (1 scala source)
+2023.09.26 23:33:41 INFO  time: compiled root in 0.65s
+2023.09.26 23:34:15 INFO  compiling root (1 scala source)
+2023.09.26 23:34:15 INFO  time: compiled root in 0.1s
+2023.09.26 23:34:15 INFO  compiling root (1 scala source)
+2023.09.26 23:34:15 INFO  time: compiled root in 71ms
+2023.09.26 23:34:16 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.09.26 23:34:22 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.09.26 23:34:25 INFO  compiling root (1 scala source)
+2023.09.26 23:34:25 INFO  time: compiled root in 95ms
+2023.09.26 23:34:25 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.09.26 23:34:45 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.09.26 23:34:46 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.09.26 23:34:47 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.09.26 23:34:52 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.09.26 23:34:58 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.09.26 23:35:00 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.09.26 23:35:01 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.09.26 23:35:02 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.09.26 23:35:04 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.09.26 23:35:06 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.09.26 23:35:11 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.09.26 23:35:20 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.09.26 23:40:31 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.09.26 23:40:34 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.09.26 23:40:34 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.09.26 23:40:35 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.09.26 23:40:39 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.09.26 23:40:39 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.09.26 23:40:41 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.09.26 23:40:42 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.09.26 23:40:43 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.09.26 23:40:45 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.09.26 23:40:47 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.09.26 23:40:48 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.09.26 23:40:49 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.09.26 23:40:50 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.09.26 23:40:51 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.09.26 23:40:51 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.09.26 23:40:52 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.09.26 23:40:53 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.09.26 23:40:55 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.09.26 23:40:56 INFO  compiling root (1 scala source)
+2023.09.26 23:40:56 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.09.26 23:40:56 INFO  time: compiled root in 0.72s
+2023.09.26 23:42:34 INFO  compiling root (1 scala source)
+2023.09.26 23:42:34 INFO  Deduplicating compilation of root from bsp client 'Metals 1.0.1+42-b511ce90-SNAPSHOT' (since 1h 14m 57.349s)
+2023.09.26 23:42:34 INFO  compiling root (1 scala source)
+2023.09.26 23:42:34 INFO  time: compiled root in 0.31s
+2023.09.26 23:42:36 INFO  compiling root (1 scala source)
+2023.09.26 23:42:36 INFO  time: compiled root in 0.82s
+2023.09.26 23:42:46 INFO  compiling root (1 scala source)
+2023.09.26 23:42:47 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.09.26 23:42:46 INFO  time: compiled root in 0.62s
+2023.09.26 23:42:58 INFO  compiling root (1 scala source)
+2023.09.26 23:42:58 INFO  time: compiled root in 0.64s
+2023.09.26 23:43:07 INFO  compiling root (1 scala source)
+2023.09.26 23:43:07 INFO  time: compiled root in 0.61s
+2023.09.26 23:43:16 INFO  compiling root (1 scala source)
+2023.09.26 23:43:16 INFO  time: compiled root in 0.36s
+2023.09.26 23:44:45 INFO  compiling root (1 scala source)
+2023.09.26 23:44:45 INFO  time: compiled root in 0.36s
+2023.09.26 23:45:04 INFO  compiling root (1 scala source)
+2023.09.26 23:45:04 INFO  time: compiled root in 0.62s
+2023.09.26 23:45:04 INFO  Deduplicating compilation of root from bsp client 'Metals 1.0.1+42-b511ce90-SNAPSHOT' (since 1h 17m 28.572s)
+2023.09.26 23:46:47 INFO  compiling root (1 scala source)
+2023.09.26 23:46:47 INFO  time: compiled root in 0.58s
+2023.09.26 23:47:16 INFO  compiling root (1 scala source)
+2023.09.26 23:47:16 INFO  time: compiled root in 0.38s
+2023.09.26 23:55:42 INFO  compiling root (1 scala source)
+2023.09.26 23:55:42 INFO  time: compiled root in 0.12s
+2023.09.26 23:55:42 INFO  compiling root (1 scala source)
+2023.09.26 23:55:42 INFO  time: compiled root in 79ms
+2023.09.26 23:55:42 INFO  compiling root (1 scala source)
+2023.09.26 23:55:42 INFO  time: compiled root in 68ms
+2023.09.26 23:56:39 INFO  compiling root (1 scala source)
+2023.09.26 23:56:39 INFO  time: compiled root in 67ms
+2023.09.26 23:56:39 INFO  compiling root (1 scala source)
+2023.09.26 23:56:39 INFO  time: compiled root in 27ms
+2023.09.26 23:56:39 INFO  compiling root (1 scala source)
+2023.09.26 23:56:39 INFO  time: compiled root in 25ms
+2023.09.26 23:56:45 INFO  compiling root (1 scala source)
+2023.09.26 23:56:45 INFO  time: compiled root in 0.11s
+2023.09.26 23:56:45 INFO  compiling root (1 scala source)
+2023.09.26 23:56:45 INFO  time: compiled root in 75ms
+2023.09.26 23:56:57 INFO  compiling root (1 scala source)
+2023.09.26 23:56:57 INFO  time: compiled root in 0.1s
+2023.09.26 23:56:57 INFO  compiling root (1 scala source)
+2023.09.26 23:56:57 INFO  time: compiled root in 0.11s
+2023.09.26 23:57:14 INFO  compiling root (1 scala source)
+2023.09.26 23:57:14 INFO  time: compiled root in 0.1s
+2023.09.26 23:57:18 INFO  compiling root (1 scala source)
+2023.09.26 23:57:18 INFO  time: compiled root in 0.1s
+2023.09.26 23:57:18 INFO  compiling root (1 scala source)
+2023.09.26 23:57:18 INFO  time: compiled root in 78ms
+2023.09.26 23:57:18 INFO  compiling root (1 scala source)
+2023.09.26 23:57:18 INFO  time: compiled root in 89ms
+2023.09.26 23:57:29 INFO  compiling root (1 scala source)
+2023.09.26 23:57:29 INFO  time: compiled root in 95ms
+Sep 26, 2023 11:57:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5854
+2023.09.26 23:57:41 INFO  compiling root (1 scala source)
+2023.09.26 23:57:41 INFO  time: compiled root in 0.81s
+2023.09.26 23:57:46 INFO  compiling root (1 scala source)
+2023.09.26 23:57:46 INFO  time: compiled root in 0.39s
+2023.09.26 23:58:07 INFO  compiling root (1 scala source)
+2023.09.26 23:58:07 INFO  time: compiled root in 0.6s
+2023.09.26 23:59:13 INFO  compiling root (1 scala source)
+2023.09.26 23:59:13 INFO  Deduplicating compilation of root from bsp client 'Metals 1.0.1+42-b511ce90-SNAPSHOT' (since 1h 31m 37.266s)
+2023.09.26 23:59:13 INFO  compiling root (1 scala source)
+2023.09.26 23:59:13 INFO  time: compiled root in 0.12s
+2023.09.27 00:01:01 INFO  compiling root (1 scala source)
+2023.09.27 00:01:01 INFO  time: compiled root in 0.67s
+2023.09.27 00:01:44 INFO  compiling root (1 scala source)
+2023.09.27 00:01:44 INFO  time: compiled root in 0.6s
+2023.09.27 00:03:19 INFO  compiling root (1 scala source)
+2023.09.27 00:03:19 INFO  time: compiled root in 0.75s
+2023.09.27 00:03:49 INFO  compiling root (1 scala source)
+2023.09.27 00:03:49 INFO  time: compiled root in 0.65s
+2023.09.27 00:03:52 INFO  compiling root (1 scala source)
+2023.09.27 00:03:52 INFO  time: compiled root in 0.96s
+2023.09.27 00:04:16 INFO  compiling root (1 scala source)
+2023.09.27 00:04:16 INFO  time: compiled root in 0.75s
+2023.09.27 00:04:20 INFO  compiling root (1 scala source)
+2023.09.27 00:04:21 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.09.27 00:04:20 INFO  time: compiled root in 0.84s
+2023.09.27 00:04:32 INFO  compiling root (1 scala source)
+2023.09.27 00:04:32 INFO  time: compiled root in 0.66s
+2023.09.27 00:04:36 INFO  compiling root (1 scala source)
+2023.09.27 00:04:36 INFO  time: compiled root in 0.62s
+2023.09.27 00:04:43 INFO  compiling root (1 scala source)
+2023.09.27 00:04:43 INFO  time: compiled root in 0.62s
+2023.09.27 00:04:54 INFO  compiling root (1 scala source)
+2023.09.27 00:04:54 INFO  time: compiled root in 0.71s
+2023.09.27 00:05:01 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.09.27 00:05:01 INFO  compiling root (1 scala source)
+2023.09.27 00:05:01 INFO  time: compiled root in 0.12s
+2023.09.27 00:05:02 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.09.27 00:05:10 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.09.27 00:05:11 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.09.27 00:05:14 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.09.27 00:05:14 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.09.27 00:05:16 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.09.27 00:05:16 INFO  compiling root (1 scala source)
+2023.09.27 00:05:16 INFO  time: compiled root in 0.11s
+2023.09.27 00:05:16 INFO  compiling root (1 scala source)
+2023.09.27 00:05:16 INFO  time: compiled root in 79ms
+2023.09.27 00:05:16 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.09.27 00:05:20 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.09.27 00:05:20 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.09.27 00:05:22 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.09.27 00:05:22 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.09.27 00:05:26 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.09.27 00:05:26 INFO  compiling root (1 scala source)
+2023.09.27 00:05:26 INFO  time: compiled root in 0.12s
+2023.09.27 00:05:26 INFO  compiling root (1 scala source)
+2023.09.27 00:05:26 INFO  time: compiled root in 82ms
+2023.09.27 00:05:27 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.09.27 00:05:28 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.09.27 00:05:28 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.09.27 00:05:30 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.09.27 00:05:30 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.09.27 00:05:31 INFO  compiling root (1 scala source)
+2023.09.27 00:05:31 INFO  time: compiled root in 0.1s
+2023.09.27 00:05:32 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.09.27 00:05:32 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.09.27 00:05:32 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.09.27 00:05:55 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.09.27 00:05:57 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.09.27 00:05:59 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.09.27 00:06:00 INFO  compiling root (1 scala source)
+2023.09.27 00:06:00 INFO  time: compiled root in 0.11s
+2023.09.27 00:06:01 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.09.27 00:06:56 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.09.27 00:06:58 INFO  compiling root (1 scala source)
+2023.09.27 00:06:58 INFO  time: compiled root in 0.1s
+2023.09.27 00:06:58 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.09.27 00:06:59 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.09.27 00:07:04 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.09.27 00:07:14 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.09.27 00:07:17 INFO  compiling root (1 scala source)
+2023.09.27 00:07:17 INFO  time: compiled root in 96ms
+2023.09.27 00:07:18 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.09.27 00:07:24 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.09.27 00:07:24 INFO  compiling root (1 scala source)
+2023.09.27 00:07:24 INFO  time: compiled root in 90ms
+2023.09.27 00:07:25 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.09.27 00:07:25 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.09.27 00:07:25 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.09.27 00:07:39 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.09.27 00:07:40 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.09.27 00:07:40 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.09.27 00:07:39 WARN  Using indexes to guess the definition of statement
+2023.09.27 00:07:40 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+Sep 27, 2023 12:07:42 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7045
+2023.09.27 00:07:42 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.09.27 00:07:43 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.09.27 00:07:43 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.09.27 00:07:44 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.09.27 00:07:45 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.09.27 00:07:45 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.09.27 00:07:45 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.09.27 00:07:45 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.09.27 00:07:46 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.09.27 00:07:47 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.09.27 00:07:48 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.09.27 00:07:49 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.09.27 00:07:49 INFO  compiling root (1 scala source)
+2023.09.27 00:07:49 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.09.27 00:07:49 INFO  time: compiled root in 0.64s
+2023.09.27 00:08:00 INFO  compiling root (1 scala source)
+2023.09.27 00:08:00 INFO  time: compiled root in 0.55s
+2023.09.27 00:09:26 INFO  compiling root (1 scala source)
+2023.09.27 00:09:26 INFO  time: compiled root in 0.54s
+2023.09.27 00:09:28 INFO  compiling root (1 scala source)
+2023.09.27 00:09:28 INFO  time: compiled root in 0.34s
+2023.09.27 00:10:24 INFO  compiling root (1 scala source)
+2023.09.27 00:10:24 INFO  time: compiled root in 0.36s
+2023.09.27 00:10:26 INFO  compiling root (1 scala source)
+2023.09.27 00:10:26 INFO  time: compiled root in 0.42s
+2023.09.27 00:13:08 INFO  compiling root (1 scala source)
+2023.09.27 00:13:08 INFO  time: compiled root in 0.55s
+2023.09.27 00:13:33 INFO  compiling root (1 scala source)
+2023.09.27 00:13:33 INFO  time: compiled root in 0.56s
+2023.09.27 00:14:22 INFO  compiling root (1 scala source)
+2023.09.27 00:14:22 INFO  time: compiled root in 80ms
+2023.09.27 00:14:22 INFO  compiling root (1 scala source)
+2023.09.27 00:14:22 INFO  time: compiled root in 70ms
+2023.09.27 00:14:22 INFO  compiling root (1 scala source)
+2023.09.27 00:14:22 INFO  time: compiled root in 73ms
+2023.09.27 00:14:34 INFO  compiling root (1 scala source)
+2023.09.27 00:14:34 INFO  time: compiled root in 0.72s
+Sep 27, 2023 12:14:37 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7623
+2023.09.27 00:14:57 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.09.27 00:14:57 INFO  compiling root (1 scala source)
+2023.09.27 00:14:57 INFO  time: compiled root in 0.55s
+2023.09.27 00:15:03 INFO  compiling root (1 scala source)
+2023.09.27 00:15:03 INFO  time: compiled root in 0.6s
+2023.09.27 00:16:01 INFO  compiling root (1 scala source)
+2023.09.27 00:16:01 INFO  time: compiled root in 0.57s
+Sep 27, 2023 12:16:13 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.UnsupportedOperationException: tail of empty list
+java.util.concurrent.CompletionException: java.lang.UnsupportedOperationException: tail of empty list
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:708)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2162)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.lang.UnsupportedOperationException: tail of empty list
+	at scala.collection.immutable.Nil$.tail(List.scala:664)
+	at scala.collection.immutable.Nil$.tail(List.scala:661)
+	at scala.meta.internal.metals.codeactions.CreateCompanionObjectCodeAction.$anonfun$endPosOfTree$1(CreateCompanionObjectCodeAction.scala:77)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.CreateCompanionObjectCodeAction.endPosOfTree(CreateCompanionObjectCodeAction.scala:75)
+	at scala.meta.internal.metals.codeactions.CreateCompanionObjectCodeAction.$anonfun$contribute$5(CreateCompanionObjectCodeAction.scala:61)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.codeactions.CreateCompanionObjectCodeAction.$anonfun$contribute$4(CreateCompanionObjectCodeAction.scala:58)
+	at scala.Option$WithFilter.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.CreateCompanionObjectCodeAction.$anonfun$contribute$2(CreateCompanionObjectCodeAction.scala:56)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.CreateCompanionObjectCodeAction.$anonfun$contribute$1(CreateCompanionObjectCodeAction.scala:55)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+Sep 27, 2023 12:16:31 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8112
+2023.09.27 00:18:01 INFO  compiling root (1 scala source)
+2023.09.27 00:18:01 INFO  time: compiled root in 0.71s
+2023.09.27 00:18:19 INFO  compiling root (1 scala source)
+2023.09.27 00:18:19 INFO  time: compiled root in 0.52s
+2023.09.27 00:18:32 INFO  compiling root (1 scala source)
+2023.09.27 00:18:32 INFO  time: compiled root in 43ms
+2023.09.27 00:18:32 INFO  compiling root (1 scala source)
+2023.09.27 00:18:32 INFO  time: compiled root in 33ms
+2023.09.27 00:18:32 INFO  compiling root (1 scala source)
+2023.09.27 00:18:32 INFO  time: compiled root in 17ms
+2023.09.27 00:18:33 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/main/Main.scala
+2023.09.27 00:18:33 INFO  compiling root (1 scala source)
+2023.09.27 00:18:33 INFO  time: compiled root in 26ms
+2023.09.27 00:18:33 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/main/Main.scala
+2023.09.27 00:18:34 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/main/Main.scala
+2023.09.27 00:18:34 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/main/Main.scala
+2023.09.27 00:18:34 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/main/Main.scala
+2023.09.27 00:18:37 INFO  compiling root (1 scala source)
+2023.09.27 00:18:37 INFO  time: compiled root in 0.31s
+Sep 27, 2023 12:20:32 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8761
+Sep 27, 2023 12:20:33 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8770
+2023.09.27 00:21:00 WARN  Using indexes to guess the definition of char
+Sep 27, 2023 12:24:13 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9124
+2023.09.27 00:24:14 INFO  compiling root (1 scala source)
+2023.09.27 00:24:14 INFO  time: compiled root in 0.54s
+2023.09.27 00:24:31 INFO  compiling root (1 scala source)
+2023.09.27 00:24:31 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.09.27 00:24:31 INFO  time: compiled root in 0.69s
+Sep 27, 2023 12:27:02 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9367
+2023.09.27 00:27:08 INFO  compiling root (1 scala source)
+2023.09.27 00:27:08 INFO  time: compiled root in 0.6s
+2023.09.27 00:27:08 INFO  compiling root (1 scala source)
+2023.09.27 00:27:08 INFO  time: compiled root in 70ms
+2023.09.27 00:27:12 INFO  compiling root (1 scala source)
+2023.09.27 00:27:12 INFO  time: compiled root in 89ms
+2023.09.27 00:27:20 INFO  compiling root (1 scala source)
+2023.09.27 00:27:21 INFO  time: compiled root in 1.44s
+2023.09.27 00:27:21 INFO  Deduplicating compilation of root from bsp client 'Metals 1.0.1+42-b511ce90-SNAPSHOT' (since 1h 59m 44.886s)
+2023.09.27 00:27:50 INFO  compiling root (1 scala source)
+2023.09.27 00:27:50 INFO  time: compiled root in 0.36s
+2023.09.27 00:30:03 INFO  compiling root (1 scala source)
+2023.09.27 00:30:05 INFO  time: compiled root in 2.06s
+2023.09.27 00:30:13 INFO  compiling root (1 scala source)
+2023.09.27 00:30:13 INFO  time: compiled root in 0.52s
+2023.09.27 00:31:50 INFO  compiling root (1 scala source)
+2023.09.27 00:31:50 INFO  time: compiled root in 0.56s
