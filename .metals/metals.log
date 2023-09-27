@@ -6320,3 +6320,321 @@ WARNING: Unmatched cancel notification for request id 9367
 2023.09.27 00:39:35 INFO  time: compiled root in 0.36s
 Sep 27, 2023 12:39:46 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
 WARNING: Unmatched cancel notification for request id 9885
+java.util.concurrent.RejectedExecutionException: Task Future(<not completed>) rejected from java.util.concurrent.ThreadPoolExecutor@dfd3045[Shutting down, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 193981]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2065)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:833)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1365)
+	at scala.concurrent.impl.ExecutionContextImpl.execute(ExecutionContextImpl.scala:21)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.handleFailure(Promise.scala:444)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:435)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:504)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+java.util.concurrent.RejectedExecutionException: Task Future(<not completed>) rejected from java.util.concurrent.ThreadPoolExecutor@dfd3045[Shutting down, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 193981]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2065)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:833)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1365)
+	at scala.concurrent.impl.ExecutionContextImpl.execute(ExecutionContextImpl.scala:21)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:504)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2023.09.27 17:01:37 INFO  Started: Metals version 1.0.1+42-b511ce90-SNAPSHOT in folders '/home/jpantonow/Desktop/Unb/word-count-db' for client Visual Studio Code 1.82.2.
+Sep 27, 2023 5:01:37 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.22.1 by Redgate
+Sep 27, 2023 5:01:37 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Sep 27, 2023 5:01:37 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Sep 27, 2023 5:01:38 PM org.flywaydb.core.FlywayExecutor execute
+INFO: Database: jdbc:h2:file:/home/jpantonow/Desktop/Unb/word-count-db/.metals/metals (H2 2.1)
+Sep 27, 2023 5:01:38 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.050s)
+Sep 27, 2023 5:01:38 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Sep 27, 2023 5:01:38 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.09.27 17:01:38 INFO  time: initialize in 1.09s
+2023.09.27 17:01:42 INFO  Attempting to connect to the build server...
+2023.09.27 17:01:42 INFO  skipping build import with status 'Installed'
+2023.09.27 17:01:42 INFO  Bloop uses /usr/lib/jvm/java-17-openjdk-amd64 defined at /home/jpantonow/.bloop/bloop.json
+2023.09.27 17:01:54 INFO  no build target found for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/main/Main.scala. Using presentation compiler with project's scala-library version: 3.3.1
+2023.09.27 17:01:59 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/jpantonow/Desktop/Unb/word-count-db/.metals/bsp.trace.json or /home/jpantonow/.cache/metals/bsp.trace.json
+2023.09.27 17:01:59 INFO  Attempting to connect to the build server...
+2023.09.27 17:01:59 INFO  Bloop uses /usr/lib/jvm/java-17-openjdk-amd64 defined at /home/jpantonow/.bloop/bloop.json
+2023.09.27 17:01:59 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/jpantonow/Desktop/Unb/word-count-db/project/.metals/bsp.trace.json or /home/jpantonow/.cache/metals/bsp.trace.json
+2023.09.27 17:01:59 INFO  time: Connected to build server in 17s
+2023.09.27 17:01:59 INFO  Connected to Build server: Bloop v1.5.11
+2023.09.27 17:01:59 INFO  time: Imported build in 0.2s
+2023.09.27 17:02:05 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/lib/src.zip, /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2023.09.27 17:02:07 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/lib/src.zip, /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2023.09.27 17:02:07 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/lib/src.zip, /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2023.09.27 17:02:07 INFO  time: indexed workspace in 7.12s
+Sep 27, 2023 5:02:37 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2023.09.27 17:04:20 INFO  compiling root (1 scala source)
+2023.09.27 17:04:24 INFO  time: compiled root in 4.43s
+2023.09.27 17:04:52 INFO  compiling root (1 scala source)
+2023.09.27 17:04:53 INFO  time: compiled root in 1.55s
+2023.09.27 17:23:12 ERROR Failed to tokenize input for semantic tokens for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+scala.meta.tokenizers.TokenizeException: <input>:14: error: unclosed string literal
+    val path = "
+               ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:591)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:407)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:411)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:246)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1047)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:511)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2023.09.27 17:23:14 ERROR Failed to tokenize input for semantic tokens for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+scala.meta.tokenizers.TokenizeException: <input>:14: error: unclosed string literal
+    val path = "s
+               ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:591)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:407)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:411)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:246)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1047)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:511)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2023.09.27 17:23:19 INFO  compiling root (1 scala source)
+Exception in thread "pool-5-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:229)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Sep 27, 2023 5:23:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 153
+2023.09.27 17:23:19 INFO  Deduplicating compilation of root from bsp client 'Metals 1.0.1+42-b511ce90-SNAPSHOT' (since 21m 20.206s)
+2023.09.27 17:23:19 INFO  compiling root (1 scala source)
+2023.09.27 17:23:22 INFO  time: compiled root in 2.42s
+2023.09.27 17:23:26 INFO  compiling root (1 scala source)
+2023.09.27 17:23:27 INFO  time: compiled root in 1.23s
+Exception in thread "pool-5-thread-2" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:229)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2023.09.27 17:23:28 INFO  Deduplicating compilation of root from bsp client 'Metals 1.0.1+42-b511ce90-SNAPSHOT' (since 21m 28.771s)
+Sep 27, 2023 5:25:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 228
+Sep 27, 2023 5:25:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 230
+Sep 27, 2023 5:25:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 231
+Sep 27, 2023 5:25:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 235
+Sep 27, 2023 5:25:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 238
+Sep 27, 2023 5:25:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 239
+Sep 27, 2023 5:25:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 255
+Sep 27, 2023 5:25:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 252
+Sep 27, 2023 5:25:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 256
+2023.09.27 17:26:11 INFO  compiling root (1 scala source)
+2023.09.27 17:26:11 INFO  time: compiled root in 0.5s
+2023.09.27 17:26:11 INFO  compiling root (1 scala source)
+2023.09.27 17:26:12 INFO  time: compiled root in 0.46s
+2023.09.27 17:26:12 INFO  compiling root (1 scala source)
+2023.09.27 17:26:12 INFO  time: compiled root in 0.45s
+Exception in thread "pool-5-thread-3" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:229)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2023.09.27 17:27:54 INFO  compiling root (1 scala source)
+2023.09.27 17:27:54 INFO  time: compiled root in 0.28s
+2023.09.27 17:27:58 INFO  compiling root (1 scala source)
+2023.09.27 17:27:58 INFO  Deduplicating compilation of root from bsp client 'Metals 1.0.1+42-b511ce90-SNAPSHOT' (since 25m 58.879s)
+2023.09.27 17:27:58 INFO  compiling root (1 scala source)
+Sep 27, 2023 5:27:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 649
+2023.09.27 17:27:59 INFO  time: compiled root in 0.95s
+2023.09.27 17:28:12 INFO  compiling root (1 scala source)
+2023.09.27 17:28:12 INFO  time: compiled root in 0.18s
+2023.09.27 17:28:12 INFO  compiling root (1 scala source)
+2023.09.27 17:28:12 INFO  time: compiled root in 0.17s
+2023.09.27 17:28:23 INFO  compiling root (1 scala source)
+2023.09.27 17:28:24 INFO  time: compiled root in 1.14s
+2023.09.27 17:28:40 INFO  compiling root (1 scala source)
+2023.09.27 17:28:40 INFO  time: compiled root in 0.84s
+2023.09.27 17:29:39 INFO  compiling root (1 scala source)
+2023.09.27 17:29:39 INFO  time: compiled root in 0.81s
+2023.09.27 17:29:48 INFO  compiling root (1 scala source)
+Sep 27, 2023 5:29:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 860
+Sep 27, 2023 5:29:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 861
+2023.09.27 17:29:48 INFO  Deduplicating compilation of root from bsp client 'Metals 1.0.1+42-b511ce90-SNAPSHOT' (since 27m 49.417s)
+2023.09.27 17:29:48 INFO  compiling root (1 scala source)
+2023.09.27 17:29:48 INFO  time: compiled root in 91ms
+2023.09.27 17:33:43 INFO  compiling root (1 scala source)
+2023.09.27 17:33:43 INFO  time: compiled root in 0.81s
+2023.09.27 17:33:56 INFO  compiling root (1 scala source)
+2023.09.27 17:33:56 INFO  time: compiled root in 0.89s
+2023.09.27 17:33:57 INFO  Deduplicating compilation of root from bsp client 'Metals 1.0.1+42-b511ce90-SNAPSHOT' (since 31m 57.747s)
+2023.09.27 17:34:15 ERROR Failed to tokenize input for semantic tokens for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+scala.meta.tokenizers.TokenizeException: <input>:159: error: illegal character '\u00a8'
+    while(rs.next() ¨){
+                    ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchOther$1(LegacyScanner.scala:502)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:507)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:246)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1047)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:511)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2023.09.27 17:34:19 INFO  compiling root (1 scala source)
+2023.09.27 17:34:19 INFO  time: compiled root in 0.12s
+2023.09.27 17:35:22 INFO  compiling root (1 scala source)
+2023.09.27 17:35:23 INFO  time: compiled root in 1.05s
+2023.09.27 17:35:32 INFO  compiling root (1 scala source)
+2023.09.27 17:35:32 INFO  time: compiled root in 0.77s
+2023.09.27 17:35:35 INFO  compiling root (1 scala source)
+2023.09.27 17:35:35 INFO  time: compiled root in 0.12s
+2023.09.27 17:35:35 INFO  compiling root (1 scala source)
+2023.09.27 17:35:35 INFO  time: compiled root in 97ms
+2023.09.27 17:35:35 INFO  compiling root (1 scala source)
+2023.09.27 17:35:35 INFO  time: compiled root in 86ms
+2023.09.27 17:35:36 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.09.27 17:35:40 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.09.27 17:35:41 INFO  compiling root (1 scala source)
+2023.09.27 17:35:41 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.09.27 17:35:41 INFO  time: compiled root in 0.69s
+Sep 27, 2023 5:35:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1499
+2023.09.27 17:35:45 INFO  compiling root (1 scala source)
+2023.09.27 17:35:45 INFO  time: compiled root in 0.77s
+Exception in thread "pool-5-thread-4" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:229)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2023.09.27 17:36:09 WARN  Using indexes to guess the definition of break
+2023.09.27 17:36:09 INFO  compiling root (1 scala source)
+2023.09.27 17:36:09 INFO  time: compiled root in 0.74s
+2023.09.27 17:36:22 INFO  compiling root (1 scala source)
+2023.09.27 17:36:22 INFO  time: compiled root in 0.71s
+2023.09.27 17:36:45 INFO  compiling root (1 scala source)
+2023.09.27 17:36:45 INFO  time: compiled root in 0.68s
+2023.09.27 17:37:45 INFO  compiling root (1 scala source)
+2023.09.27 17:37:45 INFO  time: compiled root in 0.87s
+Sep 27, 2023 5:40:43 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: offset 392, count -1, length 441
+2023.09.27 17:40:44 INFO  compiling root (1 scala source)
+2023.09.27 17:40:44 INFO  time: compiled root in 82ms
+2023.09.27 17:40:44 INFO  compiling root (1 scala source)
+2023.09.27 17:40:44 INFO  time: compiled root in 82ms
+2023.09.27 17:40:52 INFO  compiling root (1 scala source)
+2023.09.27 17:40:52 INFO  time: compiled root in 68ms
+2023.09.27 17:40:52 INFO  compiling root (1 scala source)
+2023.09.27 17:40:52 INFO  time: compiled root in 49ms
+2023.09.27 17:40:57 ERROR Failed to tokenize input for semantic tokens for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/main/Main.scala
+scala.meta.tokenizers.TokenizeException: <input>:12: error: unclosed string interpolation
+    println("\n + greenColor + "Successful" + resetColor)
+                                           ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringPart(LegacyScanner.scala:697)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:392)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:411)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:246)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1047)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:511)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2023.09.27 17:40:58 INFO  compiling root (1 scala source)
+2023.09.27 17:40:58 INFO  time: compiled root in 0.55s

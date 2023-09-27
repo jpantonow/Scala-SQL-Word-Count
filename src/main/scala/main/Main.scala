@@ -9,5 +9,5 @@ object Main extends App {
     //Caso de sucesso
     val greenColor = "\u001B[32m"
     val resetColor = "\u001B[0m"
-    println(greenColor + "Successful" + resetColor)
+    println("\n" + greenColor + "Successful" + resetColor)
 }
