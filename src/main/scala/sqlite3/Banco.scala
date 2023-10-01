@@ -150,7 +150,7 @@ class Select_Characters extends Conexao with ReadFile{
     val select = conn.createStatement()
 
     //Comando para ordenar as palavras por ordem de frequência
-    var command = "SELECT name,frequency, COUNT(*) as frequency "
+    var command = "SELECT char,frequency, COUNT(*) as frequency "
     command += "FROM characters GROUP BY char ORDER BY CAST(frequency AS int) DESC"
 
     //Coloca para executar a query
@@ -167,4 +167,24 @@ class Select_Characters extends Conexao with ReadFile{
     //Fecha a conexão com o banco de dados     
     select.close()
     conn.close()
+}
+
+class WordCount {
+    def contar: Unit = {
+        val db_create = new CreateTables()
+        val db_insert = new Insert_Words()
+        print_success("\nSuccessfully into Database")
+    }
+    def selecionar: Unit = {
+        print_success("\n100 Most frequent words")
+        val db_select_words = new Select_Words()
+        print_success("\n100 Most frequent characters")
+        val db_select_char = new Select_Characters()
+
+    }
+    def print_success(string: String): Unit = {
+         val greenColor = "\u001B[32m"
+         val resetColor = "\u001B[0m"
+         println(greenColor + string + resetColor)
+    }
 }
