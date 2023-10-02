@@ -163,8 +163,8 @@ class Select_Characters(path_to_text: String, path_to_database: String) extends 
     conn.close()
 }
 
-class Export_to_CSV (path_to_text: String, path_to_database: String) extends Initialize(path_to_text: String, path_to_database: String){
-    var Export = new PrintWriter(new File("src/main/scala/spreadsheets/tabela.csv))"))
+class Export_to_CSV (path_to_text: String, path_to_database: String, book_name: String) extends Initialize(path_to_text: String, path_to_database: String){
+    var Export = new PrintWriter(new File("src/main/scala/spreadsheets/" + book_name + "-words.csv"))
     var sb: StringBuilder = new StringBuilder()
 
      //Estabelendo a conexão com o JDBC
@@ -176,7 +176,7 @@ class Export_to_CSV (path_to_text: String, path_to_database: String) extends Ini
     query += "FROM words GROUP BY name ORDER BY CAST(frequency AS int) DESC"
     var rt: PreparedStatement = conn.prepareStatement(query)
     var rs = rt.executeQuery()
-
+    sb.append("name" + "," + "frequency" + "\r\n")
     while(rs.next()){
         sb.append(rs.getString("name"))
         sb.append(",")
@@ -184,6 +184,24 @@ class Export_to_CSV (path_to_text: String, path_to_database: String) extends Ini
         sb.append("\r\n")
     }
 
+    Export.write(sb.toString())
+    Export.close()
+    sb.clear()
+    rs.close()
+    rt.close()
+    Export = new PrintWriter(new File("src/main/scala/spreadsheets/" + book_name + "-characters.csv"))
+    query = "SELECT *, COUNT(*) as frequency "
+    query += "FROM characters GROUP BY char ORDER BY CAST(frequency AS int) DESC"
+    rt = conn.prepareStatement(query)
+    rs = rt.executeQuery()
+    sb.append("char" + "," + "frequency" + "\r\n")
+    while(rs.next()){
+        sb.append(rs.getString("char"))
+        sb.append(",")
+        sb.append(rs.getString("frequency"))
+        sb.append("\r\n")
+    }
+    
     Export.write(sb.toString())
     Export.close()
 }

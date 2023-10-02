@@ -1,6 +1,5 @@
 package components
-import sqlite3.{Select_Words, CreateTables, Insert_Words, Select_Characters}
-import sqlite3.Export_to_CSV
+import sqlite3._
 
 class WordCount extends Interaction{
     def contar: Unit = {
@@ -24,7 +23,12 @@ class WordCount extends Interaction{
     }
 
     def export_csv: Unit = {
-        val db_export_Csv = new Export_to_CSV(txt_file, db_file)
-        print_success("Successfully into CSV File")
+        if(export_message=="y"){
+            val db_export_Csv = new Export_to_CSV(txt_file, db_file, book_name)
+            print_success("Successfully into CSV File")
+        }
+        else{
+            return
+        }
     }
 }
