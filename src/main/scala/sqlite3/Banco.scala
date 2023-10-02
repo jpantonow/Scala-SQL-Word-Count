@@ -8,11 +8,12 @@ import scala.io.Source
 import java.sql.ResultSet
 import java.sql.PreparedStatement
 import java.io.PrintWriter
+import java.io.File
 
 //Trait para obter o caminho do banco de dados
 //e conectar com o driver jdbc
 trait Conexao{
-    val path = "src/main/scala/sqlite3/marx.db"
+    val path = "src/main/scala/sqlite3/databases/marx.db"
     val url = s"jdbc:sqLite:$path"
 }
 
@@ -110,7 +111,6 @@ class Insert_Words extends Conexao with ReadFile{
         }
 
     //Executa o statement e fecha a conexão com o banco de dados     
-    //insert.executeBatch()
     rt.close()
     conn.commit()
     conn.close()
@@ -168,4 +168,29 @@ class Select_Characters extends Conexao with ReadFile{
     //Fecha a conexão com o banco de dados     
     select.close()
     conn.close()
+}
+
+class Export_to_CSV extends Conexao{
+    var Export = new PrintWriter(new File("src/main/scala/spreadsheets/tabela.csv))"))
+    var sb: StringBuilder = new StringBuilder()
+
+     //Estabelendo a conexão com o JDBC
+    val conn = DriverManager.getConnection(url)
+      //Desativando o autocommit
+    conn.setAutoCommit(false)
+
+    var query: String = "SELECT *, COUNT(*) as frequency "
+    query += "FROM words GROUP BY name ORDER BY CAST(frequency AS int) DESC"
+    var rt: PreparedStatement = conn.prepareStatement(query)
+    var rs = rt.executeQuery()
+
+    while(rs.next()){
+        sb.append(rs.getString("name"))
+        sb.append(",")
+        sb.append(rs.getString("frequency"))
+        sb.append("\r\n")
+    }
+
+    Export.write(sb.toString())
+    Export.close()
 }
