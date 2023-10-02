@@ -9,24 +9,17 @@ import java.sql.ResultSet
 import java.sql.PreparedStatement
 import java.io.PrintWriter
 import java.io.File
-
+import components.Interaction
 //Trait para obter o caminho do banco de dados
 //e conectar com o driver jdbc
-trait Conexao{
-    val path = "src/main/scala/sqlite3/databases/marx.db"
-    val url = s"jdbc:sqLite:$path"
-}
-
-//Trait para obter o caminho do livro em formato txt
-//Lines retorna todas as linhas do livro em uma lista de Strings
-trait ReadFile{
-    val file = "src/main/scala/texts/marx.txt"
-    val book = scala.io.Source.fromFile(file)
+class Initialize(path_to_text: String, path_to_database: String){
+    val url = s"jdbc:sqLite:$path_to_database"
+    val book = scala.io.Source.fromFile(path_to_text)
     val lines: List[String] = book.getLines().toList
 }
 
 //Classe pra inicializar o banco de dados com as tabelas necessárias
-class CreateTables extends Conexao with ReadFile{
+class CreateTables(path_to_text: String, path_to_database: String) extends Initialize(path_to_text: String, path_to_database: String){
     
     //Estabelendo a conexão com o JDBC
     val conn = DriverManager.getConnection(url)
@@ -57,7 +50,7 @@ class CreateTables extends Conexao with ReadFile{
     conn.close()
 }
 
-class Insert_Words extends Conexao with ReadFile{
+class Insert_Words(path_to_text: String, path_to_database: String) extends Initialize(path_to_text: String, path_to_database: String){
 
     //Estabelendo a conexão com o JDBC
     val conn = DriverManager.getConnection(url)
@@ -116,7 +109,7 @@ class Insert_Words extends Conexao with ReadFile{
     conn.close()
 }
 
-class Select_Words extends Conexao with ReadFile{
+class Select_Words(path_to_text: String, path_to_database: String) extends Initialize(path_to_text: String, path_to_database: String){
      //Estabelendo a conexão com o JDBC
     val conn = DriverManager.getConnection(url)
 
@@ -143,7 +136,7 @@ class Select_Words extends Conexao with ReadFile{
     conn.close()
 }
 
-class Select_Characters extends Conexao with ReadFile{
+class Select_Characters(path_to_text: String, path_to_database: String) extends Initialize(path_to_text: String, path_to_database: String){
      //Estabelendo a conexão com o JDBC
     val conn = DriverManager.getConnection(url)
 
@@ -170,7 +163,7 @@ class Select_Characters extends Conexao with ReadFile{
     conn.close()
 }
 
-class Export_to_CSV extends Conexao{
+class Export_to_CSV (path_to_text: String, path_to_database: String) extends Initialize(path_to_text: String, path_to_database: String){
     var Export = new PrintWriter(new File("src/main/scala/spreadsheets/tabela.csv))"))
     var sb: StringBuilder = new StringBuilder()
 
