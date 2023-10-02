@@ -1,15 +1,16 @@
 package sqlite3
+
 import java.sql.Connection
-import java.sql.Date
 import java.sql.SQLException
 import java.sql.DriverManager
 import java.sql.Statement
-import scala.io.Source
 import java.sql.ResultSet
 import java.sql.PreparedStatement
 import java.io.PrintWriter
 import java.io.File
+import scala.io.Source
 import components.Interaction
+
 //Trait para obter o caminho do banco de dados
 //e conectar com o driver jdbc
 class Initialize(path_to_text: String, path_to_database: String){
@@ -39,8 +40,8 @@ class CreateTables(path_to_text: String, path_to_database: String) extends Initi
     )
 
     //Percorre a array e adiciona cada comando ao statement SQL na "Pilha"
-    for(comando <- criar){
-        rt = conn.prepareStatement(comando)
+    for(command <- criar){
+        rt = conn.prepareStatement(command)
         rt.execute()
     }
 
@@ -108,59 +109,59 @@ class Insert_Words(path_to_text: String, path_to_database: String) extends Initi
     conn.commit()
     conn.close()
 }
+class Select_Most_Frequent(path_to_text: String, path_to_database: String) extends Initialize(path_to_text: String, path_to_database: String){
+    
+    def words: Unit = {
+        val conn = DriverManager.getConnection(url)
 
-class Select_Words(path_to_text: String, path_to_database: String) extends Initialize(path_to_text: String, path_to_database: String){
-     //Estabelendo a conexão com o JDBC
-    val conn = DriverManager.getConnection(url)
+        //Criando um statement SQL
+        val select = conn.createStatement()
 
-    //Criando um statement SQL
-    val select = conn.createStatement()
+        //Comando para ordenar as palavras por ordem de frequência
+        var command = "SELECT name,frequency, COUNT(*) as frequency "
+        command += "FROM words GROUP BY name ORDER BY CAST(frequency AS int) DESC"
 
-    //Comando para ordenar as palavras por ordem de frequência
-    var command = "SELECT name,frequency, COUNT(*) as frequency "
-    command += "FROM words GROUP BY name ORDER BY CAST(frequency AS int) DESC"
+        //Coloca para executar a query
+        val rs = select.executeQuery(command)
+        var break: Int = 0
+        //Pega todos os resultados da Query
+        while(rs.next() && (break!=100)){
+            var name = rs.getString("name")
+            var frequency = rs.getInt("frequency")
+            println(s"$name has appeared $frequency times.")
+            break += 1
+        }
 
-    //Coloca para executar a query
-    val rs = select.executeQuery(command)
-    var break: Int = 0
-    //Pega todos os resultados da Query
-    while(rs.next() && (break!=100)){
-        var name = rs.getString("name")
-        var frequency = rs.getInt("frequency")
-        println(s"$name has appeared $frequency times.")
-        break += 1
+        //Fecha a conexão com o banco de dados     
+        select.close()
+        conn.close()
     }
 
-    //Fecha a conexão com o banco de dados     
-    select.close()
-    conn.close()
-}
+    def characters: Unit = {
+        val conn = DriverManager.getConnection(url)
 
-class Select_Characters(path_to_text: String, path_to_database: String) extends Initialize(path_to_text: String, path_to_database: String){
-     //Estabelendo a conexão com o JDBC
-    val conn = DriverManager.getConnection(url)
+        //Criando um statement SQL
+        val select = conn.createStatement()
 
-    //Criando um statement SQL
-    val select = conn.createStatement()
+        //Comando para ordenar as palavras por ordem de frequência
+        var command = "SELECT char,frequency, COUNT(*) as frequency "
+        command += "FROM characters GROUP BY char ORDER BY CAST(frequency AS int) DESC"
 
-    //Comando para ordenar as palavras por ordem de frequência
-    var command = "SELECT char,frequency, COUNT(*) as frequency "
-    command += "FROM characters GROUP BY char ORDER BY CAST(frequency AS int) DESC"
+        //Coloca para executar a query
+        val rs = select.executeQuery(command)
+        var break: Int = 0
+        //Pega todos os resultados da Query
+        while(rs.next() && (break!=100)){
+            var char = rs.getString("char")
+            var frequency = rs.getInt("frequency")
+            println(s"$char has appeared $frequency times.")
+            break += 1
+        }
 
-    //Coloca para executar a query
-    val rs = select.executeQuery(command)
-    var break: Int = 0
-    //Pega todos os resultados da Query
-    while(rs.next() && (break!=100)){
-        var char = rs.getString("char")
-        var frequency = rs.getInt("frequency")
-        println(s"$char has appeared $frequency times.")
-        break += 1
-    }
-
-    //Fecha a conexão com o banco de dados     
-    select.close()
-    conn.close()
+        //Fecha a conexão com o banco de dados     
+        select.close()
+        conn.close()
+        }
 }
 
 class Export_to_CSV (path_to_text: String, path_to_database: String, book_name: String) extends Initialize(path_to_text: String, path_to_database: String){
