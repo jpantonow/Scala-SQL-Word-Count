@@ -12355,3 +12355,170 @@ WARNING: Unmatched cancel notification for request id 27728
 2023.10.02 20:01:52 INFO  time: compiled root in 0.63s
 Oct 02, 2023 8:01:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
 WARNING: Unmatched cancel notification for request id 27872
+2023.10.02 20:24:40 INFO  compiling root (1 scala source)
+2023.10.02 20:24:40 INFO  time: compiled root in 0.88s
+2023.10.02 20:24:56 INFO  compiling root (1 scala source)
+2023.10.02 20:24:56 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.10.02 20:24:56 INFO  time: compiled root in 0.64s
+2023.10.02 20:25:26 ERROR Failed to tokenize input for semantic tokens for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+scala.meta.tokenizers.TokenizeException: <input>:82: error: unclosed string literal
+            print("text(n) == " + text(n) + "\")
+                                            ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:591)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:407)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:411)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:246)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1047)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:511)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2023.10.02 20:25:32 INFO  compiling root (1 scala source)
+2023.10.02 20:25:32 INFO  time: compiled root in 0.65s
+2023.10.02 20:26:58 INFO  compiling root (1 scala source)
+2023.10.02 20:26:58 INFO  time: compiled root in 0.75s
+2023.10.02 20:27:17 INFO  compiling root (1 scala source)
+2023.10.02 20:27:17 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.10.02 20:27:17 INFO  time: compiled root in 0.61s
+2023.10.02 20:27:27 INFO  compiling root (1 scala source)
+2023.10.02 20:27:27 INFO  time: compiled root in 0.66s
+2023.10.02 20:27:41 INFO  compiling root (1 scala source)
+2023.10.02 20:27:42 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.10.02 20:27:41 INFO  time: compiled root in 0.63s
+2023.10.02 20:28:06 INFO  compiling root (1 scala source)
+2023.10.02 20:28:06 INFO  time: compiled root in 0.61s
+2023.10.02 20:28:48 INFO  compiling root (1 scala source)
+2023.10.02 20:28:48 INFO  time: compiled root in 0.92s
+2023.10.02 20:29:12 INFO  compiling root (1 scala source)
+2023.10.02 20:29:12 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.10.02 20:29:12 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.10.02 20:29:12 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.10.02 20:29:12 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.10.02 20:29:12 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.10.02 20:29:12 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.10.02 20:29:12 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.10.02 20:29:12 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.10.02 20:29:12 WARN  Using indexes to guess the definition of text
+2023.10.02 20:29:12 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.10.02 20:29:12 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.10.02 20:29:12 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.10.02 20:29:12 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.10.02 20:29:12 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.10.02 20:29:12 WARN  Using indexes to guess the definition of stopwords
+2023.10.02 20:29:12 INFO  time: compiled root in 0.83s
+2023.10.02 20:29:18 INFO  compiling root (1 scala source)
+2023.10.02 20:29:18 INFO  time: compiled root in 0.62s
+2023.10.02 20:29:53 INFO  compiling root (1 scala source)
+2023.10.02 20:29:53 INFO  time: compiled root in 0.81s
+2023.10.02 20:31:32 INFO  compiling root (1 scala source)
+2023.10.02 20:31:32 INFO  time: compiled root in 66ms
+2023.10.02 20:31:42 INFO  compiling root (1 scala source)
+2023.10.02 20:31:42 INFO  time: compiled root in 47ms
+2023.10.02 20:31:53 ERROR Failed to tokenize input for semantic tokens for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+scala.meta.tokenizers.TokenizeException: <input>:83: error: unclosed string literal
+                println("Tru
+                        ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:591)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:407)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:411)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:246)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1047)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:511)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2023.10.02 20:31:53 ERROR Failed to tokenize input for semantic tokens for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+scala.meta.tokenizers.TokenizeException: <input>:83: error: unclosed string literal
+                println("Tr
+                        ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:591)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:407)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:411)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:246)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1047)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:511)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2023.10.02 20:31:56 INFO  compiling root (1 scala source)
+2023.10.02 20:31:56 INFO  time: compiled root in 0.69s
+Oct 02, 2023 8:32:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 29288
+Oct 02, 2023 8:32:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 29305
+2023.10.02 20:32:56 INFO  compiling root (1 scala source)
+2023.10.02 20:32:56 INFO  time: compiled root in 0.72s
+2023.10.02 20:33:21 INFO  compiling root (1 scala source)
+2023.10.02 20:33:21 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.10.02 20:33:21 INFO  time: compiled root in 0.69s
+2023.10.02 20:34:14 INFO  compiling root (1 scala source)
+2023.10.02 20:34:14 INFO  time: compiled root in 0.64s
+2023.10.02 20:34:59 INFO  compiling root (1 scala source)
+2023.10.02 20:34:59 INFO  time: compiled root in 0.83s
+2023.10.02 20:38:32 INFO  compiling root (1 scala source)
+2023.10.02 20:38:32 INFO  time: compiled root in 0.63s
+2023.10.02 20:39:19 INFO  compiling root (1 scala source)
+2023.10.02 20:39:19 INFO  time: compiled root in 0.68s
+Oct 02, 2023 8:40:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 29908
+2023.10.02 20:42:23 INFO  compiling root (1 scala source)
+2023.10.02 20:42:23 INFO  time: compiled root in 0.72s
+2023.10.02 20:42:35 INFO  compiling root (1 scala source)
+2023.10.02 20:42:35 INFO  time: compiled root in 0.7s
+2023.10.02 20:42:44 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.10.02 20:42:44 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.10.02 20:42:44 INFO  compiling root (1 scala source)
+2023.10.02 20:42:44 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.10.02 20:42:44 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.10.02 20:42:44 INFO  time: compiled root in 0.72s
