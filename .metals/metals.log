@@ -12108,3 +12108,176 @@ java.nio.file.NoSuchFileException: /home/jpantonow/Desktop/Unb/word-count-db/src
 2023.10.02 18:33:46 INFO  compiling root (1 scala source)
 2023.10.02 18:33:46 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
 2023.10.02 18:33:46 INFO  time: compiled root in 0.47s
+2023.10.02 18:38:29 INFO  compiling root (1 scala source)
+2023.10.02 18:38:30 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/components/Interaction.scala
+2023.10.02 18:38:29 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.10.02 18:38:29 INFO  time: compiled root in 0.43s
+2023.10.02 18:38:29 INFO  compiling root (1 scala source)
+2023.10.02 18:38:29 INFO  time: compiled root in 97ms
+2023.10.02 18:39:23 INFO  compiling root (1 scala source)
+2023.10.02 18:39:23 INFO  time: compiled root in 88ms
+2023.10.02 18:39:24 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.10.02 18:39:25 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.10.02 18:39:25 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.10.02 18:39:25 INFO  compiling root (1 scala source)
+2023.10.02 18:39:25 INFO  time: compiled root in 85ms
+2023.10.02 18:39:26 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.10.02 18:39:27 INFO  compiling root (1 scala source)
+2023.10.02 18:39:27 INFO  time: compiled root in 76ms
+2023.10.02 18:39:27 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.10.02 18:39:27 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.10.02 18:39:27 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.10.02 18:39:27 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.10.02 18:39:27 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.10.02 18:39:27 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.10.02 18:39:27 INFO  compiling root (1 scala source)
+2023.10.02 18:39:27 INFO  time: compiled root in 67ms
+2023.10.02 18:39:27 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.10.02 18:39:27 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.10.02 18:39:27 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.10.02 18:39:27 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.10.02 18:39:27 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.10.02 18:39:27 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.10.02 18:39:27 INFO  compiling root (1 scala source)
+2023.10.02 18:39:27 INFO  time: compiled root in 72ms
+2023.10.02 18:39:28 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.10.02 18:39:33 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.10.02 18:39:34 INFO  compiling root (1 scala source)
+2023.10.02 18:39:34 INFO  time: compiled root in 0.1s
+2023.10.02 18:39:34 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.10.02 18:39:34 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.10.02 18:39:34 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.10.02 18:39:34 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.10.02 18:39:34 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.10.02 18:39:38 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.10.02 18:39:38 INFO  compiling root (1 scala source)
+2023.10.02 18:39:38 INFO  time: compiled root in 79ms
+2023.10.02 18:39:39 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.10.02 18:39:40 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.10.02 18:39:43 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.10.02 18:39:44 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.10.02 18:39:45 INFO  compiling root (1 scala source)
+2023.10.02 18:39:45 INFO  time: compiled root in 86ms
+2023.10.02 18:39:46 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.10.02 18:39:49 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.10.02 18:39:49 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.10.02 18:39:49 INFO  compiling root (1 scala source)
+2023.10.02 18:39:49 INFO  time: compiled root in 92ms
+2023.10.02 18:39:50 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.10.02 18:39:53 INFO  compiling root (1 scala source)
+2023.10.02 18:39:53 INFO  time: compiled root in 98ms
+2023.10.02 18:39:53 INFO  compiling root (1 scala source)
+2023.10.02 18:39:53 INFO  time: compiled root in 59ms
+2023.10.02 18:39:54 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.10.02 18:40:13 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+Oct 02, 2023 6:40:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 24921
+2023.10.02 18:40:15 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.10.02 18:40:16 INFO  compiling root (1 scala source)
+2023.10.02 18:40:16 INFO  time: compiled root in 89ms
+2023.10.02 18:40:16 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.10.02 18:40:16 INFO  compiling root (1 scala source)
+2023.10.02 18:40:16 INFO  time: compiled root in 57ms
+2023.10.02 18:40:17 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.10.02 18:40:21 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.10.02 18:40:21 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.10.02 18:40:22 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.10.02 18:40:22 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.10.02 18:40:23 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.10.02 18:40:23 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.10.02 18:40:23 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.10.02 18:40:24 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.10.02 18:40:26 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.10.02 18:40:27 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.10.02 18:40:33 INFO  compiling root (1 scala source)
+2023.10.02 18:40:33 INFO  time: compiled root in 0.78s
+2023.10.02 18:40:49 INFO  compiling root (1 scala source)
+2023.10.02 18:40:49 INFO  time: compiled root in 0.65s
+Oct 02, 2023 6:40:49 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2023.10.02 18:40:55 INFO  compiling root (1 scala source)
+2023.10.02 18:40:55 INFO  time: compiled root in 0.97s
+2023.10.02 18:41:13 INFO  compiling root (1 scala source)
+2023.10.02 18:41:13 INFO  time: compiled root in 0.66s
+Oct 02, 2023 6:42:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 25156
+2023.10.02 18:42:15 INFO  compiling root (1 scala source)
+2023.10.02 18:42:15 INFO  time: compiled root in 82ms
+2023.10.02 18:42:15 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.10.02 18:42:15 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.10.02 18:42:15 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.10.02 18:42:15 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.10.02 18:42:16 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.10.02 18:42:18 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.10.02 18:42:19 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.10.02 18:42:20 INFO  compiling root (1 scala source)
+2023.10.02 18:42:20 INFO  time: compiled root in 0.66s
+Oct 02, 2023 6:42:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 25202
+Oct 02, 2023 6:50:01 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: Cannot invoke "scala.reflect.internal.Types$Type.decls()" because the return value of "scala.reflect.internal.Trees$Tree.tpe()" is null
+2023.10.02 18:50:28 INFO  compiling root (1 scala source)
+2023.10.02 18:50:28 INFO  time: compiled root in 0.75s
+2023.10.02 18:50:43 INFO  compiling root (1 scala source)
+2023.10.02 18:50:43 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.10.02 18:50:43 INFO  time: compiled root in 0.79s
+2023.10.02 18:51:04 INFO  compiling root (1 scala source)
+2023.10.02 18:51:04 INFO  time: compiled root in 0.73s
+2023.10.02 18:51:04 INFO  compiling root (1 scala source)
+2023.10.02 18:51:04 INFO  time: compiled root in 16ms
+2023.10.02 18:51:15 INFO  compiling root (1 scala source)
+2023.10.02 18:51:15 INFO  time: compiled root in 0.69s
+2023.10.02 18:51:15 INFO  compiling root (1 scala source)
+2023.10.02 18:51:15 INFO  time: compiled root in 23ms
+2023.10.02 18:51:15 INFO  compiling root (1 scala source)
+2023.10.02 18:51:16 INFO  time: compiled root in 0.45s
+2023.10.02 18:51:16 INFO  compiling root (1 scala source)
+2023.10.02 18:51:16 INFO  time: compiled root in 29ms
+2023.10.02 18:51:25 INFO  compiling root (1 scala source)
+2023.10.02 18:51:25 INFO  time: compiled root in 0.72s
+2023.10.02 18:51:25 INFO  compiling root (1 scala source)
+2023.10.02 18:51:25 INFO  time: compiled root in 20ms
+2023.10.02 18:51:51 INFO  compiling root (1 scala source)
+2023.10.02 18:51:51 INFO  time: compiled root in 0.93s
+2023.10.02 18:51:51 INFO  compiling root (1 scala source)
+2023.10.02 18:51:51 INFO  time: compiled root in 22ms
+2023.10.02 18:51:59 INFO  compiling root (1 scala source)
+2023.10.02 18:51:59 INFO  time: compiled root in 0.73s
+2023.10.02 18:51:59 INFO  compiling root (1 scala source)
+2023.10.02 18:51:59 INFO  time: compiled root in 16ms
+2023.10.02 18:52:01 INFO  compiling root (1 scala source)
+2023.10.02 18:52:01 INFO  time: compiled root in 0.33s
+2023.10.02 18:52:01 INFO  compiling root (1 scala source)
+2023.10.02 18:52:01 INFO  time: compiled root in 29ms
+2023.10.02 18:52:03 INFO  compiling root (1 scala source)
+2023.10.02 18:52:03 INFO  time: compiled root in 0.72s
+2023.10.02 18:52:03 INFO  compiling root (1 scala source)
+2023.10.02 18:52:03 INFO  time: compiled root in 30ms
+2023.10.02 18:52:05 INFO  compiling root (1 scala source)
+2023.10.02 18:52:05 INFO  time: compiled root in 0.68s
+2023.10.02 18:52:05 INFO  compiling root (1 scala source)
+2023.10.02 18:52:05 INFO  time: compiled root in 23ms
+2023.10.02 18:52:06 INFO  compiling root (1 scala source)
+2023.10.02 18:52:06 INFO  time: compiled root in 0.3s
+2023.10.02 18:52:06 INFO  compiling root (1 scala source)
+2023.10.02 18:52:06 INFO  time: compiled root in 24ms
+2023.10.02 18:53:53 INFO  compiling root (1 scala source)
+2023.10.02 18:53:53 INFO  time: compiled root in 0.68s
+2023.10.02 18:53:53 INFO  compiling root (1 scala source)
+2023.10.02 18:53:53 INFO  time: compiled root in 21ms
+2023.10.02 18:53:58 INFO  compiling root (1 scala source)
+2023.10.02 18:53:58 INFO  time: compiled root in 0.67s
+2023.10.02 18:53:58 INFO  compiling root (1 scala source)
+2023.10.02 18:53:58 INFO  time: compiled root in 25ms
+2023.10.02 18:54:34 INFO  compiling root (2 scala sources)
+2023.10.02 18:54:34 INFO  time: compiled root in 84ms
+2023.10.02 18:54:34 INFO  compiling root (2 scala sources)
+2023.10.02 18:54:34 INFO  time: compiled root in 62ms
+2023.10.02 18:54:46 INFO  compiling root (2 scala sources)
+2023.10.02 18:54:46 INFO  time: compiled root in 93ms
+2023.10.02 18:54:46 INFO  compiling root (2 scala sources)
+2023.10.02 18:54:46 INFO  time: compiled root in 78ms
+2023.10.02 18:55:37 INFO  compiling root (2 scala sources)
+2023.10.02 18:55:37 INFO  time: compiled root in 93ms
+2023.10.02 18:57:05 INFO  compiling root (2 scala sources)
+2023.10.02 18:57:05 INFO  time: compiled root in 0.66s

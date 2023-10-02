@@ -4,12 +4,6 @@ import java.io.File
 //Classe para interagir com o usuario
 class Interaction{
     var (txt_file, book_name, db_file) = display_texts
-
-    def print_message(string: String): Unit = {
-        val greenColor = "\u001B[32m"
-        val resetColor = "\u001B[0m"
-        println(greenColor + string + resetColor)
-    }
     
     def display_texts: (String, String, String) = {
 

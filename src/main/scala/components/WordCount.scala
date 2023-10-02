@@ -9,10 +9,11 @@ class WordCount extends Interaction{
     }
 
     def selecionar: Unit = {
+        val db_select_most_frequent = new Select_Most_Frequent(txt_file,db_file)
         print_success("\n100 Most frequent words")
-        val db_select_words = new Select_Words(txt_file,db_file)
+        db_select_most_frequent.words
         print_success("\n100 Most frequent characters")
-        val db_select_char = new Select_Characters(txt_file,db_file)
+        db_select_most_frequent.characters
 
     }
     
