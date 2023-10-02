@@ -1,5 +1,5 @@
 package main
-import sqlite3._
+import components._
 object Main extends App {
     val WordCount = new WordCount()
     WordCount.contar
