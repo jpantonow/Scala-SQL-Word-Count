@@ -12281,3 +12281,51 @@ WARNING: Cannot invoke "scala.reflect.internal.Types$Type.decls()" because the r
 2023.10.02 18:55:37 INFO  time: compiled root in 93ms
 2023.10.02 18:57:05 INFO  compiling root (2 scala sources)
 2023.10.02 18:57:05 INFO  time: compiled root in 0.66s
+2023.10.02 19:25:00 INFO  compiling root (1 scala source)
+2023.10.02 19:25:01 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.10.02 19:25:00 INFO  time: compiled root in 0.61s
+2023.10.02 19:29:06 INFO  compiling root (1 scala source)
+2023.10.02 19:29:06 INFO  time: compiled root in 38ms
+2023.10.02 19:29:54 INFO  compiling root (2 scala sources)
+2023.10.02 19:29:54 INFO  time: compiled root in 44ms
+2023.10.02 19:29:54 INFO  compiling root (2 scala sources)
+2023.10.02 19:29:54 INFO  time: compiled root in 28ms
+2023.10.02 19:29:59 INFO  compiling root (2 scala sources)
+2023.10.02 19:29:59 INFO  time: compiled root in 46ms
+2023.10.02 19:29:59 INFO  compiling root (2 scala sources)
+2023.10.02 19:29:59 INFO  time: compiled root in 17ms
+2023.10.02 19:29:59 INFO  compiling root (2 scala sources)
+2023.10.02 19:29:59 INFO  time: compiled root in 35ms
+2023.10.02 19:29:59 INFO  compiling root (2 scala sources)
+2023.10.02 19:29:59 INFO  time: compiled root in 16ms
+2023.10.02 19:30:00 INFO  compiling root (2 scala sources)
+2023.10.02 19:30:00 INFO  time: compiled root in 16ms
+2023.10.02 19:30:00 INFO  compiling root (2 scala sources)
+2023.10.02 19:30:00 INFO  time: compiled root in 17ms
+2023.10.02 19:30:00 INFO  compiling root (2 scala sources)
+2023.10.02 19:30:00 INFO  time: compiled root in 14ms
+Oct 02, 2023 7:30:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 26670
+2023.10.02 19:30:10 INFO  compiling root (2 scala sources)
+2023.10.02 19:30:10 INFO  time: compiled root in 42ms
+2023.10.02 19:30:10 INFO  compiling root (2 scala sources)
+2023.10.02 19:30:10 INFO  time: compiled root in 42ms
+2023.10.02 19:30:13 INFO  compiling root (2 scala sources)
+2023.10.02 19:30:13 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.10.02 19:30:13 INFO  time: compiled root in 0.91s
+2023.10.02 19:31:04 INFO  compiling root (1 scala source)
+2023.10.02 19:31:04 INFO  time: compiled root in 0.14s
+2023.10.02 19:31:04 INFO  compiling root (1 scala source)
+2023.10.02 19:31:04 INFO  time: compiled root in 69ms
+2023.10.02 19:31:04 INFO  compiling root (1 scala source)
+2023.10.02 19:31:04 INFO  time: compiled root in 75ms
+2023.10.02 19:31:09 INFO  compiling root (1 scala source)
+2023.10.02 19:31:09 INFO  time: compiled root in 0.58s
+2023.10.02 19:31:14 INFO  compiling root (1 scala source)
+2023.10.02 19:31:14 INFO  time: compiled root in 0.59s
+something's wrong: no file:///home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala in List[<error>]RangePosition(file:///home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala, 689, 689, 703)
+something's wrong: no file:///home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala in List[<error>]RangePosition(file:///home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala, 689, 689, 696)
+2023.10.02 19:31:33 INFO  compiling root (1 scala source)
+2023.10.02 19:31:33 INFO  time: compiled root in 0.58s
+Oct 02, 2023 7:34:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 27284

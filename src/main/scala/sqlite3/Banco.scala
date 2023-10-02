@@ -16,7 +16,9 @@ import components.Interaction
 class Initialize(path_to_text: String, path_to_database: String){
     val url = s"jdbc:sqLite:$path_to_database"
     val book = scala.io.Source.fromFile(path_to_text)
+    val stoptxt = scala.io.Source.fromFile("src/main/scala/files/stop-words.txt")
     val lines: List[String] = book.getLines().toList
+    val stopwords: List[String] = stoptxt.getLines().toList
 }
 
 //Classe pra inicializar o banco de dados com as tabelas necessárias
