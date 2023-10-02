@@ -79,9 +79,7 @@ class Insert_Words(path_to_text: String, path_to_database: String) extends Initi
     conn.setAutoCommit(false)
 
     for(n<-0 until text.length){
-            if(stopwords.contains(text(n))){
-            }
-            else{
+            if(!stopwords.contains(text(n))){
                 for(i<-0 until text(n).length){
                     update = "UPDATE OR IGNORE characters "
                     update += "SET frequency = frequency + 1 WHERE char = "
@@ -93,7 +91,7 @@ class Insert_Words(path_to_text: String, path_to_database: String) extends Initi
                     command += "'1');" 
                     rt = conn.prepareStatement(command)
                     rt.execute()
-            }
+                }
     
                 update = "UPDATE OR IGNORE words "
                 update += "SET frequency = frequency + 1 WHERE name = "
@@ -107,7 +105,6 @@ class Insert_Words(path_to_text: String, path_to_database: String) extends Initi
                 rt = conn.prepareStatement(command)
                 rt.execute()
             }
-            
         }
 
     //Executa o statement e fecha a conexão com o banco de dados     
