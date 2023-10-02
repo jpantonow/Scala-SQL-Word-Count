@@ -6864,3 +6864,87 @@ WARNING: Unmatched cancel notification for request id 1303
 2023.10.01 14:13:01 INFO  time: compiled root-test in 93ms
 2023.10.01 14:13:19 INFO  compiling root-test (1 scala source)
 2023.10.01 14:13:19 INFO  time: compiled root-test in 0.21s
+2023.10.01 14:34:24 INFO  compiling root (1 scala source)
+2023.10.01 14:34:24 INFO  time: compiled root in 0.12s
+Exception in thread "pool-4-thread-2" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:229)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2023.10.01 14:34:48 INFO  compiling root (1 scala source)
+2023.10.01 14:34:48 INFO  time: compiled root in 0.93s
+Oct 01, 2023 2:40:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1743
+2023.10.02 07:52:00 INFO  Started: Metals version 1.0.1+42-b511ce90-SNAPSHOT in folders '/home/jpantonow/Desktop/Unb/word-count-db' for client Visual Studio Code 1.82.2.
+Oct 02, 2023 7:52:01 AM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.22.1 by Redgate
+Oct 02, 2023 7:52:01 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Oct 02, 2023 7:52:01 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Oct 02, 2023 7:52:05 AM org.flywaydb.core.FlywayExecutor execute
+INFO: Database: jdbc:h2:file:/home/jpantonow/Desktop/Unb/word-count-db/.metals/metals (H2 2.1)
+Oct 02, 2023 7:52:05 AM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.019s)
+Oct 02, 2023 7:52:05 AM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Oct 02, 2023 7:52:05 AM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.10.02 07:52:06 INFO  time: initialize in 5.48s
+2023.10.02 07:52:11 INFO  Attempting to connect to the build server...
+2023.10.02 07:52:11 INFO  skipping build import with status 'Installed'
+2023.10.02 07:52:11 INFO  Bloop uses /usr/lib/jvm/java-17-openjdk-amd64 defined at /home/jpantonow/.bloop/bloop.json
+2023.10.02 07:52:15 INFO  no build target found for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala. Using presentation compiler with project's scala-library version: 3.3.1
+2023.10.02 07:52:20 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/jpantonow/Desktop/Unb/word-count-db/.metals/bsp.trace.json or /home/jpantonow/.cache/metals/bsp.trace.json
+2023.10.02 07:52:20 INFO  Attempting to connect to the build server...
+2023.10.02 07:52:20 INFO  Bloop uses /usr/lib/jvm/java-17-openjdk-amd64 defined at /home/jpantonow/.bloop/bloop.json
+2023.10.02 07:52:20 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/jpantonow/Desktop/Unb/word-count-db/project/.metals/bsp.trace.json or /home/jpantonow/.cache/metals/bsp.trace.json
+2023.10.02 07:52:20 INFO  time: Connected to build server in 9.43s
+2023.10.02 07:52:20 INFO  Connected to Build server: Bloop v1.5.11
+2023.10.02 07:52:21 INFO  time: Imported build in 0.26s
+2023.10.02 07:52:25 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/lib/src.zip, /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2023.10.02 07:52:25 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/lib/src.zip, /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2023.10.02 07:52:25 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/lib/src.zip, /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2023.10.02 07:52:25 INFO  time: indexed workspace in 4.68s
+2023.10.02 07:54:15 INFO  compiling root (1 scala source)
+2023.10.02 07:54:19 INFO  time: compiled root in 3.33s
+Oct 02, 2023 7:54:29 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 43
+Oct 02, 2023 7:54:29 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 44
+Exception in thread "pool-6-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:229)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Exception in thread "pool-6-thread-2" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:229)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2023.10.02 07:54:31 INFO  compiling root (1 scala source)
+2023.10.02 07:54:31 INFO  Deduplicating compilation of root from bsp client 'Metals 1.0.1+42-b511ce90-SNAPSHOT' (since 2m 10.71s)
+2023.10.02 07:54:31 INFO  compiling root (1 scala source)
+2023.10.02 07:54:31 INFO  time: compiled root in 0.7s
+2023.10.02 07:54:47 INFO  compiling root (1 scala source)
+2023.10.02 07:54:50 INFO  time: compiled root in 2.77s
+2023.10.02 07:54:50 INFO  compiling root (1 scala source)
+2023.10.02 07:54:50 INFO  time: compiled root in 0.13s
+2023.10.02 07:54:50 INFO  compiling root (1 scala source)
+2023.10.02 07:54:51 INFO  time: compiled root in 1.42s
+2023.10.02 07:54:51 INFO  compiling root (1 scala source)
+2023.10.02 07:54:51 INFO  time: compiled root in 52ms
+2023.10.02 07:54:51 INFO  compiling root (1 scala source)
+2023.10.02 07:54:53 INFO  time: compiled root in 0.95s
+2023.10.02 07:54:53 INFO  compiling root (1 scala source)
+2023.10.02 07:54:53 INFO  time: compiled root in 50ms
+2023.10.02 07:55:04 INFO  compiling root (3 scala sources)
+2023.10.02 07:55:04 INFO  time: compiled root in 0.26s
+2023.10.02 07:55:11 INFO  compiling root (3 scala sources)
+2023.10.02 07:55:13 INFO  time: compiled root in 1.68s
