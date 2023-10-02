@@ -11895,3 +11895,89 @@ WARNING: Unmatched cancel notification for request id 21645
 2023.10.02 16:30:55 INFO  compiling root (1 scala source)
 2023.10.02 16:30:55 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
 2023.10.02 16:30:55 INFO  time: compiled root in 0.58s
+2023.10.02 16:36:43 INFO  compiling root (1 scala source)
+2023.10.02 16:36:43 INFO  Deduplicating compilation of root from bsp client 'Metals 1.0.1+42-b511ce90-SNAPSHOT' (since 4h 18m 11.624s)
+2023.10.02 16:36:43 INFO  compiling root (1 scala source)
+2023.10.02 16:36:43 INFO  time: compiled root in 64ms
+2023.10.02 16:37:41 INFO  compiling root (1 scala source)
+2023.10.02 16:37:41 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.10.02 16:37:41 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.10.02 16:37:41 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.10.02 16:37:41 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.10.02 16:37:41 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.10.02 16:37:41 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.10.02 16:37:41 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.10.02 16:37:41 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.10.02 16:37:41 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.10.02 16:37:41 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.10.02 16:37:41 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.10.02 16:37:41 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.10.02 16:37:41 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.10.02 16:37:41 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.10.02 16:37:41 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.10.02 16:37:41 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.10.02 16:37:42 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.10.02 16:37:41 INFO  time: compiled root in 0.69s
+2023.10.02 16:38:02 INFO  compiling root (1 scala source)
+2023.10.02 16:38:02 INFO  time: compiled root in 89ms
+2023.10.02 16:38:20 INFO  compiling root (1 scala source)
+2023.10.02 16:38:20 INFO  time: compiled root in 99ms
+2023.10.02 16:38:29 INFO  compiling root (1 scala source)
+2023.10.02 16:38:29 INFO  time: compiled root in 95ms
+2023.10.02 16:39:05 INFO  compiling root (1 scala source)
+2023.10.02 16:39:05 INFO  time: compiled root in 0.63s
+2023.10.02 16:39:18 INFO  compiling root (1 scala source)
+2023.10.02 16:39:18 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.10.02 16:39:18 INFO  time: compiled root in 0.62s
+2023.10.02 16:39:27 INFO  compiling root (1 scala source)
+2023.10.02 16:39:27 INFO  time: compiled root in 0.81s
+2023.10.02 16:39:30 INFO  compiling root (1 scala source)
+2023.10.02 16:39:31 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.10.02 16:39:30 INFO  time: compiled root in 0.63s
+2023.10.02 16:39:34 INFO  compiling root (1 scala source)
+2023.10.02 16:39:34 INFO  time: compiled root in 0.58s
+2023.10.02 16:39:42 INFO  compiling root (1 scala source)
+2023.10.02 16:39:42 INFO  time: compiled root in 0.59s
+2023.10.02 16:40:04 INFO  compiling root (1 scala source)
+2023.10.02 16:40:04 INFO  time: compiled root in 0.61s
+2023.10.02 16:40:09 INFO  compiling root (1 scala source)
+2023.10.02 16:40:09 INFO  time: compiled root in 0.59s
+2023.10.02 16:40:42 INFO  compiling root (1 scala source)
+2023.10.02 16:40:42 INFO  time: compiled root in 0.6s
+2023.10.02 16:43:24 INFO  compiling root (1 scala source)
+2023.10.02 16:43:24 INFO  time: compiled root in 60ms
+2023.10.02 16:43:25 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/components/Interaction.scala
+2023.10.02 16:43:25 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/components/Interaction.scala
+2023.10.02 16:43:25 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/components/Interaction.scala
+2023.10.02 16:43:25 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/components/Interaction.scala
+2023.10.02 16:43:25 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/components/Interaction.scala
+2023.10.02 16:43:33 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/components/Interaction.scala
+2023.10.02 16:43:33 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/components/Interaction.scala
+2023.10.02 16:43:33 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/components/Interaction.scala
+Oct 02, 2023 4:43:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 23272
+2023.10.02 16:43:33 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/components/Interaction.scala
+2023.10.02 16:43:33 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/components/Interaction.scala
+2023.10.02 16:43:33 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/components/Interaction.scala
+2023.10.02 16:43:33 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/components/Interaction.scala
+2023.10.02 16:43:33 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/components/Interaction.scala
+2023.10.02 16:43:33 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/components/Interaction.scala
+2023.10.02 16:43:33 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/components/Interaction.scala
+2023.10.02 16:43:38 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/components/Interaction.scala
+2023.10.02 16:43:44 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/components/Interaction.scala
+2023.10.02 16:43:45 INFO  compiling root (1 scala source)
+2023.10.02 16:43:45 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/components/Interaction.scala
+2023.10.02 16:43:45 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details
+2023.10.02 16:43:45 INFO  time: compiled root in 0.46s
+2023.10.02 16:43:56 INFO  compiling root (1 scala source)
+2023.10.02 16:43:56 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details
+2023.10.02 16:43:56 INFO  time: compiled root in 0.67s
+2023.10.02 16:44:50 INFO  compiling root (1 scala source)
+2023.10.02 16:44:50 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/components/Interaction.scala
+2023.10.02 16:44:50 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.10.02 16:44:50 INFO  time: compiled root in 0.42s
+Oct 02, 2023 4:45:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 23600
+2023.10.02 16:45:05 INFO  compiling root (1 scala source)
+2023.10.02 16:45:05 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.10.02 16:45:05 INFO  time: compiled root in 0.43s

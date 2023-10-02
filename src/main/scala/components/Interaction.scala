@@ -25,14 +25,10 @@ class Interaction{
     }
 
     def display_databases: String = {
-        println("\nWhich Database would you like to write?\n")
+        //println("There is already a database named this way.")
+        //println("\nWhich Database would you like to write?\n")
         val directory_path = new File("src/main/scala/sqlite3/databases")
-        val contents = directory_path.list()
-        for(i <- 0 until contents.size){
-            println(i + "-" + contents(i))
-        }
-        var chosen = scala.io.StdIn.readInt()
-        var database = directory_path.getPath() + "/" + contents(chosen)
+        var database = directory_path.getPath() + "/" + book_name + ".db"
         return database
     }
 
