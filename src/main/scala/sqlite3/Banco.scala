@@ -164,44 +164,57 @@ class Select_Characters(path_to_text: String, path_to_database: String) extends 
 }
 
 class Export_to_CSV (path_to_text: String, path_to_database: String, book_name: String) extends Initialize(path_to_text: String, path_to_database: String){
-    var Export = new PrintWriter(new File("src/main/scala/spreadsheets/" + book_name + "-words.csv"))
-    var sb: StringBuilder = new StringBuilder()
+    export_words
+    export_characters
 
-     //Estabelendo a conexão com o JDBC
-    val conn = DriverManager.getConnection(url)
-      //Desativando o autocommit
-    conn.setAutoCommit(false)
+    def export_words: Unit = {
+        var Export = new PrintWriter(new File("src/main/scala/spreadsheets/" + book_name + "-words.csv"))
+        var sb: StringBuilder = new StringBuilder()
 
-    var query: String = "SELECT *, COUNT(*) as frequency "
-    query += "FROM words GROUP BY name ORDER BY CAST(frequency AS int) DESC"
-    var rt: PreparedStatement = conn.prepareStatement(query)
-    var rs = rt.executeQuery()
-    sb.append("name" + "," + "frequency" + "\r\n")
-    while(rs.next()){
-        sb.append(rs.getString("name"))
-        sb.append(",")
-        sb.append(rs.getString("frequency"))
-        sb.append("\r\n")
-    }
+        //Estabelendo a conexão com o JDBC
+        val conn = DriverManager.getConnection(url)
+        //Desativando o autocommit
+        conn.setAutoCommit(false)
 
-    Export.write(sb.toString())
-    Export.close()
-    sb.clear()
-    rs.close()
-    rt.close()
-    Export = new PrintWriter(new File("src/main/scala/spreadsheets/" + book_name + "-characters.csv"))
-    query = "SELECT *, COUNT(*) as frequency "
-    query += "FROM characters GROUP BY char ORDER BY CAST(frequency AS int) DESC"
-    rt = conn.prepareStatement(query)
-    rs = rt.executeQuery()
-    sb.append("char" + "," + "frequency" + "\r\n")
-    while(rs.next()){
-        sb.append(rs.getString("char"))
-        sb.append(",")
-        sb.append(rs.getString("frequency"))
-        sb.append("\r\n")
+        var query: String = "SELECT *, COUNT(*) as frequency "
+        query += "FROM words GROUP BY name ORDER BY CAST(frequency AS int) DESC"
+        var rt: PreparedStatement = conn.prepareStatement(query)
+        var rs = rt.executeQuery()
+        sb.append("name" + "," + "frequency" + "\r\n")
+        while(rs.next()){
+            sb.append(rs.getString("name"))
+            sb.append(",")
+            sb.append(rs.getString("frequency"))
+            sb.append("\r\n")
+        }
+
+        Export.write(sb.toString())
+        Export.close()
     }
     
-    Export.write(sb.toString())
-    Export.close()
+    def export_characters: Unit = {
+        var Export = new PrintWriter(new File("src/main/scala/spreadsheets/" + book_name + "-characters.csv"))
+        var sb: StringBuilder = new StringBuilder()
+
+        //Estabelendo a conexão com o JDBC
+        val conn = DriverManager.getConnection(url)
+        //Desativando o autocommit
+        conn.setAutoCommit(false)
+
+        var query: String = "SELECT *, COUNT(*) as frequency "
+        query += "FROM characters GROUP BY char ORDER BY CAST(frequency AS int) DESC"
+        var rt: PreparedStatement = conn.prepareStatement(query)
+        var rs = rt.executeQuery()
+        sb.append("character" + "," + "frequency" + "\r\n")
+        while(rs.next()){
+            sb.append(rs.getString("char"))
+            sb.append(",")
+            sb.append(rs.getString("frequency"))
+            sb.append("\r\n")
+        }
+
+        Export.write(sb.toString())
+        Export.close()
+    }
+    
 }
