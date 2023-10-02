@@ -9743,3 +9743,1060 @@ scala.meta.tokenizers.TokenizeException: <input>:183: error: unclosed string int
 2023.10.02 12:59:47 INFO  time: compiled root in 0.79s
 2023.10.02 13:01:12 INFO  compiling root (1 scala source)
 2023.10.02 13:01:12 INFO  time: compiled root in 0.35s
+2023.10.02 14:01:32 INFO  compiling root (1 scala source)
+2023.10.02 14:01:32 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.10.02 14:01:32 INFO  time: compiled root in 0.78s
+Oct 02, 2023 2:01:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5579
+2023.10.02 14:02:05 INFO  compiling root (1 scala source)
+2023.10.02 14:02:05 INFO  time: compiled root in 0.69s
+2023.10.02 14:02:21 INFO  compiling root (1 scala source)
+2023.10.02 14:02:22 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.10.02 14:02:22 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.10.02 14:02:22 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.10.02 14:02:22 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.10.02 14:02:22 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.10.02 14:02:21 INFO  time: compiled root in 0.82s
+2023.10.02 14:02:32 INFO  compiling root (1 scala source)
+2023.10.02 14:02:32 INFO  time: compiled root in 0.31s
+2023.10.02 14:02:42 INFO  compiling root (1 scala source)
+2023.10.02 14:02:42 INFO  time: compiled root in 0.47s
+2023.10.02 14:03:16 INFO  compiling root (1 scala source)
+2023.10.02 14:03:16 INFO  time: compiled root in 50ms
+2023.10.02 14:03:17 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/main/Main.scala
+2023.10.02 14:03:18 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/main/Main.scala
+2023.10.02 14:03:20 INFO  compiling root (1 scala source)
+2023.10.02 14:03:20 INFO  time: compiled root in 43ms
+2023.10.02 14:03:20 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/main/Main.scala
+2023.10.02 14:03:24 INFO  compiling root (1 scala source)
+2023.10.02 14:03:24 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/main/Main.scala
+2023.10.02 14:03:24 INFO  time: compiled root in 0.36s
+Oct 02, 2023 2:03:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6117
+2023.10.02 14:03:44 INFO  compiling root (1 scala source)
+2023.10.02 14:03:44 INFO  time: compiled root in 0.41s
+2023.10.02 14:03:49 INFO  compiling root (1 scala source)
+2023.10.02 14:03:49 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/main/Main.scala
+2023.10.02 14:03:49 INFO  time: compiled root in 68ms
+2023.10.02 14:03:50 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/main/Main.scala
+Oct 02, 2023 2:03:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6183
+2023.10.02 14:03:50 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/main/Main.scala
+2023.10.02 14:03:50 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/main/Main.scala
+2023.10.02 14:03:51 INFO  compiling root (1 scala source)
+2023.10.02 14:03:51 INFO  time: compiled root in 69ms
+2023.10.02 14:03:50 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/main/Main.scala
+2023.10.02 14:03:50 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/main/Main.scala
+2023.10.02 14:03:50 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/main/Main.scala
+2023.10.02 14:03:50 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/main/Main.scala
+2023.10.02 14:03:51 WARN  Using indexes to guess the definition of contents
+2023.10.02 14:03:51 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/main/Main.scala
+2023.10.02 14:04:06 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/main/Main.scala
+2023.10.02 14:04:06 INFO  compiling root (1 scala source)
+2023.10.02 14:04:07 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/main/Main.scala
+2023.10.02 14:04:06 INFO  time: compiled root in 0.44s
+2023.10.02 14:04:40 INFO  compiling root (1 scala source)
+2023.10.02 14:04:40 INFO  time: compiled root in 0.2s
+2023.10.02 14:04:42 INFO  compiling root (1 scala source)
+2023.10.02 14:04:42 INFO  time: compiled root in 0.21s
+2023.10.02 14:04:59 INFO  compiling root (1 scala source)
+2023.10.02 14:04:59 INFO  time: compiled root in 0.17s
+2023.10.02 14:05:07 INFO  compiling root (1 scala source)
+2023.10.02 14:05:07 INFO  time: compiled root in 0.26s
+2023.10.02 14:05:15 INFO  compiling root (1 scala source)
+2023.10.02 14:05:15 INFO  time: compiled root in 0.32s
+2023.10.02 14:05:30 INFO  compiling root (1 scala source)
+2023.10.02 14:05:30 INFO  time: compiled root in 0.26s
+2023.10.02 14:05:44 INFO  compiling root (1 scala source)
+2023.10.02 14:05:44 INFO  time: compiled root in 62ms
+2023.10.02 14:05:51 INFO  compiling root (1 scala source)
+2023.10.02 14:05:51 INFO  time: compiled root in 41ms
+2023.10.02 14:05:57 INFO  compiling root (1 scala source)
+2023.10.02 14:05:57 INFO  time: compiled root in 0.4s
+2023.10.02 14:06:59 INFO  compiling root (1 scala source)
+2023.10.02 14:06:59 INFO  time: compiled root in 0.59s
+2023.10.02 14:07:00 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/components/User.scala
+2023.10.02 14:07:00 INFO  compiling root (1 scala source)
+2023.10.02 14:07:00 INFO  time: compiled root in 0.15s
+2023.10.02 14:07:07 INFO  compiling root (1 scala source)
+2023.10.02 14:07:07 INFO  time: compiled root in 0.41s
+2023.10.02 14:08:48 INFO  compiling root (1 scala source)
+2023.10.02 14:08:48 INFO  Deduplicating compilation of root from bsp client 'Metals 1.0.1+42-b511ce90-SNAPSHOT' (since 1h 50m 16.262s)
+2023.10.02 14:08:48 INFO  compiling root (1 scala source)
+2023.10.02 14:08:48 INFO  time: compiled root in 0.23s
+2023.10.02 14:09:14 INFO  compiling root (1 scala source)
+2023.10.02 14:09:14 INFO  time: compiled root in 0.41s
+2023.10.02 14:09:18 INFO  compiling root (1 scala source)
+2023.10.02 14:09:18 INFO  time: compiled root in 0.28s
+2023.10.02 14:09:32 INFO  compiling root (1 scala source)
+2023.10.02 14:09:32 INFO  time: compiled root in 0.31s
+2023.10.02 14:09:33 INFO  compiling root (1 scala source)
+2023.10.02 14:09:33 INFO  time: compiled root in 0.31s
+2023.10.02 14:09:38 INFO  compiling root (1 scala source)
+2023.10.02 14:09:38 INFO  time: compiled root in 0.31s
+2023.10.02 14:09:51 INFO  compiling root (1 scala source)
+2023.10.02 14:09:51 INFO  Deduplicating compilation of root from bsp client 'Metals 1.0.1+42-b511ce90-SNAPSHOT' (since 1h 51m 18.411s)
+2023.10.02 14:09:51 INFO  compiling root (1 scala source)
+2023.10.02 14:09:51 INFO  time: compiled root in 0.55s
+2023.10.02 14:09:58 INFO  compiling root (1 scala source)
+2023.10.02 14:09:58 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.10.02 14:09:58 INFO  time: compiled root in 0.41s
+2023.10.02 14:10:08 INFO  compiling root (1 scala source)
+2023.10.02 14:10:08 INFO  time: compiled root in 71ms
+2023.10.02 14:10:15 INFO  compiling root (1 scala source)
+2023.10.02 14:10:15 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.10.02 14:10:15 INFO  time: compiled root in 0.43s
+2023.10.02 14:12:03 INFO  compiling root (1 scala source)
+2023.10.02 14:12:03 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.10.02 14:12:03 INFO  time: compiled root in 0.47s
+2023.10.02 14:12:03 INFO  compiling root (1 scala source)
+2023.10.02 14:12:03 INFO  time: compiled root in 21ms
+2023.10.02 14:12:11 INFO  compiling root (2 scala sources)
+2023.10.02 14:12:11 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.10.02 14:12:11 INFO  time: compiled root in 0.45s
+2023.10.02 14:13:09 INFO  compiling root (1 scala source)
+2023.10.02 14:13:09 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.10.02 14:13:09 INFO  time: compiled root in 0.41s
+2023.10.02 14:13:28 INFO  compiling root (1 scala source)
+2023.10.02 14:13:28 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.10.02 14:13:28 INFO  time: compiled root in 0.43s
+2023.10.02 14:14:01 INFO  compiling root (1 scala source)
+2023.10.02 14:14:01 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.10.02 14:14:01 INFO  time: compiled root in 0.46s
+2023.10.02 14:14:37 INFO  compiling root (1 scala source)
+2023.10.02 14:14:37 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.10.02 14:14:37 INFO  time: compiled root in 0.77s
+2023.10.02 14:15:45 INFO  compiling root (1 scala source)
+2023.10.02 14:15:45 INFO  time: compiled root in 61ms
+2023.10.02 14:15:46 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/components/User.scala
+2023.10.02 14:15:47 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/components/User.scala
+2023.10.02 14:15:50 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/components/User.scala
+2023.10.02 14:15:51 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/components/User.scala
+2023.10.02 14:15:51 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/components/User.scala
+Oct 02, 2023 2:15:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7818
+2023.10.02 14:15:56 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/components/User.scala
+2023.10.02 14:15:57 INFO  compiling root (1 scala source)
+2023.10.02 14:15:57 INFO  time: compiled root in 59ms
+2023.10.02 14:15:57 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/components/User.scala
+2023.10.02 14:15:57 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/components/User.scala
+2023.10.02 14:15:57 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/components/User.scala
+2023.10.02 14:16:00 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/components/User.scala
+2023.10.02 14:16:01 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/components/User.scala
+2023.10.02 14:16:02 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/components/User.scala
+2023.10.02 14:16:02 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/components/User.scala
+2023.10.02 14:16:04 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/components/User.scala
+2023.10.02 14:16:05 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/components/User.scala
+2023.10.02 14:16:06 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/components/User.scala
+2023.10.02 14:17:04 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/components/User.scala
+2023.10.02 14:17:06 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/components/User.scala
+2023.10.02 14:17:07 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/components/User.scala
+2023.10.02 14:17:11 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/components/User.scala
+2023.10.02 14:17:12 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/components/User.scala
+2023.10.02 14:17:11 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/components/User.scala
+2023.10.02 14:17:29 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/components/User.scala
+2023.10.02 14:17:30 INFO  compiling root (1 scala source)
+2023.10.02 14:17:30 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/components/User.scala
+2023.10.02 14:17:30 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/components/User.scala
+2023.10.02 14:17:30 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.10.02 14:17:30 INFO  time: compiled root in 0.44s
+Oct 02, 2023 2:17:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7991
+2023.10.02 14:17:53 ERROR Failed to tokenize input for semantic tokens for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/components/User.scala
+scala.meta.tokenizers.TokenizeException: <input>:18: error: unclosed string literal
+        var file = "directory_path.getPath()
+                   ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:591)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:407)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:411)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:246)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1047)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:511)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2023.10.02 14:17:54 ERROR Failed to tokenize input for semantic tokens for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/components/User.scala
+scala.meta.tokenizers.TokenizeException: <input>:18: error: unclosed string literal
+        var file = "directory_path.getPath()" "
+                                              ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:591)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:407)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:411)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:246)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1047)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:511)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2023.10.02 14:17:55 ERROR Failed to tokenize input for semantic tokens for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/components/User.scala
+scala.meta.tokenizers.TokenizeException: <input>:18: error: unclosed string literal
+        var file = "directory_path.getPath()""
+                                             ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:591)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:407)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:411)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:246)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1047)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:511)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2023.10.02 14:18:05 INFO  compiling root (1 scala source)
+2023.10.02 14:18:05 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.10.02 14:18:05 INFO  time: compiled root in 0.47s
+Oct 02, 2023 2:18:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8117
+2023.10.02 14:18:30 ERROR Failed to tokenize input for semantic tokens for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/components/User.scala
+scala.meta.tokenizers.TokenizeException: <input>:18: error: unclosed string literal
+        var file = "directory_path.getPath() + contents(chosen)
+                   ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:591)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:407)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:411)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:246)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1047)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:511)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2023.10.02 14:18:32 INFO  compiling root (1 scala source)
+2023.10.02 14:18:32 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.10.02 14:18:32 INFO  time: compiled root in 0.42s
+2023.10.02 14:18:51 ERROR Failed to tokenize input for semantic tokens for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/components/User.scala
+scala.meta.tokenizers.TokenizeException: <input>:18: error: unclosed string literal
+        var file = directory_path.getPath() + "contents(chosen)
+                                              ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:591)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:407)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:411)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:246)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1047)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:511)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2023.10.02 14:18:52 ERROR Failed to tokenize input for semantic tokens for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/components/User.scala
+scala.meta.tokenizers.TokenizeException: <input>:18: error: unclosed string literal
+        var file = directory_path.getPath() + "/contents(chosen)
+                                              ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:591)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:407)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:411)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:246)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1047)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:511)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2023.10.02 14:18:54 INFO  compiling root (1 scala source)
+2023.10.02 14:18:54 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.10.02 14:18:54 INFO  time: compiled root in 0.4s
+2023.10.02 14:19:20 INFO  compiling root (1 scala source)
+2023.10.02 14:19:20 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.10.02 14:19:20 INFO  time: compiled root in 0.42s
+2023.10.02 14:19:27 INFO  compiling root (1 scala source)
+2023.10.02 14:19:27 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.10.02 14:19:27 INFO  time: compiled root in 0.42s
+2023.10.02 14:19:34 INFO  compiling root (1 scala source)
+2023.10.02 14:19:34 INFO  time: compiled root in 66ms
+2023.10.02 14:20:08 INFO  compiling root (1 scala source)
+2023.10.02 14:20:08 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.10.02 14:20:08 INFO  time: compiled root in 0.63s
+2023.10.02 14:20:08 INFO  compiling root (1 scala source)
+2023.10.02 14:20:08 INFO  time: compiled root in 78ms
+2023.10.02 14:20:34 INFO  compiling root (1 scala source)
+2023.10.02 14:20:34 INFO  time: compiled root in 0.1s
+2023.10.02 14:20:44 INFO  compiling root (1 scala source)
+2023.10.02 14:20:44 INFO  time: compiled root in 97ms
+2023.10.02 14:20:49 INFO  compiling root (1 scala source)
+2023.10.02 14:20:49 INFO  time: compiled root in 94ms
+2023.10.02 14:20:51 INFO  compiling root (1 scala source)
+2023.10.02 14:20:51 INFO  time: compiled root in 0.1s
+2023.10.02 14:20:51 INFO  compiling root (1 scala source)
+2023.10.02 14:20:51 INFO  time: compiled root in 70ms
+2023.10.02 14:21:00 INFO  compiling root (1 scala source)
+2023.10.02 14:21:00 INFO  time: compiled root in 0.11s
+Oct 02, 2023 2:21:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8560
+2023.10.02 14:21:09 INFO  compiling root (1 scala source)
+2023.10.02 14:21:09 INFO  time: compiled root in 0.1s
+2023.10.02 14:21:16 INFO  compiling root (1 scala source)
+2023.10.02 14:21:16 INFO  time: compiled root in 91ms
+2023.10.02 14:21:28 INFO  compiling root (1 scala source)
+2023.10.02 14:21:28 INFO  time: compiled root in 97ms
+2023.10.02 14:21:28 WARN  Using indexes to guess the definition of display_texts
+2023.10.02 14:21:28 WARN  Using indexes to guess the definition of display_texts
+2023.10.02 14:21:33 INFO  compiling root (1 scala source)
+2023.10.02 14:21:33 INFO  time: compiled root in 99ms
+Oct 02, 2023 2:21:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8740
+Oct 02, 2023 2:21:49 PM scala.meta.internal.mtags.SymbolIndexBucket addMtagsSourceFile
+WARNING: Error indexing /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/DbEngine.scala
+java.nio.file.NoSuchFileException: /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/DbEngine.scala
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:218)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3288)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:45)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:24)
+	at scala.meta.internal.mtags.ScalametaCommonEnrichments$XtensionAbsolutePath.toInput(ScalametaCommonEnrichments.scala:378)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:270)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$7(SymbolIndexBucket.scala:206)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$7$adapted(SymbolIndexBucket.scala:201)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:576)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:574)
+	at scala.collection.AbstractIterable.foreach(Iterable.scala:933)
+	at scala.collection.IterableOps$WithFilter.foreach(Iterable.scala:903)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query0(SymbolIndexBucket.scala:201)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query(SymbolIndexBucket.scala:163)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.$anonfun$findSymbolDefinition$1(OnDemandSymbolIndex.scala:141)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.findSymbolDefinition(OnDemandSymbolIndex.scala:141)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:48)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:118)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:44)
+	at scala.meta.internal.metals.MetalsSymbolSearch.documentation(MetalsSymbolSearch.scala:43)
+	at scala.meta.internal.pc.MetalsGlobal.symbolDocumentation(MetalsGlobal.scala:233)
+	at scala.meta.internal.pc.CompletionItemResolver.handleSymbol(CompletionItemResolver.scala:31)
+	at scala.meta.internal.pc.CompletionItemResolver.resolve(CompletionItemResolver.scala:24)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$completionItemResolve$1(ScalaPresentationCompiler.scala:266)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:146)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.completionItemResolve(ScalaPresentationCompiler.scala:265)
+	at scala.meta.internal.metals.Compilers.$anonfun$completionItemResolve$2(Compilers.scala:276)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.Compilers.$anonfun$completionItemResolve$1(Compilers.scala:275)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.Compilers.completionItemResolve(Compilers.scala:274)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$completionItemResolve$1(MetalsLspService.scala:1555)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLspService.completionItemResolve(MetalsLspService.scala:1553)
+	at scala.meta.internal.metals.WorkspaceLspService.$anonfun$completionItemResolve$1(WorkspaceLspService.scala:421)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.WorkspaceLspService.completionItemResolve(WorkspaceLspService.scala:421)
+	at scala.meta.metals.lsp.DelegatingScalaService.completionItemResolve(DelegatingScalaService.scala:138)
+	at jdk.internal.reflect.GeneratedMethodAccessor20.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+Oct 02, 2023 2:21:49 PM scala.meta.internal.mtags.SymbolIndexBucket addMtagsSourceFile
+WARNING: Error indexing /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/DbEngine.scala
+java.nio.file.NoSuchFileException: /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/DbEngine.scala
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:218)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3288)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:45)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:24)
+	at scala.meta.internal.mtags.ScalametaCommonEnrichments$XtensionAbsolutePath.toInput(ScalametaCommonEnrichments.scala:378)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:270)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:286)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$7(SymbolIndexBucket.scala:206)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$7$adapted(SymbolIndexBucket.scala:201)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:576)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:574)
+	at scala.collection.AbstractIterable.foreach(Iterable.scala:933)
+	at scala.collection.IterableOps$WithFilter.foreach(Iterable.scala:903)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query0(SymbolIndexBucket.scala:201)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query(SymbolIndexBucket.scala:163)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.$anonfun$findSymbolDefinition$1(OnDemandSymbolIndex.scala:141)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.findSymbolDefinition(OnDemandSymbolIndex.scala:141)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:48)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:118)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:44)
+	at scala.meta.internal.metals.MetalsSymbolSearch.documentation(MetalsSymbolSearch.scala:43)
+	at scala.meta.internal.pc.MetalsGlobal.symbolDocumentation(MetalsGlobal.scala:233)
+	at scala.meta.internal.pc.CompletionItemResolver.handleSymbol(CompletionItemResolver.scala:31)
+	at scala.meta.internal.pc.CompletionItemResolver.resolve(CompletionItemResolver.scala:24)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$completionItemResolve$1(ScalaPresentationCompiler.scala:266)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:146)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.completionItemResolve(ScalaPresentationCompiler.scala:265)
+	at scala.meta.internal.metals.Compilers.$anonfun$completionItemResolve$2(Compilers.scala:276)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.Compilers.$anonfun$completionItemResolve$1(Compilers.scala:275)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.Compilers.completionItemResolve(Compilers.scala:274)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$completionItemResolve$1(MetalsLspService.scala:1555)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLspService.completionItemResolve(MetalsLspService.scala:1553)
+	at scala.meta.internal.metals.WorkspaceLspService.$anonfun$completionItemResolve$1(WorkspaceLspService.scala:421)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.WorkspaceLspService.completionItemResolve(WorkspaceLspService.scala:421)
+	at scala.meta.metals.lsp.DelegatingScalaService.completionItemResolve(DelegatingScalaService.scala:138)
+	at jdk.internal.reflect.GeneratedMethodAccessor20.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+Oct 02, 2023 2:21:49 PM scala.meta.internal.mtags.SymbolIndexBucket addMtagsSourceFile
+WARNING: Error indexing /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Dbms.scala
+java.nio.file.NoSuchFileException: /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Dbms.scala
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:218)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3288)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:45)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:24)
+	at scala.meta.internal.mtags.ScalametaCommonEnrichments$XtensionAbsolutePath.toInput(ScalametaCommonEnrichments.scala:378)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:270)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$7(SymbolIndexBucket.scala:206)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$7$adapted(SymbolIndexBucket.scala:201)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:576)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:574)
+	at scala.collection.AbstractIterable.foreach(Iterable.scala:933)
+	at scala.collection.IterableOps$WithFilter.foreach(Iterable.scala:903)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query0(SymbolIndexBucket.scala:201)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query(SymbolIndexBucket.scala:163)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.$anonfun$findSymbolDefinition$1(OnDemandSymbolIndex.scala:141)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.findSymbolDefinition(OnDemandSymbolIndex.scala:141)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:48)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:118)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:44)
+	at scala.meta.internal.metals.MetalsSymbolSearch.documentation(MetalsSymbolSearch.scala:43)
+	at scala.meta.internal.pc.MetalsGlobal.symbolDocumentation(MetalsGlobal.scala:233)
+	at scala.meta.internal.pc.CompletionItemResolver.handleSymbol(CompletionItemResolver.scala:31)
+	at scala.meta.internal.pc.CompletionItemResolver.resolve(CompletionItemResolver.scala:24)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$completionItemResolve$1(ScalaPresentationCompiler.scala:266)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:146)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.completionItemResolve(ScalaPresentationCompiler.scala:265)
+	at scala.meta.internal.metals.Compilers.$anonfun$completionItemResolve$2(Compilers.scala:276)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.Compilers.$anonfun$completionItemResolve$1(Compilers.scala:275)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.Compilers.completionItemResolve(Compilers.scala:274)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$completionItemResolve$1(MetalsLspService.scala:1555)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLspService.completionItemResolve(MetalsLspService.scala:1553)
+	at scala.meta.internal.metals.WorkspaceLspService.$anonfun$completionItemResolve$1(WorkspaceLspService.scala:421)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.WorkspaceLspService.completionItemResolve(WorkspaceLspService.scala:421)
+	at scala.meta.metals.lsp.DelegatingScalaService.completionItemResolve(DelegatingScalaService.scala:138)
+	at jdk.internal.reflect.GeneratedMethodAccessor20.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+Oct 02, 2023 2:21:49 PM scala.meta.internal.mtags.SymbolIndexBucket addMtagsSourceFile
+WARNING: Error indexing /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Dbms.scala
+java.nio.file.NoSuchFileException: /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Dbms.scala
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:218)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3288)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:45)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:24)
+	at scala.meta.internal.mtags.ScalametaCommonEnrichments$XtensionAbsolutePath.toInput(ScalametaCommonEnrichments.scala:378)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:270)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:286)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$7(SymbolIndexBucket.scala:206)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$7$adapted(SymbolIndexBucket.scala:201)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:576)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:574)
+	at scala.collection.AbstractIterable.foreach(Iterable.scala:933)
+	at scala.collection.IterableOps$WithFilter.foreach(Iterable.scala:903)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query0(SymbolIndexBucket.scala:201)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query(SymbolIndexBucket.scala:163)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.$anonfun$findSymbolDefinition$1(OnDemandSymbolIndex.scala:141)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.findSymbolDefinition(OnDemandSymbolIndex.scala:141)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:48)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:118)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:44)
+	at scala.meta.internal.metals.MetalsSymbolSearch.documentation(MetalsSymbolSearch.scala:43)
+	at scala.meta.internal.pc.MetalsGlobal.symbolDocumentation(MetalsGlobal.scala:233)
+	at scala.meta.internal.pc.CompletionItemResolver.handleSymbol(CompletionItemResolver.scala:31)
+	at scala.meta.internal.pc.CompletionItemResolver.resolve(CompletionItemResolver.scala:24)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$completionItemResolve$1(ScalaPresentationCompiler.scala:266)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:146)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.completionItemResolve(ScalaPresentationCompiler.scala:265)
+	at scala.meta.internal.metals.Compilers.$anonfun$completionItemResolve$2(Compilers.scala:276)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.Compilers.$anonfun$completionItemResolve$1(Compilers.scala:275)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.Compilers.completionItemResolve(Compilers.scala:274)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$completionItemResolve$1(MetalsLspService.scala:1555)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLspService.completionItemResolve(MetalsLspService.scala:1553)
+	at scala.meta.internal.metals.WorkspaceLspService.$anonfun$completionItemResolve$1(WorkspaceLspService.scala:421)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.WorkspaceLspService.completionItemResolve(WorkspaceLspService.scala:421)
+	at scala.meta.metals.lsp.DelegatingScalaService.completionItemResolve(DelegatingScalaService.scala:138)
+	at jdk.internal.reflect.GeneratedMethodAccessor20.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+2023.10.02 14:21:52 INFO  compiling root (1 scala source)
+2023.10.02 14:21:52 INFO  time: compiled root in 96ms
+2023.10.02 14:21:52 WARN  Using indexes to guess the definition of Interaction
+2023.10.02 14:22:01 INFO  compiling root (1 scala source)
+2023.10.02 14:22:01 INFO  time: compiled root in 0.1s
+2023.10.02 14:22:16 INFO  compiling root (1 scala source)
+2023.10.02 14:22:16 INFO  time: compiled root in 0.66s
+2023.10.02 14:23:02 INFO  compiling root (1 scala source)
+2023.10.02 14:23:02 INFO  time: compiled root in 0.28s
+2023.10.02 14:23:09 INFO  compiling root (1 scala source)
+2023.10.02 14:23:09 INFO  time: compiled root in 51ms
+2023.10.02 14:23:09 INFO  compiling root (1 scala source)
+2023.10.02 14:23:09 INFO  time: compiled root in 23ms
+2023.10.02 14:23:10 WARN  Using indexes to guess the definition of selecionar
+2023.10.02 14:23:10 WARN  Using indexes to guess the definition of contar
+2023.10.02 14:23:13 INFO  compiling root (1 scala source)
+2023.10.02 14:23:13 INFO  time: compiled root in 0.35s
+2023.10.02 14:27:12 INFO  compiling root (1 scala source)
+2023.10.02 14:27:12 INFO  time: compiled root in 45ms
+Oct 02, 2023 2:27:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9238
+2023.10.02 14:27:12 INFO  compiling root (1 scala source)
+2023.10.02 14:27:12 INFO  time: compiled root in 19ms
+2023.10.02 14:27:12 INFO  compiling root (1 scala source)
+2023.10.02 14:27:12 INFO  time: compiled root in 19ms
+2023.10.02 14:27:13 WARN  Using indexes to guess the definition of ReadFile
+2023.10.02 14:28:32 INFO  compiling root (1 scala source)
+2023.10.02 14:28:32 INFO  time: compiled root in 0.64s
+2023.10.02 14:28:48 INFO  compiling root (1 scala source)
+2023.10.02 14:28:48 INFO  time: compiled root in 0.7s
+Oct 02, 2023 2:29:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9497
+2023.10.02 14:29:22 INFO  compiling root (1 scala source)
+2023.10.02 14:29:22 INFO  time: compiled root in 0.1s
+2023.10.02 14:29:27 INFO  compiling root (1 scala source)
+2023.10.02 14:29:27 INFO  time: compiled root in 0.11s
+2023.10.02 14:29:27 INFO  compiling root (1 scala source)
+2023.10.02 14:29:27 INFO  time: compiled root in 89ms
+2023.10.02 14:29:27 INFO  compiling root (1 scala source)
+2023.10.02 14:29:27 INFO  time: compiled root in 79ms
+2023.10.02 14:29:28 INFO  compiling root (1 scala source)
+2023.10.02 14:29:28 INFO  time: compiled root in 78ms
+2023.10.02 14:29:28 INFO  compiling root (1 scala source)
+2023.10.02 14:29:28 INFO  time: compiled root in 86ms
+2023.10.02 14:29:28 INFO  compiling root (1 scala source)
+2023.10.02 14:29:28 INFO  time: compiled root in 71ms
+Oct 02, 2023 2:29:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9652
+2023.10.02 14:29:50 INFO  compiling root (1 scala source)
+2023.10.02 14:29:50 INFO  time: compiled root in 0.12s
+2023.10.02 14:30:32 INFO  compiling root (2 scala sources)
+2023.10.02 14:30:32 INFO  time: compiled root in 0.1s
+2023.10.02 14:30:32 WARN  Using indexes to guess the definition of String
+Oct 02, 2023 2:30:37 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/jpantonow/Desktop/Unb/word-count-db/.metals/.reports/metals-full/2023-10-02/r_compiler-error_14-30-37-816
+2023.10.02 14:31:09 INFO  compiling root (2 scala sources)
+2023.10.02 14:31:09 INFO  time: compiled root in 0.1s
+2023.10.02 14:31:51 INFO  compiling root (2 scala sources)
+2023.10.02 14:31:51 INFO  time: compiled root in 0.12s
+2023.10.02 14:31:51 INFO  compiling root (2 scala sources)
+2023.10.02 14:31:51 INFO  time: compiled root in 94ms
+2023.10.02 14:31:58 INFO  compiling root (2 scala sources)
+2023.10.02 14:31:58 INFO  time: compiled root in 99ms
+2023.10.02 14:33:26 INFO  compiling root (2 scala sources)
+2023.10.02 14:33:26 INFO  time: compiled root in 97ms
+2023.10.02 14:33:43 INFO  compiling root (2 scala sources)
+2023.10.02 14:33:43 INFO  time: compiled root in 98ms
+2023.10.02 14:33:43 INFO  compiling root (2 scala sources)
+2023.10.02 14:33:43 INFO  time: compiled root in 81ms
+2023.10.02 14:33:47 INFO  compiling root (2 scala sources)
+2023.10.02 14:33:47 INFO  time: compiled root in 92ms
+2023.10.02 14:33:47 INFO  compiling root (2 scala sources)
+2023.10.02 14:33:47 INFO  Deduplicating compilation of root from bsp client 'Metals 1.0.1+42-b511ce90-SNAPSHOT' (since 2h 15m 14.812s)
+2023.10.02 14:33:47 INFO  compiling root (2 scala sources)
+2023.10.02 14:33:47 INFO  time: compiled root in 27ms
+2023.10.02 14:34:10 INFO  compiling root (2 scala sources)
+2023.10.02 14:34:10 INFO  time: compiled root in 43ms
+2023.10.02 14:34:20 INFO  compiling root (2 scala sources)
+2023.10.02 14:34:20 INFO  time: compiled root in 97ms
+2023.10.02 14:34:37 INFO  compiling root (2 scala sources)
+2023.10.02 14:34:37 INFO  time: compiled root in 48ms
+2023.10.02 14:34:57 INFO  compiling root (2 scala sources)
+2023.10.02 14:34:57 INFO  time: compiled root in 89ms
+2023.10.02 14:34:57 INFO  compiling root (2 scala sources)
+2023.10.02 14:34:57 INFO  time: compiled root in 75ms
+2023.10.02 14:35:05 INFO  compiling root (2 scala sources)
+2023.10.02 14:35:05 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.10.02 14:35:05 INFO  time: compiled root in 0.67s
+2023.10.02 14:35:10 INFO  compiling root (1 scala source)
+2023.10.02 14:35:10 INFO  time: compiled root in 0.93s
+2023.10.02 14:35:14 INFO  compiling root (1 scala source)
+2023.10.02 14:35:14 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.10.02 14:35:14 INFO  time: compiled root in 0.45s
+2023.10.02 14:36:09 INFO  compiling root (1 scala source)
+2023.10.02 14:36:09 INFO  time: compiled root in 0.73s
+2023.10.02 14:36:52 INFO  compiling root (1 scala source)
+2023.10.02 14:36:52 INFO  time: compiled root in 0.65s
+2023.10.02 14:38:48 INFO  compiling root (1 scala source)
+2023.10.02 14:38:48 INFO  time: compiled root in 89ms
+2023.10.02 14:38:48 INFO  compiling root (1 scala source)
+2023.10.02 14:38:48 INFO  time: compiled root in 63ms
+Oct 02, 2023 2:38:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10831
+2023.10.02 14:38:49 WARN  Using indexes to guess the definition of Interaction
+2023.10.02 14:38:50 INFO  compiling root (1 scala source)
+2023.10.02 14:38:50 INFO  time: compiled root in 95ms
+2023.10.02 14:38:55 INFO  compiling root (1 scala source)
+2023.10.02 14:38:55 INFO  time: compiled root in 0.7s
+Oct 02, 2023 2:41:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 11005
+2023.10.02 14:41:47 INFO  compiling root (1 scala source)
+2023.10.02 14:41:48 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.10.02 14:41:47 INFO  time: compiled root in 0.65s
+2023.10.02 14:42:49 INFO  compiling root (1 scala source)
+2023.10.02 14:42:49 INFO  time: compiled root in 43ms
+2023.10.02 14:42:51 WARN  Using indexes to guess the definition of name
+Oct 02, 2023 2:42:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 11099
+Exception in thread "pool-5-thread-3" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:229)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Exception in thread "pool-5-thread-4" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:229)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2023.10.02 14:44:18 INFO  compiling root (1 scala source)
+2023.10.02 14:44:18 INFO  time: compiled root in 0.1s
+2023.10.02 14:44:18 INFO  compiling root (1 scala source)
+2023.10.02 14:44:18 INFO  time: compiled root in 56ms
+Oct 02, 2023 2:47:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 11277
+2023.10.02 14:48:02 INFO  compiling root (1 scala source)
+2023.10.02 14:48:02 INFO  time: compiled root in 46ms
+2023.10.02 14:48:11 INFO  compiling root (1 scala source)
+2023.10.02 14:48:11 WARN  Using indexes to guess the definition of String
+2023.10.02 14:48:11 INFO  time: compiled root in 57ms
+2023.10.02 14:48:16 INFO  compiling root (1 scala source)
+2023.10.02 14:48:16 INFO  time: compiled root in 59ms
+2023.10.02 14:48:23 INFO  compiling root (1 scala source)
+2023.10.02 14:48:23 INFO  time: compiled root in 61ms
+2023.10.02 14:48:31 INFO  compiling root (1 scala source)
+2023.10.02 14:48:31 INFO  time: compiled root in 85ms
+2023.10.02 14:48:37 INFO  compiling root (1 scala source)
+2023.10.02 14:48:37 INFO  time: compiled root in 0.1s
+2023.10.02 14:49:54 INFO  compiling root (2 scala sources)
+2023.10.02 14:49:54 INFO  time: compiled root in 94ms
+2023.10.02 14:54:37 INFO  compiling root (2 scala sources)
+2023.10.02 14:54:37 INFO  time: compiled root in 91ms
+2023.10.02 14:55:03 INFO  compiling root (2 scala sources)
+2023.10.02 14:55:03 INFO  time: compiled root in 90ms
+2023.10.02 14:55:40 INFO  compiling root (2 scala sources)
+2023.10.02 14:55:40 INFO  time: compiled root in 0.12s
+2023.10.02 14:55:54 INFO  compiling root (2 scala sources)
+2023.10.02 14:55:54 INFO  time: compiled root in 87ms
+2023.10.02 14:56:06 INFO  compiling root (2 scala sources)
+2023.10.02 14:56:06 INFO  time: compiled root in 96ms
+2023.10.02 14:56:12 INFO  compiling root (2 scala sources)
+2023.10.02 14:56:12 INFO  time: compiled root in 0.1s
+2023.10.02 14:56:14 INFO  compiling root (2 scala sources)
+2023.10.02 14:56:14 INFO  time: compiled root in 91ms
+2023.10.02 14:56:23 INFO  compiling root (2 scala sources)
+2023.10.02 14:56:23 INFO  time: compiled root in 91ms
+2023.10.02 14:56:32 WARN  Using indexes to guess the definition of Initialize_database
+2023.10.02 14:58:50 INFO  compiling root (2 scala sources)
+2023.10.02 14:58:50 INFO  time: compiled root in 0.13s
+2023.10.02 14:58:50 INFO  compiling root (2 scala sources)
+2023.10.02 14:58:50 INFO  time: compiled root in 0.1s
+2023.10.02 14:59:04 INFO  compiling root (2 scala sources)
+2023.10.02 14:59:04 INFO  time: compiled root in 85ms
+2023.10.02 14:59:18 INFO  compiling root (2 scala sources)
+2023.10.02 14:59:18 INFO  time: compiled root in 87ms
+2023.10.02 14:59:25 INFO  compiling root (2 scala sources)
+2023.10.02 14:59:25 INFO  time: compiled root in 86ms
+2023.10.02 14:59:26 INFO  compiling root (2 scala sources)
+2023.10.02 14:59:26 INFO  time: compiled root in 63ms
+2023.10.02 15:02:54 INFO  compiling root (2 scala sources)
+2023.10.02 15:02:54 INFO  time: compiled root in 99ms
+2023.10.02 15:03:23 INFO  compiling root (2 scala sources)
+2023.10.02 15:03:23 INFO  time: compiled root in 94ms
+Oct 02, 2023 3:04:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 12739
+2023.10.02 15:04:47 INFO  compiling root (2 scala sources)
+2023.10.02 15:04:47 INFO  time: compiled root in 0.26s
+2023.10.02 15:05:04 INFO  compiling root (2 scala sources)
+2023.10.02 15:05:04 INFO  time: compiled root in 0.1s
+2023.10.02 15:06:00 INFO  compiling root (2 scala sources)
+2023.10.02 15:06:00 INFO  time: compiled root in 96ms
+2023.10.02 15:06:10 INFO  compiling root (2 scala sources)
+2023.10.02 15:06:10 INFO  time: compiled root in 0.1s
+2023.10.02 15:06:38 INFO  compiling root (2 scala sources)
+2023.10.02 15:06:38 INFO  time: compiled root in 48ms
+2023.10.02 15:06:47 INFO  compiling root (2 scala sources)
+2023.10.02 15:06:47 INFO  time: compiled root in 0.1s
+2023.10.02 15:07:02 INFO  compiling root (2 scala sources)
+2023.10.02 15:07:02 INFO  time: compiled root in 0.11s
+2023.10.02 15:07:02 INFO  compiling root (2 scala sources)
+2023.10.02 15:07:02 INFO  time: compiled root in 76ms
+2023.10.02 15:07:10 INFO  compiling root (2 scala sources)
+2023.10.02 15:07:10 INFO  time: compiled root in 0.1s
+Exception in thread "pool-5-thread-5" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:229)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Exception in thread "pool-5-thread-6" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:229)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2023.10.02 15:07:22 INFO  compiling root (2 scala sources)
+2023.10.02 15:07:22 INFO  time: compiled root in 92ms
+2023.10.02 15:07:40 INFO  compiling root (2 scala sources)
+2023.10.02 15:07:40 INFO  time: compiled root in 94ms
+2023.10.02 15:07:40 INFO  compiling root (2 scala sources)
+2023.10.02 15:07:40 INFO  time: compiled root in 78ms
+2023.10.02 15:07:40 INFO  compiling root (2 scala sources)
+2023.10.02 15:07:40 INFO  time: compiled root in 90ms
+2023.10.02 15:07:41 INFO  compiling root (2 scala sources)
+2023.10.02 15:07:41 INFO  time: compiled root in 73ms
+2023.10.02 15:07:41 INFO  compiling root (2 scala sources)
+2023.10.02 15:07:41 INFO  time: compiled root in 79ms
+2023.10.02 15:07:41 INFO  compiling root (2 scala sources)
+2023.10.02 15:07:41 INFO  time: compiled root in 0.12s
+2023.10.02 15:07:41 INFO  compiling root (2 scala sources)
+2023.10.02 15:07:41 INFO  time: compiled root in 89ms
+2023.10.02 15:07:42 WARN  Using indexes to guess the definition of path
+2023.10.02 15:07:42 INFO  Deduplicating compilation of root from bsp client 'Metals 1.0.1+42-b511ce90-SNAPSHOT' (since 2h 49m 9.276s)
+2023.10.02 15:07:42 INFO  compiling root (2 scala sources)
+2023.10.02 15:07:42 INFO  compiling root (2 scala sources)
+2023.10.02 15:07:42 INFO  time: compiled root in 81ms
+Exception in thread "pool-5-thread-7" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:229)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2023.10.02 15:07:42 INFO  compiling root (2 scala sources)
+2023.10.02 15:07:42 INFO  time: compiled root in 73ms
+2023.10.02 15:07:55 INFO  compiling root (2 scala sources)
+2023.10.02 15:07:55 INFO  time: compiled root in 0.11s
+2023.10.02 15:08:15 WARN  Using indexes to guess the definition of Initialize
+Exception in thread "pool-5-thread-8" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:229)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Exception in thread "pool-5-thread-9" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:229)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2023.10.02 15:08:34 INFO  compiling root (2 scala sources)
+2023.10.02 15:08:34 INFO  time: compiled root in 0.11s
+2023.10.02 15:08:50 INFO  compiling root (2 scala sources)
+2023.10.02 15:08:50 INFO  time: compiled root in 45ms
+2023.10.02 15:08:55 INFO  compiling root (2 scala sources)
+2023.10.02 15:08:55 INFO  time: compiled root in 0.1s
+2023.10.02 15:09:00 INFO  compiling root (2 scala sources)
+2023.10.02 15:09:00 INFO  time: compiled root in 0.1s
+2023.10.02 15:09:01 INFO  compiling root (2 scala sources)
+2023.10.02 15:09:01 INFO  time: compiled root in 0.13s
+2023.10.02 15:09:19 INFO  compiling root (2 scala sources)
+2023.10.02 15:09:19 INFO  time: compiled root in 49ms
+2023.10.02 15:09:21 INFO  compiling root (2 scala sources)
+2023.10.02 15:09:21 INFO  time: compiled root in 0.12s
+2023.10.02 15:09:27 INFO  compiling root (2 scala sources)
+2023.10.02 15:09:27 INFO  time: compiled root in 0.1s
+2023.10.02 15:09:37 INFO  compiling root (2 scala sources)
+2023.10.02 15:09:37 INFO  time: compiled root in 0.11s
+2023.10.02 15:09:52 INFO  compiling root (2 scala sources)
+2023.10.02 15:09:52 INFO  time: compiled root in 0.1s
+2023.10.02 15:09:55 INFO  compiling root (2 scala sources)
+2023.10.02 15:09:55 INFO  time: compiled root in 43ms
+2023.10.02 15:10:03 INFO  compiling root (2 scala sources)
+2023.10.02 15:10:03 INFO  time: compiled root in 0.12s
+2023.10.02 15:10:04 WARN  Using indexes to guess the definition of String
+2023.10.02 15:10:11 INFO  compiling root (2 scala sources)
+2023.10.02 15:10:11 INFO  time: compiled root in 0.12s
+2023.10.02 15:10:12 WARN  Using indexes to guess the definition of String
+2023.10.02 15:10:18 INFO  compiling root (2 scala sources)
+2023.10.02 15:10:18 INFO  time: compiled root in 94ms
+2023.10.02 15:10:27 INFO  compiling root (2 scala sources)
+2023.10.02 15:10:27 INFO  time: compiled root in 0.1s
+2023.10.02 15:11:46 INFO  compiling root (2 scala sources)
+2023.10.02 15:11:46 INFO  time: compiled root in 98ms
+2023.10.02 15:11:46 INFO  compiling root (2 scala sources)
+2023.10.02 15:11:46 INFO  time: compiled root in 83ms
+2023.10.02 15:11:48 INFO  compiling root (2 scala sources)
+2023.10.02 15:11:48 INFO  time: compiled root in 92ms
+2023.10.02 15:12:06 INFO  compiling root (2 scala sources)
+2023.10.02 15:12:06 INFO  time: compiled root in 48ms
+2023.10.02 15:12:06 WARN  Using indexes to guess the definition of String
+2023.10.02 15:12:11 INFO  compiling root (2 scala sources)
+2023.10.02 15:12:11 INFO  time: compiled root in 43ms
+2023.10.02 15:12:15 INFO  compiling root (2 scala sources)
+2023.10.02 15:12:15 INFO  time: compiled root in 97ms
+2023.10.02 15:12:15 WARN  Using indexes to guess the definition of String
+2023.10.02 15:12:34 INFO  compiling root (2 scala sources)
+2023.10.02 15:12:34 INFO  time: compiled root in 0.1s
+2023.10.02 15:12:42 INFO  compiling root (2 scala sources)
+2023.10.02 15:12:42 INFO  time: compiled root in 94ms
+2023.10.02 15:12:51 INFO  compiling root (2 scala sources)
+2023.10.02 15:12:51 INFO  time: compiled root in 90ms
+2023.10.02 15:12:51 INFO  compiling root (2 scala sources)
+2023.10.02 15:12:51 INFO  time: compiled root in 62ms
+2023.10.02 15:12:59 INFO  compiling root (2 scala sources)
+2023.10.02 15:12:59 INFO  time: compiled root in 0.81s
+2023.10.02 15:12:59 INFO  compiling root (1 scala source)
+2023.10.02 15:12:59 INFO  time: compiled root in 31ms
+2023.10.02 15:13:48 INFO  compiling root (4 scala sources)
+2023.10.02 15:13:48 INFO  time: compiled root in 43ms
+2023.10.02 15:13:52 INFO  compiling root (4 scala sources)
+2023.10.02 15:13:52 INFO  time: compiled root in 42ms
+Oct 02, 2023 3:13:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 14353
+2023.10.02 15:14:04 INFO  compiling root (2 scala sources)
+2023.10.02 15:14:04 INFO  time: compiled root in 0.68s
+2023.10.02 15:14:04 INFO  compiling root (1 scala source)
+2023.10.02 15:14:04 INFO  time: compiled root in 28ms
+2023.10.02 15:14:47 INFO  compiling root (4 scala sources)
+2023.10.02 15:14:47 INFO  time: compiled root in 0.1s
+2023.10.02 15:15:12 INFO  compiling root (4 scala sources)
+2023.10.02 15:15:12 INFO  time: compiled root in 95ms
+2023.10.02 15:15:41 INFO  compiling root (4 scala sources)
+2023.10.02 15:15:41 INFO  time: compiled root in 95ms
+2023.10.02 15:16:06 INFO  compiling root (4 scala sources)
+2023.10.02 15:16:06 INFO  time: compiled root in 0.1s
+2023.10.02 15:16:56 INFO  compiling root (4 scala sources)
+2023.10.02 15:16:56 INFO  time: compiled root in 45ms
+2023.10.02 15:17:15 INFO  compiling root (4 scala sources)
+2023.10.02 15:17:15 INFO  time: compiled root in 0.1s
+2023.10.02 15:17:23 INFO  compiling root (4 scala sources)
+2023.10.02 15:17:23 INFO  time: compiled root in 86ms
+2023.10.02 15:17:33 INFO  compiling root (4 scala sources)
+2023.10.02 15:17:33 INFO  time: compiled root in 98ms
+Oct 02, 2023 3:17:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 15122
+2023.10.02 15:17:58 INFO  compiling root (4 scala sources)
+2023.10.02 15:17:58 INFO  time: compiled root in 0.11s
+2023.10.02 15:18:18 INFO  compiling root (4 scala sources)
+2023.10.02 15:18:18 INFO  time: compiled root in 0.11s
+2023.10.02 15:18:25 INFO  compiling root (4 scala sources)
+2023.10.02 15:18:25 INFO  time: compiled root in 0.11s
+2023.10.02 15:18:49 INFO  compiling root (4 scala sources)
+2023.10.02 15:18:49 INFO  time: compiled root in 95ms
+2023.10.02 15:19:03 INFO  compiling root (4 scala sources)
+2023.10.02 15:19:03 INFO  time: compiled root in 93ms
+2023.10.02 15:19:14 INFO  compiling root (4 scala sources)
+2023.10.02 15:19:14 INFO  time: compiled root in 0.1s
+2023.10.02 15:19:23 INFO  compiling root (4 scala sources)
+2023.10.02 15:19:23 INFO  time: compiled root in 95ms
+2023.10.02 15:19:43 INFO  compiling root (4 scala sources)
+2023.10.02 15:19:43 INFO  time: compiled root in 97ms
+2023.10.02 15:19:49 INFO  compiling root (4 scala sources)
+2023.10.02 15:19:49 INFO  time: compiled root in 0.1s
+2023.10.02 15:19:57 INFO  compiling root (4 scala sources)
+2023.10.02 15:19:57 INFO  time: compiled root in 89ms
+2023.10.02 15:20:02 INFO  compiling root (4 scala sources)
+2023.10.02 15:20:02 INFO  time: compiled root in 0.12s
+2023.10.02 15:20:12 INFO  compiling root (4 scala sources)
+2023.10.02 15:20:12 INFO  time: compiled root in 0.73s
+2023.10.02 15:20:12 INFO  compiling root (4 scala sources)
+2023.10.02 15:20:13 INFO  time: compiled root in 0.24s
+2023.10.02 15:20:13 WARN  Using indexes to guess the definition of db_file
+2023.10.02 15:20:28 INFO  compiling root (4 scala sources)
+2023.10.02 15:20:28 INFO  time: compiled root in 0.1s
+2023.10.02 15:20:36 INFO  compiling root (4 scala sources)
+2023.10.02 15:20:36 INFO  time: compiled root in 0.67s
+2023.10.02 15:21:13 INFO  compiling root (4 scala sources)
+2023.10.02 15:21:13 INFO  time: compiled root in 94ms
+2023.10.02 15:21:28 INFO  compiling root (4 scala sources)
+2023.10.02 15:21:28 INFO  time: compiled root in 0.85s
+2023.10.02 15:21:39 INFO  compiling root (4 scala sources)
+2023.10.02 15:21:39 INFO  time: compiled root in 37ms
+2023.10.02 15:21:43 INFO  compiling root (4 scala sources)
+2023.10.02 15:21:43 INFO  time: compiled root in 0.62s
+2023.10.02 15:22:10 INFO  compiling root (4 scala sources)
+2023.10.02 15:22:10 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details
+2023.10.02 15:22:10 INFO  time: compiled root in 0.72s
+2023.10.02 15:22:12 INFO  compiling root (1 scala source)
+2023.10.02 15:22:12 INFO  time: compiled root in 0.41s
+2023.10.02 15:23:00 INFO  compiling root (1 scala source)
+2023.10.02 15:23:00 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/components/User.scala
+2023.10.02 15:23:00 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/components/User.scala
+2023.10.02 15:23:00 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details
+2023.10.02 15:23:00 INFO  time: compiled root in 0.47s
+2023.10.02 15:23:00 INFO  compiling root (1 scala source)
+2023.10.02 15:23:00 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/components/User.scala
+2023.10.02 15:23:00 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/components/User.scala
+2023.10.02 15:23:00 INFO  time: compiled root in 97ms
+2023.10.02 15:23:20 INFO  compiling root (1 scala source)
+2023.10.02 15:23:20 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details
+2023.10.02 15:23:20 INFO  time: compiled root in 0.45s
+2023.10.02 15:24:28 INFO  compiling root (1 scala source)
+2023.10.02 15:24:28 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details
+2023.10.02 15:24:28 INFO  time: compiled root in 0.42s
+2023.10.02 15:24:46 INFO  compiling root (1 scala source)
+2023.10.02 15:24:46 INFO  time: compiled root in 0.32s
