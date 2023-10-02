@@ -12329,3 +12329,29 @@ something's wrong: no file:///home/jpantonow/Desktop/Unb/word-count-db/src/main/
 2023.10.02 19:31:33 INFO  time: compiled root in 0.58s
 Oct 02, 2023 7:34:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
 WARNING: Unmatched cancel notification for request id 27284
+Oct 02, 2023 7:59:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 27556
+2023.10.02 19:59:30 INFO  compiling root (1 scala source)
+2023.10.02 19:59:30 INFO  time: compiled root in 79ms
+2023.10.02 19:59:48 INFO  compiling root (1 scala source)
+2023.10.02 19:59:48 WARN  1 deprecation (since 2.11.0); re-run with -deprecation for details
+2023.10.02 19:59:48 INFO  time: compiled root in 0.77s
+2023.10.02 20:00:00 INFO  compiling root (1 scala source)
+2023.10.02 20:00:00 INFO  time: compiled root in 82ms
+2023.10.02 20:00:00 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.10.02 20:00:54 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.10.02 20:00:58 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.10.02 20:00:59 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.10.02 20:00:59 INFO  compiling root (1 scala source)
+2023.10.02 20:01:00 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.10.02 20:00:59 INFO  time: compiled root in 0.63s
+Oct 02, 2023 8:01:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 27728
+2023.10.02 20:01:48 INFO  compiling root (1 scala source)
+2023.10.02 20:01:48 INFO  time: compiled root in 0.61s
+2023.10.02 20:01:52 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.10.02 20:01:52 INFO  compiling root (1 scala source)
+2023.10.02 20:01:53 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.10.02 20:01:52 INFO  time: compiled root in 0.63s
+Oct 02, 2023 8:01:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 27872

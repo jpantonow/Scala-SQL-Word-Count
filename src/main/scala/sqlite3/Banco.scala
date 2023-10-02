@@ -79,31 +79,35 @@ class Insert_Words(path_to_text: String, path_to_database: String) extends Initi
     conn.setAutoCommit(false)
 
     for(n<-0 until text.length){
-            for(i<-0 until text(n).length){
-                update = "UPDATE OR IGNORE characters "
-                update += "SET frequency = frequency + 1 WHERE char = "
-                update += "'" + text(n)(i).toString() + "';"
+            if(stopwords.contains(text(n))){
+            }
+            else{
+                for(i<-0 until text(n).length){
+                    update = "UPDATE OR IGNORE characters "
+                    update += "SET frequency = frequency + 1 WHERE char = "
+                    update += "'" + text(n)(i).toString() + "';"
+                    rt = conn.prepareStatement(update)
+                    rt.execute()
+                    command = "INSERT OR IGNORE INTO characters(char, frequency) VALUES ("
+                    command += "'" + text(n)(i).toString() + "', "
+                    command += "'1');" 
+                    rt = conn.prepareStatement(command)
+                    rt.execute()
+            }
+    
+                update = "UPDATE OR IGNORE words "
+                update += "SET frequency = frequency + 1 WHERE name = "
+                update += "'" + text(n).toString() + "';"
                 rt = conn.prepareStatement(update)
                 rt.execute()
-                command = "INSERT OR IGNORE INTO characters(char, frequency) VALUES ("
-                command += "'" + text(n)(i).toString() + "', "
+                
+                command = "INSERT OR IGNORE INTO words(name, frequency) VALUES ("
+                command += "'" + text(n).toString() + "', "
                 command += "'1');" 
                 rt = conn.prepareStatement(command)
                 rt.execute()
             }
-
-    
-            update = "UPDATE OR IGNORE words "
-            update += "SET frequency = frequency + 1 WHERE name = "
-            update += "'" + text(n).toString() + "';"
-            rt = conn.prepareStatement(update)
-            rt.execute()
             
-            command = "INSERT OR IGNORE INTO words(name, frequency) VALUES ("
-            command += "'" + text(n).toString() + "', "
-            command += "'1');" 
-            rt = conn.prepareStatement(command)
-            rt.execute()
         }
 
     //Executa o statement e fecha a conexão com o banco de dados     
