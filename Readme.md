@@ -1,1 +1,1 @@
-#Repositorio para Scala Word Count - Persistent Tables
+Repositorio para Scala Word Count - Persistent Tables
