@@ -11981,3 +11981,130 @@ WARNING: Unmatched cancel notification for request id 23600
 2023.10.02 16:45:05 INFO  compiling root (1 scala source)
 2023.10.02 16:45:05 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
 2023.10.02 16:45:05 INFO  time: compiled root in 0.43s
+2023.10.02 18:22:10 INFO  compiling root (1 scala source)
+2023.10.02 18:22:11 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.10.02 18:22:11 INFO  time: compiled root in 1.21s
+2023.10.02 18:22:11 INFO  compiling root (1 scala source)
+2023.10.02 18:22:11 INFO  time: compiled root in 16ms
+Oct 02, 2023 6:22:20 PM scala.meta.internal.mtags.SymbolIndexBucket addMtagsSourceFile
+WARNING: Error indexing /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/components/User.scala
+java.nio.file.NoSuchFileException: /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/components/User.scala
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:218)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3288)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:45)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:24)
+	at scala.meta.internal.mtags.ScalametaCommonEnrichments$XtensionAbsolutePath.toInput(ScalametaCommonEnrichments.scala:378)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:270)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1(SymbolIndexBucket.scala:190)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1$adapted(SymbolIndexBucket.scala:190)
+	at scala.collection.immutable.Set$Set2.foreach(Set.scala:210)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query0(SymbolIndexBucket.scala:190)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query(SymbolIndexBucket.scala:163)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.$anonfun$findSymbolDefinition$1(OnDemandSymbolIndex.scala:141)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.findSymbolDefinition(OnDemandSymbolIndex.scala:141)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:48)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:118)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:44)
+	at scala.meta.internal.metals.MetalsSymbolSearch.documentation(MetalsSymbolSearch.scala:43)
+	at scala.meta.internal.pc.MetalsGlobal.symbolDocumentation(MetalsGlobal.scala:233)
+	at scala.meta.internal.pc.Signatures$SignaturePrinter.<init>(Signatures.scala:277)
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:240)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:145)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:22)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$hover$1(ScalaPresentationCompiler.scala:307)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:146)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withNonInterruptableCompiler$1(CompilerAccess.scala:132)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:231)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+Oct 02, 2023 6:22:20 PM scala.meta.internal.mtags.SymbolIndexBucket addMtagsSourceFile
+WARNING: Error indexing /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/components/User.scala
+java.nio.file.NoSuchFileException: /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/components/User.scala
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:218)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3288)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:45)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:24)
+	at scala.meta.internal.mtags.ScalametaCommonEnrichments$XtensionAbsolutePath.toInput(ScalametaCommonEnrichments.scala:378)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:270)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:286)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1(SymbolIndexBucket.scala:190)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1$adapted(SymbolIndexBucket.scala:190)
+	at scala.collection.immutable.Set$Set2.foreach(Set.scala:210)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query0(SymbolIndexBucket.scala:190)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query(SymbolIndexBucket.scala:163)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.$anonfun$findSymbolDefinition$1(OnDemandSymbolIndex.scala:141)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.findSymbolDefinition(OnDemandSymbolIndex.scala:141)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definition(OnDemandSymbolIndex.scala:48)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:118)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:44)
+	at scala.meta.internal.metals.MetalsSymbolSearch.documentation(MetalsSymbolSearch.scala:43)
+	at scala.meta.internal.pc.MetalsGlobal.symbolDocumentation(MetalsGlobal.scala:233)
+	at scala.meta.internal.pc.Signatures$SignaturePrinter.<init>(Signatures.scala:277)
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:240)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:145)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:22)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$hover$1(ScalaPresentationCompiler.scala:307)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:146)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withNonInterruptableCompiler$1(CompilerAccess.scala:132)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:231)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+2023.10.02 18:23:11 INFO  compiling root (1 scala source)
+2023.10.02 18:23:12 WARN  Using indexes to guess the definition of book
+2023.10.02 18:23:12 WARN  Using indexes to guess the definition of database
+2023.10.02 18:23:12 WARN  Using indexes to guess the definition of database
+2023.10.02 18:23:11 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.10.02 18:23:11 INFO  time: compiled root in 0.49s
+2023.10.02 18:23:11 INFO  compiling root (1 scala source)
+2023.10.02 18:23:11 INFO  time: compiled root in 18ms
+2023.10.02 18:23:32 WARN  Using indexes to guess the definition of database
+2023.10.02 18:23:35 INFO  compiling root (1 scala source)
+2023.10.02 18:23:35 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.10.02 18:23:35 INFO  time: compiled root in 0.47s
+2023.10.02 18:23:35 INFO  compiling root (1 scala source)
+2023.10.02 18:23:35 INFO  time: compiled root in 0.11s
+2023.10.02 18:23:44 INFO  compiling root (1 scala source)
+2023.10.02 18:23:44 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.10.02 18:23:44 INFO  time: compiled root in 0.46s
+2023.10.02 18:23:44 INFO  compiling root (1 scala source)
+2023.10.02 18:23:44 INFO  time: compiled root in 68ms
+2023.10.02 18:23:56 INFO  compiling root (1 scala source)
+2023.10.02 18:23:56 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/components/Interaction.scala
+2023.10.02 18:23:56 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/components/Interaction.scala
+2023.10.02 18:23:56 WARN  Using indexes to guess the definition of display_texts
+2023.10.02 18:23:56 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/components/Interaction.scala
+2023.10.02 18:23:56 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.10.02 18:23:56 INFO  time: compiled root in 0.47s
+2023.10.02 18:24:49 INFO  compiling root (1 scala source)
+2023.10.02 18:24:49 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.10.02 18:24:49 INFO  time: compiled root in 0.69s
+2023.10.02 18:28:33 INFO  compiling root (1 scala source)
+2023.10.02 18:28:33 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.10.02 18:28:33 INFO  time: compiled root in 0.45s
+2023.10.02 18:29:31 INFO  compiling root (1 scala source)
+2023.10.02 18:29:31 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.10.02 18:29:31 INFO  time: compiled root in 0.45s
+2023.10.02 18:33:38 INFO  compiling root (1 scala source)
+2023.10.02 18:33:38 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.10.02 18:33:38 INFO  time: compiled root in 0.49s
+2023.10.02 18:33:46 INFO  compiling root (1 scala source)
+2023.10.02 18:33:46 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.10.02 18:33:46 INFO  time: compiled root in 0.47s
