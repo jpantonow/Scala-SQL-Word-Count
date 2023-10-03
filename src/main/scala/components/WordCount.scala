@@ -10,13 +10,16 @@ class WordCount extends Interaction{
 
     def selecionar: Unit = {
         val db_select_most_frequent = new Select_Most_Frequent(txt_file,db_file)
-        print_success("\n100 Most frequent words")
+        print_success("\n25 Most frequent words")
         db_select_most_frequent.words
-        print_success("\n100 Most frequent characters")
+        print_success("\n25 Most frequent characters")
         db_select_most_frequent.characters
 
     }
-    
+    def register_doc: Unit = {
+        val db_register = new Register_Documents(txt_file,db_file,book_name)
+        print_success("\nSucessfully registered into Documents")
+    }
     def print_success(string: String): Unit = {
         val greenColor = "\u001B[32m"
         val resetColor = "\u001B[0m"

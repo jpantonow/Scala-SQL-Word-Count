@@ -36,7 +36,8 @@ class CreateTables(path_to_text: String, path_to_database: String) extends Initi
 
     //Array que contém os comandos SQL de criação das tabelas
     val criar = Array(
-        "CREATE TABLE IF NOT EXISTS documents (id INTEGER PRIMARY KEY AUTOINCREMENT,name);",
+        "CREATE TABLE IF NOT EXISTS documents (book TEXT PRIMARY KEY, num_words INTEGER, " +
+        "num_char INTEGER, avg_char_word INTEGER, longest_word TEXT, lenght_25 INTEGER);",
         "CREATE TABLE IF NOT EXISTS words(name TEXT PRIMARY KEY, frequency INTEGER);",
         "CREATE TABLE IF NOT EXISTS characters(char TEXT PRIMARY KEY, frequency INTEGER);"
     )
@@ -128,7 +129,7 @@ class Select_Most_Frequent(path_to_text: String, path_to_database: String) exten
         val rs = select.executeQuery(command)
         var break: Int = 0
         //Pega todos os resultados da Query
-        while(rs.next() && (break!=100)){
+        while(rs.next() && (break!=25)){
             var name = rs.getString("name")
             var frequency = rs.getInt("frequency")
             println(s"$name has appeared $frequency times.")
@@ -154,7 +155,7 @@ class Select_Most_Frequent(path_to_text: String, path_to_database: String) exten
         val rs = select.executeQuery(command)
         var break: Int = 0
         //Pega todos os resultados da Query
-        while(rs.next() && (break!=100)){
+        while(rs.next() && (break!=25)){
             var char = rs.getString("char")
             var frequency = rs.getInt("frequency")
             println(s"$char has appeared $frequency times.")
@@ -167,6 +168,43 @@ class Select_Most_Frequent(path_to_text: String, path_to_database: String) exten
         }
 }
 
+class Register_Documents(path_to_text: String, path_to_database: String, book_name: String) extends Initialize(path_to_text: String, path_to_database: String){
+    register
+    count_words
+
+    def register: Unit = {
+        val conn = DriverManager.getConnection(url)
+        //Criando um PreparedStatement
+        var rt: PreparedStatement = null
+        //Desativando o autocommit
+        conn.setAutoCommit(false)
+        var register: String = ""
+        register = "INSERT OR IGNORE INTO documents(book) VALUES("
+        register += "'" + book_name + "');"
+        rt = conn.prepareStatement(register)
+        rt.execute()   
+        rt.close()
+        conn.commit()
+        conn.close()
+    }
+    def count_words: Unit = {
+        var rt: PreparedStatement = null
+        val conn = DriverManager.getConnection(url)
+        conn.setAutoCommit(false)
+        val select_all = conn.createStatement()
+        var command = "SELECT COUNT(name) from words;"
+        val rs = select_all.executeQuery(command)
+        //rs.next()
+        val count: Integer = rs.getInt(1)
+        command = s"UPDATE OR IGNORE documents SET num_words = ${count} WHERE book = '${book_name}';"
+        rt = conn.prepareStatement(command)
+        rt.execute()
+        rt.close()
+        conn.commit()
+        select_all.close()
+        conn.close()
+    }
+}
 //Classe para exportar words e characters em arquivos csv
 class Export_to_CSV (path_to_text: String, path_to_database: String, book_name: String) extends Initialize(path_to_text: String, path_to_database: String){
     export_words
