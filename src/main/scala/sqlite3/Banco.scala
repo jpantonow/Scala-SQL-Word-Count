@@ -167,6 +167,7 @@ class Select_Most_Frequent(path_to_text: String, path_to_database: String) exten
         }
 }
 
+//Classe para exportar words e characters em arquivos csv
 class Export_to_CSV (path_to_text: String, path_to_database: String, book_name: String) extends Initialize(path_to_text: String, path_to_database: String){
     export_words
     export_characters
