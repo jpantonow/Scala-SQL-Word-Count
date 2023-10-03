@@ -12522,3 +12522,5 @@ WARNING: Unmatched cancel notification for request id 29908
 2023.10.02 20:42:44 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
 2023.10.02 20:42:44 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
 2023.10.02 20:42:44 INFO  time: compiled root in 0.72s
+2023.10.02 21:05:00 INFO  compiling root (1 scala source)
+2023.10.02 21:05:00 INFO  time: compiled root in 0.62s
