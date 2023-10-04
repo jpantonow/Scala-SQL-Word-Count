@@ -22,7 +22,7 @@ class Initialize(path_to_text: String, path_to_database: String){
 }
 
 //Classe pra inicializar o banco de dados com as tabelas necessárias
-class CreateTables(path_to_text: String, path_to_database: String) extends Initialize(path_to_text: String, path_to_database: String){
+class CreateTables(path_to_text: String, path_to_database: String, book_name: String) extends Initialize(path_to_text: String, path_to_database: String){
     
     //Estabelendo a conexão com o JDBC
     val conn = DriverManager.getConnection(url)
@@ -38,8 +38,10 @@ class CreateTables(path_to_text: String, path_to_database: String) extends Initi
     val criar = Array(
         "CREATE TABLE IF NOT EXISTS documents (book TEXT PRIMARY KEY, num_words INTEGER, " +
         "num_char INTEGER, avg_char_word INTEGER, longest_word TEXT, lenght_25 INTEGER);",
-        "CREATE TABLE IF NOT EXISTS words(name TEXT PRIMARY KEY, frequency INTEGER);",
-        "CREATE TABLE IF NOT EXISTS characters(char TEXT PRIMARY KEY, frequency INTEGER);"
+        "CREATE TABLE IF NOT EXISTS words(book TEXT , name TEXT, frequency INTEGER, FOREIGN KEY (book)" +
+        " REFERENCES documents(book), PRIMARY KEY(book, name));",
+        "CREATE TABLE IF NOT EXISTS characters(book TEXT , char TEXT, frequency INTEGER, FOREIGN KEY (book)" +
+        " REFERENCES documents(book), PRIMARY KEY(book, char));"
     )
 
     //Percorre a array e adiciona cada comando ao statement SQL na "Pilha"
@@ -54,7 +56,7 @@ class CreateTables(path_to_text: String, path_to_database: String) extends Initi
     conn.close()
 }
 
-class Insert_Words(path_to_text: String, path_to_database: String) extends Initialize(path_to_text: String, path_to_database: String){
+class Insert_Words(path_to_text: String, path_to_database: String, book_name: String) extends Initialize(path_to_text: String, path_to_database: String){
 
     //Estabelendo a conexão com o JDBC
     val conn = DriverManager.getConnection(url)
@@ -84,10 +86,12 @@ class Insert_Words(path_to_text: String, path_to_database: String) extends Initi
                 for(i<-0 until text(n).length){
                     update = "UPDATE OR IGNORE characters "
                     update += "SET frequency = frequency + 1 WHERE char = "
-                    update += "'" + text(n)(i).toString() + "';"
+                    update += "'" + text(n)(i).toString() + "' and "
+                    update += "book = '" + book_name + "';"
                     rt = conn.prepareStatement(update)
                     rt.execute()
-                    command = "INSERT OR IGNORE INTO characters(char, frequency) VALUES ("
+                    command = "INSERT OR IGNORE INTO characters(book, char, frequency) VALUES ("
+                    command += "'" + book_name + "', "
                     command += "'" + text(n)(i).toString() + "', "
                     command += "'1');" 
                     rt = conn.prepareStatement(command)
@@ -96,11 +100,13 @@ class Insert_Words(path_to_text: String, path_to_database: String) extends Initi
     
                 update = "UPDATE OR IGNORE words "
                 update += "SET frequency = frequency + 1 WHERE name = "
-                update += "'" + text(n).toString() + "';"
+                update += "'" + text(n).toString() + "' and "
+                update += "book = '" + book_name + "';"
                 rt = conn.prepareStatement(update)
                 rt.execute()
                 
-                command = "INSERT OR IGNORE INTO words(name, frequency) VALUES ("
+                command = "INSERT OR IGNORE INTO words(book, name, frequency) VALUES ("
+                command += "'" + book_name + "', "
                 command += "'" + text(n).toString() + "', "
                 command += "'1');" 
                 rt = conn.prepareStatement(command)
@@ -113,7 +119,7 @@ class Insert_Words(path_to_text: String, path_to_database: String) extends Initi
     conn.commit()
     conn.close()
 }
-class Select_Most_Frequent(path_to_text: String, path_to_database: String) extends Initialize(path_to_text: String, path_to_database: String){
+class Select_Most_Frequent(path_to_text: String, path_to_database: String, book_name: String) extends Initialize(path_to_text: String, path_to_database: String){
     
     def words: Unit = {
         val conn = DriverManager.getConnection(url)
@@ -122,15 +128,17 @@ class Select_Most_Frequent(path_to_text: String, path_to_database: String) exten
         val select = conn.createStatement()
 
         //Comando para ordenar as palavras por ordem de frequência
-        var command = "SELECT name,frequency, COUNT(*) as frequency "
-        command += "FROM words GROUP BY name ORDER BY CAST(frequency AS int) DESC"
-
+        var command = "SELECT w.name, w.frequency, COUNT(*) as frequency "
+        command += s"FROM words w INNER JOIN documents d ON d.book = w.book AND w.book = '${book_name}' "
+        command += "GROUP BY name ORDER BY CAST(frequency AS int) DESC"
+        println(command)
         //Coloca para executar a query
         val rs = select.executeQuery(command)
         var break: Int = 0
         //Pega todos os resultados da Query
         while(rs.next() && (break!=25)){
             var name = rs.getString("name")
+            println("name == " + name)
             var frequency = rs.getInt("frequency")
             println(s"$name has appeared $frequency times.")
             break += 1
@@ -148,15 +156,16 @@ class Select_Most_Frequent(path_to_text: String, path_to_database: String) exten
         val select = conn.createStatement()
 
         //Comando para ordenar as palavras por ordem de frequência
-        var command = "SELECT char,frequency, COUNT(*) as frequency "
-        command += "FROM characters GROUP BY char ORDER BY CAST(frequency AS int) DESC"
-
+        var command = "SELECT c.char,c.frequency, COUNT(*) as frequency "
+        command += s"FROM characters as c INNER JOIN documents as d ON d.book = c.book AND c.book = '${book_name}' "
+        command += "GROUP BY char ORDER BY CAST(frequency AS int) DESC"
+        println("\n char ==" + command)
         //Coloca para executar a query
         val rs = select.executeQuery(command)
         var break: Int = 0
         //Pega todos os resultados da Query
         while(rs.next() && (break!=25)){
-            var char = rs.getString("char")
+            var char = rs.getString("characters")
             var frequency = rs.getInt("frequency")
             println(s"$char has appeared $frequency times.")
             break += 1

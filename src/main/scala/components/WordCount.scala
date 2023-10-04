@@ -3,13 +3,13 @@ import sqlite3._
 
 class WordCount extends Interaction{
     def contar: Unit = {
-        val db_create = new CreateTables(txt_file, db_file)
-        val db_insert = new Insert_Words(txt_file,db_file)
+        val db_create = new CreateTables(txt_file, db_file, book_name)
+        val db_insert = new Insert_Words(txt_file,db_file, book_name)
         print_success("\nSuccessfully into Database")
     }
 
     def selecionar: Unit = {
-        val db_select_most_frequent = new Select_Most_Frequent(txt_file,db_file)
+        val db_select_most_frequent = new Select_Most_Frequent(txt_file,db_file, book_name)
         print_success("\n25 Most frequent words")
         db_select_most_frequent.words
         print_success("\n25 Most frequent characters")

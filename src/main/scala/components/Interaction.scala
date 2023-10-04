@@ -18,8 +18,7 @@ class Interaction{
         var chosen = scala.io.StdIn.readInt()
         var book = contents(chosen).replace(".txt", "")
         var file = directory_path.getPath() + "/" + contents(chosen)
-        val db_path = new File("src/main/scala/sqlite3/databases")
-        var database = db_path.getPath() + "/" + book + ".db"
+        val database = "src/main/scala/sqlite3/databases/books.db"
 
         return (file, book, database)
     }
