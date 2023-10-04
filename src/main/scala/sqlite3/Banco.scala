@@ -200,7 +200,7 @@ class Register_Documents(path_to_text: String, path_to_database: String, book_na
 
         //Comando para ordenar as palavras por ordem de frequência
         var command = s"SELECT COUNT(*) as count FROM documents WHERE book = '${book_name}';"
-        println(command)
+
         //Coloca para executar a query
         val rs = select.executeQuery(command)
         var exists: Int = rs.getInt("count")
@@ -251,6 +251,18 @@ class Register_Documents(path_to_text: String, path_to_database: String, book_na
         conn.close()
     }
 
+    def avg_char_word: Unit = {
+        var rt: PreparedStatement = null
+        val conn = DriverManager.getConnection(url)
+        conn.setAutoCommit(false)
+        var command = s"UPDATE OR IGNORE documents SET avg_char_word = num_words/num_char where book='${book_name}';"
+        rt = conn.prepareStatement(command)
+        rt.execute()
+        rt.close()
+        conn.commit()
+        conn.close()
+    }
+
     def longest_word: Unit = {
         var rt: PreparedStatement = null
         val conn = DriverManager.getConnection(url)
@@ -259,12 +271,26 @@ class Register_Documents(path_to_text: String, path_to_database: String, book_na
         var command = s"SELECT name FROM words WHERE book = '${book_name}' ORDER BY length(name) DESC;"
         val rs = select_longest.executeQuery(command)
         val longest_word: String = rs.getString(1)
-        command = s"UPDATE OR IGNORE documents SET longest_word = '${longest_word}'' WHERE book = '${book_name}';"
+        command = s"UPDATE OR IGNORE documents SET longest_word = '${longest_word}' WHERE book = '${book_name}';"
         rt = conn.prepareStatement(command)
         rt.execute()
         rt.close()
         conn.commit()
         select_longest.close()
+        conn.close()
+    }
+
+    def lenght_25: Unit = {
+        var rt: PreparedStatement = null
+        val conn = DriverManager.getConnection(url)
+        conn.setAutoCommit(false)
+        var command = s"UPDATE OR IGNORE documents SET lenght_25 = (SELECT sum(len) " +
+        s"as total_length from (select length(name) as len from words where book = '${book_name}' limit 25)) " +
+        s"where book = '${book_name}';"
+        rt = conn.prepareStatement(command)
+        rt.execute()
+        rt.close()
+        conn.commit()
         conn.close()
     }
 }
