@@ -15586,3 +15586,57 @@ WARNING: Unmatched cancel notification for request id 14894
 2023.10.03 23:05:32 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
 2023.10.03 23:05:32 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
 2023.10.03 23:05:32 INFO  time: compiled root in 0.64s
+2023.10.03 23:15:26 INFO  compiling root (1 scala source)
+2023.10.03 23:15:26 INFO  time: compiled root in 0.62s
+2023.10.03 23:16:12 INFO  compiling root (1 scala source)
+2023.10.03 23:16:12 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.10.03 23:16:12 INFO  time: compiled root in 0.58s
+2023.10.03 23:16:50 INFO  compiling root (1 scala source)
+2023.10.03 23:16:50 INFO  time: compiled root in 0.35s
+2023.10.03 23:17:12 INFO  compiling root (1 scala source)
+2023.10.03 23:17:12 INFO  time: compiled root in 0.36s
+2023.10.03 23:17:30 INFO  compiling root (1 scala source)
+2023.10.03 23:17:30 INFO  time: compiled root in 0.61s
+2023.10.03 23:17:51 INFO  compiling root (1 scala source)
+2023.10.03 23:17:51 INFO  time: compiled root in 0.29s
+2023.10.03 23:17:54 INFO  compiling root (1 scala source)
+2023.10.03 23:17:54 INFO  time: compiled root in 0.29s
+2023.10.03 23:18:33 INFO  compiling root (1 scala source)
+2023.10.03 23:18:33 INFO  time: compiled root in 0.3s
+2023.10.03 23:19:04 INFO  compiling root (1 scala source)
+2023.10.03 23:19:04 INFO  time: compiled root in 0.31s
+2023.10.03 23:19:37 INFO  compiling root (1 scala source)
+2023.10.03 23:19:37 INFO  time: compiled root in 0.6s
+2023.10.03 23:19:57 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.10.03 23:19:57 INFO  compiling root (1 scala source)
+2023.10.03 23:19:57 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.10.03 23:19:57 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/sqlite3/Banco.scala
+2023.10.03 23:19:57 INFO  time: compiled root in 0.64s
+2023.10.03 23:20:10 INFO  compiling root (1 scala source)
+2023.10.03 23:20:10 INFO  time: compiled root in 0.61s
+2023.10.03 23:21:46 INFO  compiling root (1 scala source)
+2023.10.03 23:21:46 INFO  time: compiled root in 0.71s
+2023.10.03 23:22:47 INFO  compiling root (1 scala source)
+2023.10.03 23:22:47 INFO  time: compiled root in 0.35s
+2023.10.03 23:23:23 INFO  compiling root (1 scala source)
+2023.10.03 23:23:23 INFO  time: compiled root in 0.37s
+2023.10.03 23:23:30 INFO  compiling root (1 scala source)
+2023.10.03 23:23:30 INFO  time: compiled root in 0.61s
+Oct 03, 2023 11:23:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 16400
+2023.10.03 23:24:01 INFO  compiling root (1 scala source)
+2023.10.03 23:24:01 INFO  time: compiled root in 0.35s
+2023.10.03 23:24:08 INFO  compiling root (1 scala source)
+2023.10.03 23:24:08 INFO  time: compiled root in 0.41s
+2023.10.03 23:24:36 INFO  compiling root (1 scala source)
+2023.10.03 23:24:36 INFO  time: compiled root in 0.36s
+2023.10.03 23:24:53 INFO  compiling root (1 scala source)
+2023.10.03 23:24:53 INFO  time: compiled root in 0.36s
+2023.10.03 23:25:46 INFO  compiling root (1 scala source)
+2023.10.03 23:25:46 INFO  time: compiled root in 50ms
+2023.10.03 23:25:59 INFO  compiling root (1 scala source)
+2023.10.03 23:25:59 INFO  time: compiled root in 0.37s
+2023.10.03 23:26:25 INFO  compiling root (1 scala source)
+2023.10.03 23:26:25 INFO  time: compiled root in 0.3s
+2023.10.03 23:26:45 INFO  compiling root (1 scala source)
+2023.10.03 23:26:45 INFO  time: compiled root in 0.3s
