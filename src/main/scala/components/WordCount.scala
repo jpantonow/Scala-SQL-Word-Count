@@ -22,8 +22,10 @@ class WordCount extends Interaction{
     def register_updates: Unit = {
         val db_register = new Register_Documents(txt_file,db_file,book_name)
         db_register.count_words
-        //db_register.longest_word
+        db_register.longest_word
         db_register.count_chars
+        db_register.avg_char_word
+        db_register.lenght_25
     }
     def selecionar: Unit = {
         val db_select_most_frequent = new Select_Most_Frequent(txt_file,db_file, book_name)
