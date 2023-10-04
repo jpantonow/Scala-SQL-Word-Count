@@ -129,16 +129,14 @@ class Select_Most_Frequent(path_to_text: String, path_to_database: String, book_
 
         //Comando para ordenar as palavras por ordem de frequência
         var command = "SELECT w.name, w.frequency, COUNT(*) as frequency "
-        command += s"FROM words w INNER JOIN documents d ON d.book = w.book AND w.book = '${book_name}' "
+        command += s"FROM words w INNER JOIN documents d ON d.book = w.book WHERE w.book = '${book_name}' "
         command += "GROUP BY name ORDER BY CAST(frequency AS int) DESC"
-        println(command)
         //Coloca para executar a query
         val rs = select.executeQuery(command)
         var break: Int = 0
         //Pega todos os resultados da Query
         while(rs.next() && (break!=25)){
             var name = rs.getString("name")
-            println("name == " + name)
             var frequency = rs.getInt("frequency")
             println(s"$name has appeared $frequency times.")
             break += 1
@@ -157,15 +155,14 @@ class Select_Most_Frequent(path_to_text: String, path_to_database: String, book_
 
         //Comando para ordenar as palavras por ordem de frequência
         var command = "SELECT c.char,c.frequency, COUNT(*) as frequency "
-        command += s"FROM characters as c INNER JOIN documents as d ON d.book = c.book AND c.book = '${book_name}' "
+        command += s"FROM characters as c INNER JOIN documents as d ON d.book = c.book WHERE c.book = '${book_name}' "
         command += "GROUP BY char ORDER BY CAST(frequency AS int) DESC"
-        println("\n char ==" + command)
         //Coloca para executar a query
         val rs = select.executeQuery(command)
         var break: Int = 0
         //Pega todos os resultados da Query
         while(rs.next() && (break!=25)){
-            var char = rs.getString("characters")
+            var char = rs.getString("char")
             var frequency = rs.getInt("frequency")
             println(s"$char has appeared $frequency times.")
             break += 1
@@ -178,8 +175,6 @@ class Select_Most_Frequent(path_to_text: String, path_to_database: String, book_
 }
 
 class Register_Documents(path_to_text: String, path_to_database: String, book_name: String) extends Initialize(path_to_text: String, path_to_database: String){
-    register
-    count_words
 
     def register: Unit = {
         val conn = DriverManager.getConnection(url)

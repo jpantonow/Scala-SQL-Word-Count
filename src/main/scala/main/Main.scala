@@ -3,8 +3,10 @@ import components._
 import java.io.File
 object Main extends App {
     val WordCount = new WordCount()
-    //WordCount.contar
+    WordCount.create
+    WordCount.register_doc
+    WordCount.contar
+    WordCount.register_updates
     WordCount.selecionar
-    //WordCount.register_doc
-    //WordCount.export_csv
+    WordCount.export_csv
 }
