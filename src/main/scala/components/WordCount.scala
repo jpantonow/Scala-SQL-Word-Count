@@ -22,6 +22,8 @@ class WordCount extends Interaction{
     def register_updates: Unit = {
         val db_register = new Register_Documents(txt_file,db_file,book_name)
         db_register.count_words
+        //db_register.longest_word
+        db_register.count_chars
     }
     def selecionar: Unit = {
         val db_select_most_frequent = new Select_Most_Frequent(txt_file,db_file, book_name)
@@ -38,6 +40,11 @@ class WordCount extends Interaction{
         println(greenColor + string + resetColor)
     }
 
+    def check_existence: Boolean = {
+        val db_register = new Register_Documents(txt_file,db_file,book_name)
+        return db_register.check_register 
+    }
+
     def export_csv: Unit = {
         if(export_message=="y"){
             val db_export_Csv = new Export_to_CSV(txt_file, db_file, book_name)
@@ -45,6 +52,22 @@ class WordCount extends Interaction{
         }
         else{
             return
+        }
+    }
+
+    def execute: Unit = {
+        create
+        if(check_existence){
+            print_success("\nThe book is already in the database. Showing results:")
+            selecionar
+            export_csv
+        }
+        else{
+            register_doc
+            contar
+            register_updates
+            selecionar
+            export_csv
         }
     }
 }

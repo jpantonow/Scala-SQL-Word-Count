@@ -191,12 +191,36 @@ class Register_Documents(path_to_text: String, path_to_database: String, book_na
         conn.commit()
         conn.close()
     }
+
+    def check_register: Boolean = {
+        val conn = DriverManager.getConnection(url)
+
+        //Criando um statement SQL
+        val select = conn.createStatement()
+
+        //Comando para ordenar as palavras por ordem de frequência
+        var command = s"SELECT COUNT(*) as count FROM documents WHERE book = '${book_name}';"
+        println(command)
+        //Coloca para executar a query
+        val rs = select.executeQuery(command)
+        var exists: Int = rs.getInt("count")
+        if(exists!=0){
+            select.close()
+            conn.close()
+            return true
+        }
+        //Fecha a conexão com o banco de dados     
+        select.close()
+        conn.close()
+        return false
+    }
+
     def count_words: Unit = {
         var rt: PreparedStatement = null
         val conn = DriverManager.getConnection(url)
         conn.setAutoCommit(false)
         val select_all = conn.createStatement()
-        var command = "SELECT COUNT(name) from words;"
+        var command = s"SELECT COUNT(name) FROM words WHERE book = '${book_name}';"
         val rs = select_all.executeQuery(command)
         //rs.next()
         val count: Integer = rs.getInt(1)
@@ -206,6 +230,41 @@ class Register_Documents(path_to_text: String, path_to_database: String, book_na
         rt.close()
         conn.commit()
         select_all.close()
+        conn.close()
+    }
+    
+    def count_chars: Unit = {
+        var rt: PreparedStatement = null
+        val conn = DriverManager.getConnection(url)
+        conn.setAutoCommit(false)
+        val select_all = conn.createStatement()
+        var command = s"SELECT COUNT(char) from characters WHERE book = '${book_name}';"
+        val rs = select_all.executeQuery(command)
+        //rs.next()
+        val count: Integer = rs.getInt(1)
+        command = s"UPDATE OR IGNORE documents SET num_char = ${count} WHERE book = '${book_name}';"
+        rt = conn.prepareStatement(command)
+        rt.execute()
+        rt.close()
+        conn.commit()
+        select_all.close()
+        conn.close()
+    }
+
+    def longest_word: Unit = {
+        var rt: PreparedStatement = null
+        val conn = DriverManager.getConnection(url)
+        conn.setAutoCommit(false)
+        val select_longest = conn.createStatement()
+        var command = s"SELECT name FROM words WHERE book = '${book_name}' ORDER BY length(name) DESC;"
+        val rs = select_longest.executeQuery(command)
+        val longest_word: String = rs.getString(1)
+        command = s"UPDATE OR IGNORE documents SET longest_word = '${longest_word}'' WHERE book = '${book_name}';"
+        rt = conn.prepareStatement(command)
+        rt.execute()
+        rt.close()
+        conn.commit()
+        select_longest.close()
         conn.close()
     }
 }
