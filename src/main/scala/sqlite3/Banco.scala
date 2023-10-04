@@ -128,17 +128,18 @@ class Select_Most_Frequent(path_to_text: String, path_to_database: String, book_
         val select = conn.createStatement()
 
         //Comando para ordenar as palavras por ordem de frequência
-        var command = "SELECT words.name as name,words.frequency as frequency, COUNT(*) as frequency "
-        command += s"FROM words as words INNER JOIN documents as documents ON documents.book = words.book WHERE words.book as words = '${book_name}' "
-        command += "GROUP BY words.name ORDER BY CAST(words.frequency AS int) DESC"
+        var command = "SELECT w.name, w.frequency, COUNT(*) as frequency "
+        command += s"FROM words w INNER JOIN documents d ON d.book = w.book AND w.book = '${book_name}' "
+        command += "GROUP BY name ORDER BY CAST(frequency AS int) DESC"
         println(command)
         //Coloca para executar a query
         val rs = select.executeQuery(command)
         var break: Int = 0
         //Pega todos os resultados da Query
         while(rs.next() && (break!=25)){
-            var name = rs.getString("words.name")
-            var frequency = rs.getInt("words.frequency")
+            var name = rs.getString("name")
+            println("name == " + name)
+            var frequency = rs.getInt("frequency")
             println(s"$name has appeared $frequency times.")
             break += 1
         }
@@ -155,17 +156,17 @@ class Select_Most_Frequent(path_to_text: String, path_to_database: String, book_
         val select = conn.createStatement()
 
         //Comando para ordenar as palavras por ordem de frequência
-        var command = "SELECT characters.char as char,characters.frequency as frequency, COUNT(*) as frequency "
-        command += s"FROM characters INNER JOIN documents on documents.book = characters.book WHERE characters.book = '${book_name}' "
+        var command = "SELECT c.char,c.frequency, COUNT(*) as frequency "
+        command += s"FROM characters as c INNER JOIN documents as d ON d.book = c.book AND c.book = '${book_name}' "
         command += "GROUP BY char ORDER BY CAST(frequency AS int) DESC"
-        
+        println("\n char ==" + command)
         //Coloca para executar a query
         val rs = select.executeQuery(command)
         var break: Int = 0
         //Pega todos os resultados da Query
         while(rs.next() && (break!=25)){
-            var char = rs.getString("characters.char")
-            var frequency = rs.getInt("characters.frequency")
+            var char = rs.getString("characters")
+            var frequency = rs.getInt("frequency")
             println(s"$char has appeared $frequency times.")
             break += 1
         }
