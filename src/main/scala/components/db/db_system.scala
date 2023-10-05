@@ -301,7 +301,7 @@ class Export_to_CSV (path_to_text: String, path_to_database: String, book_name: 
     export_data
 
     def export_words: Unit = {
-        var Export = new PrintWriter(new File("src/main/scala/spreadsheets/" + book_name + "-words.csv"))
+        var Export = new PrintWriter(new File("src/main/scala/files/spreadsheets/" + book_name + "-words.csv"))
         var sb: StringBuilder = new StringBuilder()
 
         //Estabelendo a conexão com o JDBC
@@ -326,7 +326,7 @@ class Export_to_CSV (path_to_text: String, path_to_database: String, book_name: 
     }
     
     def export_characters: Unit = {
-        var Export = new PrintWriter(new File("src/main/scala/spreadsheets/" + book_name + "-characters.csv"))
+        var Export = new PrintWriter(new File("src/main/scala/files/spreadsheets/" + book_name + "-characters.csv"))
         var sb: StringBuilder = new StringBuilder()
 
         //Estabelendo a conexão com o JDBC
@@ -350,7 +350,7 @@ class Export_to_CSV (path_to_text: String, path_to_database: String, book_name: 
         Export.close()
     }
     def export_data: Unit = {
-        var Export = new PrintWriter(new File("src/main/scala/spreadsheets/documents.csv"))
+        var Export = new PrintWriter(new File("src/main/scala/files/spreadsheets/documents.csv"))
         var sb: StringBuilder = new StringBuilder()
 
         //Estabelendo a conexão com o JDBC

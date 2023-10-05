@@ -19009,3 +19009,10 @@ Exception in thread "pool-6-thread-3" java.lang.InterruptedException
 2023.10.04 23:06:51 INFO  time: compiled root in 1.19s
 Oct 04, 2023 11:06:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
 WARNING: Unmatched cancel notification for request id 2035
+2023.10.04 23:38:26 INFO  compiling root (1 scala source)
+2023.10.04 23:38:26 WARN  Could not load snapshot text for /home/jpantonow/Desktop/Unb/word-count-db/src/main/scala/components/db/db_system.scala
+2023.10.04 23:38:26 INFO  time: compiled root in 0.73s
+2023.10.04 23:38:40 INFO  compiling root (1 scala source)
+2023.10.04 23:38:40 INFO  time: compiled root in 0.95s
+2023.10.04 23:38:51 INFO  compiling root (1 scala source)
+2023.10.04 23:38:51 INFO  time: compiled root in 0.75s
