@@ -1,5 +1,5 @@
 package components.commands
-import components.db._
+import components.db.{Register_Documents, CreateTables, Insert_Book, Select_Most_Frequent, Export_to_CSV}
 
 class WordCount extends Interaction{
     def create: Unit = {
