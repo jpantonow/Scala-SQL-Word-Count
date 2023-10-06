@@ -15,7 +15,7 @@ class WordCount extends Interaction{
     }
 
     def contar: Unit = {
-        val db_insert = new Insert_Words(txt_file,db_file, book_name)
+        val db_insert = new Insert_Book(txt_file,db_file, book_name)
         print_success("\nSuccessfully into Database")
     }
 
