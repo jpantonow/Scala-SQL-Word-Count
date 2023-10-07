@@ -71,10 +71,7 @@ class CreateTables(
       rt.close()
       conn.close()
       true
-<<<<<<< HEAD:src/main/scala/components/db/Db_Commands.scala
       
-=======
->>>>>>> pasta-spreadhseets:src/main/scala/components/db/DbCommands.scala
     } catch {
       case e: SQLException => {
         print_error("Error while creating tables in database")
