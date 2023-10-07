@@ -40,7 +40,7 @@ class CreateTables(
 
   execute
 
-  def execute: Unit = {
+  def execute: Boolean = {
     var rt: PreparedStatement = null
     var conn: Connection = null
 
@@ -71,6 +71,8 @@ class CreateTables(
       conn.commit()
       rt.close()
       conn.close()
+      true
+      
     } catch {
       case e: SQLException => {
         print_error("Error while creating tables in database")
