@@ -1,6 +1,7 @@
 package components.commands
 import components.db._
 import components.db.{CreateTables, Select_Most_Frequent, Insert_Book}
+import components.db.Export_to_CSV
 
 class WordCount extends Interaction {
   def create: Unit = {
