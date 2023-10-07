@@ -1,0 +1,6 @@
+id: file://<HOME>/Documents/UnB/Disciplinas/4%C2%BA%20SEMESTRE/TP2/scala-word-count/src/test/scala/Register_Documents_Test.scala:[19..20) in Input.VirtualFile("file://<HOME>/Documents/UnB/Disciplinas/4%C2%BA%20SEMESTRE/TP2/scala-word-count/src/test/scala/Register_Documents_Test.scala", "package components._
+
+import org.scalatest.funsuite.AnyFunSuite")
+file://<HOME>/Documents/UnB/Disciplinas/4%C2%BA%20SEMESTRE/TP2/scala-word-count/src/test/scala/Register_Documents_Test.scala:1: error: expected identifier; obtained uscore
+package components._
+                   ^
