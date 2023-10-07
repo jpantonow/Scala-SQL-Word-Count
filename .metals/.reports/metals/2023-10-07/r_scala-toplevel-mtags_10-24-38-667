@@ -1,4 +1,0 @@
-id: file://<HOME>/Documents/UnB/Disciplinas/4%C2%BA%20SEMESTRE/TP2/scala-word-count/src/test/scala/components/commands/WordCount_Test.scala:[7..7) in Input.VirtualFile("file://<HOME>/Documents/UnB/Disciplinas/4%C2%BA%20SEMESTRE/TP2/scala-word-count/src/test/scala/components/commands/WordCount_Test.scala", "object ")
-file://<HOME>/Documents/UnB/Disciplinas/4%C2%BA%20SEMESTRE/TP2/scala-word-count/src/test/scala/components/commands/WordCount_Test.scala:1: error: expected identifier; obtained eof
-object 
-       ^
