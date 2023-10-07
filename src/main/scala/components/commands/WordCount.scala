@@ -29,13 +29,19 @@ class WordCount extends Interaction {
     db_register.length_25
   }
 
-  def selecionar: Unit = {
+  def selecionar(limit: Int = 25): Unit = {
     val db_select_most_frequent =
       new Select_Most_Frequent(txt_file, db_file, book_name)
-    print_success("\n25 Most frequent words")
-    db_select_most_frequent.words
-    print_success("\n25 Most frequent characters")
-    db_select_most_frequent.characters
+    print_success(s"\n$limit Most frequent words")
+
+    for ((name, frequency) <- db_select_most_frequent.words(limit)) {
+      println(s"$name has appeared $frequency times.")
+    }
+
+    print_success(s"\n$limit Most frequent characters")
+    for ((name, frequency) <- db_select_most_frequent.characters(limit)) {
+      println(s"$name has appeared $frequency times.")
+    }
   }
 
   def print_success(string: String): Unit = {
@@ -58,17 +64,17 @@ class WordCount extends Interaction {
     }
   }
 
-  def execute: Unit = {
+  def execute(limit: Int = 25): Unit = {
     create
     if (check_existence) {
       print_success("\nThe book is already in the database. Showing results:")
-      selecionar
+      selecionar(limit)
       export_csv
     } else {
       register_doc
       contar
       register_updates
-      selecionar
+      selecionar(limit)
       export_csv
     }
   }
