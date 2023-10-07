@@ -19,6 +19,10 @@ class Initialize(path_to_text: String, path_to_database: String) {
   val stoptxt = scala.io.Source.fromFile("src/main/scala/files/stop-words.txt")
   val lines: List[String] = book.getLines().toList
   val stopwords: List[String] = stoptxt.getLines().toList
+  var stop = stopwords.toString().split(" ")
+  stop = stop.map(_.filter(_.isLetter))
+  stop = stop.map(_.toLowerCase())
+  stop = stop.sorted
 
   def print_error(error: String): Unit = {
     val redColor = "\u001b[31m"
@@ -107,16 +111,15 @@ class Insert_Book(
       text = text.map(_.filter(_.isLetter))
       text = text.map(_.toLowerCase())
       text = text.sorted
-      text = text.filter(s => s.size > 3)
+      text = text.filter(s => s.size >= 2)
 
       // Iteração para adicionar palavra por palavra, caractere por caractere
       // Caso haja repeticao, incrementar a frequência
 
       // Desativando o autocommit
       conn.setAutoCommit(false)
-
       for (n <- 0 until text.length) {
-        if (!stopwords.contains(text(n))) {
+        if (!(stop.contains(text(n)))) {
           for (i <- 0 until text(n).length) {
             update = "UPDATE OR IGNORE characters "
             update += "SET frequency = frequency + 1 WHERE char = "
