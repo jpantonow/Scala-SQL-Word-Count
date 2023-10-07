@@ -21,11 +21,10 @@ class Export_to_CSV(
   export_characters
   export_data
 
-  def export_words: Unit = {
+  def export_words: Boolean = {
     var Export: PrintWriter = null
     var conn: Connection = null
     var rt: PreparedStatement = null
-
     try {
       Export = new PrintWriter(
         new File(
@@ -55,6 +54,7 @@ class Export_to_CSV(
       Export.close()
       conn.close()
       rt.close()
+      true
     } catch {
       case e: SQLException => {
         print_error("Error while exporting words to CSV")
@@ -68,7 +68,7 @@ class Export_to_CSV(
 
   }
 
-  def export_characters: Unit = {
+  def export_characters: Boolean = {
     var Export: PrintWriter = null
     var conn: Connection = null
     var rt: PreparedStatement = null
@@ -102,6 +102,7 @@ class Export_to_CSV(
       Export.close()
       rt.close()
       conn.close()
+      true
     } catch {
       case e: SQLException => {
         print_error("Error while exporting characters to CSV")
@@ -114,7 +115,7 @@ class Export_to_CSV(
     }
   }
 
-  def export_data: Unit = {
+  def export_data: Boolean = {
     var rt: PreparedStatement = null
     var conn: Connection = null
     var Export: PrintWriter = null
@@ -156,6 +157,7 @@ class Export_to_CSV(
       Export.close()
       rt.close()
       conn.close()
+      true
     } catch {
       case e: SQLException => {
         print_error("Error while exporting 'documents' to CSV")
@@ -164,6 +166,7 @@ class Export_to_CSV(
         if (Export != null) Export.close()
         if (conn != null) conn.close()
         sys.exit(1)
+        false
       }
     }
   }

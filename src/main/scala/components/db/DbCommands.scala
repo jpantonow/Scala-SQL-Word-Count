@@ -36,10 +36,9 @@ class CreateTables(
 
   execute
 
-  def execute: Unit = {
+  def execute: Boolean = {
     var rt: PreparedStatement = null
     var conn: Connection = null
-
     try {
       // Estabelendo a conexão com o JDBC
       conn = DriverManager.getConnection(url)
@@ -67,6 +66,7 @@ class CreateTables(
       conn.commit()
       rt.close()
       conn.close()
+      true
     } catch {
       case e: SQLException => {
         print_error("Error while creating tables in database")
@@ -87,12 +87,11 @@ class Insert_Book(
 
   execute
 
-  def execute: Unit = {
+  def execute: Boolean = {
 
     // Criando um PreparedStatement
     var rt: PreparedStatement = null
     var conn: Connection = null
-
     try {
 
       // Estabelendo a conexão com o JDBC
@@ -153,6 +152,7 @@ class Insert_Book(
       conn.commit()
       rt.close()
       conn.close()
+      true
     } catch {
       case e: SQLException => {
         print_error("Error while inserting the book in the database")
@@ -173,10 +173,9 @@ class Select_Most_Frequent(
 ) extends Initialize(path_to_text: String, path_to_database: String) {
 
   // Seleciona as 25 palavras mais frequentes
-  def words: Unit = {
+  def words: Boolean = {
     var conn: Connection = null
     var select: Statement = null
-
     try {
       conn = DriverManager.getConnection(url)
 
@@ -201,6 +200,7 @@ class Select_Most_Frequent(
       // Fecha a conexão com o banco de dados
       select.close()
       conn.close()
+      true
     } catch {
       case e: SQLException => {
         print_error("Error while selecting words")
@@ -214,10 +214,9 @@ class Select_Most_Frequent(
   }
 
   // Seleciona os 25 caracteres mais frequentes
-  def characters: Unit = {
+  def characters: Boolean = {
     var select: Statement = null
     var conn: Connection = null
-
     try {
       conn = DriverManager.getConnection(url)
 
@@ -241,6 +240,7 @@ class Select_Most_Frequent(
 
       select.close()
       conn.close()
+      true
     } catch {
       case e: SQLException => {
         print_error("Error while selecting characters")

@@ -17,7 +17,7 @@ class Register_Documents(
     book_name: String
 ) extends Initialize(path_to_text: String, path_to_database: String) {
 
-  def register: Unit = {
+  def register: Boolean = {
 
     var rt: PreparedStatement = null
     var conn: Connection = null
@@ -35,6 +35,7 @@ class Register_Documents(
       conn.commit()
       rt.close()
       conn.close()
+      true
     } catch {
       case e: SQLException => {
         print_error("Error while registering into documents table")
@@ -84,7 +85,7 @@ class Register_Documents(
 
   }
 
-  def count_words: Unit = {
+  def count_words: Boolean = {
     var conn: Connection = null
     var rt: PreparedStatement = null
     var select_all: Statement = null
@@ -106,6 +107,7 @@ class Register_Documents(
       rt.close()
       select_all.close()
       conn.close()
+      true
     } catch {
       case e: SQLException => {
         print_error("Error while counting words")
@@ -119,7 +121,7 @@ class Register_Documents(
 
   }
 
-  def count_chars: Unit = {
+  def count_chars: Boolean = {
     var rt: PreparedStatement = null
     var conn: Connection = null
     var select_all: Statement = null
@@ -141,6 +143,7 @@ class Register_Documents(
       conn.commit()
       select_all.close()
       conn.close()
+      true
     } catch {
       case e: SQLException => {
         print_error("Error while counting characters")
@@ -154,7 +157,7 @@ class Register_Documents(
 
   }
 
-  def avg_char_word: Unit = {
+  def avg_char_word: Boolean = {
     var rt: PreparedStatement = null
     var conn: Connection = null
 
@@ -168,6 +171,7 @@ class Register_Documents(
       conn.commit()
       rt.close()
       conn.close()
+      true
     } catch {
       case e: SQLException => {
         print_error("Error while getting average characters per word")
@@ -180,7 +184,7 @@ class Register_Documents(
 
   }
 
-  def longest_word: Unit = {
+  def longest_word: Boolean = {
     var rt: PreparedStatement = null
     var conn: Connection = null
     var select_longest: Statement = null
@@ -201,6 +205,7 @@ class Register_Documents(
       conn.commit()
       select_longest.close()
       conn.close()
+      true
     } catch {
       case e: SQLException => {
         print_error("Error while getting longest word")
@@ -213,7 +218,7 @@ class Register_Documents(
     }
   }
 
-  def length_25: Unit = {
+  def length_25: Boolean = {
     var rt: PreparedStatement = null
     var conn: Connection = null
 
@@ -229,6 +234,7 @@ class Register_Documents(
       conn.commit()
       rt.close()
       conn.close()
+      true
     } catch {
       case e: SQLException => {
         print_error("Error while selecting length of 25 most frequent words")
