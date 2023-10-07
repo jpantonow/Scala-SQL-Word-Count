@@ -1,3 +1,4 @@
-[debug] not up to date. inChanged = true, force = false
-[debug] Updating ProjectRef(uri("file:/home/jpantonow/Documents/Estudos/UNB/4o%20Semestre/TP2/word_count_db/word-count-db/"), "root")...
-[debug] Done updating ProjectRef(uri("file:/home/jpantonow/Documents/Estudos/UNB/4o%20Semestre/TP2/word_count_db/word-count-db/"), "root")
+[warn] scala-library-2.13.6-sources.jar no longer exists at /home/jpantonow/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.6/scala-library-2.13.6-sources.jar
+[debug] not up to date. inChanged = false, force = false
+[debug] Updating ProjectRef(uri("file:/home/will/Documents/UnB/Disciplinas/4º%20SEMESTRE/TP2/scala-word-count/"), "root")...
+[debug] Done updating ProjectRef(uri("file:/home/will/Documents/UnB/Disciplinas/4º%20SEMESTRE/TP2/scala-word-count/"), "root")
