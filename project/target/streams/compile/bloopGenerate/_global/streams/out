@@ -1,4 +1,4 @@
-[0m[[0m[0mdebug[0m] [0m[0m[word-count-db-build] Classpath dependencies List()[0m
-[0m[[0m[0mdebug[0m] [0m[0m[word-count-db-build] Dependencies from configurations List()[0m
-[0m[[0m[0mdebug[0m] [0m[0mBloop wrote the configuration of project 'word-count-db-build' to '/home/jpantonow/Desktop/Unb/word-count-db/project/.bloop/word-count-db-build.json'[0m
-[0m[[0m[32msuccess[0m] [0m[0mGenerated .bloop/word-count-db-build.json[0m
+[debug] [word-count-db-build] Classpath dependencies List()
+[debug] [word-count-db-build] Dependencies from configurations List()
+[debug] Bloop wrote the configuration of project 'word-count-db-build' to '/home/jpantonow/Desktop/Unb/word-count-db/project/.bloop/word-count-db-build.json'
+[success] Generated .bloop/word-count-db-build.json
