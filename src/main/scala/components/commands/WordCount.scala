@@ -6,6 +6,7 @@ import components.db.Export_to_CSV
 class WordCount extends Interaction {
   def create: Unit = {
     val db_create = new CreateTables(txt_file, db_file, book_name)
+    db_create.execute
     print_success("\nSuccessfully created the Database")
   }
 
@@ -15,8 +16,9 @@ class WordCount extends Interaction {
     print_success("\nSucessfully registered into Documents")
   }
 
-  def contar: Unit = {
+  def insert: Unit = {
     val db_insert = new Insert_Book(txt_file, db_file, book_name)
+    db_insert.execute
     print_success("\nSuccessfully into Database")
   }
 
@@ -30,8 +32,7 @@ class WordCount extends Interaction {
   }
 
   def selecionar: Unit = {
-    val db_select_most_frequent =
-      new Select_Most_Frequent(txt_file, db_file, book_name)
+    val db_select_most_frequent = new Select_Most_Frequent(txt_file, db_file, book_name)
     print_success("\n25 Most frequent words")
     db_select_most_frequent.words
     print_success("\n25 Most frequent characters")
@@ -51,7 +52,10 @@ class WordCount extends Interaction {
 
   def export_csv: Unit = {
     if (export_message == "y") {
-      val db_export_Csv = new Export_to_CSV(txt_file, db_file, book_name)
+      val db_Export_CSV = new Export_to_CSV(txt_file, db_file, book_name)
+      db_Export_CSV.export_words
+      db_Export_CSV.export_characters
+      db_Export_CSV.export_data
       print_success("Successfully into CSV File")
     } else {
       return
@@ -66,7 +70,7 @@ class WordCount extends Interaction {
       export_csv
     } else {
       register_doc
-      contar
+      insert
       register_updates
       selecionar
       export_csv

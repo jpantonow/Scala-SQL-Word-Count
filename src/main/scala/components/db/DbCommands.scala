@@ -38,8 +38,6 @@ class CreateTables(
     book_name: String
 ) extends Initialize(path_to_text: String, path_to_database: String) {
 
-  execute
-
   def execute: Boolean = {
     var rt: PreparedStatement = null
     var conn: Connection = null
@@ -89,8 +87,6 @@ class Insert_Book(
     path_to_database: String,
     book_name: String
 ) extends Initialize(path_to_text: String, path_to_database: String) {
-
-  execute
 
   def execute: Boolean = {
 

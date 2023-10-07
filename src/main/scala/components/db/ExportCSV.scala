@@ -17,9 +17,6 @@ class Export_to_CSV(
     path_to_database: String,
     book_name: String
 ) extends Initialize(path_to_text: String, path_to_database: String) {
-  export_words
-  export_characters
-  export_data
 
   def export_words: Boolean = {
     var Export: PrintWriter = null

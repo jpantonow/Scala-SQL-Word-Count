@@ -8,6 +8,7 @@ class DbCommandsTest extends AnyFunSuite {
         "src/test/scala/components/db/databasetest.db",
         "test.txt"
         )
+    assert(db_create.execute == true)
   }
 
 }
