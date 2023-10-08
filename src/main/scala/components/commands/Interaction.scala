@@ -7,9 +7,10 @@ class Interaction {
 
   def display_texts: (String, String, String) = {
     println("\nWelcome, user! Which File would you like to read?\n")
-    val directory_path = new File("src/main/scala/files/books")
-    val contents = directory_path.list()
 
+    val directory_path = new File("src/main/scala/files/books")
+
+    val contents = directory_path.list()
     for (i <- 0 until contents.size) {
       println(i + "-" + contents(i))
     }

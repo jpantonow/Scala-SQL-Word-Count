@@ -4,5 +4,5 @@ import components.commands.WordCount
 object Main extends App {
   val WordCount = new WordCount()
   // val wordLimits = scala.io.StdIn.readInt()
-  WordCount.execute()
+  WordCount.execute(5)
 }

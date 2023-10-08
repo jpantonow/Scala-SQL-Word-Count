@@ -1,14 +1,6 @@
-[0m[[0m[0minfo[0m] [0m[0m/home/jpantonow/Desktop/wordcount/scala-word-count/src/test/scala/components/db/ExportCSVTest.scala:1:1: [0m
-[0m[[0m[0minfo[0m] [0m[0mFound names but no class, trait or object is defined in the compilation unit.[0m
-[0m[[0m[0minfo[0m] [0m[0mThe incremental compiler cannot record the dependency information in such case.[0m
-[0m[[0m[0minfo[0m] [0m[0mSome errors like unused import referring to a non-existent class might not be reported.[0m
-[0m[[0m[0minfo[0m] [0m[0m    [0m
-[0m[[0m[0minfo[0m] [0m[0mpackage components.db[0m
-[0m[[0m[0minfo[0m] [0m[0m^[0m
-[0m[[0m[0minfo[0m] [0m[0m/home/jpantonow/Desktop/wordcount/scala-word-count/src/test/scala/components/db/ExportCSVTest.scala:1:1: [0m
-[0m[[0m[0minfo[0m] [0m[0mFound top level imports but no class, trait or object is defined in the compilation unit.[0m
-[0m[[0m[0minfo[0m] [0m[0mThe incremental compiler cannot record the dependency information in such case.[0m
-[0m[[0m[0minfo[0m] [0m[0mSome errors like unused import referring to a non-existent class might not be reported.[0m
-[0m[[0m[0minfo[0m] [0m[0m    [0m
-[0m[[0m[0minfo[0m] [0m[0mpackage components.db[0m
-[0m[[0m[0minfo[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/test/scala/components/commands/WordCountTest.scala:8:51: missing argument list for method words in class Select_Most_Frequent[0m
+[0m[[0m[31merror[0m] [0m[0mUnapplied methods are only converted to functions when a function type is expected.[0m
+[0m[[0m[31merror[0m] [0m[0mYou can make this conversion explicit by writing `words _` or `words(_)` instead of `words`.[0m
+[0m[[0m[31merror[0m] [0m[0m    var listaFrequencia = WordCount.get_frequency.words[0m
+[0m[[0m[31merror[0m] [0m[0m                                                  ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

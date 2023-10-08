@@ -70,7 +70,7 @@ class CreateTables(
       rt.close()
       conn.close()
       true
-      
+
     } catch {
       case e: SQLException => {
         print_error("Error while creating tables in database")
@@ -174,7 +174,7 @@ class Select_Most_Frequent(
 ) extends Initialize(path_to_text: String, path_to_database: String) {
 
   // Seleciona as 25 palavras mais frequentes
-  def words(limit: Int): HashMap[String, Int] = {
+  def words(limit: Int): List[(String, Int)] = {
     var conn: Connection = null
     var select: Statement = null
     try {
@@ -192,11 +192,11 @@ class Select_Most_Frequent(
       var break = 0
 
       // Pega todos os resultados da Query
-      val wordFrequency = new HashMap[String, Int]
+      var wordFrequency: List[(String, Int)] = List()
       while (rs.next() && (break != limit)) {
         var name = rs.getString("name")
         var frequency = rs.getInt("frequency")
-        wordFrequency(name) = frequency
+        wordFrequency = wordFrequency :+ (name, frequency)
         // println(s"$name has appeared $frequency times.")
         break += 1
       }
@@ -219,7 +219,7 @@ class Select_Most_Frequent(
   }
 
   // Seleciona os 25 caracteres mais frequentes
-  def characters(limit: Int): HashMap[String, Int] = {
+  def characters(limit: Int): List[(String, Int)] = {
     var select: Statement = null
     var conn: Connection = null
     try {
@@ -236,17 +236,18 @@ class Select_Most_Frequent(
       val rs = select.executeQuery(command)
       var break: Int = 0
       // Pega todos os resultados da Query
-      var characterFrequency = new HashMap[String, Int]
+      var characterFrequency: List[(String, Int)] = List()
       while (rs.next() && (break != limit)) {
         var char = rs.getString("char")
         var frequency = rs.getInt("frequency")
-        characterFrequency(char) = frequency
+        characterFrequency = characterFrequency :+ (char, frequency)
         // println(s"$char has appeared $frequency times.")
         break += 1
       }
 
       select.close()
       conn.close()
+
       characterFrequency
     } catch {
       case e: SQLException => {

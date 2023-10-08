@@ -31,11 +31,16 @@ class WordCount extends Interaction {
     db_register.length_25
   }
 
-  def selecionar(limit: Int = 25): Unit = {
+  def get_frequency: Select_Most_Frequent = {
     val db_select_most_frequent =
       new Select_Most_Frequent(txt_file, db_file, book_name)
-    print_success(s"\n$limit Most frequent words")
+    db_select_most_frequent
+  }
 
+  def print_frequency(limit: Int = 25): Unit = {
+    val db_select_most_frequent = get_frequency
+
+    print_success(s"\n$limit Most frequent words")
     for ((name, frequency) <- db_select_most_frequent.words(limit)) {
       println(s"$name has appeared $frequency times.")
     }
@@ -60,7 +65,8 @@ class WordCount extends Interaction {
   def export_csv: Unit = {
     if (export_message == "y") {
       val export_folder: String = "src/main/scala/files/spreadsheets/"
-      val db_Export_CSV = new Export_to_CSV(txt_file, db_file, book_name, export_folder)
+      val db_Export_CSV =
+        new Export_to_CSV(txt_file, db_file, book_name, export_folder)
       db_Export_CSV.export_words
       db_Export_CSV.export_characters
       db_Export_CSV.export_data
@@ -74,14 +80,26 @@ class WordCount extends Interaction {
     create
     if (check_existence) {
       print_success("\nThe book is already in the database. Showing results:")
-      selecionar(limit)
+      print_frequency(limit)
       export_csv
     } else {
       register_doc
       insert
       register_updates
-      selecionar(limit)
+      print_frequency(limit)
       export_csv
+    }
+  }
+
+  def test: Unit = {
+    create
+    if (check_existence) {
+      get_frequency
+    } else {
+      register_doc
+      insert
+      register_updates
+      get_frequency
     }
   }
 }
