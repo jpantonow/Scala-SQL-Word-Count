@@ -1,7 +1,7 @@
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(components.db.RegisterDocumentsTest, org.scalatest.tools.Framework$$anon$1@646cc962, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(components.commands.WordCountTest, org.scalatest.tools.Framework$$anon$1@646cc962, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(components.db.DbCommandsTest, org.scalatest.tools.Framework$$anon$1@646cc962, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(components.db.ExportCSVTest, org.scalatest.tools.Framework$$anon$1@646cc962, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(components.db.DbCommandsTest, org.scalatest.tools.Framework$$anon$1@6d6f9c89, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(components.db.ExportCSVTest, org.scalatest.tools.Framework$$anon$1@6d6f9c89, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(components.db.RegisterDocumentsTest, org.scalatest.tools.Framework$$anon$1@6d6f9c89, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(components.commands.WordCountTest, org.scalatest.tools.Framework$$anon$1@6d6f9c89, false, [SuiteSelector])[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mExportCSVTest:[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mRegisterDocumentsTest:[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mWordCountTest:[0m[0m
@@ -11,7 +11,7 @@
 [0m[[0m[0minfo[0m] [0m[0m[32m- The execute method from Insert_Book should return true[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- The register documents methods should return true[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- The Export_to_CSV methods should return true[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 1 second, 23 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 952 milliseconds.[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 5[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 4, aborted 0[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 5, failed 0, canceled 0, ignored 0, pending 0[0m[0m

@@ -21,6 +21,7 @@ class Initialize(path_to_text: String, path_to_database: String) {
   val stopwords: List[String] = stoptxt.getLines().toList
   var stop = stopwords.toString().split(" ")
   var text = lines.toString().split(" ")
+  text = text.map(_.replace("List(", ""))
   text = text.map(_.filter(_.isLetter))
   text = text.map(_.toLowerCase())
   text = text.sorted
