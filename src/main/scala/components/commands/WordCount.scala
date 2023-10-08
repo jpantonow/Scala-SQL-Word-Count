@@ -52,7 +52,8 @@ class WordCount extends Interaction {
 
   def export_csv: Unit = {
     if (export_message == "y") {
-      val db_Export_CSV = new Export_to_CSV(txt_file, db_file, book_name)
+      val export_folder: String = "src/main/scala/files/spreadsheets/"
+      val db_Export_CSV = new Export_to_CSV(txt_file, db_file, book_name, export_folder)
       db_Export_CSV.export_words
       db_Export_CSV.export_characters
       db_Export_CSV.export_data

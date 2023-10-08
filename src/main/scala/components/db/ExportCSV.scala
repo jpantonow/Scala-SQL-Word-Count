@@ -15,7 +15,8 @@ import components.commands.Interaction
 class Export_to_CSV(
     path_to_text: String,
     path_to_database: String,
-    book_name: String
+    book_name: String,
+    export_folder: String
 ) extends Initialize(path_to_text: String, path_to_database: String) {
 
   def export_words: Boolean = {
@@ -25,7 +26,7 @@ class Export_to_CSV(
     try {
       Export = new PrintWriter(
         new File(
-          "src/main/scala/files/spreadsheets/" + book_name + "-words.csv"
+          export_folder + book_name + "-words.csv"
         )
       )
       var sb: StringBuilder = new StringBuilder()
@@ -73,7 +74,7 @@ class Export_to_CSV(
     try {
       Export = new PrintWriter(
         new File(
-          "src/main/scala/files/spreadsheets/" + book_name + "-characters.csv"
+          export_folder + book_name + "-characters.csv"
         )
       )
       var sb: StringBuilder = new StringBuilder()
@@ -119,7 +120,7 @@ class Export_to_CSV(
 
     try {
       Export = new PrintWriter(
-        new File("src/main/scala/files/spreadsheets/documents.csv")
+        new File(export_folder + "/documents.csv")
       )
       var sb: StringBuilder = new StringBuilder()
 
