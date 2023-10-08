@@ -1,10 +1,10 @@
 # Repositorio para Scala Word Count - Persistent Tables
 ## Alunos:
 ### João Pedro Gomes Covaleski Marin Antonow - 221006351
-### Willyan Marques de Melo
-### Vitor
-### Saulo
-### Veras
+### Willyan Marques de Melo - 221020940
+### Vitor Guedes - 221017130
+### Saulo Oliveira - 211000176
+### Thiago Veras - 211055370
 
 
 ## Manual:
