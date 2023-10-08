@@ -3,9 +3,11 @@ import java.io.File
 
 //Classe para interagir com o usuario
 class Interaction {
-  var (txt_file, book_name, db_file) = display_texts
+  var txt_file: String = ""
+  var book_name: String = ""
+  var db_file: String = ""
 
-  def display_texts: (String, String, String) = {
+  def display_texts: Unit = {
     println("\nWelcome, user! Which File would you like to read?\n")
 
     val directory_path = new File("src/main/scala/files/books")
@@ -16,16 +18,22 @@ class Interaction {
     }
 
     var chosen = scala.io.StdIn.readInt()
-    var book = contents(chosen).replace(".txt", "")
-    var file = directory_path.getPath() + "/" + contents(chosen)
-    val database = "src/main/scala/components/db/database.db"
+    book_name = contents(chosen).replace(".txt", "")
+    txt_file = directory_path.getPath() + "/" + contents(chosen)
+    db_file = "src/main/scala/components/db/database.db"
 
-    return (file, book, database)
+    // return (file, book, database)
   }
 
   def export_message: String = {
     println("\nWould you like to export your database into CSV file?(y/n)")
     val choice = scala.io.StdIn.readLine()
     return choice
+  }
+
+  def print_success(string: String): Unit = {
+    val greenColor = "\u001B[32m"
+    val resetColor = "\u001B[0m"
+    println(greenColor + string + resetColor)
   }
 }

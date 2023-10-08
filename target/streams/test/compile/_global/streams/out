@@ -1,6 +1,4 @@
-[0m[[0m[31merror[0m] [0m[0m/home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/test/scala/components/commands/WordCountTest.scala:8:51: missing argument list for method words in class Select_Most_Frequent[0m
-[0m[[0m[31merror[0m] [0m[0mUnapplied methods are only converted to functions when a function type is expected.[0m
-[0m[[0m[31merror[0m] [0m[0mYou can make this conversion explicit by writing `words _` or `words(_)` instead of `words`.[0m
-[0m[[0m[31merror[0m] [0m[0m    var listaFrequencia = WordCount.get_frequency.words[0m
-[0m[[0m[31merror[0m] [0m[0m                                                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/test/scala/components/commands/WordCountTest.scala:7:7: no arguments allowed for nullary constructor WordCount: (): components.commands.WordCount[0m
+[0m[[0m[31merror[0m] [0m[0m      true,[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
 [0m[[0m[31merror[0m] [0m[0mone error found[0m

@@ -1,7 +1,7 @@
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(components.db.RegisterDocumentsTest, org.scalatest.tools.Framework$$anon$1@4d694312, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(components.commands.WordCountTest, org.scalatest.tools.Framework$$anon$1@4d694312, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(components.db.ExportCSVTest, org.scalatest.tools.Framework$$anon$1@4d694312, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(components.db.DbCommandsTest, org.scalatest.tools.Framework$$anon$1@4d694312, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(components.commands.WordCountTest, org.scalatest.tools.Framework$$anon$1@3bf629e3, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(components.db.RegisterDocumentsTest, org.scalatest.tools.Framework$$anon$1@3bf629e3, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(components.db.ExportCSVTest, org.scalatest.tools.Framework$$anon$1@3bf629e3, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(components.db.DbCommandsTest, org.scalatest.tools.Framework$$anon$1@3bf629e3, false, [SuiteSelector])[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mRegisterDocumentsTest:[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mExportCSVTest:[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mDbCommandsTest:[0m[0m
@@ -44,17 +44,3 @@
 [0m[[0m[0minfo[0m] [0m[0m[31m  at components.db.DbCommandsTest.$anonfun$new$3(DbCommandsTest.scala:28)[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32mWordCountTest:[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- The most frequent word should be 'capitú'[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 6 seconds, 751 milliseconds.[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 4[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 4, aborted 0[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 1, failed 3, canceled 0, ignored 0, pending 0[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m*** 3 TESTS FAILED ***[0m[0m
-[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	components.db.ExportCSVTest[0m
-[0m[[0m[0mdebug[0m] [0m[0m	components.db.RegisterDocumentsTest[0m
-[0m[[0m[0mdebug[0m] [0m[0m	components.commands.WordCountTest[0m
-[0m[[0m[31merror[0m] [0m[0mFailed tests:[0m
-[0m[[0m[31merror[0m] [0m[0m	components.db.DbCommandsTest[0m
-[0m[[0m[31merror[0m] [0m[0m(Test / [31mtest[0m) sbt.TestsFailedException: Tests unsuccessful[0m
