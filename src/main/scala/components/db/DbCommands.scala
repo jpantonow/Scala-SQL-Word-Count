@@ -20,6 +20,11 @@ class Initialize(path_to_text: String, path_to_database: String) {
   val lines: List[String] = book.getLines().toList
   val stopwords: List[String] = stoptxt.getLines().toList
   var stop = stopwords.toString().split(" ")
+  var text = lines.toString().split(" ")
+  text = text.map(_.filter(_.isLetter))
+  text = text.map(_.toLowerCase())
+  text = text.sorted
+  text = text.filter(s => s.size >= 2)
   stop = stop.map(_.filter(_.isLetter))
   stop = stop.map(_.toLowerCase())
   stop = stop.sorted
@@ -100,15 +105,9 @@ class Insert_Book(
 
       // Convertendo a lista de linhas do livro em strings
       // separadas por espaço
-      var text = lines.toString().split(" ")
       var update: String = ""
       var command: String = ""
       // Separando apenas as letras da string e convertendo em letra minúscula
-      text = text.map(_.filter(_.isLetter))
-      text = text.map(_.toLowerCase())
-      text = text.sorted
-      text = text.filter(s => s.size >= 2)
-
       // Iteração para adicionar palavra por palavra, caractere por caractere
       // Caso haja repeticao, incrementar a frequência
 

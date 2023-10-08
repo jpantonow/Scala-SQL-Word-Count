@@ -1,0 +1,2 @@
+book, num_words, num_char, avg_char_word, longest_word, length_25
+test.txt,5,15,0,listmeu,null
