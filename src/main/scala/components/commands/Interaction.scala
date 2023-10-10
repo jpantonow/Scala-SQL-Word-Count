@@ -7,7 +7,7 @@ class Interaction {
   var book_name: String = ""
   var db_file: String = ""
   var csv_folder: String = ""
-  var limit: Int = 0
+  var limit: Integer = 0
 
   def set_pathing(txt_path: String,db_path: String,name: String, csv: String): Unit = {
     txt_file = txt_path
@@ -47,7 +47,7 @@ class Interaction {
     println(greenColor + string + resetColor)
   }
 
-  def set_limit(int: Int): Unit = {
+  def set_limit(int: Integer): Unit = {
     limit = int
   }
 

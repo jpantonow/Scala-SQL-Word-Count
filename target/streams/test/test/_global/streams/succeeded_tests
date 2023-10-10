@@ -1,12 +1,6 @@
 #Successful Tests
-<<<<<<< HEAD
-#Sun Oct 08 13:06:38 BRT 2023
-components.db.ExportCSVTest=1696781198674
-components.db.DbCommandsTest=1696781198932
-components.db.RegisterDocumentsTest=1696781198674
-components.commands.WordCountTest=1696781198710
-=======
-#Sun Oct 08 15:45:59 BRT 2023
-components.db.ExportCSVTest=1696790740111
-components.db.RegisterDocumentsTest=1696790740111
->>>>>>> will-branch-#03
+#Tue Oct 10 13:12:45 BRT 2023
+components.db.ExportCSVTest=1696954365558
+components.db.DbCommandsTest=1696954365857
+components.db.RegisterDocumentsTest=1696954365558
+components.commands.WordCountTest=1696954365735

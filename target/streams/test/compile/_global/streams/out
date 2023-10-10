@@ -1,4 +1,0 @@
-[0m[[0m[31merror[0m] [0m[0m/home/jpantonow/Desktop/wordcount/scala-word-count/src/test/scala/components/commands/WordCountTest.scala:13:5: not found: value wordcount[0m
-[0m[[0m[31merror[0m] [0m[0m    wordcount.set_limit(5)[0m
-[0m[[0m[31merror[0m] [0m[0m    ^[0m
-[0m[[0m[31merror[0m] [0m[0mone error found[0m

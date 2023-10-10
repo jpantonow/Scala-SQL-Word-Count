@@ -9,8 +9,6 @@ import java.sql.PreparedStatement
 import java.io.PrintWriter
 import java.io.File
 import scala.io.Source
-import components.commands.Interaction
-import scala.collection.mutable.HashMap
 
 //Trait para obter o caminho do banco de dados
 //e conectar com o driver jdbc
