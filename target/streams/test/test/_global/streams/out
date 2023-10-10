@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(components.db.RegisterDocumentsTest, org.scalatest.tools.Framework$$anon$1@ad62fc2, false, [SuiteSelector])[0m
 [0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(components.commands.WordCountTest, org.scalatest.tools.Framework$$anon$1@ad62fc2, false, [SuiteSelector])[0m
 [0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(components.db.ExportCSVTest, org.scalatest.tools.Framework$$anon$1@ad62fc2, false, [SuiteSelector])[0m
@@ -21,3 +22,51 @@
 [0m[[0m[0mdebug[0m] [0m[0m	components.db.RegisterDocumentsTest[0m
 [0m[[0m[0mdebug[0m] [0m[0m	components.db.ExportCSVTest[0m
 [0m[[0m[0mdebug[0m] [0m[0m	components.db.DbCommandsTest[0m
+=======
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(components.commands.WordCountTest, org.scalatest.tools.Framework$$anon$1@3bf629e3, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(components.db.RegisterDocumentsTest, org.scalatest.tools.Framework$$anon$1@3bf629e3, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(components.db.ExportCSVTest, org.scalatest.tools.Framework$$anon$1@3bf629e3, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(components.db.DbCommandsTest, org.scalatest.tools.Framework$$anon$1@3bf629e3, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mRegisterDocumentsTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mExportCSVTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mDbCommandsTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- The execute method from CreateTables should return true *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.io.FileNotFoundException: src/test/scala/files/books/test.txt (No such file or directory)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at java.base/java.io.FileInputStream.open0(Native Method)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at java.base/java.io.FileInputStream.open(FileInputStream.java:219)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.io.Source$.fromFile(Source.scala:94)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.io.Source$.fromFile(Source.scala:79)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.io.Source$.fromFile(Source.scala:57)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at components.db.Initialize.<init>(DbCommands.scala:19)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at components.db.CreateTables.<init>(DbCommands.scala:40)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at components.db.DbCommandsTest.$anonfun$new$1(DbCommandsTest.scala:9)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- The execute method from Insert_Book should return true *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.io.FileNotFoundException: src/test/scala/files/books/test.txt (No such file or directory)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at java.base/java.io.FileInputStream.open0(Native Method)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at java.base/java.io.FileInputStream.open(FileInputStream.java:219)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.io.Source$.fromFile(Source.scala:94)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.io.Source$.fromFile(Source.scala:79)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.io.Source$.fromFile(Source.scala:57)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at components.db.Initialize.<init>(DbCommands.scala:19)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at components.db.Insert_Book.<init>(DbCommands.scala:90)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at components.db.DbCommandsTest.$anonfun$new$2(DbCommandsTest.scala:18)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- The Export_to_CSV methods should return true *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.io.FileNotFoundException: src/test/scala/files/books/test.txt (No such file or directory)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at java.base/java.io.FileInputStream.open0(Native Method)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at java.base/java.io.FileInputStream.open(FileInputStream.java:219)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.io.Source$.fromFile(Source.scala:94)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.io.Source$.fromFile(Source.scala:79)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.io.Source$.fromFile(Source.scala:57)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at components.db.Initialize.<init>(DbCommands.scala:19)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at components.db.Export_to_CSV.<init>(ExportCSV.scala:20)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at components.db.DbCommandsTest.$anonfun$new$3(DbCommandsTest.scala:28)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+>>>>>>> will-branch-#03

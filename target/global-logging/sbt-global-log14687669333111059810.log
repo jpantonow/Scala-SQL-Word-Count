@@ -1,0 +1,130 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(early(addDefaultCommands), None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(addDefaultCommands, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(early(initialize), None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(initialize, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(boot, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(writeSbtVersion, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(reload, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(sbtStashOnFailure, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(onFailure loadFailed, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(loadp, None, None)[0m
+[0m[[0m[0minfo[0m] [0m[0mwelcome to sbt 1.9.6 (Ubuntu Java 11.0.20.1)[0m
+[0m[[0m[0mdebug[0m] [0m[0mLoad.defaultLoad until apply took 96.876206ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m          Load.loadUnit: plugins took 74.887393ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m          Load.loadUnit: defsScala took 0.378109ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Scanning directory /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/project[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Found non-root projects [0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Done in /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/project, returning: ()[0m
+[0m[[0m[0mdebug[0m] [0m[0mdeducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))[0m
+[0m[[0m[0mdebug[0m] [0m[0m  :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)[0m
+[0m[[0m[0mdebug[0m] [0m[0mPlugins.deducer#function took 20.135984 ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m              Load.resolveProject(scala-word-count-build) took 49.590935ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m            Load.loadTransitive: finalizeProject(Project(id scala-word-count-build, base: /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/project, plugins: List(<none>))) took 101.113408ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Done in /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/project, returning: (scala-word-count-build)[0m
+[0m[[0m[0mdebug[0m] [0m[0m          Load.loadUnit: loadedProjectsRaw took 122.790529ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m          Load.loadUnit: cleanEvalClasses took 0.266017ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m        Load.loadUnit(file:/home/will/Documents/UnB/Disciplinas/4º%20SEMESTRE/TP2/scala-word-count/project/, ...) took 205.30106ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: load took 369.552355ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: resolveProjects took 9.050857ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: finalTransforms took 79.962245ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: config.delegates took 35.356907ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: Def.make(settings)... took 383.076122ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: structureIndex took 94.669223ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: mkStreams took 1.701558ms[0m
+[0m[[0m[0minfo[0m] [0m[0mloading project definition from /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/project[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Load.loadUnit: plugins took 1741.754194ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Load.loadUnit: defsScala took 0.005378ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Scanning directory /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.loadUnit: mkEval took 6.517376ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Found root project root w/ remaining [0m
+[0m[[0m[0mdebug[0m] [0m[0mdeducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))[0m
+[0m[[0m[0mdebug[0m] [0m[0m  :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)[0m
+[0m[[0m[0mdebug[0m] [0m[0mPlugins.deducer#function took 1.449299 ms[0m
+[0m[[0m[0minfo[0m] [0m[0mloading settings for project root from build.sbt ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m        Load.resolveProject(root) took 3.811324ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.loadTransitive: finalizeProject(Project(id root, base: /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count, plugins: List(<none>))) took 6.3205ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Done in /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count, returning: (root)[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Load.loadUnit: loadedProjectsRaw took 160.321315ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Load.loadUnit: cleanEvalClasses took 3.553129ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Load.loadUnit(file:/home/will/Documents/UnB/Disciplinas/4º%20SEMESTRE/TP2/scala-word-count/, ...) took 1907.028982ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mLoad.apply: load took 1934.769177ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mLoad.apply: resolveProjects took 0.193734ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mLoad.apply: finalTransforms took 25.094624ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mLoad.apply: config.delegates took 0.417218ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mLoad.apply: Def.make(settings)... took 119.454948ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mLoad.apply: structureIndex took 24.964862ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mLoad.apply: mkStreams took 0.005727ms[0m
+[0m[[0m[0minfo[0m] [0m[0mset current project to scalatest-example (in build file:/home/will/Documents/UnB/Disciplinas/4º%20SEMESTRE/TP2/scala-word-count/)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(sbtPopOnFailure, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(resumeFromFailure, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(notifyUsersAboutShell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(iflast shell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(test, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / test[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 4 Scala sources to /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/target/scala-2.13/test-classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mExportCSVTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mRegisterDocumentsTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mDbCommandsTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- The execute method from CreateTables should return true *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.io.FileNotFoundException: src/test/scala/files/books/test.txt (No such file or directory)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at java.base/java.io.FileInputStream.open0(Native Method)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at java.base/java.io.FileInputStream.open(FileInputStream.java:219)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.io.Source$.fromFile(Source.scala:94)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.io.Source$.fromFile(Source.scala:79)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.io.Source$.fromFile(Source.scala:57)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at components.db.Initialize.<init>(DbCommands.scala:19)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at components.db.CreateTables.<init>(DbCommands.scala:40)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at components.db.DbCommandsTest.$anonfun$new$1(DbCommandsTest.scala:9)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- The execute method from Insert_Book should return true *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.io.FileNotFoundException: src/test/scala/files/books/test.txt (No such file or directory)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at java.base/java.io.FileInputStream.open0(Native Method)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at java.base/java.io.FileInputStream.open(FileInputStream.java:219)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.io.Source$.fromFile(Source.scala:94)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.io.Source$.fromFile(Source.scala:79)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.io.Source$.fromFile(Source.scala:57)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at components.db.Initialize.<init>(DbCommands.scala:19)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at components.db.Insert_Book.<init>(DbCommands.scala:90)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at components.db.DbCommandsTest.$anonfun$new$2(DbCommandsTest.scala:18)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- The Export_to_CSV methods should return true *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.io.FileNotFoundException: src/test/scala/files/books/test.txt (No such file or directory)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at java.base/java.io.FileInputStream.open0(Native Method)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at java.base/java.io.FileInputStream.open(FileInputStream.java:219)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.io.Source$.fromFile(Source.scala:94)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.io.Source$.fromFile(Source.scala:79)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.io.Source$.fromFile(Source.scala:57)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at components.db.Initialize.<init>(DbCommands.scala:19)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at components.db.Export_to_CSV.<init>(ExportCSV.scala:20)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at components.db.DbCommandsTest.$anonfun$new$3(DbCommandsTest.scala:28)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
