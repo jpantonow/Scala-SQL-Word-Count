@@ -10,8 +10,6 @@ import java.io.PrintWriter
 import java.io.File
 import scala.io.Source
 
-//Trait para obter o caminho do banco de dados
-//e conectar com o driver jdbc
 class Initialize(path_to_text: String, path_to_database: String) {
   val url = s"jdbc:sqLite:$path_to_database"
   val book = scala.io.Source.fromFile(path_to_text)
