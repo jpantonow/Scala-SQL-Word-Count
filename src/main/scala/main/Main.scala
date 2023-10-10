@@ -5,6 +5,6 @@ object Main extends App {
   val wordCount = new WordCount
   // val wordLimits = scala.io.StdIn.readInt()
   wordCount.display_texts
-  wordCount.set_limit
+  wordCount.user_limit
   wordCount.execute
 }
