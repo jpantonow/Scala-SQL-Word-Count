@@ -1,1 +1,1 @@
-["components.db.RegisterDocumentsTest","components.db.ExportCSVTest","components.db.DbCommandsTest","components.commands.WordCountTest"]
+["components.db.RegisterDocumentsTest","components.db.ExportCSVTest"]

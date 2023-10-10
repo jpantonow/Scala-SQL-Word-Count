@@ -67,13 +67,11 @@ class WordCount extends Interaction {
   def run: Unit = {
     create
     if (check_existence) {
-      get_frequency
       export_csv
     } else {
       register_doc
       insert
       register_updates
-      get_frequency
       export_csv
     }
   }
