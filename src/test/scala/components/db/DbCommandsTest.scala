@@ -37,7 +37,7 @@ class DbCommandsTest extends AnyFunSuite {
   test("The Export_to_CSV methods should return true"){
     val db_export = new Export_to_CSV(
         "src/test/scala/files/books/test.txt",
-        "src/test/scala/components/db/databasetest.db",
+        "src/test/scala/components/db/databasedbcommands.db",
         "test",
         "src/test/scala/files/spreadsheets/"
       )

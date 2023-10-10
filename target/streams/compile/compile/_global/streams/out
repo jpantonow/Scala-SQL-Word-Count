@@ -1,7 +1,8 @@
-[0m[[0m[31merror[0m] [0m[0m/home/jpantonow/Desktop/wordcount/scala-word-count/src/main/scala/components/commands/WordCount.scala:91:22: Unit does not take parameters[0m
-[0m[[0m[31merror[0m] [0m[0m      print_frequency()[0m
-[0m[[0m[31merror[0m] [0m[0m                     ^[0m
-[0m[[0m[31merror[0m] [0m[0m/home/jpantonow/Desktop/wordcount/scala-word-count/src/main/scala/components/commands/WordCount.scala:97:22: Unit does not take parameters[0m
-[0m[[0m[31merror[0m] [0m[0m      print_frequency()[0m
-[0m[[0m[31merror[0m] [0m[0m                     ^[0m
-[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
+[0m[[0m[33mwarn[0m] [0m[0m1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jpantonow/Desktop/wordcount/scala-word-count/src/main/scala/main/Main.scala:8:13: missing argument list for method set_limit in class Interaction[0m
+[0m[[0m[31merror[0m] [0m[0mUnapplied methods are only converted to functions when a function type is expected.[0m
+[0m[[0m[31merror[0m] [0m[0mYou can make this conversion explicit by writing `set_limit _` or `set_limit(_)` instead of `set_limit`.[0m
+[0m[[0m[31merror[0m] [0m[0m  wordCount.set_limit[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

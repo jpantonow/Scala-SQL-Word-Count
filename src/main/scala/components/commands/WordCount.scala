@@ -55,10 +55,10 @@ class WordCount extends Interaction {
     val db_register = new Register_Documents(txt_file, db_file, book_name)
     return db_register.check_register
   }
-
+//"src/main/scala/files/spreadsheets/"
   def export_csv: Boolean = {
     if (export_message == "y") {
-      val export_folder: String = "src/main/scala/files/spreadsheets/"
+      val export_folder: String = csv_folder
       val db_Export_CSV =
         new Export_to_CSV(txt_file, db_file, book_name, export_folder)
       (db_Export_CSV.export_words &&
