@@ -243,6 +243,7 @@ class Select_Most_Frequent(
         characterFrequency = characterFrequency :+ (char, frequency)
         // println(s"$char has appeared $frequency times.")
         break += 1
+        println(characterFrequency.size)
       }
 
       select.close()

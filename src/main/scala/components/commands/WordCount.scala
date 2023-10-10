@@ -37,14 +37,14 @@ class WordCount extends Interaction {
     db_select_most_frequent
   }
 
-  def print_frequency(limit: Int = 25): Unit = {
+  def print_frequency(limit: Int): Unit = {
     val db_select_most_frequent = get_frequency
 
     print_success(s"\n$limit Most frequent words")
     for ((name, frequency) <- db_select_most_frequent.words(limit)) {
       println(s"$name has appeared $frequency times.")
     }
-
+    
     print_success(s"\n$limit Most frequent characters")
     for ((name, frequency) <- db_select_most_frequent.characters(limit)) {
       println(s"$name has appeared $frequency times.")
