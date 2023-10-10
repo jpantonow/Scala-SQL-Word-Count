@@ -36,4 +36,9 @@ class Interaction {
     val resetColor = "\u001B[0m"
     println(greenColor + string + resetColor)
   }
+
+  def set_limit: String = {
+    println("\nHow many words and characters ordered by frequency would you like to display?(Int)")
+    val number = scala.io.StdIn.readInt()
+  }
 }
