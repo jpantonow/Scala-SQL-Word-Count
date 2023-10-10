@@ -22231,3 +22231,5 @@ Exception in thread "pool-5-thread-2" java.lang.InterruptedException
 2023.10.10 07:50:25 WARN  no build target for: /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/main/Main.scala
 out 10, 2023 7:51:19 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFO: Unsupported notification method: $/setTrace
+out 10, 2023 7:52:37 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1520
