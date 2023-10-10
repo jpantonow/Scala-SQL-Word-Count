@@ -10,6 +10,7 @@ import java.io.PrintWriter
 import java.io.File
 import scala.io.Source
 import components.commands.Interaction
+import scala.collection.mutable.HashMap
 
 //Trait para obter o caminho do banco de dados
 //e conectar com o driver jdbc
@@ -173,7 +174,7 @@ class Select_Most_Frequent(
 ) extends Initialize(path_to_text: String, path_to_database: String) {
 
   // Seleciona as 25 palavras mais frequentes
-  def words: Boolean = {
+  def words(limit: Int): HashMap[String, Int] = {
     var conn: Connection = null
     var select: Statement = null
     try {
@@ -188,19 +189,23 @@ class Select_Most_Frequent(
       command += "GROUP BY name ORDER BY CAST(frequency AS int) DESC"
       // Coloca para executar a query
       val rs = select.executeQuery(command)
-      var break: Int = 0
+      var break = 0
+
       // Pega todos os resultados da Query
-      while (rs.next() && (break != 25)) {
+      val wordFrequency = new HashMap[String, Int]
+      while (rs.next() && (break != limit)) {
         var name = rs.getString("name")
         var frequency = rs.getInt("frequency")
-        println(s"$name has appeared $frequency times.")
+        wordFrequency(name) = frequency
+        // println(s"$name has appeared $frequency times.")
         break += 1
       }
 
       // Fecha a conexão com o banco de dados
       select.close()
       conn.close()
-      true
+
+      wordFrequency
     } catch {
       case e: SQLException => {
         print_error("Error while selecting words")
@@ -214,7 +219,7 @@ class Select_Most_Frequent(
   }
 
   // Seleciona os 25 caracteres mais frequentes
-  def characters: Boolean = {
+  def characters(limit: Int): HashMap[String, Int] = {
     var select: Statement = null
     var conn: Connection = null
     try {
@@ -231,16 +236,18 @@ class Select_Most_Frequent(
       val rs = select.executeQuery(command)
       var break: Int = 0
       // Pega todos os resultados da Query
-      while (rs.next() && (break != 25)) {
+      var characterFrequency = new HashMap[String, Int]
+      while (rs.next() && (break != limit)) {
         var char = rs.getString("char")
         var frequency = rs.getInt("frequency")
-        println(s"$char has appeared $frequency times.")
+        characterFrequency(char) = frequency
+        // println(s"$char has appeared $frequency times.")
         break += 1
       }
 
       select.close()
       conn.close()
-      true
+      characterFrequency
     } catch {
       case e: SQLException => {
         print_error("Error while selecting characters")

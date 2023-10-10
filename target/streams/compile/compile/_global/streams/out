@@ -1,2 +1,6 @@
-[0m[[0m[33mwarn[0m] [0m[0m1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
-[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
+[0m[[0m[31merror[0m] [0m[0m/home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/main/Main.scala:6:13: missing argument list for method execute in class WordCount[0m
+[0m[[0m[31merror[0m] [0m[0mUnapplied methods are only converted to functions when a function type is expected.[0m
+[0m[[0m[31merror[0m] [0m[0mYou can make this conversion explicit by writing `execute _` or `execute(_)` instead of `execute`.[0m
+[0m[[0m[31merror[0m] [0m[0m  WordCount.execute[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

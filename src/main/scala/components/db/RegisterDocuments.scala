@@ -99,8 +99,9 @@ class Register_Documents(
       val rs = select_all.executeQuery(command)
 
       val count: Integer = rs.getInt(1)
-      command = s"UPDATE OR IGNORE documents SET num_words = ${count} WHERE book = '${book_name}';"
-      
+      command =
+        s"UPDATE OR IGNORE documents SET num_words = ${count} WHERE book = '${book_name}';"
+
       rt = conn.prepareStatement(command)
       rt.execute()
       conn.commit()
