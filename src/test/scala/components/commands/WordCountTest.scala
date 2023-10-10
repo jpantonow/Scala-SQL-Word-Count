@@ -10,9 +10,11 @@ class WordCountTest extends AnyFunSuite {
       "teste",
       "src/test/scala/files/spreadsheets/"
     )
+    wordCount.execute
     assert(wordCount.check_existence == true)
-    var listaFrequencia = wordCount.get_frequency.words
-    assert(listaFrequencia(0) == ("tubarão", 20))
+    var frequencias = wordCount.get_frequency
+    var listaPalavras = frequencias.words
+    assert(listaPalavras(0) == ("tubarão", 20))
   }
   // test("The most frequent word should be \"tubarão\"") {
   //    val wordCount = new WordCount(

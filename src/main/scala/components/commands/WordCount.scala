@@ -32,8 +32,7 @@ class WordCount extends Interaction {
   }
 
   def get_frequency: Select_Most_Frequent = {
-    val db_select_most_frequent =
-      new Select_Most_Frequent(txt_file, db_file, book_name)
+    val db_select_most_frequent = new Select_Most_Frequent(txt_file, db_file, book_name,limit)
     db_select_most_frequent
   }
 
@@ -41,12 +40,12 @@ class WordCount extends Interaction {
     val db_select_most_frequent = get_frequency
 
     print_success(s"\n$limit Most frequent words")
-    for ((name, frequency) <- db_select_most_frequent.words(limit)) {
+    for ((name, frequency) <- db_select_most_frequent.words) {
       println(s"$name has appeared $frequency times.")
     }
     
     print_success(s"\n$limit Most frequent characters")
-    for ((name, frequency) <- db_select_most_frequent.characters(limit)) {
+    for ((name, frequency) <- db_select_most_frequent.characters) {
       println(s"$name has appeared $frequency times.")
     }
   }
@@ -57,17 +56,12 @@ class WordCount extends Interaction {
   }
 //"src/main/scala/files/spreadsheets/"
   def export_csv: Boolean = {
-    if (export_message == "y") {
-      val export_folder: String = csv_folder
-      val db_Export_CSV =
-        new Export_to_CSV(txt_file, db_file, book_name, export_folder)
-      (db_Export_CSV.export_words &&
+    val export_folder: String = csv_folder
+    val db_Export_CSV =
+    new Export_to_CSV(txt_file, db_file, book_name, export_folder)
+    (db_Export_CSV.export_words &&
       db_Export_CSV.export_characters &&
       db_Export_CSV.export_data)
-      // print_success("Successfully into CSV File")
-    } else {
-      return false
-    }
   }
 
   def run: Unit = {
@@ -89,13 +83,17 @@ class WordCount extends Interaction {
     if (check_existence) {
       print_success("\nThe book is already in the database. Showing results:")
       print_frequency
+     if (export_message == "y") {
       export_csv
+      }
     } else {
       register_doc
       insert
       register_updates
       print_frequency
+      if (export_message == "y") {
       export_csv
+      }
     }
   }
 
