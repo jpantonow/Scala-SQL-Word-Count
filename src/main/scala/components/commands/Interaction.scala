@@ -6,6 +6,7 @@ class Interaction {
   var txt_file: String = ""
   var book_name: String = ""
   var db_file: String = ""
+  var limit: Int = 0
 
   def display_texts: Unit = {
     println("\nWelcome, user! Which File would you like to read?\n")
@@ -37,8 +38,9 @@ class Interaction {
     println(greenColor + string + resetColor)
   }
 
-  def set_limit: String = {
+  def set_limit: Unit = {
     println("\nHow many words and characters ordered by frequency would you like to display?(Int)")
     val number = scala.io.StdIn.readInt()
+    limit = number
   }
 }
