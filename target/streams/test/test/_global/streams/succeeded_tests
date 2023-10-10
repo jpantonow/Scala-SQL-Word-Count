@@ -1,6 +1,4 @@
 #Successful Tests
-#Tue Oct 10 13:12:45 BRT 2023
-components.db.ExportCSVTest=1696954365558
-components.db.DbCommandsTest=1696954365857
-components.db.RegisterDocumentsTest=1696954365558
-components.commands.WordCountTest=1696954365735
+#Tue Oct 10 13:20:37 BRT 2023
+components.db.DbCommandsTest=1696954837607
+components.commands.WordCountTest=1696954837301
