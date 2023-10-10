@@ -1,8 +1,8 @@
 package main
 import java.io.File
-import components.commands.WordCount
+import components.commands._
 object Main extends App {
-  val wordCount = new WordCount()
+  val wordCount = new WordCount
   // val wordLimits = scala.io.StdIn.readInt()
   wordCount.display_texts
   wordCount.set_limit

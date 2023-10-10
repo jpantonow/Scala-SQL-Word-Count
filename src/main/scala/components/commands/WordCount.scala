@@ -37,7 +37,7 @@ class WordCount extends Interaction {
     db_select_most_frequent
   }
 
-  def print_frequency(): Unit = {
+  def print_frequency: Unit = {
     val db_select_most_frequent = get_frequency
 
     print_success(s"\n$limit Most frequent words")
@@ -70,7 +70,7 @@ class WordCount extends Interaction {
     }
   }
 
-  def run(): Unit = {
+  def run: Unit = {
     create
     if (check_existence) {
       get_frequency
@@ -84,17 +84,17 @@ class WordCount extends Interaction {
     }
   }
 
-  def execute(): Unit = {
+  def execute: Unit = {
     create
     if (check_existence) {
       print_success("\nThe book is already in the database. Showing results:")
-      print_frequency()
+      print_frequency
       export_csv
     } else {
       register_doc
       insert
       register_updates
-      print_frequency()
+      print_frequency
       export_csv
     }
   }
