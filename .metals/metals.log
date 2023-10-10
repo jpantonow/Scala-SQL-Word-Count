@@ -22088,3 +22088,146 @@ INFO: Unsupported notification method: $/setTrace
 2023.10.07 17:33:00 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip, /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.
 2023.10.07 17:33:00 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip, /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.
 2023.10.07 17:33:00 INFO  time: indexed workspace in 4.82s
+2023.10.10 07:37:10 INFO  Started: Metals version 1.0.1 in folders '/home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count' for client Visual Studio Code 1.83.0.
+out 10, 2023 7:37:10 AM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.21.2 by Redgate
+out 10, 2023 7:37:10 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+out 10, 2023 7:37:10 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+out 10, 2023 7:37:11 AM org.flywaydb.core.FlywayExecutor execute
+INFO: Database: jdbc:h2:file:/home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/.metals/metals (H2 2.1)
+out 10, 2023 7:37:11 AM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.022s)
+out 10, 2023 7:37:11 AM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+out 10, 2023 7:37:11 AM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.10.10 07:37:11 INFO  time: initialize in 0.65s
+2023.10.10 07:37:13 WARN  Build server is not auto-connectable.
+2023.10.10 07:37:13 WARN  no build target for: /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/components/commands/WordCount.scala
+2023.10.10 07:37:16 INFO  no build target found for /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/components/commands/WordCount.scala. Using presentation compiler with project's scala-library version: 3.3.0
+2023.10.10 07:37:17 WARN  no build target for: /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/components/commands/Interaction.scala
+2023.10.10 07:37:19 INFO  time: code lens generation in 2.35s
+2023.10.10 07:37:31 WARN  no build target for: /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/main/Main.scala
+2023.10.10 07:37:37 WARN  no build target for: /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/main/Main.scala
+2023.10.10 07:37:46 WARN  no build target for: /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/main/Main.scala
+2023.10.10 07:37:52 WARN  no build target for: /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/main/Main.scala
+2023.10.10 07:38:10 WARN  no build target for: /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/components/db/DbCommands.scala
+2023.10.10 07:38:12 WARN  no build target for: /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/components/db/ExportCSV.scala
+2023.10.10 07:38:43 WARN  no build target for: /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/main/Main.scala
+2023.10.10 07:38:46 WARN  no build target for: /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/main/Main.scala
+2023.10.10 07:38:58 WARN  no build target for: /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/main/Main.scala
+2023.10.10 07:39:02 WARN  no build target for: /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/main/Main.scala
+2023.10.10 07:39:06 ERROR scalafmt: /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/main/Main.scala:5: error: [dialect scala213] illegal start of simple expression
+  val wordCount = new WordCount("src/test/scala/files/books/teste.txt","src/test/scala/components/db/database.db",)
+                                                                                                                  ^
+2023.10.10 07:39:07 WARN  no build target for: /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/main/Main.scala
+2023.10.10 07:39:06 ERROR scalafmt: /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/main/Main.scala:5: error: [dialect scala213] illegal start of simple expression
+  val wordCount = new WordCount("src/test/scala/files/books/teste.txt","src/test/scala/components/db/database.db",)
+                                                                                                                  ^
+2023.10.10 07:39:07 WARN  no build target for: /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/main/Main.scala
+2023.10.10 07:39:11 WARN  no build target for: /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/main/Main.scala
+2023.10.10 07:40:10 WARN  no build target for: /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/main/Main.scala
+2023.10.10 07:40:13 WARN  no build target for: /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/main/Main.scala
+2023.10.10 07:40:27 WARN  no build target for: /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/main/Main.scala
+2023.10.10 07:40:29 ERROR scalafmt: /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/main/Main.scala:6: error: [dialect scala213] ; expected but , found
+  wordCount.txt_file = "src/test/scala/files/books/teste.txt",
+                                                             ^
+2023.10.10 07:40:29 WARN  no build target for: /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/main/Main.scala
+2023.10.10 07:40:35 WARN  no build target for: /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/main/Main.scala
+2023.10.10 07:40:39 WARN  no build target for: /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/main/Main.scala
+out 10, 2023 7:40:51 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 420
+out 10, 2023 7:40:51 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 421
+2023.10.10 07:40:53 WARN  no build target for: /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/main/Main.scala
+2023.10.10 07:40:55 WARN  no build target for: /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/main/Main.scala
+2023.10.10 07:41:03 WARN  no build target for: /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/main/Main.scala
+2023.10.10 07:41:05 ERROR scalafmt: /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/main/Main.scala:9: error: [dialect scala213] ; expected but ) found
+  )
+  ^
+2023.10.10 07:41:05 WARN  no build target for: /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/main/Main.scala
+2023.10.10 07:41:07 WARN  no build target for: /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/main/Main.scala
+2023.10.10 07:41:53 WARN  no build target for: /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/main/Main.scala
+2023.10.10 07:41:59 WARN  no build target for: /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/main/Main.scala
+2023.10.10 07:42:03 WARN  no build target for: /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/main/Main.scala
+2023.10.10 07:42:04 WARN  no build target for: /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/main/Main.scala
+2023.10.10 07:42:11 WARN  no build target for: /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/main/Main.scala
+2023.10.10 07:42:28 WARN  no build target for: /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/components/commands/Interaction.scala
+2023.10.10 07:42:32 WARN  no build target for: /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/components/commands/Interaction.scala
+2023.10.10 07:42:37 WARN  no build target for: /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/components/commands/Interaction.scala
+2023.10.10 07:42:39 WARN  no build target for: /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/components/commands/Interaction.scala
+2023.10.10 07:42:40 WARN  no build target for: /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/components/commands/Interaction.scala
+2023.10.10 07:42:40 WARN  no build target for: /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/components/commands/Interaction.scala
+2023.10.10 07:42:42 WARN  no build target for: /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/components/commands/Interaction.scala
+2023.10.10 07:42:46 WARN  no build target for: /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/components/commands/Interaction.scala
+Exception in thread "pool-5-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:229)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023.10.10 07:42:46 WARN  Using indexes to guess the definition of txt_file
+2023.10.10 07:42:48 WARN  no build target for: /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/components/commands/Interaction.scala
+2023.10.10 07:42:49 WARN  no build target for: /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/components/commands/Interaction.scala
+Exception in thread "pool-5-thread-2" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:229)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023.10.10 07:42:51 WARN  no build target for: /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/components/commands/Interaction.scala
+2023.10.10 07:42:52 WARN  no build target for: /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/components/commands/Interaction.scala
+2023.10.10 07:42:54 WARN  no build target for: /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/components/commands/Interaction.scala
+2023.10.10 07:42:57 WARN  no build target for: /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/components/commands/Interaction.scala
+2023.10.10 07:42:59 WARN  no build target for: /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/components/commands/Interaction.scala
+2023.10.10 07:43:00 WARN  no build target for: /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/components/commands/Interaction.scala
+2023.10.10 07:43:07 WARN  no build target for: /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/components/commands/Interaction.scala
+2023.10.10 07:43:10 WARN  no build target for: /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/components/commands/Interaction.scala
+2023.10.10 07:43:21 WARN  no build target for: /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/components/commands/Interaction.scala
+2023.10.10 07:43:24 WARN  Using indexes to guess the definition of db_file
+2023.10.10 07:43:28 WARN  Using indexes to guess the definition of db_file
+2023.10.10 07:43:58 WARN  no build target for: /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/components/commands/Interaction.scala
+2023.10.10 07:44:01 WARN  no build target for: /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/components/commands/Interaction.scala
+2023.10.10 07:44:04 WARN  no build target for: /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/components/commands/Interaction.scala
+2023.10.10 07:44:08 WARN  Using indexes to guess the definition of txt_file
+2023.10.10 07:44:10 WARN  no build target for: /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/components/commands/Interaction.scala
+2023.10.10 07:44:21 WARN  no build target for: /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/components/commands/Interaction.scala
+2023.10.10 07:44:24 WARN  no build target for: /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/components/commands/Interaction.scala
+2023.10.10 07:44:40 WARN  no build target for: /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/components/commands/Interaction.scala
+2023.10.10 07:45:01 WARN  no build target for: /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/components/commands/Interaction.scala
+2023.10.10 07:45:04 WARN  no build target for: /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/components/commands/Interaction.scala
+2023.10.10 07:45:06 WARN  no build target for: /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/components/commands/Interaction.scala
+2023.10.10 07:45:08 WARN  no build target for: /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/components/commands/Interaction.scala
+2023.10.10 07:45:13 WARN  no build target for: /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/components/commands/Interaction.scala
+2023.10.10 07:45:40 WARN  no build target for: /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/components/commands/Interaction.scala
+2023.10.10 07:45:44 WARN  no build target for: /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/components/commands/Interaction.scala
+2023.10.10 07:45:49 WARN  no build target for: /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/components/commands/Interaction.scala
+2023.10.10 07:45:52 WARN  no build target for: /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/components/commands/Interaction.scala
+2023.10.10 07:46:00 WARN  no build target for: /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/main/Main.scala
+2023.10.10 07:46:02 WARN  no build target for: /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/main/Main.scala
+2023.10.10 07:46:05 WARN  no build target for: /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/main/Main.scala
+2023.10.10 07:46:07 ERROR scalafmt: /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/main/Main.scala:11: error: [dialect scala213] ) expected but . found
+  wordCount.execute(5)
+           ^
+2023.10.10 07:46:07 WARN  no build target for: /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/main/Main.scala
+2023.10.10 07:46:09 WARN  no build target for: /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/main/Main.scala
+2023.10.10 07:46:10 WARN  no build target for: /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/main/Main.scala
+2023.10.10 07:46:16 WARN  no build target for: /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/main/Main.scala
+2023.10.10 07:46:36 WARN  no build target for: /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/components/commands/Interaction.scala
+2023.10.10 07:48:44 WARN  no build target for: /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/main/Main.scala
+2023.10.10 07:48:46 WARN  no build target for: /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/main/Main.scala
+2023.10.10 07:49:06 WARN  no build target for: /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/main/Main.scala
+2023.10.10 07:49:31 WARN  no build target for: /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/components/commands/Interaction.scala
+2023.10.10 07:49:46 WARN  no build target for: /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/main/Main.scala
+2023.10.10 07:49:47 WARN  no build target for: /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/main/Main.scala
+2023.10.10 07:49:51 WARN  no build target for: /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/main/Main.scala
+2023.10.10 07:50:22 WARN  no build target for: /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/main/Main.scala
+2023.10.10 07:50:22 WARN  Using indexes to guess the definition of set_pathing
+2023.10.10 07:50:23 WARN  no build target for: /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/main/Main.scala
+2023.10.10 07:50:25 WARN  no build target for: /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/main/Main.scala
+out 10, 2023 7:51:19 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace

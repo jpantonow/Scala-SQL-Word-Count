@@ -1,13 +1,15 @@
-[0m[[0m[31merror[0m] [0m[0mjava.io.FileNotFoundException: src/main/scala/files/spreadsheets/dom-casmurro-words.csv (No such file or directory)[0m
-[0m[[0m[31merror[0m] [0m[0m	at java.base/java.io.FileOutputStream.open0(Native Method)[0m
-[0m[[0m[31merror[0m] [0m[0m	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:298)[0m
-[0m[[0m[31merror[0m] [0m[0m	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:237)[0m
-[0m[[0m[31merror[0m] [0m[0m	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:187)[0m
-[0m[[0m[31merror[0m] [0m[0m	at java.base/java.io.PrintWriter.<init>(PrintWriter.java:309)[0m
-[0m[[0m[31merror[0m] [0m[0m	at components.db.Export_to_CSV.export_words(ExportCSV.scala:29)[0m
-[0m[[0m[31merror[0m] [0m[0m	at components.commands.WordCount.export_csv(WordCount.scala:70)[0m
-[0m[[0m[31merror[0m] [0m[0m	at components.commands.WordCount.execute(WordCount.scala:84)[0m
-[0m[[0m[31merror[0m] [0m[0m	at main.Main$.delayedEndpoint$main$Main$1(Main.scala:7)[0m
+[0m[[0m[31merror[0m] [0m[0mjava.io.FileNotFoundException:  (No such file or directory)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.io.FileInputStream.open0(Native Method)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.io.Source$.fromFile(Source.scala:94)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.io.Source$.fromFile(Source.scala:79)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.io.Source$.fromFile(Source.scala:57)[0m
+[0m[[0m[31merror[0m] [0m[0m	at components.db.Initialize.<init>(DbCommands.scala:19)[0m
+[0m[[0m[31merror[0m] [0m[0m	at components.db.CreateTables.<init>(DbCommands.scala:40)[0m
+[0m[[0m[31merror[0m] [0m[0m	at components.commands.WordCount.create(WordCount.scala:8)[0m
+[0m[[0m[31merror[0m] [0m[0m	at components.commands.WordCount.execute(WordCount.scala:74)[0m
+[0m[[0m[31merror[0m] [0m[0m	at main.Main$.delayedEndpoint$main$Main$1(Main.scala:8)[0m
 [0m[[0m[31merror[0m] [0m[0m	at main.Main$delayedInit$body.apply(Main.scala:4)[0m
 [0m[[0m[31merror[0m] [0m[0m	at scala.Function0.apply$mcV$sp(Function0.scala:39)[0m
 [0m[[0m[31merror[0m] [0m[0m	at scala.Function0.apply$mcV$sp$(Function0.scala:39)[0m
@@ -38,4 +40,4 @@
 [0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)[0m
 [0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)[0m
 [0m[[0m[31merror[0m] [0m[0m	at java.base/java.lang.Thread.run(Thread.java:829)[0m
-[0m[[0m[31merror[0m] [0m[0m(Compile / [31mrun[0m) java.io.FileNotFoundException: src/main/scala/files/spreadsheets/dom-casmurro-words.csv (No such file or directory)[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mrun[0m) java.io.FileNotFoundException:  (No such file or directory)[0m

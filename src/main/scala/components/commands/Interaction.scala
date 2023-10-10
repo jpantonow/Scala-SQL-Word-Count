@@ -7,6 +7,16 @@ class Interaction {
   var book_name: String = ""
   var db_file: String = ""
 
+  def set_pathing(
+      txt_path: String,
+      db_path: String,
+      name: String
+  ): Unit = {
+    txt_file = txt_path
+    db_file = db_path
+    book_name = name
+  }
+
   def display_texts: Unit = {
     println("\nWelcome, user! Which File would you like to read?\n")
 
