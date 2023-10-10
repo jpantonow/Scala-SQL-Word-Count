@@ -1,2 +1,7 @@
+<<<<<<< HEAD
 [0m[[0m[0mdebug[0m] [0m[0mCreated transactional ClassFileManager with tempDir = /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/target/scala-2.13/classes.bak[0m
 [0m[[0m[0mdebug[0m] [0m[0mRemoving the temporary directory used for backing up class files: /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/target/scala-2.13/classes.bak[0m
+=======
+[0m[[0m[0mdebug[0m] [0m[0mCreated transactional ClassFileManager with tempDir = /home/jpantonow/Desktop/wordcount/scala-word-count/target/scala-2.13/classes.bak[0m
+[0m[[0m[0mdebug[0m] [0m[0mRemoving the temporary directory used for backing up class files: /home/jpantonow/Desktop/wordcount/scala-word-count/target/scala-2.13/classes.bak[0m
+>>>>>>> b57576a45e3bd06d09e32ddb6014c6ec8bf56c9d

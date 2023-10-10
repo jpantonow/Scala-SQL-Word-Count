@@ -1,3 +1,28 @@
+<<<<<<< HEAD
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(components.db.RegisterDocumentsTest, org.scalatest.tools.Framework$$anon$1@ad62fc2, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(components.commands.WordCountTest, org.scalatest.tools.Framework$$anon$1@ad62fc2, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(components.db.ExportCSVTest, org.scalatest.tools.Framework$$anon$1@ad62fc2, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(components.db.DbCommandsTest, org.scalatest.tools.Framework$$anon$1@ad62fc2, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mRegisterDocumentsTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mExportCSVTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mWordCountTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- This method should create a table [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mDbCommandsTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- The execute method from CreateTables should return true[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- The execute method from Insert_Book should return true[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- The register documents methods should return true[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- The Export_to_CSV methods should return true[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 455 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 5[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 4, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 5, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	components.commands.WordCountTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	components.db.RegisterDocumentsTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	components.db.ExportCSVTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	components.db.DbCommandsTest[0m
+=======
 [0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(components.commands.WordCountTest, org.scalatest.tools.Framework$$anon$1@3bf629e3, false, [SuiteSelector])[0m
 [0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(components.db.RegisterDocumentsTest, org.scalatest.tools.Framework$$anon$1@3bf629e3, false, [SuiteSelector])[0m
 [0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(components.db.ExportCSVTest, org.scalatest.tools.Framework$$anon$1@3bf629e3, false, [SuiteSelector])[0m
@@ -44,3 +69,4 @@
 [0m[[0m[0minfo[0m] [0m[0m[31m  at components.db.DbCommandsTest.$anonfun$new$3(DbCommandsTest.scala:28)[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+>>>>>>> will-branch-#03

@@ -6,6 +6,7 @@ class Interaction {
   var txt_file: String = ""
   var book_name: String = ""
   var db_file: String = ""
+  var limit: Int = 0
 
   def set_pathing(
       txt_path: String,
@@ -45,5 +46,11 @@ class Interaction {
     val greenColor = "\u001B[32m"
     val resetColor = "\u001B[0m"
     println(greenColor + string + resetColor)
+  }
+
+  def set_limit: Unit = {
+    println("\nHow many words and characters ordered by frequency would you like to display?(Int)")
+    val number = scala.io.StdIn.readInt()
+    limit = number
   }
 }
