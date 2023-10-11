@@ -1,4 +1,12 @@
 book, num_words, num_char, avg_char_word, longest_word, length_25
+<<<<<<< HEAD
 dom-casmurro,9258,39,237,extraordinariamente,174
 teste,11,20,0,listbaby,59
 Baby_Shark,11,20,0,listbaby,59
+=======
+dom-casmurro,9257,39,237,extraordinariamente,174
+brothers-karamazov,12728,38,334,faithhttpsgithubcomjpantonowscalawordcount,204
+pride-and-prejudice,6313,28,225,inconveniencescheerfulness,207
+raven,314,24,13,liftednevermore,136
+marx,1844,28,65,propertyhistorical,215
+>>>>>>> a49b565c43a538f1fe67586bcd0b29906778c6d8

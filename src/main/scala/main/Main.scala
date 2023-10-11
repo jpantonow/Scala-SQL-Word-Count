@@ -1,6 +1,5 @@
 package main
-import java.io.File
-import components.commands.WordCount
+import components.commands._
 object Main extends App {
   val wordCount = new WordCount()
   // wordCount.set_pathing(
@@ -11,6 +10,6 @@ object Main extends App {
   
 
   wordCount.display_texts
-  wordCount.set_limit
+  wordCount.user_limit
   wordCount.execute
 }

@@ -9,11 +9,7 @@ import java.sql.PreparedStatement
 import java.io.PrintWriter
 import java.io.File
 import scala.io.Source
-import components.commands.Interaction
-import scala.collection.mutable.HashMap
 
-//Trait para obter o caminho do banco de dados
-//e conectar com o driver jdbc
 class Initialize(path_to_text: String, path_to_database: String) {
   val url = s"jdbc:sqLite:$path_to_database"
   val book = scala.io.Source.fromFile(path_to_text)
@@ -170,11 +166,12 @@ class Insert_Book(
 class Select_Most_Frequent(
     path_to_text: String,
     path_to_database: String,
-    book_name: String
+    book_name: String,
+    limit: Int
 ) extends Initialize(path_to_text: String, path_to_database: String) {
 
   // Seleciona as 25 palavras mais frequentes
-  def words(limit: Int): List[(String, Int)] = {
+  def words: List[(String, Int)] = {
     var conn: Connection = null
     var select: Statement = null
     try {
@@ -219,7 +216,7 @@ class Select_Most_Frequent(
   }
 
   // Seleciona os 25 caracteres mais frequentes
-  def characters(limit: Int): List[(String, Int)] = {
+  def characters: List[(String, Int)] = {
     var select: Statement = null
     var conn: Connection = null
     try {
