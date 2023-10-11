@@ -22352,3 +22352,61 @@ INFO: Unsupported notification method: $/setTrace
 2023.10.11 08:23:40 INFO  compiling root-test (4 scala sources)
 2023.10.11 08:23:40 INFO  time: compiled root in 6.94s
 2023.10.11 08:23:40 INFO  time: compiled root-test in 0.3s
+2023.10.11 08:23:58 INFO  compiling root (3 scala sources)
+2023.10.11 08:23:58 INFO  time: compiled root in 0.46s
+2023.10.11 08:23:58 INFO  compiling root (6 scala sources)
+2023.10.11 08:23:58 INFO  time: compiled root in 0.49s
+2023.10.11 08:24:14 INFO  compiling root (6 scala sources)
+2023.10.11 08:24:14 INFO  time: compiled root in 0.52s
+2023.10.11 08:24:46 INFO  compiling root (6 scala sources)
+2023.10.11 08:24:46 INFO  time: compiled root in 0.43s
+2023.10.11 08:25:11 INFO  compiling root (6 scala sources)
+2023.10.11 08:25:11 INFO  time: compiled root in 0.38s
+2023.10.11 08:25:15 INFO  compiling root (6 scala sources)
+2023.10.11 08:25:15 INFO  time: compiled root in 0.35s
+2023.10.11 08:25:19 INFO  compiling root (6 scala sources)
+2023.10.11 08:25:19 INFO  time: compiled root in 0.39s
+2023.10.11 08:25:20 INFO  compiling root (6 scala sources)
+2023.10.11 08:25:22 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.10.11 08:25:22 INFO  time: compiled root in 1.68s
+2023.10.11 08:25:34 INFO  compiling root (1 scala source)
+2023.10.11 08:25:34 INFO  time: compiled root in 0.6s
+out 11, 2023 8:25:50 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "git:/home/will/Documents/UnB/Disciplinas/4%C2%BA%20SEMESTRE/TP2/scala-word-count/src/main/scala/components/commands/Interaction.scala?%7B%22path%22%3A%22%2Fhome%2Fwill%2FDocuments%2FUnB%2FDisciplinas%2F4%C2%BA%20SEMESTRE%2FTP2%2Fscala-word-count%2Fsrc%2Fmain%2Fscala%2Fcomponents%2Fcommands%2FInteraction.scala%22%2C%22ref%22%3A%22%22%7D"
+  ]
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.nio.file.FileSystemNotFoundException: Provider "git" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:97)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:131)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:187)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:631)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:628)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:604)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:43)
+	... 16 more
+
