@@ -22326,3 +22326,11 @@ INFO: Unsupported notification method: $/setTrace
 2023.10.11 08:23:23 INFO  [info] loading project definition from /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/project
 2023.10.11 08:23:25 INFO  [success] Generated .bloop/scala-word-count-build.json
 2023.10.11 08:23:25 INFO  [success] Total time: 2 s, completed 11 de out de 2023 08:23:25
+2023.10.11 08:23:27 INFO  [info] loading settings for project root from build.sbt ...
+2023.10.11 08:23:27 INFO  [info] set current project to scalatest-example (in build file:/home/will/Documents/UnB/Disciplinas/4º%20SEMESTRE/TP2/scala-word-count/)
+2023.10.11 08:23:27 INFO  [success] Generated .bloop/root-test.json
+2023.10.11 08:23:27 INFO  [success] Generated .bloop/root.json
+2023.10.11 08:23:27 INFO  [success] Total time: 0 s, completed 11 de out de 2023 08:23:27
+2023.10.11 08:23:28 INFO  time: ran 'sbt bloopInstall' in 10s
+2023.10.11 08:23:28 INFO  Attempting to connect to the build server...
+2023.10.11 08:23:28 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/will/.bloop/bloop.json
