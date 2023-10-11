@@ -18,6 +18,13 @@ class Interaction {
     book_name = name
   }
 
+  def set_limit: Unit = {
+    println(
+      "\nHow many words and characters ordered by frequency would you like to display? (25 max)"
+    )
+    limit = scala.io.StdIn.readInt()
+  }
+
   def display_texts: Unit = {
     println("\nWelcome, user! Which File would you like to read?\n")
 
@@ -48,9 +55,4 @@ class Interaction {
     println(greenColor + string + resetColor)
   }
 
-  def set_limit: Unit = {
-    println("\nHow many words and characters ordered by frequency would you like to display?(Int)")
-    val number = scala.io.StdIn.readInt()
-    limit = number
-  }
 }
