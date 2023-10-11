@@ -41,3 +41,54 @@
 [debug]             Load.apply: resolveProjects took 5.340833ms
 [debug]             Load.apply: finalTransforms took 66.181665ms
 [debug]             Load.apply: config.delegates took 6.222858ms
+[debug]             Load.apply: Def.make(settings)... took 437.330373ms
+[debug]             Load.apply: structureIndex took 93.303479ms
+[debug]             Load.apply: mkStreams took 1.824324ms
+[info] loading project definition from /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/project/project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]           Load.loadUnit: plugins took 4345.523173ms
+[debug]           Load.loadUnit: defsScala took 0.005168ms
+[debug] [Loading] Scanning directory /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/project
+[debug]             Load.loadUnit: mkEval took 0.186896ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(bloop.integrations.sbt.BloopPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(bloop.integrations.sbt.BloopPlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,bloop.integrations.sbt.BloopPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 1.476794 ms
+[info] loading settings for project scala-word-count-build from metals.sbt ...
+[debug]               Load.resolveProject(scala-word-count-build) took 16.039189ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id scala-word-count-build, base: /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/project, plugins: List(<none>))) took 17.963806ms
+[debug] [Loading] Done in /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/project, returning: (scala-word-count-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 426.900067ms
+[debug]           Load.loadUnit: cleanEvalClasses took 0.986508ms
+[debug]         Load.loadUnit(file:/home/will/Documents/UnB/Disciplinas/4º%20SEMESTRE/TP2/scala-word-count/project/, ...) took 4774.092936ms
+[debug]       Load.apply: load took 4776.149761ms
+[debug]       Load.apply: resolveProjects took 0.153022ms
+[debug]       Load.apply: finalTransforms took 23.740029ms
+[debug]       Load.apply: config.delegates took 0.331746ms
+[debug]       Load.apply: Def.make(settings)... took 107.896185ms
+[debug]       Load.apply: structureIndex took 25.833939ms
+[debug]       Load.apply: mkStreams took 0.005308ms
+[info] loading project definition from /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/project
+[debug] Evaluating tasks: bloopInstall
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[success] Generated .bloop/scala-word-count-build.json
+[success] Total time: 2 s, completed 11 de out de 2023 08:23:25
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 6855.716857ms
+[debug]     Load.loadUnit: defsScala took 0.006216ms
+[debug] [Loading] Scanning directory /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count
+[debug]       Load.loadUnit: mkEval took 0.418698ms
