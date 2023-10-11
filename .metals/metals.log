@@ -22334,3 +22334,15 @@ INFO: Unsupported notification method: $/setTrace
 2023.10.11 08:23:28 INFO  time: ran 'sbt bloopInstall' in 10s
 2023.10.11 08:23:28 INFO  Attempting to connect to the build server...
 2023.10.11 08:23:28 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/will/.bloop/bloop.json
+2023.10.11 08:23:30 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/.metals/bsp.trace.json or /home/will/.cache/metals/bsp.trace.json
+2023.10.11 08:23:30 INFO  Attempting to connect to the build server...
+2023.10.11 08:23:30 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/will/.bloop/bloop.json
+2023.10.11 08:23:30 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/project/.metals/bsp.trace.json or /home/will/.cache/metals/bsp.trace.json
+2023.10.11 08:23:30 INFO  time: Connected to build server in 2.81s
+2023.10.11 08:23:31 INFO  Connected to Build server: Bloop v1.5.8
+2023.10.11 08:23:31 INFO  time: Imported build in 0.13s
+2023.10.11 08:23:33 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip, /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2023.10.11 08:23:33 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip, /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2023.10.11 08:23:33 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip, /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2023.10.11 08:23:33 INFO  time: indexed workspace in 2.06s
+2023.10.11 08:23:34 INFO  compiling root (6 scala sources)
