@@ -2,27 +2,27 @@
     "version": "1.4.0",
     "project": {
         "name": "root",
-        "directory": "/home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count",
-        "workspaceDir": "/home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count",
+        "directory": "/home/jpantonow/Desktop/wordcount/scala-word-count",
+        "workspaceDir": "/home/jpantonow/Desktop/wordcount/scala-word-count",
         "sources": [
-            "/home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala",
-            "/home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala-2.13",
-            "/home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala-2",
-            "/home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/java",
-            "/home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/target/scala-2.13/src_managed/main"
+            "/home/jpantonow/Desktop/wordcount/scala-word-count/src/main/scala",
+            "/home/jpantonow/Desktop/wordcount/scala-word-count/src/main/scala-2.13",
+            "/home/jpantonow/Desktop/wordcount/scala-word-count/src/main/scala-2",
+            "/home/jpantonow/Desktop/wordcount/scala-word-count/src/main/java",
+            "/home/jpantonow/Desktop/wordcount/scala-word-count/target/scala-2.13/src_managed/main"
         ],
         "dependencies": [
             
         ],
         "classpath": [
-            "/home/will/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.6/scala-library-2.13.6.jar",
-            "/home/will/.cache/coursier/v1/https/repo1.maven.org/maven2/org/xerial/sqlite-jdbc/3.36.0.3/sqlite-jdbc-3.36.0.3.jar"
+            "/home/jpantonow/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.6/scala-library-2.13.6.jar",
+            "/home/jpantonow/.cache/coursier/v1/https/repo1.maven.org/maven2/org/xerial/sqlite-jdbc/3.36.0.3/sqlite-jdbc-3.36.0.3.jar"
         ],
-        "out": "/home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/.bloop/root",
-        "classesDir": "/home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/.bloop/root/scala-2.13/classes",
+        "out": "/home/jpantonow/Desktop/wordcount/scala-word-count/.bloop/root",
+        "classesDir": "/home/jpantonow/Desktop/wordcount/scala-word-count/.bloop/root/scala-2.13/classes",
         "resources": [
-            "/home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/resources",
-            "/home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/target/scala-2.13/resource_managed/main"
+            "/home/jpantonow/Desktop/wordcount/scala-word-count/src/main/resources",
+            "/home/jpantonow/Desktop/wordcount/scala-word-count/target/scala-2.13/resource_managed/main"
         ],
         "scala": {
             "organization": "org.scala-lang",
@@ -32,11 +32,11 @@
                 
             ],
             "jars": [
-                "/home/will/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.6/scala-library-2.13.6.jar",
-                "/home/will/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.6/scala-compiler-2.13.6.jar",
-                "/home/will/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.6/scala-reflect-2.13.6.jar",
-                "/home/will/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline/3.19.0/jline-3.19.0.jar",
-                "/home/will/.cache/coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.3.1/jna-5.3.1.jar"
+                "/home/jpantonow/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.6/scala-library-2.13.6.jar",
+                "/home/jpantonow/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.6/scala-compiler-2.13.6.jar",
+                "/home/jpantonow/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.6/scala-reflect-2.13.6.jar",
+                "/home/jpantonow/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline/3.19.0/jline-3.19.0.jar",
+                "/home/jpantonow/.cache/coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.3.1/jna-5.3.1.jar"
             ],
             "setup": {
                 "order": "mixed",
@@ -114,9 +114,9 @@
         "platform": {
             "name": "jvm",
             "config": {
-                "home": "/usr/lib/jvm/java-11-openjdk-amd64",
+                "home": "/usr/lib/jvm/java-17-openjdk-amd64",
                 "options": [
-                    "-Duser.dir=/home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count"
+                    "-Duser.dir=/home/jpantonow/Desktop/wordcount/scala-word-count"
                 ]
             },
             "mainClass": [
@@ -133,12 +133,12 @@
                     "artifacts": [
                         {
                             "name": "scala-library",
-                            "path": "/home/will/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.6/scala-library-2.13.6.jar"
+                            "path": "/home/jpantonow/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.6/scala-library-2.13.6.jar"
                         },
                         {
                             "name": "scala-library",
                             "classifier": "sources",
-                            "path": "/home/will/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.6/scala-library-2.13.6-sources.jar"
+                            "path": "/home/jpantonow/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.6/scala-library-2.13.6-sources.jar"
                         }
                     ]
                 },
@@ -150,12 +150,12 @@
                     "artifacts": [
                         {
                             "name": "sqlite-jdbc",
-                            "path": "/home/will/.cache/coursier/v1/https/repo1.maven.org/maven2/org/xerial/sqlite-jdbc/3.36.0.3/sqlite-jdbc-3.36.0.3.jar"
+                            "path": "/home/jpantonow/.cache/coursier/v1/https/repo1.maven.org/maven2/org/xerial/sqlite-jdbc/3.36.0.3/sqlite-jdbc-3.36.0.3.jar"
                         },
                         {
                             "name": "sqlite-jdbc",
                             "classifier": "sources",
-                            "path": "/home/will/.cache/coursier/v1/https/repo1.maven.org/maven2/org/xerial/sqlite-jdbc/3.36.0.3/sqlite-jdbc-3.36.0.3-sources.jar"
+                            "path": "/home/jpantonow/.cache/coursier/v1/https/repo1.maven.org/maven2/org/xerial/sqlite-jdbc/3.36.0.3/sqlite-jdbc-3.36.0.3-sources.jar"
                         }
                     ]
                 },
@@ -167,12 +167,12 @@
                     "artifacts": [
                         {
                             "name": "scala-library",
-                            "path": "/home/will/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.6/scala-library-2.13.6.jar"
+                            "path": "/home/jpantonow/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.6/scala-library-2.13.6.jar"
                         },
                         {
                             "name": "scala-library",
                             "classifier": "sources",
-                            "path": "/home/will/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.6/scala-library-2.13.6-sources.jar"
+                            "path": "/home/jpantonow/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.6/scala-library-2.13.6-sources.jar"
                         }
                     ]
                 }

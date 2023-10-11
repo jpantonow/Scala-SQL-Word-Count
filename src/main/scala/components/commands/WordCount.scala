@@ -1,5 +1,6 @@
 package components.commands
 import components.db._
+import components.db.{CreateTables, Select_Most_Frequent, Insert_Book}
 
 class WordCount extends Interaction {
   def create: Boolean = {
