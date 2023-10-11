@@ -22410,3 +22410,854 @@ Caused by: java.nio.file.FileSystemNotFoundException: Provider "git" not install
 	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:43)
 	... 16 more
 
+2023.10.11 08:26:24 INFO  compiling root (1 scala source)
+2023.10.11 08:26:24 INFO  time: compiled root in 0.71s
+2023.10.11 08:26:30 INFO  compiling root (1 scala source)
+2023.10.11 08:26:30 INFO  time: compiled root in 0.79s
+2023.10.11 08:26:46 INFO  compiling root (1 scala source)
+2023.10.11 08:26:46 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.10.11 08:26:46 INFO  time: compiled root in 0.71s
+2023.10.11 08:28:37 INFO  compiling root (1 scala source)
+2023.10.11 08:28:37 INFO  time: compiled root in 65ms
+2023.10.11 08:28:55 INFO  compiling root (1 scala source)
+2023.10.11 08:28:55 INFO  time: compiled root in 0.52s
+2023.10.11 08:29:04 INFO  compiling root (1 scala source)
+2023.10.11 08:29:04 INFO  time: compiled root in 0.47s
+2023.10.11 08:29:08 INFO  compiling root (1 scala source)
+2023.10.11 08:29:08 INFO  time: compiled root in 0.49s
+out 11, 2023 8:29:08 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 334
+2023.10.11 08:29:11 INFO  compiling root (1 scala source)
+2023.10.11 08:29:11 INFO  time: compiled root in 0.57s
+2023.10.11 08:29:16 INFO  compiling root (1 scala source)
+2023.10.11 08:29:16 INFO  time: compiled root in 61ms
+2023.10.11 08:29:24 INFO  compiling root (1 scala source)
+2023.10.11 08:29:24 INFO  time: compiled root in 0.49s
+2023.10.11 08:33:23 INFO  compiling root (1 scala source)
+2023.10.11 08:33:23 INFO  time: compiled root in 0.48s
+2023.10.11 08:33:37 INFO  compiling root (1 scala source)
+2023.10.11 08:33:37 INFO  time: compiled root in 0.59s
+2023.10.11 08:33:53 INFO  compiling root (1 scala source)
+2023.10.11 08:33:53 INFO  time: compiled root in 0.6s
+2023.10.11 08:35:45 INFO  compiling root (1 scala source)
+2023.10.11 08:35:45 INFO  time: compiled root in 0.5s
+2023.10.11 08:37:01 INFO  compiling root (1 scala source)
+2023.10.11 08:37:01 INFO  time: compiled root in 0.45s
+2023.10.11 08:37:23 INFO  compiling root (1 scala source)
+2023.10.11 08:37:23 INFO  time: compiled root in 64ms
+2023.10.11 08:37:25 INFO  compiling root (1 scala source)
+2023.10.11 08:37:25 INFO  time: compiled root in 0.44s
+2023.10.11 08:37:29 INFO  compiling root (1 scala source)
+2023.10.11 08:37:29 INFO  time: compiled root in 0.59s
+2023.10.11 08:37:30 INFO  compiling root (1 scala source)
+2023.10.11 08:37:30 INFO  time: compiled root in 0.42s
+2023.10.11 08:37:52 WARN  Could not load snapshot text for /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/test/scala/components/commands/WordCountTest.scala
+2023.10.11 08:37:52 WARN  Could not load snapshot text for /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/test/scala/components/commands/WordCountTest.scala
+2023.10.11 08:37:52 INFO  compiling root-test (2 scala sources)
+2023.10.11 08:37:52 WARN  Could not load snapshot text for /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/test/scala/components/commands/WordCountTest.scala
+2023.10.11 08:37:52 INFO  time: compiled root-test in 0.88s
+2023.10.11 08:40:02 INFO  compiling root-test (1 scala source)
+2023.10.11 08:40:02 INFO  time: compiled root-test in 0.74s
+2023.10.11 08:40:11 INFO  compiling root-test (1 scala source)
+2023.10.11 08:40:11 INFO  time: compiled root-test in 0.55s
+2023.10.11 08:40:22 INFO  compiling root-test (1 scala source)
+2023.10.11 08:40:22 INFO  time: compiled root-test in 0.56s
+2023.10.11 08:40:26 INFO  compiling root-test (1 scala source)
+2023.10.11 08:40:26 INFO  time: compiled root-test in 0.56s
+2023.10.11 08:40:28 INFO  compiling root-test (1 scala source)
+2023.10.11 08:40:28 INFO  time: compiled root-test in 0.61s
+2023.10.11 08:40:35 INFO  compiling root-test (1 scala source)
+2023.10.11 08:40:35 INFO  time: compiled root-test in 0.55s
+2023.10.11 08:41:41 INFO  compiling root-test (1 scala source)
+2023.10.11 08:41:41 INFO  time: compiled root-test in 0.23s
+2023.10.11 08:44:38 INFO  compiling root-test (1 scala source)
+2023.10.11 08:44:38 INFO  time: compiled root-test in 0.67s
+2023.10.11 08:44:42 INFO  compiling root-test (1 scala source)
+2023.10.11 08:44:42 INFO  time: compiled root-test in 0.58s
+2023.10.11 08:44:52 INFO  compiling root (1 scala source)
+2023.10.11 08:44:52 INFO  time: compiled root in 0.49s
+2023.10.11 08:44:56 INFO  compiling root (1 scala source)
+2023.10.11 08:44:56 INFO  time: compiled root in 43ms
+2023.10.11 08:44:57 WARN  Could not load snapshot text for /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/main/Main.scala
+2023.10.11 08:44:58 INFO  compiling root (1 scala source)
+2023.10.11 08:44:58 INFO  time: compiled root in 41ms
+2023.10.11 08:44:58 WARN  Could not load snapshot text for /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/main/Main.scala
+2023.10.11 08:44:59 INFO  compiling root (1 scala source)
+2023.10.11 08:45:00 WARN  Could not load snapshot text for /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/main/Main.scala
+2023.10.11 08:44:59 INFO  time: compiled root in 0.45s
+2023.10.11 08:45:39 INFO  compiling root-test (1 scala source)
+2023.10.11 08:45:39 INFO  time: compiled root-test in 0.61s
+2023.10.11 08:45:42 INFO  compiling root-test (1 scala source)
+2023.10.11 08:45:42 INFO  time: compiled root-test in 0.64s
+2023.10.11 08:46:01 INFO  compiling root-test (1 scala source)
+2023.10.11 08:46:01 INFO  time: compiled root-test in 0.69s
+2023.10.11 08:47:49 INFO  compiling root-test (1 scala source)
+2023.10.11 08:47:49 INFO  time: compiled root-test in 0.57s
+2023.10.11 08:47:51 INFO  compiling root-test (1 scala source)
+2023.10.11 08:47:51 INFO  time: compiled root-test in 0.64s
+2023.10.11 08:47:53 INFO  compiling root-test (1 scala source)
+2023.10.11 08:47:53 INFO  time: compiled root-test in 0.64s
+2023.10.11 08:48:29 INFO  compiling root-test (1 scala source)
+2023.10.11 08:48:29 INFO  time: compiled root-test in 0.63s
+2023.10.11 08:49:03 INFO  compiling root-test (1 scala source)
+2023.10.11 08:49:03 INFO  time: compiled root-test in 0.53s
+2023.10.11 08:49:06 INFO  compiling root-test (1 scala source)
+2023.10.11 08:49:06 INFO  time: compiled root-test in 47ms
+2023.10.11 08:49:08 INFO  compiling root-test (1 scala source)
+2023.10.11 08:49:08 INFO  time: compiled root-test in 42ms
+2023.10.11 08:49:10 INFO  compiling root-test (1 scala source)
+2023.10.11 08:49:10 INFO  time: compiled root-test in 0.53s
+2023.10.11 08:49:23 INFO  compiling root-test (1 scala source)
+2023.10.11 08:49:23 INFO  time: compiled root-test in 0.7s
+2023.10.11 08:49:25 INFO  compiling root-test (1 scala source)
+2023.10.11 08:49:25 INFO  time: compiled root-test in 0.55s
+2023.10.11 08:49:29 INFO  compiling root-test (1 scala source)
+2023.10.11 08:49:29 INFO  time: compiled root-test in 0.51s
+2023.10.11 08:50:05 INFO  compiling root-test (1 scala source)
+2023.10.11 08:50:05 INFO  time: compiled root-test in 0.62s
+out 11, 2023 8:50:06 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1401
+out 11, 2023 8:50:06 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1403
+2023.10.11 08:50:07 INFO  compiling root-test (1 scala source)
+2023.10.11 08:50:07 INFO  time: compiled root-test in 0.51s
+2023.10.11 08:50:42 INFO  compiling root-test (1 scala source)
+2023.10.11 08:50:42 INFO  time: compiled root-test in 0.52s
+2023.10.11 08:50:51 INFO  compiling root (1 scala source)
+2023.10.11 08:50:51 INFO  time: compiled root in 0.42s
+2023.10.11 08:50:51 INFO  compiling root (1 scala source)
+2023.10.11 08:50:52 INFO  time: compiled root in 0.37s
+2023.10.11 08:52:00 INFO  compiling root (1 scala source)
+2023.10.11 08:52:00 INFO  time: compiled root in 0.68s
+2023.10.11 08:53:46 INFO  compiling root (1 scala source)
+2023.10.11 08:53:46 INFO  time: compiled root in 0.97s
+2023.10.11 08:53:51 INFO  compiling root (1 scala source)
+2023.10.11 08:53:52 INFO  time: compiled root in 1.04s
+2023.10.11 08:55:15 INFO  compiling root (1 scala source)
+2023.10.11 08:55:15 WARN  Could not load snapshot text for /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/components/commands/WordCount.scala
+2023.10.11 08:55:15 INFO  time: compiled root in 0.66s
+2023.10.11 08:55:22 ERROR scalafmt: /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/components/commands/WordCount.scala:81: error: [dialect scala213] then expected but \n\n found
+
+^
+2023.10.11 08:55:22 INFO  compiling root (1 scala source)
+2023.10.11 08:55:22 INFO  time: compiled root in 51ms
+2023.10.11 08:55:23 ERROR scalafmt: /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/components/commands/WordCount.scala:80: error: [dialect scala213] then expected but identifier found
+          print_success("\nSuccessfully created the Database")
+          ^
+2023.10.11 08:55:23 INFO  compiling root (1 scala source)
+2023.10.11 08:55:23 INFO  time: compiled root in 42ms
+2023.10.11 08:55:27 INFO  compiling root (1 scala source)
+2023.10.11 08:55:27 INFO  time: compiled root in 51ms
+2023.10.11 08:55:28 INFO  compiling root (1 scala source)
+2023.10.11 08:55:28 INFO  time: compiled root in 0.6s
+2023.10.11 08:55:33 INFO  compiling root (1 scala source)
+2023.10.11 08:55:33 INFO  time: compiled root in 0.59s
+2023.10.11 08:55:46 INFO  compiling root (1 scala source)
+2023.10.11 08:55:46 INFO  time: compiled root in 0.64s
+2023.10.11 08:55:49 INFO  compiling root (1 scala source)
+2023.10.11 08:55:49 INFO  time: compiled root in 50ms
+2023.10.11 08:55:52 INFO  compiling root (1 scala source)
+2023.10.11 08:55:52 INFO  time: compiled root in 0.79s
+2023.10.11 08:55:54 INFO  compiling root (1 scala source)
+2023.10.11 08:55:54 WARN  Could not load snapshot text for /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/components/commands/WordCount.scala
+2023.10.11 08:55:54 INFO  time: compiled root in 0.58s
+2023.10.11 08:56:00 INFO  compiling root (1 scala source)
+2023.10.11 08:56:00 INFO  time: compiled root in 0.66s
+2023.10.11 08:56:07 INFO  compiling root (1 scala source)
+2023.10.11 08:56:07 INFO  time: compiled root in 0.57s
+2023.10.11 08:56:09 INFO  compiling root (1 scala source)
+2023.10.11 08:56:09 INFO  time: compiled root in 0.58s
+2023.10.11 08:56:11 INFO  compiling root (1 scala source)
+2023.10.11 08:56:11 INFO  time: compiled root in 0.16s
+2023.10.11 08:56:15 INFO  compiling root (1 scala source)
+2023.10.11 08:56:15 INFO  time: compiled root in 0.62s
+2023.10.11 08:56:21 INFO  compiling root (1 scala source)
+2023.10.11 08:56:21 INFO  time: compiled root in 0.72s
+2023.10.11 08:56:23 INFO  compiling root (1 scala source)
+2023.10.11 08:56:23 INFO  time: compiled root in 0.15s
+2023.10.11 08:56:46 INFO  compiling root (1 scala source)
+2023.10.11 08:56:46 INFO  time: compiled root in 0.6s
+2023.10.11 08:56:51 INFO  compiling root (1 scala source)
+2023.10.11 08:56:51 INFO  time: compiled root in 0.57s
+2023.10.11 08:56:55 INFO  compiling root (1 scala source)
+2023.10.11 08:56:55 INFO  time: compiled root in 0.57s
+2023.10.11 08:57:02 INFO  compiling root (1 scala source)
+2023.10.11 08:57:02 INFO  time: compiled root in 0.71s
+2023.10.11 08:57:04 INFO  compiling root (1 scala source)
+2023.10.11 08:57:04 INFO  time: compiled root in 0.57s
+2023.10.11 08:57:06 INFO  compiling root (1 scala source)
+2023.10.11 08:57:06 INFO  time: compiled root in 45ms
+2023.10.11 08:57:06 ERROR scalafmt: /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/components/commands/WordCount.scala:101: error: [dialect scala213] end of file expected but } found
+}
+^
+2023.10.11 08:57:06 INFO  compiling root (1 scala source)
+2023.10.11 08:57:06 INFO  time: compiled root in 36ms
+2023.10.11 08:57:12 ERROR scalafmt: /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/components/commands/WordCount.scala:101: error: [dialect scala213] end of file expected but } found
+}
+^
+2023.10.11 08:57:12 INFO  compiling root (1 scala source)
+2023.10.11 08:57:12 INFO  time: compiled root in 52ms
+2023.10.11 08:57:12 INFO  compiling root (1 scala source)
+2023.10.11 08:57:13 INFO  time: compiled root in 0.56s
+2023.10.11 08:57:28 INFO  compiling root (1 scala source)
+2023.10.11 08:57:28 INFO  time: compiled root in 0.56s
+2023.10.11 08:58:06 INFO  compiling root (1 scala source)
+2023.10.11 08:58:06 INFO  time: compiled root in 32ms
+2023.10.11 08:58:07 WARN  Could not load snapshot text for /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/main/Main.scala
+2023.10.11 08:58:09 WARN  Could not load snapshot text for /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/main/Main.scala
+2023.10.11 08:58:10 WARN  Could not load snapshot text for /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/main/Main.scala
+2023.10.11 08:58:11 WARN  Could not load snapshot text for /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/main/Main.scala
+2023.10.11 08:58:11 WARN  Could not load snapshot text for /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/main/Main.scala
+2023.10.11 08:58:12 INFO  compiling root (1 scala source)
+2023.10.11 08:58:12 INFO  time: compiled root in 54ms
+2023.10.11 08:58:12 WARN  Could not load snapshot text for /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/main/Main.scala
+2023.10.11 08:58:15 WARN  Could not load snapshot text for /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/main/Main.scala
+2023.10.11 08:58:16 INFO  compiling root (1 scala source)
+2023.10.11 08:58:16 INFO  time: compiled root in 62ms
+2023.10.11 08:58:16 WARN  Could not load snapshot text for /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/main/Main.scala
+2023.10.11 08:58:18 WARN  Could not load snapshot text for /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/main/Main.scala
+2023.10.11 08:58:18 INFO  compiling root (1 scala source)
+2023.10.11 08:58:18 INFO  time: compiled root in 48ms
+2023.10.11 08:58:19 WARN  Could not load snapshot text for /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/main/Main.scala
+2023.10.11 08:58:20 WARN  Could not load snapshot text for /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/main/Main.scala
+2023.10.11 08:58:20 INFO  compiling root (1 scala source)
+2023.10.11 08:58:20 WARN  Could not load snapshot text for /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/main/Main.scala
+2023.10.11 08:58:20 INFO  time: compiled root in 0.44s
+2023.10.11 08:59:17 INFO  compiling root (1 scala source)
+2023.10.11 08:59:17 INFO  time: compiled root in 0.42s
+2023.10.11 08:59:36 INFO  compiling root (1 scala source)
+2023.10.11 08:59:36 INFO  time: compiled root in 0.48s
+2023.10.11 09:03:17 INFO  compiling root (1 scala source)
+2023.10.11 09:03:17 INFO  time: compiled root in 0.47s
+2023.10.11 09:03:51 INFO  compiling root (1 scala source)
+2023.10.11 09:03:51 INFO  time: compiled root in 0.37s
+2023.10.11 09:03:53 INFO  compiling root (1 scala source)
+2023.10.11 09:03:53 INFO  time: compiled root in 0.46s
+2023.10.11 09:03:56 INFO  compiling root (1 scala source)
+2023.10.11 09:03:56 INFO  time: compiled root in 0.4s
+2023.10.11 09:03:57 INFO  compiling root (1 scala source)
+2023.10.11 09:03:57 INFO  time: compiled root in 0.1s
+2023.10.11 09:04:20 INFO  compiling root-test (1 scala source)
+2023.10.11 09:04:20 INFO  time: compiled root-test in 0.82s
+2023.10.11 09:04:27 INFO  compiling root-test (1 scala source)
+2023.10.11 09:04:27 INFO  time: compiled root-test in 0.52s
+2023.10.11 09:05:15 INFO  compiling root-test (1 scala source)
+2023.10.11 09:05:15 INFO  time: compiled root-test in 0.56s
+2023.10.11 09:05:22 INFO  compiling root-test (1 scala source)
+2023.10.11 09:05:22 INFO  time: compiled root-test in 0.55s
+2023.10.11 09:05:26 INFO  compiling root-test (1 scala source)
+2023.10.11 09:05:26 INFO  time: compiled root-test in 0.56s
+2023.10.11 09:05:27 INFO  compiling root-test (1 scala source)
+2023.10.11 09:05:27 INFO  time: compiled root-test in 0.15s
+2023.10.11 09:07:15 ERROR Failed to tokenize input for semantic tokens for /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/test/scala/components/commands/WordCountTest.scala
+scala.meta.tokenizers.TokenizeException: <input>:22: error: unclosed string literal
+  test("The most frequent character should be \"\\"") {
+                                                   ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:591)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:407)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:411)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:246)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1047)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:511)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+
+2023.10.11 09:07:18 INFO  compiling root-test (1 scala source)
+2023.10.11 09:07:18 INFO  time: compiled root-test in 0.54s
+2023.10.11 09:07:22 INFO  compiling root-test (1 scala source)
+2023.10.11 09:07:22 INFO  time: compiled root-test in 0.76s
+2023.10.11 09:07:29 INFO  compiling root-test (1 scala source)
+2023.10.11 09:07:29 INFO  time: compiled root-test in 0.56s
+2023.10.11 09:07:30 INFO  compiling root-test (1 scala source)
+2023.10.11 09:07:30 INFO  time: compiled root-test in 0.18s
+2023.10.11 09:07:39 INFO  compiling root-test (1 scala source)
+2023.10.11 09:07:39 INFO  time: compiled root-test in 0.61s
+2023.10.11 09:07:43 INFO  compiling root-test (1 scala source)
+2023.10.11 09:07:43 INFO  time: compiled root-test in 88ms
+out 11, 2023 9:07:45 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2728
+2023.10.11 09:07:46 INFO  compiling root-test (1 scala source)
+2023.10.11 09:07:46 INFO  time: compiled root-test in 0.61s
+2023.10.11 09:07:48 INFO  compiling root-test (1 scala source)
+2023.10.11 09:07:48 INFO  time: compiled root-test in 0.24s
+2023.10.11 09:07:50 INFO  compiling root-test (1 scala source)
+2023.10.11 09:07:50 INFO  time: compiled root-test in 0.1s
+2023.10.11 09:07:53 INFO  compiling root-test (1 scala source)
+2023.10.11 09:07:53 INFO  time: compiled root-test in 0.82s
+2023.10.11 09:11:29 INFO  compiling root (1 scala source)
+2023.10.11 09:11:29 INFO  time: compiled root in 0.34s
+2023.10.11 09:11:31 INFO  compiling root (1 scala source)
+2023.10.11 09:11:31 INFO  time: compiled root in 0.48s
+2023.10.11 09:11:44 INFO  compiling root (1 scala source)
+2023.10.11 09:11:44 INFO  time: compiled root in 0.42s
+2023.10.11 09:11:48 INFO  compiling root (1 scala source)
+2023.10.11 09:11:48 INFO  time: compiled root in 0.43s
+2023.10.11 09:11:50 INFO  compiling root (1 scala source)
+2023.10.11 09:11:50 INFO  time: compiled root in 0.41s
+2023.10.11 09:11:54 INFO  compiling root (1 scala source)
+2023.10.11 09:11:54 INFO  time: compiled root in 0.41s
+2023.10.11 09:12:55 INFO  compiling root-test (1 scala source)
+2023.10.11 09:12:55 INFO  time: compiled root-test in 0.59s
+2023.10.11 09:12:56 INFO  compiling root-test (1 scala source)
+2023.10.11 09:12:56 INFO  time: compiled root-test in 0.18s
+2023.10.11 09:12:58 INFO  compiling root-test (1 scala source)
+2023.10.11 09:12:58 INFO  time: compiled root-test in 0.55s
+2023.10.11 09:12:59 INFO  compiling root-test (1 scala source)
+2023.10.11 09:12:59 INFO  time: compiled root-test in 0.15s
+2023.10.11 09:13:02 ERROR Failed to tokenize input for semantic tokens for /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/test/scala/components/commands/WordCountTest.scala
+scala.meta.tokenizers.TokenizeException: <input>:22: error: unclosed string literal
+  test("The most frequent character should be \"\\"") {
+                                                   ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:591)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:407)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:411)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:246)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1047)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:511)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+
+2023.10.11 09:13:05 INFO  compiling root-test (1 scala source)
+2023.10.11 09:13:05 INFO  time: compiled root-test in 0.55s
+2023.10.11 09:13:08 INFO  compiling root-test (1 scala source)
+2023.10.11 09:13:08 INFO  time: compiled root-test in 0.54s
+2023.10.11 09:13:10 INFO  compiling root-test (1 scala source)
+2023.10.11 09:13:10 INFO  time: compiled root-test in 0.55s
+2023.10.11 09:13:17 INFO  compiling root-test (1 scala source)
+2023.10.11 09:13:17 INFO  time: compiled root-test in 0.57s
+2023.10.11 09:14:25 INFO  compiling root-test (1 scala source)
+2023.10.11 09:14:25 INFO  time: compiled root-test in 0.61s
+2023.10.11 09:14:55 INFO  compiling root (1 scala source)
+2023.10.11 09:14:55 INFO  time: compiled root in 0.46s
+2023.10.11 09:15:23 INFO  compiling root (1 scala source)
+2023.10.11 09:15:23 INFO  time: compiled root in 0.4s
+2023.10.11 09:15:26 INFO  compiling root (1 scala source)
+2023.10.11 09:15:26 WARN  Could not load snapshot text for /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/main/Main.scala
+2023.10.11 09:15:26 INFO  time: compiled root in 0.45s
+out 11, 2023 9:16:29 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3316
+2023.10.11 09:17:51 INFO  Deduplicating compilation of root from bsp client 'Metals 1.0.1' (since 54m 20.552s)
+2023.10.11 09:17:51 INFO  compiling root-test (1 scala source)
+2023.10.11 09:17:51 INFO  Deduplicating compilation of root-test from bsp client 'Metals 1.0.1' (since 54m 20.57s)
+2023.10.11 09:17:51 INFO  compiling root-test (1 scala source)
+2023.10.11 09:17:51 INFO  time: compiled root-test in 0.62s
+2023.10.11 09:22:03 WARN  Could not load snapshot text for /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/test/scala/components/commands/WordCountTest.scala
+2023.10.11 09:22:03 WARN  Could not load snapshot text for /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/test/scala/components/commands/WordCountTest.scala
+2023.10.11 09:22:03 WARN  Could not load snapshot text for /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/test/scala/components/commands/WordCountTest.scala
+2023.10.11 09:22:03 WARN  Could not load snapshot text for /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/test/scala/components/commands/WordCountTest.scala
+2023.10.11 09:22:05 WARN  Could not load snapshot text for /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/test/scala/components/commands/WordCountTest.scala
+2023.10.11 09:22:06 WARN  Could not load snapshot text for /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/test/scala/components/commands/WordCountTest.scala
+2023.10.11 09:22:08 WARN  Could not load snapshot text for /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/test/scala/components/commands/WordCountTest.scala
+2023.10.11 09:22:22 WARN  Could not load snapshot text for /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/test/scala/components/commands/WordCountTest.scala
+2023.10.11 09:22:23 WARN  Could not load snapshot text for /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/test/scala/components/commands/WordCountTest.scala
+2023.10.11 09:22:25 WARN  Could not load snapshot text for /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/test/scala/components/commands/WordCountTest.scala
+out 11, 2023 9:22:28 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3489
+2023.10.11 09:22:28 WARN  Could not load snapshot text for /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/test/scala/components/commands/WordCountTest.scala
+2023.10.11 09:22:28 WARN  Could not load snapshot text for /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/test/scala/components/commands/WordCountTest.scala
+2023.10.11 09:22:28 WARN  Could not load snapshot text for /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/test/scala/components/commands/WordCountTest.scala
+2023.10.11 09:22:28 WARN  Could not load snapshot text for /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/test/scala/components/commands/WordCountTest.scala
+2023.10.11 09:22:28 WARN  Could not load snapshot text for /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/test/scala/components/commands/WordCountTest.scala
+2023.10.11 09:22:28 WARN  Could not load snapshot text for /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/test/scala/components/commands/WordCountTest.scala
+2023.10.11 09:22:28 WARN  Could not load snapshot text for /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/test/scala/components/commands/WordCountTest.scala
+2023.10.11 09:22:30 WARN  Could not load snapshot text for /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/test/scala/components/commands/WordCountTest.scala
+2023.10.11 09:22:30 WARN  Could not load snapshot text for /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/test/scala/components/commands/WordCountTest.scala
+2023.10.11 09:22:32 WARN  Could not load snapshot text for /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/test/scala/components/commands/WordCountTest.scala
+2023.10.11 09:22:32 WARN  Could not load snapshot text for /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/test/scala/components/commands/WordCountTest.scala
+2023.10.11 09:22:35 WARN  Could not load snapshot text for /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/test/scala/components/commands/WordCountTest.scala
+2023.10.11 09:22:35 WARN  Could not load snapshot text for /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/test/scala/components/commands/WordCountTest.scala
+2023.10.11 09:23:03 WARN  Could not load snapshot text for /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/test/scala/components/commands/WordCountTest.scala
+2023.10.11 09:23:05 WARN  Could not load snapshot text for /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/test/scala/components/commands/WordCountTest.scala
+2023.10.11 09:23:30 WARN  Could not load snapshot text for /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/test/scala/components/commands/WordCountTest.scala
+2023.10.11 09:23:31 WARN  Could not load snapshot text for /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/test/scala/components/commands/WordCountTest.scala
+2023.10.11 09:23:32 WARN  Could not load snapshot text for /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/test/scala/components/commands/WordCountTest.scala
+2023.10.11 09:23:33 WARN  Could not load snapshot text for /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/test/scala/components/commands/WordCountTest.scala
+2023.10.11 09:23:34 WARN  Could not load snapshot text for /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/test/scala/components/commands/WordCountTest.scala
+2023.10.11 09:23:35 WARN  Could not load snapshot text for /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/test/scala/components/commands/WordCountTest.scala
+2023.10.11 09:23:40 WARN  Could not load snapshot text for /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/test/scala/components/commands/WordCountTest.scala
+2023.10.11 09:23:41 WARN  Could not load snapshot text for /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/test/scala/components/commands/WordCountTest.scala
+2023.10.11 09:23:43 WARN  Could not load snapshot text for /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/test/scala/components/commands/WordCountTest.scala
+2023.10.11 09:23:44 WARN  Could not load snapshot text for /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/test/scala/components/commands/WordCountTest.scala
+2023.10.11 09:23:44 WARN  Could not load snapshot text for /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/test/scala/components/commands/WordCountTest.scala
+2023.10.11 09:23:44 WARN  Could not load snapshot text for /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/test/scala/components/commands/WordCountTest.scala
+2023.10.11 09:23:44 WARN  Could not load snapshot text for /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/test/scala/components/commands/WordCountTest.scala
+2023.10.11 09:23:46 WARN  Could not load snapshot text for /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/test/scala/components/commands/WordCountTest.scala
+2023.10.11 09:23:47 WARN  Could not load snapshot text for /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/test/scala/components/commands/WordCountTest.scala
+2023.10.11 09:25:41 INFO  compiling root-test (1 scala source)
+2023.10.11 09:25:41 INFO  time: compiled root-test in 0.12s
+2023.10.11 09:25:45 INFO  compiling root-test (1 scala source)
+2023.10.11 09:25:45 INFO  time: compiled root-test in 0.71s
+2023.10.11 09:27:43 INFO  compiling root-test (1 scala source)
+2023.10.11 09:27:43 INFO  time: compiled root-test in 90ms
+2023.10.11 09:27:44 WARN  Using indexes to guess the definition of characters
+2023.10.11 09:27:47 INFO  compiling root-test (1 scala source)
+2023.10.11 09:27:47 INFO  time: compiled root-test in 95ms
+2023.10.11 09:27:47 INFO  compiling root-test (1 scala source)
+2023.10.11 09:27:47 INFO  time: compiled root-test in 64ms
+2023.10.11 09:27:52 INFO  compiling root-test (1 scala source)
+2023.10.11 09:27:52 INFO  time: compiled root-test in 74ms
+2023.10.11 09:27:56 INFO  compiling root-test (1 scala source)
+2023.10.11 09:27:56 INFO  time: compiled root-test in 76ms
+2023.10.11 09:27:58 INFO  compiling root-test (1 scala source)
+2023.10.11 09:27:58 INFO  time: compiled root-test in 97ms
+2023.10.11 09:29:35 INFO  compiling root-test (1 scala source)
+2023.10.11 09:29:35 INFO  time: compiled root-test in 88ms
+2023.10.11 09:29:35 INFO  compiling root-test (1 scala source)
+2023.10.11 09:29:35 INFO  time: compiled root-test in 55ms
+2023.10.11 09:29:35 INFO  compiling root-test (1 scala source)
+2023.10.11 09:29:35 INFO  time: compiled root-test in 66ms
+2023.10.11 09:29:35 INFO  compiling root-test (1 scala source)
+2023.10.11 09:29:35 INFO  time: compiled root-test in 55ms
+2023.10.11 09:29:39 INFO  compiling root-test (1 scala source)
+2023.10.11 09:29:39 INFO  time: compiled root-test in 81ms
+2023.10.11 09:29:39 INFO  compiling root-test (1 scala source)
+2023.10.11 09:29:39 INFO  time: compiled root-test in 56ms
+2023.10.11 09:29:43 INFO  compiling root-test (1 scala source)
+2023.10.11 09:29:43 INFO  time: compiled root-test in 81ms
+2023.10.11 09:29:43 INFO  compiling root-test (1 scala source)
+2023.10.11 09:29:43 INFO  time: compiled root-test in 91ms
+2023.10.11 09:30:23 INFO  compiling root (1 scala source)
+2023.10.11 09:30:23 INFO  time: compiled root in 0.95s
+2023.10.11 09:30:26 INFO  compiling root (1 scala source)
+2023.10.11 09:30:26 INFO  time: compiled root in 0.75s
+2023.10.11 09:30:29 INFO  compiling root (1 scala source)
+2023.10.11 09:30:29 INFO  time: compiled root in 0.82s
+2023.10.11 09:30:30 INFO  compiling root (1 scala source)
+2023.10.11 09:30:30 INFO  time: compiled root in 0.2s
+2023.10.11 09:30:38 INFO  compiling root (1 scala source)
+2023.10.11 09:30:38 INFO  time: compiled root in 35ms
+2023.10.11 09:30:40 INFO  compiling root (1 scala source)
+2023.10.11 09:30:40 INFO  time: compiled root in 49ms
+2023.10.11 09:30:41 INFO  compiling root (1 scala source)
+2023.10.11 09:30:41 INFO  time: compiled root in 43ms
+2023.10.11 09:30:46 INFO  compiling root (1 scala source)
+2023.10.11 09:30:46 INFO  time: compiled root in 52ms
+2023.10.11 09:30:48 INFO  compiling root (1 scala source)
+2023.10.11 09:30:48 INFO  time: compiled root in 64ms
+2023.10.11 09:30:51 INFO  compiling root (1 scala source)
+2023.10.11 09:30:51 INFO  time: compiled root in 44ms
+out 11, 2023 9:30:53 AM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+out 11, 2023 9:30:53 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/.metals/.reports/metals-full/2023-10-11/r_compiler-error_09-30-53-570
+2023.10.11 09:30:57 INFO  compiling root (1 scala source)
+2023.10.11 09:30:57 INFO  time: compiled root in 59ms
+2023.10.11 09:30:58 INFO  compiling root (1 scala source)
+2023.10.11 09:30:58 INFO  time: compiled root in 0.13s
+2023.10.11 09:30:59 INFO  compiling root (1 scala source)
+2023.10.11 09:30:59 INFO  time: compiled root in 94ms
+2023.10.11 09:31:54 INFO  compiling root (1 scala source)
+2023.10.11 09:31:54 INFO  time: compiled root in 0.12s
+2023.10.11 09:31:56 INFO  compiling root (1 scala source)
+2023.10.11 09:31:56 INFO  time: compiled root in 0.12s
+2023.10.11 09:32:00 INFO  compiling root (1 scala source)
+2023.10.11 09:32:00 INFO  time: compiled root in 94ms
+2023.10.11 09:32:06 INFO  compiling root (1 scala source)
+2023.10.11 09:32:06 INFO  time: compiled root in 0.84s
+2023.10.11 09:33:58 INFO  compiling root (1 scala source)
+2023.10.11 09:33:58 INFO  time: compiled root in 56ms
+2023.10.11 09:34:01 INFO  compiling root (1 scala source)
+2023.10.11 09:34:01 INFO  time: compiled root in 0.85s
+2023.10.11 09:34:07 INFO  compiling root (1 scala source)
+2023.10.11 09:34:07 INFO  time: compiled root in 42ms
+2023.10.11 09:34:07 WARN  Could not load snapshot text for /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/components/db/DbCommands.scala
+2023.10.11 09:34:08 WARN  Could not load snapshot text for /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/components/db/DbCommands.scala
+2023.10.11 09:34:09 INFO  compiling root (1 scala source)
+2023.10.11 09:34:09 INFO  time: compiled root in 0.12s
+2023.10.11 09:34:09 WARN  Could not load snapshot text for /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/components/db/DbCommands.scala
+2023.10.11 09:34:09 INFO  compiling root (1 scala source)
+2023.10.11 09:34:10 INFO  time: compiled root in 99ms
+2023.10.11 09:34:10 WARN  Could not load snapshot text for /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/components/db/DbCommands.scala
+2023.10.11 09:34:14 WARN  Could not load snapshot text for /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/components/db/DbCommands.scala
+2023.10.11 09:34:14 WARN  Could not load snapshot text for /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/components/db/DbCommands.scala
+2023.10.11 09:34:16 WARN  Could not load snapshot text for /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/components/db/DbCommands.scala
+2023.10.11 09:34:16 WARN  Could not load snapshot text for /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/components/db/DbCommands.scala
+2023.10.11 09:34:16 WARN  Could not load snapshot text for /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/components/db/DbCommands.scala
+2023.10.11 09:34:16 WARN  Could not load snapshot text for /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/components/db/DbCommands.scala
+2023.10.11 09:34:16 WARN  Could not load snapshot text for /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/components/db/DbCommands.scala
+2023.10.11 09:34:16 WARN  Could not load snapshot text for /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/components/db/DbCommands.scala
+2023.10.11 09:34:16 WARN  Could not load snapshot text for /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/components/db/DbCommands.scala
+2023.10.11 09:34:16 WARN  Could not load snapshot text for /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/components/db/DbCommands.scala
+2023.10.11 09:34:16 WARN  Could not load snapshot text for /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/components/db/DbCommands.scala
+2023.10.11 09:34:17 INFO  compiling root (1 scala source)
+2023.10.11 09:34:17 INFO  time: compiled root in 0.83s
+2023.10.11 09:34:29 INFO  compiling root (1 scala source)
+2023.10.11 09:34:29 INFO  time: compiled root in 0.79s
+2023.10.11 09:34:35 INFO  compiling root (1 scala source)
+2023.10.11 09:34:35 INFO  time: compiled root in 0.85s
+2023.10.11 09:34:45 INFO  compiling root (1 scala source)
+2023.10.11 09:34:45 INFO  time: compiled root in 0.86s
+2023.10.11 09:34:50 INFO  compiling root (1 scala source)
+2023.10.11 09:34:50 INFO  time: compiled root in 0.83s
+2023.10.11 09:35:09 INFO  compiling root (1 scala source)
+2023.10.11 09:35:09 INFO  time: compiled root in 0.11s
+2023.10.11 09:35:11 INFO  compiling root (1 scala source)
+2023.10.11 09:35:11 INFO  time: compiled root in 0.11s
+2023.10.11 09:35:29 INFO  compiling root (1 scala source)
+2023.10.11 09:35:29 INFO  time: compiled root in 95ms
+2023.10.11 09:35:32 INFO  compiling root (1 scala source)
+2023.10.11 09:35:32 INFO  time: compiled root in 0.11s
+2023.10.11 09:35:38 INFO  compiling root (1 scala source)
+2023.10.11 09:35:38 INFO  time: compiled root in 0.12s
+2023.10.11 09:35:46 INFO  compiling root (1 scala source)
+2023.10.11 09:35:46 INFO  time: compiled root in 0.12s
+2023.10.11 09:35:53 INFO  compiling root (1 scala source)
+2023.10.11 09:35:53 INFO  time: compiled root in 0.12s
+2023.10.11 09:36:03 INFO  compiling root (1 scala source)
+2023.10.11 09:36:03 INFO  time: compiled root in 40ms
+2023.10.11 09:36:08 INFO  compiling root (1 scala source)
+2023.10.11 09:36:08 INFO  time: compiled root in 0.12s
+2023.10.11 09:36:28 INFO  compiling root (1 scala source)
+2023.10.11 09:36:28 INFO  time: compiled root in 41ms
+2023.10.11 09:36:31 ERROR scalafmt: /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/components/db/DbCommands.scala:310: error: [dialect scala213] } expected but end of file found
+
+^
+2023.10.11 09:36:31 INFO  compiling root (1 scala source)
+2023.10.11 09:36:31 INFO  time: compiled root in 54ms
+2023.10.11 09:36:33 INFO  compiling root (1 scala source)
+2023.10.11 09:36:33 INFO  time: compiled root in 52ms
+2023.10.11 09:36:39 INFO  compiling root (1 scala source)
+2023.10.11 09:36:39 INFO  time: compiled root in 46ms
+2023.10.11 09:36:41 INFO  compiling root (1 scala source)
+2023.10.11 09:36:41 INFO  time: compiled root in 52ms
+2023.10.11 09:37:21 INFO  compiling root (1 scala source)
+2023.10.11 09:37:21 INFO  time: compiled root in 47ms
+2023.10.11 09:37:25 INFO  compiling root (1 scala source)
+2023.10.11 09:37:25 INFO  time: compiled root in 43ms
+2023.10.11 09:37:27 INFO  compiling root (1 scala source)
+2023.10.11 09:37:27 INFO  time: compiled root in 46ms
+2023.10.11 09:37:43 INFO  compiling root (1 scala source)
+2023.10.11 09:37:43 INFO  time: compiled root in 71ms
+2023.10.11 09:37:49 ERROR scalafmt: /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/components/db/DbCommands.scala:301: error: [dialect scala213] } expected but end of file found
+
+^
+2023.10.11 09:37:49 INFO  compiling root (1 scala source)
+2023.10.11 09:37:49 INFO  time: compiled root in 38ms
+2023.10.11 09:38:58 ERROR scalafmt: /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/components/db/DbCommands.scala:300: error: [dialect scala213] } expected but end of file found
+
+^
+2023.10.11 09:38:58 INFO  compiling root (1 scala source)
+2023.10.11 09:38:58 INFO  time: compiled root in 54ms
+2023.10.11 09:39:44 ERROR Failed to tokenize input for semantic tokens for /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/components/db/DbCommands.scala
+scala.meta.tokenizers.TokenizeException: <input>:272: error: unclosed character literal
+INSERT INTO "main"."documents" ("num_words", "num_char", "avg_char_word", "longest_word", "length_25") VALUES ('24', '22', '1', 'emergency', '144');
+                                                                                                                  ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchSingleQuote$1(LegacyScanner.scala:440)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:445)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:246)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1047)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:511)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+
+2023.10.11 09:39:45 INFO  compiling root (1 scala source)
+2023.10.11 09:39:45 INFO  time: compiled root in 69ms
+2023.10.11 09:39:44 ERROR Failed to tokenize input for semantic tokens for /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/components/db/DbCommands.scala
+scala.meta.tokenizers.TokenizeException: <input>:272: error: unclosed character literal
+INSERT INTO "main"."documents" ("num_words", "num_char", "avg_char_word", "longest_word", "length_25") VALUES ('24', '22', '1', 'emergency', '144');
+                                                                                                                  ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchSingleQuote$1(LegacyScanner.scala:440)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:445)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:246)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1047)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:511)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+
+2023.10.11 09:39:55 INFO  compiling root (1 scala source)
+2023.10.11 09:39:55 INFO  time: compiled root in 59ms
+2023.10.11 09:40:29 INFO  compiling root (1 scala source)
+2023.10.11 09:40:29 INFO  time: compiled root in 0.11s
+2023.10.11 09:40:31 INFO  compiling root (1 scala source)
+2023.10.11 09:40:31 INFO  time: compiled root in 0.14s
+2023.10.11 09:40:34 INFO  compiling root (1 scala source)
+2023.10.11 09:40:34 INFO  time: compiled root in 54ms
+2023.10.11 09:40:37 INFO  compiling root (1 scala source)
+2023.10.11 09:40:37 INFO  time: compiled root in 0.86s
+2023.10.11 09:40:37 INFO  compiling root (1 scala source)
+2023.10.11 09:40:37 INFO  time: compiled root in 34ms
+2023.10.11 09:45:15 INFO  compiling root (1 scala source)
+2023.10.11 09:45:15 INFO  time: compiled root in 0.97s
+2023.10.11 09:45:15 INFO  compiling root (1 scala source)
+2023.10.11 09:45:16 INFO  time: compiled root in 30ms
+2023.10.11 09:45:17 INFO  compiling root (1 scala source)
+2023.10.11 09:45:17 INFO  time: compiled root in 0.83s
+2023.10.11 09:45:17 INFO  compiling root (1 scala source)
+2023.10.11 09:45:17 INFO  time: compiled root in 42ms
+2023.10.11 09:45:24 INFO  compiling root (1 scala source)
+2023.10.11 09:45:24 INFO  time: compiled root in 0.86s
+2023.10.11 09:45:24 INFO  compiling root (1 scala source)
+2023.10.11 09:45:24 INFO  time: compiled root in 34ms
+2023.10.11 09:45:35 INFO  compiling root (1 scala source)
+2023.10.11 09:45:35 INFO  time: compiled root in 0.88s
+2023.10.11 09:45:35 INFO  compiling root (1 scala source)
+2023.10.11 09:45:35 INFO  time: compiled root in 32ms
+2023.10.11 09:45:38 INFO  compiling root (1 scala source)
+2023.10.11 09:45:38 INFO  time: compiled root in 0.89s
+2023.10.11 09:45:38 INFO  compiling root (1 scala source)
+2023.10.11 09:45:38 INFO  time: compiled root in 35ms
+2023.10.11 09:47:27 INFO  compiling root (1 scala source)
+2023.10.11 09:47:28 INFO  time: compiled root in 1.21s
+2023.10.11 09:47:28 INFO  compiling root (1 scala source)
+2023.10.11 09:47:28 INFO  time: compiled root in 39ms
+2023.10.11 09:47:33 INFO  compiling root (1 scala source)
+2023.10.11 09:47:33 INFO  time: compiled root in 0.82s
+2023.10.11 09:47:33 INFO  compiling root (1 scala source)
+2023.10.11 09:47:33 INFO  time: compiled root in 31ms
+2023.10.11 09:47:38 ERROR Failed to tokenize input for semantic tokens for /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/components/db/DbCommands.scala
+scala.meta.tokenizers.TokenizeException: <input>:271: error: unclosed string interpolation
+      var command = "SELECT * "FROM documents"
+                                              ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringPart(LegacyScanner.scala:697)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:392)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:411)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:246)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1047)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:511)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+
+2023.10.11 09:47:40 INFO  compiling root (1 scala source)
+2023.10.11 09:47:40 INFO  time: compiled root in 0.83s
+2023.10.11 09:47:40 INFO  compiling root (1 scala source)
+2023.10.11 09:47:40 INFO  time: compiled root in 29ms
+2023.10.11 09:47:53 INFO  compiling root (1 scala source)
+2023.10.11 09:47:53 INFO  time: compiled root in 0.83s
+2023.10.11 09:47:53 INFO  compiling root (1 scala source)
+2023.10.11 09:47:53 INFO  time: compiled root in 43ms
+2023.10.11 09:47:54 ERROR Failed to tokenize input for semantic tokens for /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/components/db/DbCommands.scala
+scala.meta.tokenizers.TokenizeException: <input>:271: error: unclosed string interpolation
+      var command = "SELECT * "FROM documents"
+                                              ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringPart(LegacyScanner.scala:697)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:392)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:411)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:246)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1047)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:511)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+
+2023.10.11 09:47:57 INFO  compiling root (1 scala source)
+2023.10.11 09:47:57 INFO  time: compiled root in 0.83s
+2023.10.11 09:47:57 INFO  compiling root (1 scala source)
+2023.10.11 09:47:57 INFO  time: compiled root in 31ms
+2023.10.11 09:48:04 INFO  compiling root (1 scala source)
+2023.10.11 09:48:04 INFO  time: compiled root in 0.85s
+2023.10.11 09:48:04 INFO  compiling root (1 scala source)
+2023.10.11 09:48:04 INFO  time: compiled root in 31ms
+2023.10.11 09:48:08 INFO  compiling root (1 scala source)
+2023.10.11 09:48:08 INFO  time: compiled root in 0.88s
+2023.10.11 09:48:08 INFO  compiling root (1 scala source)
+2023.10.11 09:48:08 INFO  time: compiled root in 31ms
+2023.10.11 09:48:10 INFO  compiling root (1 scala source)
+2023.10.11 09:48:10 INFO  time: compiled root in 0.29s
+2023.10.11 09:48:10 INFO  compiling root (1 scala source)
+2023.10.11 09:48:10 INFO  time: compiled root in 43ms
+2023.10.11 09:48:12 INFO  compiling root (1 scala source)
+2023.10.11 09:48:12 INFO  time: compiled root in 0.85s
+2023.10.11 09:48:12 INFO  compiling root (1 scala source)
+2023.10.11 09:48:12 INFO  time: compiled root in 31ms
+2023.10.11 09:48:19 ERROR Failed to tokenize input for semantic tokens for /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/components/db/DbCommands.scala
+scala.meta.tokenizers.TokenizeException: <input>:272: error: unclosed character literal
+      command += s"FROM documents as d" WHERE d.book = '${book_name}' "
+                                                                    ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchSingleQuote$1(LegacyScanner.scala:440)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:445)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:246)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1047)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:511)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+
+2023.10.11 09:48:20 INFO  compiling root (1 scala source)
+2023.10.11 09:48:20 INFO  time: compiled root in 40ms
+2023.10.11 09:48:21 INFO  compiling root (1 scala source)
+2023.10.11 09:48:21 INFO  time: compiled root in 0.91s
+2023.10.11 09:48:21 INFO  compiling root (1 scala source)
+2023.10.11 09:48:21 INFO  time: compiled root in 37ms
+2023.10.11 09:48:24 ERROR Failed to tokenize input for semantic tokens for /home/will/Documents/UnB/Disciplinas/4º SEMESTRE/TP2/scala-word-count/src/main/scala/components/db/DbCommands.scala
+scala.meta.tokenizers.TokenizeException: <input>:271: error: unclosed character literal
+      var command = "SELECT * "FROM documents as d WHERE d.book = '${book_name}' "
+                                                                               ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchSingleQuote$1(LegacyScanner.scala:440)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:445)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:246)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1047)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:511)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+
+2023.10.11 09:48:26 INFO  compiling root (1 scala source)
+2023.10.11 09:48:26 INFO  time: compiled root in 0.9s
+2023.10.11 09:48:26 INFO  compiling root (1 scala source)
+2023.10.11 09:48:26 INFO  time: compiled root in 30ms
+2023.10.11 09:48:34 INFO  compiling root (1 scala source)
+2023.10.11 09:48:34 INFO  time: compiled root in 0.88s
+2023.10.11 09:48:34 INFO  compiling root (1 scala source)
+2023.10.11 09:48:34 INFO  time: compiled root in 34ms
+2023.10.11 09:49:30 INFO  compiling root (1 scala source)
+2023.10.11 09:49:30 INFO  time: compiled root in 0.82s
+2023.10.11 09:49:30 INFO  compiling root (1 scala source)
+2023.10.11 09:49:30 INFO  time: compiled root in 33ms
+2023.10.11 09:50:01 INFO  compiling root (1 scala source)
+2023.10.11 09:50:01 INFO  time: compiled root in 0.85s
+2023.10.11 09:50:01 INFO  compiling root (1 scala source)
+2023.10.11 09:50:01 INFO  time: compiled root in 29ms
+2023.10.11 09:50:16 INFO  compiling root (2 scala sources)
+2023.10.11 09:50:16 INFO  time: compiled root in 0.13s
+2023.10.11 09:50:22 INFO  compiling root (2 scala sources)
+2023.10.11 09:50:22 INFO  time: compiled root in 0.93s
+2023.10.11 09:50:35 INFO  compiling root-test (1 scala source)
+2023.10.11 09:50:35 INFO  time: compiled root-test in 0.12s
+2023.10.11 09:50:38 INFO  compiling root-test (1 scala source)
+2023.10.11 09:50:38 INFO  time: compiled root-test in 73ms
+2023.10.11 09:50:47 INFO  compiling root-test (1 scala source)
+2023.10.11 09:50:47 INFO  time: compiled root-test in 81ms
+2023.10.11 09:50:52 INFO  compiling root-test (1 scala source)
+2023.10.11 09:50:52 INFO  time: compiled root-test in 0.63s
+2023.10.11 09:51:17 INFO  compiling root-test (1 scala source)
+2023.10.11 09:51:17 INFO  time: compiled root-test in 0.79s
+2023.10.11 09:54:07 INFO  compiling root (1 scala source)
+2023.10.11 09:54:07 INFO  time: compiled root in 52ms
+2023.10.11 09:57:28 INFO  Shutting down server
+2023.10.11 09:57:28 INFO  shutting down Metals
+2023.10.11 09:57:28 INFO  Shut down connection with build server.
+2023.10.11 09:57:29 INFO  Shut down connection with build server.
+2023.10.11 09:57:28 INFO  Exiting server

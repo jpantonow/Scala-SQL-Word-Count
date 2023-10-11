@@ -171,7 +171,7 @@ class Select_Most_Frequent(
 ) extends Initialize(path_to_text: String, path_to_database: String) {
 
   // Seleciona as 25 palavras mais frequentes
-  def words: List[(String, Int)] = {
+  def get_words: List[(String, Int)] = {
     var conn: Connection = null
     var select: Statement = null
     try {
@@ -184,6 +184,7 @@ class Select_Most_Frequent(
       var command = "SELECT w.name, w.frequency, COUNT(*) as frequency "
       command += s"FROM words w INNER JOIN documents d ON d.book = w.book WHERE w.book = '${book_name}' "
       command += "GROUP BY name ORDER BY CAST(frequency AS int) DESC"
+
       // Coloca para executar a query
       val rs = select.executeQuery(command)
       var break = 0
@@ -194,7 +195,6 @@ class Select_Most_Frequent(
         var name = rs.getString("name")
         var frequency = rs.getInt("frequency")
         wordFrequency = wordFrequency :+ (name, frequency)
-        // println(s"$name has appeared $frequency times.")
         break += 1
       }
 
@@ -216,7 +216,7 @@ class Select_Most_Frequent(
   }
 
   // Seleciona os 25 caracteres mais frequentes
-  def characters: List[(String, Int)] = {
+  def get_characters: List[(String, Int)] = {
     var select: Statement = null
     var conn: Connection = null
     try {
@@ -229,16 +229,17 @@ class Select_Most_Frequent(
       var command = "SELECT c.char,c.frequency, COUNT(*) as frequency "
       command += s"FROM characters as c INNER JOIN documents as d ON d.book = c.book WHERE c.book = '${book_name}' "
       command += "GROUP BY char ORDER BY CAST(frequency AS int) DESC"
+
       // Coloca para executar a query
       val rs = select.executeQuery(command)
       var break: Int = 0
+
       // Pega todos os resultados da Query
       var characterFrequency: List[(String, Int)] = List()
       while (rs.next() && (break != limit)) {
         var char = rs.getString("char")
         var frequency = rs.getInt("frequency")
         characterFrequency = characterFrequency :+ (char, frequency)
-        // println(s"$char has appeared $frequency times.")
         break += 1
       }
 
@@ -255,6 +256,40 @@ class Select_Most_Frequent(
         sys.exit(1)
       }
     }
+  }
 
+  def get_longest: String = {
+    var select: Statement = null
+    var conn: Connection = null
+    try {
+      conn = DriverManager.getConnection(url)
+
+      // Criando um statement SQL
+      select = conn.createStatement()
+
+      // Comando para ordenar as palavras por ordem de frequência
+      var command =
+        s"SELECT longest_word FROM documents as d WHERE d.book = '${book_name}' "
+
+      // Coloca para executar a query
+      val rs = select.executeQuery(command)
+      var break: Int = 0
+
+      // Pega todos os resultados da Query
+      var longest = rs.getString("longest_word")
+
+      select.close()
+      conn.close()
+
+      longest
+    } catch {
+      case e: SQLException => {
+        print_error("Error while selecting the longest word")
+        e.printStackTrace()
+        if (select != null) select.close()
+        if (conn != null) conn.close()
+        sys.exit(1)
+      }
+    }
   }
 }

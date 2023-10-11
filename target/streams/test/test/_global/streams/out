@@ -1,17 +1,69 @@
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(components.db.DbCommandsTest, org.scalatest.tools.Framework$$anon$1@5cb4829d, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(components.commands.WordCountTest, org.scalatest.tools.Framework$$anon$1@5cb4829d, false, [SuiteSelector])[0m
-[0m[[0m[0minfo[0m] [0m[0m[32mWordCountTest:[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- The most frequent world should be "doodoo"[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(components.db.DbCommandsTest, org.scalatest.tools.Framework$$anon$1@7e4f5d49, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(components.commands.WordCountTest, org.scalatest.tools.Framework$$anon$1@7e4f5d49, false, [SuiteSelector])[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mDbCommandsTest:[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- The execute method from CreateTables should return true[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- The execute method from Insert_Book should return true[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- The register documents methods should return true[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- The Export_to_CSV methods should return true[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 468 milliseconds.[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 5[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- The execute method from CreateTables should return true *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.io.FileNotFoundException: src/test/scala/files/books/test.txt (No such file or directory)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at java.base/java.io.FileInputStream.open0(Native Method)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at java.base/java.io.FileInputStream.open(FileInputStream.java:219)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.io.Source$.fromFile(Source.scala:94)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.io.Source$.fromFile(Source.scala:79)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.io.Source$.fromFile(Source.scala:57)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at components.db.Initialize.<init>(DbCommands.scala:15)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at components.db.CreateTables.<init>(DbCommands.scala:42)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at components.db.DbCommandsTest.$anonfun$new$1(dbTest.scala:9)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- The execute method from Insert_Book should return true *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.io.FileNotFoundException: src/test/scala/files/books/test.txt (No such file or directory)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at java.base/java.io.FileInputStream.open0(Native Method)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at java.base/java.io.FileInputStream.open(FileInputStream.java:219)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.io.Source$.fromFile(Source.scala:94)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.io.Source$.fromFile(Source.scala:79)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.io.Source$.fromFile(Source.scala:57)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at components.db.Initialize.<init>(DbCommands.scala:15)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at components.db.Insert_Book.<init>(DbCommands.scala:92)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at components.db.DbCommandsTest.$anonfun$new$2(dbTest.scala:18)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- The register documents methods should return true *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.io.FileNotFoundException: src/test/scala/files/books/test.txt (No such file or directory)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at java.base/java.io.FileInputStream.open0(Native Method)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at java.base/java.io.FileInputStream.open(FileInputStream.java:219)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.io.Source$.fromFile(Source.scala:94)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.io.Source$.fromFile(Source.scala:79)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.io.Source$.fromFile(Source.scala:57)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at components.db.Initialize.<init>(DbCommands.scala:15)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at components.db.Register_Documents.<init>(RegisterDocuments.scala:18)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at components.db.DbCommandsTest.$anonfun$new$3(dbTest.scala:27)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- The Export_to_CSV methods should return true *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.io.FileNotFoundException: src/test/scala/files/books/test.txt (No such file or directory)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at java.base/java.io.FileInputStream.open0(Native Method)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at java.base/java.io.FileInputStream.open(FileInputStream.java:219)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.io.Source$.fromFile(Source.scala:94)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.io.Source$.fromFile(Source.scala:79)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.io.Source$.fromFile(Source.scala:57)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at components.db.Initialize.<init>(DbCommands.scala:15)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at components.db.Export_to_CSV.<init>(ExportCSV.scala:20)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at components.db.DbCommandsTest.$anonfun$new$4(dbTest.scala:42)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mWordCountTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- The most frequent word should be "propeller"[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- The most frequent character should be "z"[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- The longest word should be "consequências"[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 462 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 7[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 2, aborted 0[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 5, failed 0, canceled 0, ignored 0, pending 0[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 3, failed 4, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m*** 4 TESTS FAILED ***[0m[0m
 [0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	components.db.DbCommandsTest[0m
 [0m[[0m[0mdebug[0m] [0m[0m	components.commands.WordCountTest[0m
+[0m[[0m[31merror[0m] [0m[0mFailed tests:[0m
+[0m[[0m[31merror[0m] [0m[0m	components.db.DbCommandsTest[0m
+[0m[[0m[31merror[0m] [0m[0m(Test / [31mtest[0m) sbt.TestsFailedException: Tests unsuccessful[0m
