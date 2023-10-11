@@ -22346,3 +22346,9 @@ INFO: Unsupported notification method: $/setTrace
 2023.10.11 08:23:33 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip, /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.
 2023.10.11 08:23:33 INFO  time: indexed workspace in 2.06s
 2023.10.11 08:23:34 INFO  compiling root (6 scala sources)
+2023.10.11 08:23:40 WARN  1 deprecation (since 2.13.0)
+2023.10.11 08:23:40 WARN  1 deprecation (since 2.13.3)
+2023.10.11 08:23:40 WARN  2 deprecations in total; re-run with -deprecation for details
+2023.10.11 08:23:40 INFO  compiling root-test (4 scala sources)
+2023.10.11 08:23:40 INFO  time: compiled root in 6.94s
+2023.10.11 08:23:40 INFO  time: compiled root-test in 0.3s
