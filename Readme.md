@@ -10,8 +10,11 @@
 ## Manual:
 ### Ter sqlite3 instalado em seu sistema operacional.
 ### Ter scala 2.13.6 ou superior instalado em seu sistema operacional.
-### Vscode: Baixar a extensão metals
-### Terminal: instalar sbt em seu sistema operacional
+### Vscode: Baixar a extensão metals.
+### Terminal: instalar sbt 1.9.6 em seu sistema operacional.
+### Observações: 
+1- O código foi testado com êxito em ambientes linux e windows devidamente configurados.
+2- Durante o processo de execução, verifique as versões existentes em seu sistema do sbt e do scala, a fim de que não haja incompatibilidade das mesmas.
 
 ## User Guide:
 ### Coloque seu livro desejado em formato txt na pasta "src/main/scala/files/books"
@@ -22,15 +25,3 @@
 ### Para executar os testes unitários, digite sbt compile
 ### Posteriormente, digite sbt clean test
 =======
--
--
--
-- João Pedro Gomes Covaleski Marin Antonow - 221006351
-- Willyan Marques de Melo - 221020940
-
-## Manual:
-    1. Ter sqlite3 instalado em seu sistema operacional.
-    2. Ter scala instalado em seu sistema operacional.
-    3. Vscode: Baixar a extensão metals
-    4. Terminal: instalar sbt em seu sistema operacional
->>>>>>> will-branch-#03
