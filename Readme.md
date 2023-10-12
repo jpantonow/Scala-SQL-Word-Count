@@ -1,6 +1,5 @@
 # Repositorio para Scala Word Count - Persistent Tables
 ## Alunos:
-<<<<<<< HEAD
 ### João Pedro Gomes Covaleski Marin Antonow - 221006351
 ### Willyan Marques de Melo - 221020940
 ### Vitor Guedes - 221017130
@@ -20,7 +19,8 @@
 ### Via terminal, digite o comando sbt compile run
 
 ## Testes
-### Para executar os testes unitários, digite sbt compile test
+### Para executar os testes unitários, digite sbt compile
+### Posteriormente, digite sbt clean test
 =======
 -
 -
