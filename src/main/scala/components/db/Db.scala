@@ -450,7 +450,7 @@ class Register_Documents(
       conn = DriverManager.getConnection(url)
       conn.setAutoCommit(false)
       var command =
-        s"UPDATE OR IGNORE documents SET avg_char_word = num_words/num_char where book='${book_name}';"
+        s"UPDATE OR IGNORE documents SET avg_char_word = num_char/num_words where book='${book_name}';"
       rt = conn.prepareStatement(command)
       rt.execute()
       conn.commit()

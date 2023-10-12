@@ -32,6 +32,7 @@ class DbCommandsTest extends AnyFunSuite {
     assert(db_register.count_chars == true)
     assert(db_register.avg_char_word == true)
     assert(db_register.longest_word == true)
+    assert(db_register.length_25 == true)
   }
 
   test("The Export_to_CSV methods should return true"){

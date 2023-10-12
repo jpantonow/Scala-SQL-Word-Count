@@ -23261,3 +23261,119 @@ scala.meta.tokenizers.TokenizeException: <input>:271: error: unclosed character 
 2023.10.11 09:57:28 INFO  Shut down connection with build server.
 2023.10.11 09:57:29 INFO  Shut down connection with build server.
 2023.10.11 09:57:28 INFO  Exiting server
+2023.10.12 07:27:40 INFO  Started: Metals version 1.0.1+42-b511ce90-SNAPSHOT in folders '/home/jpantonow/Desktop/wordcount/scala-word-count' for client Visual Studio Code 1.82.2.
+Oct 12, 2023 7:27:40 AM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.22.1 by Redgate
+Oct 12, 2023 7:27:40 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Oct 12, 2023 7:27:40 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Oct 12, 2023 7:27:44 AM org.flywaydb.core.FlywayExecutor execute
+INFO: Database: jdbc:h2:file:/home/jpantonow/Desktop/wordcount/scala-word-count/.metals/metals (H2 2.1)
+Oct 12, 2023 7:27:44 AM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.030s)
+Oct 12, 2023 7:27:44 AM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Oct 12, 2023 7:27:44 AM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.10.12 07:27:45 INFO  time: initialize in 4.49s
+2023.10.12 07:27:47 INFO  Attempting to connect to the build server...
+2023.10.12 07:27:47 INFO  Bloop uses /usr/lib/jvm/java-17-openjdk-amd64 defined at /home/jpantonow/.bloop/bloop.json
+2023.10.12 07:28:02 INFO  no build target found for /home/jpantonow/Desktop/wordcount/scala-word-count/src/main/scala/components/db/Db.scala. Using presentation compiler with project's scala-library version: 3.3.1
+2023.10.12 07:28:14 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/jpantonow/Desktop/wordcount/scala-word-count/.metals/bsp.trace.json or /home/jpantonow/.cache/metals/bsp.trace.json
+2023.10.12 07:28:14 INFO  Attempting to connect to the build server...
+2023.10.12 07:28:14 INFO  Bloop uses /usr/lib/jvm/java-17-openjdk-amd64 defined at /home/jpantonow/.bloop/bloop.json
+2023.10.12 07:28:14 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/jpantonow/Desktop/wordcount/scala-word-count/project/.metals/bsp.trace.json or /home/jpantonow/.cache/metals/bsp.trace.json
+2023.10.12 07:28:15 INFO  time: Connected to build server in 27s
+2023.10.12 07:28:15 INFO  Connected to Build server: Bloop v1.5.11
+2023.10.12 07:28:15 INFO  time: Imported build in 0.25s
+2023.10.12 07:28:17 INFO  no build target found for /home/jpantonow/Desktop/wordcount/scala-word-count/src/test/scala/components/db/dbTest.scala. Using presentation compiler with project's scala-library version: 3.3.1
+2023.10.12 07:28:20 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/lib/src.zip, /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2023.10.12 07:28:22 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/lib/src.zip, /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2023.10.12 07:28:22 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/lib/src.zip, /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2023.10.12 07:28:22 INFO  time: indexed workspace in 6.76s
+Oct 12, 2023 7:28:50 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2023.10.12 07:30:26 INFO  compiling root-test (1 scala source)
+Oct 12, 2023 7:30:27 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 147
+Oct 12, 2023 7:30:27 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 148
+2023.10.12 07:30:31 INFO  time: compiled root-test in 4.2s
+2023.10.12 07:30:39 INFO  compiling root-test (1 scala source)
+2023.10.12 07:30:39 WARN  Could not load snapshot text for /home/jpantonow/Desktop/wordcount/scala-word-count/src/test/scala/components/commands/WordCountTest.scala
+2023.10.12 07:30:39 WARN  Could not load snapshot text for /home/jpantonow/Desktop/wordcount/scala-word-count/src/test/scala/components/commands/WordCountTest.scala
+2023.10.12 07:30:39 WARN  Could not load snapshot text for /home/jpantonow/Desktop/wordcount/scala-word-count/src/test/scala/components/commands/WordCountTest.scala
+2023.10.12 07:30:39 WARN  Could not load snapshot text for /home/jpantonow/Desktop/wordcount/scala-word-count/src/test/scala/components/commands/WordCountTest.scala
+2023.10.12 07:30:39 WARN  Could not load snapshot text for /home/jpantonow/Desktop/wordcount/scala-word-count/src/test/scala/components/commands/WordCountTest.scala
+2023.10.12 07:30:39 WARN  Could not load snapshot text for /home/jpantonow/Desktop/wordcount/scala-word-count/src/test/scala/components/commands/WordCountTest.scala
+2023.10.12 07:30:39 WARN  Could not load snapshot text for /home/jpantonow/Desktop/wordcount/scala-word-count/src/test/scala/components/commands/WordCountTest.scala
+2023.10.12 07:30:40 INFO  time: compiled root-test in 1.07s
+Oct 12, 2023 7:36:33 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 462
+Oct 12, 2023 7:36:58 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.StringIndexOutOfBoundsException: begin 840, end 891, length 889
+java.util.concurrent.CompletionException: java.lang.StringIndexOutOfBoundsException: begin 840, end 891, length 889
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:708)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2162)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.lang.StringIndexOutOfBoundsException: begin 840, end 891, length 889
+	at java.base/java.lang.String.checkBoundsBeginEnd(String.java:4606)
+	at java.base/java.lang.String.substring(String.java:2709)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.getIndentForPos(FlatMapToForComprehensionCodeAction.scala:677)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$4(FlatMapToForComprehensionCodeAction.scala:57)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$3(FlatMapToForComprehensionCodeAction.scala:53)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$2(FlatMapToForComprehensionCodeAction.scala:52)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$1(FlatMapToForComprehensionCodeAction.scala:51)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+2023.10.12 07:37:10 INFO  compiling root-test (1 scala source)
+2023.10.12 07:37:10 INFO  time: compiled root-test in 1s
+2023.10.12 07:42:07 ERROR Failed to tokenize input for semantic tokens for /home/jpantonow/Desktop/wordcount/scala-word-count/src/main/scala/components/db/Db.scala
+scala.meta.tokenizers.TokenizeException: <input>:452: error: unclosed character literal
+ book='${book_name}';"
+                   ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchSingleQuote$1(LegacyScanner.scala:440)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:445)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:246)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1047)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:511)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+Oct 12, 2023 7:42:14 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 782
+2023.10.12 07:44:03 INFO  compiling root (1 scala source)
+2023.10.12 07:44:06 INFO  time: compiled root in 2.66s
+2023.10.12 07:47:13 INFO  compiling root-test (1 scala source)
+2023.10.12 07:47:14 INFO  time: compiled root-test in 1.1s
