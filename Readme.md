@@ -2,9 +2,9 @@
 ## Alunos:
 ### João Pedro Gomes Covaleski Marin Antonow - 221006351
 ### Willyan Marques de Melo - 221020940
-### Vitor Guedes - 221017130
-### Saulo Oliveira - 211000176
-### Thiago Veras - 211055370
+### Vitor Guedes Frade - 221017130
+### Saulo Oliveira de Freitas - 211000176
+### Thiago Veras Rodrigues Queiroz - 211055370
 
 
 ## Manual:
@@ -14,9 +14,9 @@
 ### Terminal: instalar sbt 1.9.6 em seu sistema operacional.
 ### Observações: 
 
-1- O código foi testado com êxito em ambientes linux e windows devidamente configurados.
+- O código foi testado com êxito em ambientes linux e windows devidamente configurados.
 
-2- Durante o processo de execução, verifique as versões existentes em seu sistema do sbt e do scala, a fim de que não haja incompatibilidade das mesmas.
+- Durante o processo de execução, verifique as versões existentes em seu sistema do sbt e do scala, a fim de que não haja incompatibilidade das mesmas.
 
 ## User Guide:
 ### Coloque seu livro desejado em formato txt na pasta "src/main/scala/files/books"
