@@ -23377,3 +23377,21 @@ WARNING: Unmatched cancel notification for request id 782
 2023.10.12 07:44:06 INFO  time: compiled root in 2.66s
 2023.10.12 07:47:13 INFO  compiling root-test (1 scala source)
 2023.10.12 07:47:14 INFO  time: compiled root-test in 1.1s
+Oct 12, 2023 7:51:33 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1116
+Oct 12, 2023 7:51:37 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1137
+Oct 12, 2023 7:51:37 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1139
+2023.10.12 07:51:41 INFO  compiling root (1 scala source)
+2023.10.12 07:51:43 INFO  time: compiled root in 1.79s
+2023.10.12 07:54:02 INFO  compiling root (1 scala source)
+2023.10.12 07:54:02 WARN  Could not load snapshot text for /home/jpantonow/Desktop/wordcount/scala-word-count/src/main/scala/components/db/Db.scala
+2023.10.12 07:54:02 WARN  Could not load snapshot text for /home/jpantonow/Desktop/wordcount/scala-word-count/src/main/scala/components/db/Db.scala
+2023.10.12 07:54:04 INFO  time: compiled root in 1.6s
+2023.10.12 07:56:09 INFO  compiling root (1 scala source)
+2023.10.12 07:56:10 INFO  time: compiled root in 1.49s
+2023.10.12 07:58:48 INFO  compiling root (1 scala source)
+2023.10.12 07:58:49 WARN  Could not load snapshot text for /home/jpantonow/Desktop/wordcount/scala-word-count/src/main/scala/components/db/Db.scala
+2023.10.12 07:58:49 WARN  Could not load snapshot text for /home/jpantonow/Desktop/wordcount/scala-word-count/src/main/scala/components/db/Db.scala
+2023.10.12 07:58:50 INFO  time: compiled root in 1.4s

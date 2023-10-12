@@ -54,7 +54,7 @@ class CreateTables(
       // Array que contém os comandos SQL de criação das tabelas
       val criar = Array(
         "CREATE TABLE IF NOT EXISTS documents (book TEXT PRIMARY KEY, num_words INTEGER, " +
-          "num_char INTEGER, avg_char_word INTEGER, longest_word TEXT, length_25 INTEGER);",
+          "num_char INTEGER, avg_char_word REAL, longest_word TEXT, length_25 INTEGER);",
         "CREATE TABLE IF NOT EXISTS words(book TEXT , name TEXT, frequency INTEGER, FOREIGN KEY (book)" +
           " REFERENCES documents(book), PRIMARY KEY(book, name));",
         "CREATE TABLE IF NOT EXISTS characters(book TEXT , char TEXT, frequency INTEGER, FOREIGN KEY (book)" +
@@ -450,7 +450,7 @@ class Register_Documents(
       conn = DriverManager.getConnection(url)
       conn.setAutoCommit(false)
       var command =
-        s"UPDATE OR IGNORE documents SET avg_char_word = num_char/num_words where book='${book_name}';"
+        s"UPDATE OR IGNORE documents SET avg_char_word = ROUND((CAST(num_words AS REAL)/CAST(num_char AS REAL)), 2) where book='${book_name}';"
       rt = conn.prepareStatement(command)
       rt.execute()
       conn.commit()

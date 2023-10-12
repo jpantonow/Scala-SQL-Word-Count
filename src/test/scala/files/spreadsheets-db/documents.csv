@@ -1,2 +1,2 @@
 book, num_words, num_char, avg_char_word, longest_word, length_25
-test,10,20,2,corinthians,73
+test,10,20,0.5,corinthians,73
