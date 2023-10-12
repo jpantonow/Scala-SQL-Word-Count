@@ -1,5 +1,5 @@
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(components.commands.WordCountTest, org.scalatest.tools.Framework$$anon$1@1dfa9fa4, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(components.db.DbCommandsTest, org.scalatest.tools.Framework$$anon$1@1dfa9fa4, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(components.commands.WordCountTest, org.scalatest.tools.Framework$$anon$1@b655b9c, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(components.db.DbCommandsTest, org.scalatest.tools.Framework$$anon$1@b655b9c, false, [SuiteSelector])[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mDbCommandsTest:[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- The execute method from CreateTables should return true[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- The execute method from Insert_Book should return true[0m[0m
@@ -9,11 +9,11 @@
 [0m[[0m[0minfo[0m] [0m[0m[32m- The most frequent word should be "lord"[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- The most frequent character should be "o"[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- The longest word should be "corinthians"[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 1 second, 347 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 1 second, 249 milliseconds.[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 7[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 2, aborted 0[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 7, failed 0, canceled 0, ignored 0, pending 0[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
 [0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	components.commands.WordCountTest[0m
 [0m[[0m[0mdebug[0m] [0m[0m	components.db.DbCommandsTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	components.commands.WordCountTest[0m

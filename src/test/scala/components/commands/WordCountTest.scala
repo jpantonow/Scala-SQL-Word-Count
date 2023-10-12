@@ -11,9 +11,10 @@ class WordCountTest extends AnyFunSuite {
       "src/test/scala/files/spreadsheets-word-count/"
   )
 
+  wordCount.set_limit(1)
+  wordCount.run
+
   test("The most frequent word should be \"lord\"") {
-    wordCount.set_limit(1)
-    wordCount.run
     assert(wordCount.check_existence == true)
     assert(wordCount.get_frequency.get_words(0) == ("lord", 2))
   }
