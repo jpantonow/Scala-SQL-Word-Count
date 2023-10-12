@@ -1,4 +1,4 @@
-[debug] [scala-word-count-build] Classpath dependencies List()
-[debug] [scala-word-count-build] Dependencies from configurations List()
-[debug] Bloop wrote the configuration of project 'scala-word-count-build' to '/home/jpantonow/Desktop/wordcount/scala-word-count/project/.bloop/scala-word-count-build.json'
-[success] Generated .bloop/scala-word-count-build.json
+[0m[[0m[0mdebug[0m] [0m[0m[scala-word-count-build] Classpath dependencies List()[0m
+[0m[[0m[0mdebug[0m] [0m[0m[scala-word-count-build] Dependencies from configurations List()[0m
+[0m[[0m[0mdebug[0m] [0m[0mBloop wrote the configuration of project 'scala-word-count-build' to '/home/jpantonow/Desktop/wordcount/scala-word-count/project/.bloop/scala-word-count-build.json'[0m
+[0m[[0m[32msuccess[0m] [0m[0mGenerated .bloop/scala-word-count-build.json[0m

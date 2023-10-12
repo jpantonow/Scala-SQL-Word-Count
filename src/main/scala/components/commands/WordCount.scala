@@ -79,9 +79,8 @@ class WordCount extends Interaction {
 
   // Faz a contagem interagindo com o usuario
   def execute: Unit = {
-    if (create) {
-      print_success("\nSuccessfully created the Database")
-    }
+
+    create
 
     if (check_existence) {
       print_success("\nThe book is already in the database. Showing results:")
