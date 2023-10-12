@@ -13,7 +13,9 @@
 ### Vscode: Baixar a extensão metals.
 ### Terminal: instalar sbt 1.9.6 em seu sistema operacional.
 ### Observações: 
+
 1- O código foi testado com êxito em ambientes linux e windows devidamente configurados.
+
 2- Durante o processo de execução, verifique as versões existentes em seu sistema do sbt e do scala, a fim de que não haja incompatibilidade das mesmas.
 
 ## User Guide:
