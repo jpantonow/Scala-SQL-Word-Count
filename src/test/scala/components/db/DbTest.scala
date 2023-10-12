@@ -2,25 +2,25 @@ package components.db
 import org.scalatest.funsuite.AnyFunSuite
 
 class DbCommandsTest extends AnyFunSuite {
-    test("The execute method from CreateTables should return true") {
-        val db_create = new CreateTables(
-        "src/test/scala/files/books/test.txt",
-        "src/test/scala/components/db/DbTest.db",
-        "test"
-        )
+  test("The execute method from CreateTables should return true") {
+    val db_create = new CreateTables(
+      "src/test/scala/files/books/test.txt",
+      "src/test/scala/components/db/DbTest.db",
+      "test"
+    )
     assert(db_create.execute == true)
   }
 
-  test("The execute method from Insert_Book should return true"){
+  test("The execute method from Insert_Book should return true") {
     val db_insert = new Insert_Book(
-        "src/test/scala/files/books/test.txt",
-        "src/test/scala/components/db/DbTest.db",
-        "test"
-        )
+      "src/test/scala/files/books/test.txt",
+      "src/test/scala/components/db/DbTest.db",
+      "test"
+    )
     assert(db_insert.execute == true)
   }
 
-  test("The register documents methods should return true"){
+  test("The register documents methods should return true") {
     val db_register = new Register_Documents(
       "src/test/scala/files/books/test.txt",
       "src/test/scala/components/db/DbTest.db",
@@ -36,16 +36,15 @@ class DbCommandsTest extends AnyFunSuite {
     assert(db_register.check_register == true)
   }
 
-  test("The Export_to_CSV methods should return true"){
+  test("The Export_to_CSV methods should return true") {
     val db_export = new Export_to_CSV(
-        "src/test/scala/files/books/test.txt",
-        "src/test/scala/components/db/DbTest.db",
-        "test",
-        "src/test/scala/files/spreadsheets-db/"
-      )
-      assert(db_export.export_words == true)
-      assert(db_export.export_characters == true)
-      assert(db_export.export_data == true)
-    }
+      "src/test/scala/files/books/test.txt",
+      "src/test/scala/components/db/DbTest.db",
+      "test",
+      "src/test/scala/files/spreadsheets-db/"
+    )
+    assert(db_export.export_words == true)
+    assert(db_export.export_characters == true)
+    assert(db_export.export_data == true)
   }
-
+}

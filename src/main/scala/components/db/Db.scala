@@ -298,7 +298,6 @@ class Select_Most_Frequent(
   }
 }
 
-
 class Register_Documents(
     path_to_text: String,
     path_to_database: String,
@@ -536,13 +535,12 @@ class Register_Documents(
   }
 }
 
-
 //Classe para exportar words e characters em arquivos csv
 class Export_to_CSV(
     path_to_text: String,
     path_to_database: String,
     book_name: String,
-    export_folder: String 
+    export_folder: String
 ) extends Initialize(path_to_text: String, path_to_database: String) {
 
   def export_words: Boolean = {
