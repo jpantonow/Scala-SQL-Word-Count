@@ -9,13 +9,17 @@ class Interaction {
   var csv_folder: String = ""
   var limit: Integer = 0
 
-  def set_pathing(txt_path: String,db_path: String,name: String, csv: String): Unit = {
+  def set_pathing(
+      txt_path: String,
+      db_path: String,
+      name: String,
+      csv: String
+  ): Unit = {
     txt_file = txt_path
     db_file = db_path
     book_name = name
     csv_folder = csv
   }
-
 
   def display_texts: Unit = {
     println("\nWelcome, user! Which File would you like to read?\n")
@@ -52,7 +56,9 @@ class Interaction {
   }
 
   def user_limit: Unit = {
-    println("\nHow many words and characters ordered by frequency would you like to display?(Int)")
+    println(
+      "\nHow many words and characters ordered by frequency would you like to display?(Int)"
+    )
     val number = scala.io.StdIn.readInt()
     limit = number
   }

@@ -2,19 +2,30 @@ package components.commands
 import org.scalatest.funsuite.AnyFunSuite
 
 class WordCountTest extends AnyFunSuite {
-  test("The most frequent world should be \"doodoo\""){
-    val wordCount = new WordCount()
-    wordCount.set_pathing(
-      "src/test/scala/files/books/teste.txt",
-      "src/test/scala/components/db/databasewordcount.db",
-      "teste",
-      "src/test/scala/files/spreadsheets/"
-    )
-    wordCount.set_limit(5)
+  val wordCount = new WordCount()
+
+  wordCount.set_pathing(
+      "src/test/scala/files/books/test.txt",
+      "src/test/scala/components/db/WordCountTest.db",
+      "test",
+      "src/test/scala/files/spreadsheets-word-count/"
+  )
+
+  test("The most frequent word should be \"lord\"") {
+    wordCount.set_limit(1)
     wordCount.run
     assert(wordCount.check_existence == true)
-    var frequencias = wordCount.get_frequency
-    var listaPalavras = frequencias.words
-    assert(listaPalavras(0) == ("doodoo",81))
+    assert(wordCount.get_frequency.get_words(0) == ("lord", 2))
   }
+  
+  test("The most frequent character should be \"o\"") {
+     assert(wordCount.check_existence == true)
+     assert(wordCount.get_frequency.get_characters(0) == ("o", 9))
+   }
+
+  test("The longest word should be \"corinthians\"") {
+     assert(wordCount.check_existence == true)
+     assert(wordCount.get_frequency.get_longest == "corinthians")
+   }
+  
 }

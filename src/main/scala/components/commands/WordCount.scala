@@ -1,23 +1,21 @@
 package components.commands
 import components.db._
+import components.db.{CreateTables, Select_Most_Frequent, Insert_Book}
 
 class WordCount extends Interaction {
   def create: Boolean = {
     val db_create = new CreateTables(txt_file, db_file, book_name)
     db_create.execute
-    // print_success("\nSuccessfully created the Database")
   }
 
   def register_doc: Boolean = {
     val db_register = new Register_Documents(txt_file, db_file, book_name)
     db_register.register
-    // print_success("\nSucessfully registered into Documents")
   }
 
   def insert: Boolean = {
     val db_insert = new Insert_Book(txt_file, db_file, book_name)
     db_insert.execute
-    // print_success("\nSuccessfully into Database")
   }
 
   def register_updates: Boolean = {
@@ -30,7 +28,8 @@ class WordCount extends Interaction {
   }
 
   def get_frequency: Select_Most_Frequent = {
-    val db_select_most_frequent = new Select_Most_Frequent(txt_file, db_file, book_name,limit)
+    val db_select_most_frequent =
+      new Select_Most_Frequent(txt_file, db_file, book_name, limit)
     db_select_most_frequent
   }
 
@@ -38,12 +37,12 @@ class WordCount extends Interaction {
     val db_select_most_frequent = get_frequency
 
     print_success(s"\n$limit Most frequent words")
-    for ((name, frequency) <- db_select_most_frequent.words) {
+    for ((name, frequency) <- db_select_most_frequent.get_words) {
       println(s"$name has appeared $frequency times.")
     }
-    
+
     print_success(s"\n$limit Most frequent characters")
-    for ((name, frequency) <- db_select_most_frequent.characters) {
+    for ((name, frequency) <- db_select_most_frequent.get_characters) {
       println(s"$name has appeared $frequency times.")
     }
   }
@@ -52,16 +51,17 @@ class WordCount extends Interaction {
     val db_register = new Register_Documents(txt_file, db_file, book_name)
     return db_register.check_register
   }
-//"src/main/scala/files/spreadsheets/"
+
   def export_csv: Boolean = {
     val export_folder: String = csv_folder
     val db_Export_CSV =
-    new Export_to_CSV(txt_file, db_file, book_name, export_folder)
+      new Export_to_CSV(txt_file, db_file, book_name, export_folder)
     (db_Export_CSV.export_words &&
-      db_Export_CSV.export_characters &&
-      db_Export_CSV.export_data)
+    db_Export_CSV.export_characters &&
+    db_Export_CSV.export_data)
   }
 
+  // faz a contagem sem printar nada
   def run: Unit = {
     create
     if (check_existence) {
@@ -75,20 +75,26 @@ class WordCount extends Interaction {
   }
 
   def execute: Unit = {
-    create
+    if (create) {
+      print_success("\nSuccessfully created the Database")
+    }
+
     if (check_existence) {
       print_success("\nThe book is already in the database. Showing results:")
       print_frequency
-     if (export_message == "y") {
-      export_csv
+      if (export_message == "y") {
+        export_csv
       }
     } else {
-      register_doc
-      insert
+      if (register_doc) {
+        print_success("\nSucessfully registered into Documents")
+      }
+      if (insert) { print_success("\nSuccessfully into Database") }
+
       register_updates
       print_frequency
       if (export_message == "y") {
-      export_csv
+        export_csv
       }
     }
   }
