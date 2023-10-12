@@ -10,6 +10,10 @@ import java.io.PrintWriter
 import java.io.File
 import scala.io.Source
 
+//Package dos comandos de banco de dados
+//Cada classe mexe em uma tabela diferente, e uma
+//classe pode possuir um ou mais metodos
+
 class Initialize(path_to_text: String, path_to_database: String) {
   val url = s"jdbc:sqLite:$path_to_database"
   val book = scala.io.Source.fromFile(path_to_text)

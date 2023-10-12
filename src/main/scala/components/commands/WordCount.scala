@@ -2,6 +2,9 @@ package components.commands
 import components.db._
 import components.db.{CreateTables, Select_Most_Frequent, Insert_Book}
 
+//Classe WordCount
+//Responsavel pela interacao com o usuario
+//Responsavel pela interacao com os comandos do banco de dados
 class WordCount extends Interaction {
   def create: Boolean = {
     val db_create = new CreateTables(txt_file, db_file, book_name)
@@ -61,7 +64,7 @@ class WordCount extends Interaction {
     db_Export_CSV.export_data)
   }
 
-  // faz a contagem sem printar nada
+  // Faz a contagem sem interacao com o usuario
   def run: Unit = {
     create
     if (check_existence) {
@@ -74,6 +77,7 @@ class WordCount extends Interaction {
     }
   }
 
+  //Faz a contagem interagindo com o usuario
   def execute: Unit = {
     if (create) {
       print_success("\nSuccessfully created the Database")

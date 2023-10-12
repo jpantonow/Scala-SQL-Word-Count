@@ -1,8 +1,11 @@
 package components.commands
 import java.io.File
 
-//Classe para interagir com o usuario
-class Interaction {
+//Trait para interagir com o usuario
+//Mostra os livros disponiveis, e pergunta ao
+//usuario quantas palavras e caracteres mais
+//frequentes ele quer visualizar
+trait Interaction {
   var txt_file: String = ""
   var book_name: String = ""
   var db_file: String = ""
