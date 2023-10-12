@@ -1,4 +1,5 @@
-# Repositorio para Scala Word Count - Persistent Tables - Grupo 03
+# Repositório para Scala Word Count - Persistent Tables - Grupo 03
+
 ## Alunos:
 ### João Pedro Gomes Covaleski Marin Antonow - 221006351
 ### Willyan Marques de Melo - 221020940
@@ -19,12 +20,12 @@
 - Durante o processo de compilação/execução, verifique as versões existentes em seu sistema do sbt e do scala, a fim de que não haja incompatibilidade das mesmas.
 
 ## User Guide:
-### Coloque manualmente seu livro desejado em formato txt na pasta "src/main/scala/files/books/"
-### Para a aquisição de livros, a sugestão é via livraria virtual presente em "https://www.gutenberg.org/" 
-### Pressione "run" no programa Main se estiver usando Vscode-Metals
-### Via terminal, digite o comando sbt compile run
+### - Coloque manualmente seu livro desejado em formato txt na pasta "src/main/scala/files/books/"
+### - Para a aquisição de livros, a sugestão é via livraria virtual presente em https://www.gutenberg.org/
+### - Pressione "run" no programa Main se estiver usando Vscode-Metals
+### - Via terminal, digite o comando sbt compile run
 
 ## Testes
-### Para executar os testes unitários, primeiramente digite sbt compile
-### Posteriormente, digite sbt clean test
+### - Para executar os testes unitários, primeiramente digite sbt compile
+### - Posteriormente, digite sbt clean test
 =======
