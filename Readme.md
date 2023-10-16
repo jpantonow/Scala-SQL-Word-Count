@@ -1,4 +1,4 @@
-# Repositório para Scala Word Count - Persistent Tables - Grupo 03
+# Scala Word Count - Persistent Tables - Grupo 03
 
 ## Alunos:
 ### João Pedro Gomes Covaleski Marin Antonow - 221006351
@@ -7,6 +7,8 @@
 ### Saulo Oliveira de Freitas - 211000176
 ### Thiago Veras Rodrigues Queiroz - 211055370
 
+## Repositório:
+### Link para o repositório: https://github.com/jpantonow/scala-word-count
 ## Video-aula:
 ### Link para vídeo-aula: https://bit.ly/tp2-persistent-tables
 
