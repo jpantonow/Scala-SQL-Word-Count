@@ -34,7 +34,7 @@
 
 #### - Test: Contém classes dos packages de components, mas focadas na execução dos testes unitários e verificação do funcionamento destas classes. 
 
-#### Testes
+
 ## User Guide:
 ### - Coloque manualmente seu livro desejado em formato txt na pasta "src/main/scala/files/books/"
 ### - Para a aquisição de livros, a sugestão é via livraria virtual presente em https://www.gutenberg.org/
